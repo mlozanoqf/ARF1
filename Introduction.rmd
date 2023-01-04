@@ -6,17 +6,15 @@ title: ''
 
 \newpage
 
-# \faHandshake[regular] \hspace{1 mm} Introduction.
+# `r fontawesome::fa("handshake")` Introduction. 
 
 Welcome to the course! I wish that at the time you are reading this document you, your family and friends are all well.
-
-A course syllabus is an academic document with relevant information for students. This document represents your ultimate guide to the successful completion of this course. Please read it regularly and carefully. Here, you will find a comprehensive description of the course's goals, rules, objectives, recommendations, grading details, a detailed schedule, activities, resources, references and learning outcomes. The objective of this document is to give you full certainty about what to expect from this course starting from day 1 until the final exam. In my experience, reading this syllabus is positively related with the student's performance.
 
 ## Perfil de egreso (en español).
 
 This course contributes to developing the following professional profile.
 
-El egresado y la egresada de la licenciatura en finanzas internacionales comprende el funcionamiento de los mercados económico-financieros e implementa modelos cuantitativos para analizar y ejecutar estrategias de financiamiento e inversión en un ambiente de incertidumbre. El graduado toma decisiones financieras innovadoras basadas en el análisis de datos, la creación de valor económico, y su conducta profesional es coherente con altos estándares éticos. Además, es consciente de su responsabilidad en la solución de los retos sociales y ambientales en el contexto de las finanzas sostenibles. Las habilidades y competencias del egresado son congruentes con las demandas de la industria 4.0 al incorporar lenguajes computacionales y aplicaciones tecnológicas para el análisis de Big Data, automatización de análisis financiero, y el desarrollo de algoritmos usados en \textit{machine learning} e inteligencia artificial para abordar los retos de la industria financiera. Su perfil le permite reaccionar y adaptarse ágilmente a los cambios vertiginosos de la industria y los mercados financieros, hacer investigación aplicada, y proponer nuevas soluciones de valor a negocios tradicionales y FinTech.
+El egresado y la egresada de la licenciatura en finanzas internacionales comprende el funcionamiento de los mercados económico-financieros e implementa modelos cuantitativos para analizar y ejecutar estrategias de financiamiento e inversión en un ambiente de incertidumbre. El graduado toma decisiones financieras innovadoras basadas en el análisis de datos, la creación de valor económico, y su conducta profesional es coherente con altos estándares éticos. Además, es consciente de su responsabilidad en la solución de los retos sociales y ambientales en el contexto de las finanzas sostenibles. Las habilidades y competencias del egresado son congruentes con las demandas de la industria 4.0 al incorporar lenguajes computacionales y aplicaciones tecnológicas para el análisis de Big Data, automatización de análisis financiero, y el desarrollo de algoritmos usados en *machine learning* e inteligencia artificial para abordar los retos de la industria financiera. Su perfil le permite reaccionar y adaptarse ágilmente a los cambios vertiginosos de la industria y los mercados financieros, hacer investigación aplicada, y proponer nuevas soluciones de valor a negocios tradicionales y FinTech.
 
 ## Distance and face-to-face learning.
 
@@ -28,7 +26,7 @@ The first distance learning course I taught was in September 1999, and I have be
 
 I have vast experience with face-to-face, blended and distance learning in all its variants, and I hope this experience can contribute to help you complete this course successfully. Welcome again!
 
-## About me \faGrin[regular].
+## About me `r fontawesome::fa("laugh")`.
 
 I am currently professor of finance and economics at UDEM. I regularly collaborate with The University of Manchester (Alliance Manchester Business School); the Centre for Financial and Management Studies (CeFiMS) at SOAS University of London, among others universities.
 

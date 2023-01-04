@@ -6,11 +6,11 @@ title: ''
 
 \newpage
 
-# \faGlobe \hspace{1 mm} Internet resources.
+# `r fontawesome::fa("globe")` Internet resources.
 
 The amount of online resources and references to learn R, and its applications in  finance and economics is huge. This list is constantly growing.
 
-## Learn \faRProject.
+## Learn `r fontawesome::fa("r-project")`.
 
 Consider the following specific online and free resources to start or continue learning R.
 

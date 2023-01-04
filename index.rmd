@@ -1,8 +1,7 @@
 ---
-title: Options and VaR with `r fontawesome::fa("r-project")` <span style="color:white">R</span>
-
-subtitle: Dr. Martín Lozano.
-author:
+title: Administración de riesgos financieros ARF1. `r fontawesome::fa("credit-card")` 
+subtitle: Course Syllabus. Spring 2023.
+author: Dr. Martín Lozano.
 #- name: Back to main [`r fontawesome::fa("home")`](https://mlozanoqf.github.io/)
 #  affiliation: Academic website. [Web.](https://sites.google.com/site/mlozanoqf/)
 date: Current `r fontawesome::fa("code-commit") ` `r format(Sys.time(), '%d %b %Y, %H:%M:%S.')`
@@ -14,11 +13,12 @@ output:
     toc_depth: 2
     number_sections: yes
     fig_caption: yes
-    code_folding: hide
+    code_folding: show
     theme: readable #darkly 
     includes:
       #after_body: analytics_if.html
-abstract: xxx.
+abstract: A course syllabus is an academic document with relevant information for students. This document represents your ultimate guide to the successful completion of this course. Please read it regularly and carefully. Here, you will find a comprehensive description of the course goals, rules, objectives, recommendations, grading details, a detailed schedule, activities, resources, references and learning outcomes. The objective of this document is to give you full certainty about what to expect from this course starting from day 1 until the final exam. In my experience, reading this syllabus is positively related with the student's performance.
+
 bibliography: mybibfile.bib
 ---
 
@@ -60,9 +60,7 @@ xfun::file_string('contact.html')
 ```
 ````
 
-# [`r fa("arrow-circle-left", fill = "black")`](https://mlozanoqf.github.io/) [<span style="color: black">Back to QFR.</span>](https://mlozanoqf.github.io/) {-}
-
-# [`r fa("arrow-circle-up", fill = "black")`](https://mlozanoqf.github.io/tutorial_if/) [<span style="color: black">Back to top.</span>](https://mlozanoqf.github.io/tutorial_if/) {-}
+# [`r fa("arrow-circle-up", fill = "black")`](https://mlozanoqf.github.io/tutorial_arf/) [<span style="color: black">Back to top.</span>](https://mlozanoqf.github.io/tutorial_arf/) {-}
 
 \newpage
 
@@ -108,6 +106,6 @@ xfun::file_string('contact.html')
 a <- toc()
 ```
 
-This document took `r round(as.numeric((a$toc-a$tic)/60), 2)` minutes to compile in Rmarkdown, `r R.version.string`.
+This document took `r round(as.numeric((a$toc-a$tic)), 2)` seconds to compile in Rmarkdown, `r R.version.string`.
 
 # References.

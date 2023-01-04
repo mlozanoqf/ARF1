@@ -6,7 +6,7 @@ title: ''
 
 \newpage
 
-# \faUserCheck \hspace{1 mm} Evaluation. 
+# `r fontawesome::fa("user-check")` Evaluation. 
 
 Let's see how your final grade $F$ is calculated.
 
@@ -57,19 +57,19 @@ Coevaluations are completed using a Google Form. I set up an example here: <http
 
 In particular, you will have two Google Forms web links to complete your auto and co-evaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is no auto and co-evaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
 
-## Final grade $F$ \faFlagCheckered.
+## Final grade $F$ `r fontawesome::fa("flag-checkered")`.
 
 The final grade $F$ is computed as follows:
 $$
 \begin{aligned}
  F &= 0.4[0.7max(E_1, E_2) + 0.3min(E_1, E_2)] \\
  &+ 0.3[0.7max(H_1, H_2) + 0.3min(H_1, H_2)] \\
- & + 0.3E_F
+ & + 0.3E_F.
 \end{aligned}
 $$
 This criterion is significantly better compared with the traditional average as the higher exam and assignment marks weigh more than twice the lower marks (70% versus 30%).
 
-Unfortunately, some students who do badly in their first exam and/or their first homework assignment believe that everything is lost and they should drop the class. My view is that this is not a good strategy as the grading above allows you to have a very bad exam and/or homework assignment and still be in a good position to pass the course. For example, imagine that for some reason you have $H_1=35$, but you manage to improve and get $H_2=85$. In any other course you will have an average of $\frac{35+85}{2}=60$ \faMeh[regular]. However, in my course we compute weighted averages for both homework assignments and partial exams, so your weighted average is $(35\times 0.3) + (85\times 0.7)=70$ \faGrinStars[regular].
+Unfortunately, some students who do badly in their first exam and/or their first homework assignment believe that everything is lost and they should drop the class. My view is that this is not a good strategy as the grading above allows you to have a very bad exam and/or homework assignment and still be in a good position to pass the course. For example, imagine that for some reason you have $H_1=35$, but you manage to improve and get $H_2=85$. In any other course you will have an average of $\frac{35+85}{2}=60$ `r fontawesome::fa("meh")`. However, in my course we compute weighted averages for both homework assignments and partial exams, so your weighted average is $(35\times 0.3) + (85\times 0.7)=70$ `r fontawesome::fa("grin-stars")`.
 
 The difference between the weighted versus regular average is illustrated below:
 
@@ -119,19 +119,35 @@ points(35, 85, pch = 19, col = "red", cex = 2)
 
 The effect of weighted averages over the final grade $F$ is quite significant. Here is a very extreme example to illustrate the effect of the weighted average. See the difference between a final grade of 56 versus 70.
 
-\begin{table}[H]
-\centering
-\begin{tabular}{@{}|c|cc|c|c|@{}}
-\toprule
-\textbf{Weight} & \multicolumn{1}{c|}{\textbf{Activity}} & \textbf{Mark} & \textbf{Points in this course} & \textbf{Points in other courses} \\ \midrule
-\multirow{2}{*}{40\%} & \multicolumn{1}{c|}{$E_1$} & 0 & $0 \times 0.3 \times 0.4 = 0$ & $0 \times 0.5 \times 0.4 = 0$ \\ \cmidrule(l){2-5} 
- & \multicolumn{1}{c|}{$E_2$} & 100 & $100 \times \ 0.7 \times 0.4 = 28$ & $100 \times \ 0.5 \times 0.4 = 20$ \\ \midrule
-\multirow{2}{*}{30\%} & \multicolumn{1}{c|}{$H_1$} & 0 & $0 \times 0.3 \times 0.3 = 0$ & $0 \times 0.5 \times 0.3 = 0$ \\ \cmidrule(l){2-5} 
- & \multicolumn{1}{c|}{$H_2$} & 100 & $100 \times \ 0.7 \times 0.3 = 21$ & $100 \times \ 0.5 \times 0.3 = 15$ \\ \midrule
-30\% & \multicolumn{1}{c|}{$E_F$} & 70 & $70 \times 0.3 = 21$ & $70 \times 0.3 = 21$ \\ \midrule
-100\% & \multicolumn{2}{c|}{$F$} & 70 & 56 \\ \bottomrule
-\end{tabular}
-\end{table}
+
+```{r, results = "asis", echo = FALSE, message = FALSE}
+library(knitr)
+
+tex2markdown <- function(texstring) {
+  writeLines(text = texstring,
+             con = myfile <- tempfile(fileext = ".tex"))
+  texfile <- pandoc(input = myfile, format = "html")
+  cat(readLines(texfile), sep = "\n")
+  unlink(c(myfile, texfile))
+}
+
+textable <- "
+\\begin{table}[H]
+\\centering
+\\begin{tabular}{@{}|c|cc|c|c|@{}}
+\\toprule
+\\textbf{Weight} & \\multicolumn{1}{c|}{\\textbf{Activity}} & \\textbf{Mark} & \\textbf{Points in this course} & \\textbf{Points in other courses} \\\\ \\midrule
+\\multirow{2}{*}{40\\%} & \\multicolumn{1}{c|}{$E_1$} & 0 & $0 \\times 0.3 \\times 0.4 = 0$ & $0 \\times 0.5 \\times 0.4 = 0$ \\\\ \\cmidrule(l){2-5} 
+ & \\multicolumn{1}{c|}{$E_2$} & 100 & $100 \\times \\ 0.7 \\times 0.4 = 28$ & $100 \\times \\ 0.5 \\times 0.4 = 20$ \\\\ \\midrule
+\\multirow{2}{*}{30\\%} & \\multicolumn{1}{c|}{$H_1$} & 0 & $0 \\times 0.3 \\times 0.3 = 0$ & $0 \\times 0.5 \\times 0.3 = 0$ \\\\ \\cmidrule(l){2-5} 
+ & \\multicolumn{1}{c|}{$H_2$} & 100 & $100 \\times \\ 0.7 \\times 0.3 = 21$ & $100 \\times \\ 0.5 \\times 0.3 = 15$ \\\\ \\midrule
+30\\% & \\multicolumn{1}{c|}{$E_F$} & 70 & $70 \\times 0.3 = 21$ & $70 \\times 0.3 = 21$ \\\\ \\midrule
+100\\% & \\multicolumn{2}{c|}{$F$} & 70 & 56 \\\\ \\bottomrule
+\\end{tabular}
+\\end{table}"
+
+tex2markdown(textable)
+```
 
 In any case, my sincere advice is to keep the standard as high as possible in order to minimize the risk of achieving low grades. Note that stickers are not explicitly reported in $F$ because they are part of $E_1$, $E_2$ and $E_F$. Homework assignment co-evaluations are not explicitly reported either because they are part of $H_1$ and $H_2$.
 
@@ -153,7 +169,7 @@ In case you have any concern, any question about the course contents, or if you 
 
 In case you get a low mark in one activity or you get difficulties at some specific topic you should take immediate actions in order to quickly revert this. I am not planning to relax the marking criterion so what you have to do is to improve your own quality standards in order to pass given my marking standards and my expectations about your academic performance. You are free to contact me in case you need assistance about specific strategies to improve your academic performance.
 
-I do not recommend you to get disappointed, angry or sad if you get a low mark. There is no need for that because getting one low mark is not determinant to fail the course. Please see the evaluation method to verify how the final grade is computed and you will be amazed in a positive way. Also, I do not recommend you to get frustrated if you receive an unexpected low mark or an unexpected negative feedback about your work or your answers. The mechanics here are very simple: *in order to improve, understand and learn, you need to know what you did well, what you did wrong, and try again until you do well without getting desperate or frustrated in the process*. In short, avoid negative feelings as these might lead to further frustration. Nobody wants to hurt you, we all want you to learn in a favorable environment. You have overcome challenges before, so avoid the dark side \faGhost. On the contrary, you should rather work harder to meet the course standards. We are not in conflict, in fact we are collaborating. According to my experience, students who sadly fail this course ignore or forget these recommendations.
+I do not recommend you to get disappointed, angry or sad if you get a low mark. There is no need for that because getting one low mark is not determinant to fail the course. Please see the evaluation method to verify how the final grade is computed and you will be amazed in a positive way. Also, I do not recommend you to get frustrated if you receive an unexpected low mark or an unexpected negative feedback about your work or your answers. The mechanics here are very simple: *in order to improve, understand and learn, you need to know what you did well, what you did wrong, and try again until you do well without getting desperate or frustrated in the process*. In short, avoid negative feelings as these might lead to further frustration. Nobody wants to hurt you, we all want you to learn in a favorable environment. You have overcome challenges before, so avoid the dark side `r fontawesome::fa("ghost")`. On the contrary, you should rather work harder to meet the course standards. We are not in conflict, in fact we are collaborating. According to my experience, students who sadly fail this course ignore or forget these recommendations.
 
 As a student, you may have different responsibilities. You are probably working, you might have family commitments, other courses, unexpected workload, troubles, and other diverse duties. All these may affect your academic performance at some time. My view here is that you are expected to do well in all aspects of your life and you will have to manage your time effectively and be productive. I hope you can allocate your time in such a way that you can pass this course and do well in the rest of your personal activities. Sometimes the workload is so intense that you have to evaluate whether you need to drop an activity to do well in the rest and keep you healthy, physically and mentally. If you find yourself overwhelmed by your personal troubles, workload and responsibilities, please ask for help, the university has professionals that can help you with this. If you have personal problems I can hear you and if I am unable to guide you properly, we can ask for professional help. Keep this in mind, we all care about your health, and health is far more important than a job, a course, and the university.
 
@@ -161,7 +177,7 @@ We all know that good grades do not necessarily make you a good person or a good
 
 In sum, I expect the best academic performance you can achieve, not the average, and definitely not the minimum. This should not be a surprise since you are studying at one of the most prestigious private universities in the country (we belong to a business school with AACSB and AMBA accreditation). If you succeed at delivering your best performance in this course, and I believe you can, then you might be in a better position to eventually tackle business problems including the most interesting and valuable ones which includes those that do not exist yet. I am sure you have done some extraordinary things in the past, you have overcome very hard challenges, so take this course just as another opportunity to unleash your full potential and show me how committed you are with your academic professional training. I strongly believe you can learn anything just as this video from Khan Academy indicates: [you can learn anything.](https://youtu.be/JC82Il2cjqA)
 
-Most of my previous recommendations in this subsection are for those who are having difficulties with the course. If you are doing fine, then good for you \faThumbsUp[regular], try to enjoy the learning process as much as you can. My commitment is that you will have all the support and resources you need to pass the course during the semester; you only have to take them or ask for them during the lecture period, not after the last course session, and follow all my recommendations in this syllabus.
+Most of my previous recommendations in this subsection are for those who are having difficulties with the course. If you are doing fine, then good for you `r fontawesome::fa("thumbs-up")`, try to enjoy the learning process as much as you can. My commitment is that you will have all the support and resources you need to pass the course during the semester; you only have to take them or ask for them during the lecture period, not after the last course session, and follow all my recommendations in this syllabus.
 
 
 
