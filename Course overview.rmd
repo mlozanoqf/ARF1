@@ -63,13 +63,31 @@ I assume you are aware of the academic regulations dictated by the university. I
 
 ## Academic integrity.
 
-We pledge to hold ourselves and our peers to the highest standards of honesty and integrity. Academic integrity violations including plagiarism and cheating are prohibited and may result in the failure of the assignment, failure of the course, and/or additional disciplinary actions depending on current regulations. We understand plagiarism as the presentation of another person's thoughts or words as if they were the student's own. For example, copying from textbooks and other sources (including the Internet) without due acknowledgment that the passages quoted are copied and without giving the source of those passages. Please watch the following video about plagiarism taken from York St. John University (UK) [understanding plagiarism](http://youtu.be/ptHIA5bMnio).
+We pledge to hold ourselves and our peers to the highest standards of honesty and integrity. Academic integrity violations including plagiarism and cheating are prohibited and may result in the failure of the assignment, failure of the course, and/or additional disciplinary actions depending on current regulations. We understand plagiarism as the presentation of another person's thoughts or words as if they were the student's own. For example, copying from textbooks and other sources (including the Internet) without due acknowledgment that the passages quoted are copied and without giving the source of those passages. 
 
-I strongly advise you not to construct a piece of work by cutting and pasting, or copying material written by other people into something you are submitting as your own work. No matter what pressure you may be under to complete an assignment, you should never succumb to the temptation to take a *short cut* and use someone else's material inappropriately. See the following video to illustrate this point: [homework dealer.](https://youtu.be/cUVAbvXjTeg)
+Please watch the following video about plagiarism taken from York St. John University (UK) about understanding plagiarism.
+
+
+```{r echo=FALSE}
+embed_url("http://youtu.be/ptHIA5bMnio")
+```
+
+
+I strongly advise you not to construct a piece of work by cutting and pasting, or copying material written by other people into something you are submitting as your own work. No matter what pressure you may be under to complete an assignment, you should never succumb to the temptation to take a *short cut* and use someone else's material inappropriately. 
+
+See the following video to illustrate this point:
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/cUVAbvXjTeg")
+```
 
 Ethical behavior is implicit in the course mechanics and rules, and it will be explicit in several topics throughout the course material. Following the indications of this syllabus is a simple way and a clear example regarding how we can effectively pursue ethical behavior. Ethics concerns are inherent in business, economics and finance activities because the professionals in these fields frequently manage resources to achieve a range of objectives, not exclusively maximize profits. Pursuing ethical behavior also helps us to build solid institutions, which is consistent with the United Nations 17 sustainable development goals @UN17. Managing own or third-party resources entails a high degree of responsibility because people often face the alternative to apply unethical strategies to achieve their own interests. A proper discussion of the ethical aspect in the decision-taking process including conflict of interests is necessary to increase the awareness of young professionals like you. In the end, following an ethical code as a business practice can contribute to strengthening or building your own reputation -- one of the most significant assets you have, or are currently building.
 
-Take a look of this video. [a student's guide to college: integrity](https://youtu.be/m1AxHZSX5VA).
+Take a look of this video about integrity.
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/m1AxHZSX5VA")
+```
 
 ## Sustainable finance `r fontawesome::fa("envira")`.
 

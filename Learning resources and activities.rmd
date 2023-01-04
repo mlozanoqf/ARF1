@@ -18,13 +18,23 @@ The learning activities are also classified as individual and groups activities.
 
 Here is the list and description of available resources for you to learn the subject. My advice is to use as many resources as possible because they will allow you to learn the subject and develop the required professional competences that you need to have.
 
-**Professor.** I have vast experience as an academic and researcher. I also have numerous postgraduate studies and willingness to help you in case you need assistance to better understand the course topics. You only have to contact me and follow my advice. Please see the video [a student's guide to college: professors.](https://youtu.be/IzG85NDDo1Q)
+**Professor.** I have vast experience as an academic and researcher. I also have numerous postgraduate studies and willingness to help you in case you need assistance to better understand the course topics. You only have to contact me and follow my advice. 
+
+Please see the video about professors:
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/IzG85NDDo1Q")
+```
 
 **Class sessions.** We explain and discuss specific topics, ask and answer questions, review your study progress, and sometimes we conduct brief activities. Please note that the time available in class sessions is limited and we are not going to cover every single topic in full detail. Instead, we will use other resources and learning activities to cover the rest of the topics. You are expected to attend on time, participate, and engage in our discussions. I expect you to use your computer because you may need to use R, see the PDF textbook, or your own homework during the session.
 
 In case of virtual learning, it is OK if you want to keep your microphone on, and camera on or off as most of the time we are going to share the screen during the class. For your convenience, unless otherwise stated, class Zoom sessions are recorded and available for you. Internet service may fail during class sessions, but this is a risk we all face. 
 
-See the following video for a good recommendation from Prof. Fleisch valid for online sessions and traditional course sessions: [a student's guide to college: class.](https://youtu.be/KX-sg1HXAws)
+See the following video for a good recommendation from Prof. Fleisch valid for online sessions and traditional course sessions:
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/KX-sg1HXAws")
+```
 
 **Audio files (if available).** I explain part of the course material with my *sweet melodic* voice. Some students might have difficulties at understanding the required readings and I believe these mp3 audio files are useful to better understand some topics. It is compulsory to listen to them before the class session. Please note that not all the course material is discussed in audio files, for this reason you are not supposed to listen to audio files and ignore the rest of the course material, all resources complement each other. Audio files are not listed in the course calendar, but it will be easy for you to identify which audio file corresponds to each course topic.
 
@@ -42,15 +52,33 @@ See the following video for a good recommendation from Prof. Fleisch valid for o
 
 ## Graded activities. Exams: $E_1$, $E_2$ and $E_F$ `r fontawesome::fa("grimace")`.
 
-We have 2 partial exams $E_1$, $E_2$ (40% of the final grade), and one final exam $E_F$ (30% of the final grade) in English. Every topic discussed in this course is subject to be evaluated in exams. Therefore, if you are looking forward to achieving an outstanding final grade in this course, my sincere advice is to take class notes during the semester. Please take a look at this video about taking notes [a student's guide to college: notes](https://youtu.be/pAvPE0lPlqE).
+We have 2 partial exams $E_1$, $E_2$ (40% of the final grade), and one final exam $E_F$ (30% of the final grade) in English. Every topic discussed in this course is subject to be evaluated in exams. Therefore, if you are looking forward to achieving an outstanding final grade in this course, my sincere advice is to take class notes during the semester. 
 
-**When?** Exams will be taken according to the course calendar, these dates correspond to the official dates dictated by the university partial and final exam calendars. Both $E_1$ and $E_2$ are 1.5 hours activities during the class session, and the $E_F$ lasts 2 hours. In the case of 3 hour class sessions, the exam takes place in the first part of the class, and we review the exam answers the same day in the second part of the class session. In the case of graduated students we may need to change the final exam date for administrative reasons. Please consider the following recommendations [a student's guide to college: exams](https://youtu.be/w1w0dkHdakE).
+Please take a look at this video about taking notes:
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/pAvPE0lPlqE")
+```
+
+**When?** Exams will be taken according to the course calendar, these dates correspond to the official dates dictated by the university partial and final exam calendars. Both $E_1$ and $E_2$ are 1.5 hours activities during the class session, and the $E_F$ lasts 2 hours. In the case of 3 hour class sessions, the exam takes place in the first part of the class, and we review the exam answers the same day in the second part of the class session. In the case of graduated students we may need to change the final exam date for administrative reasons. 
+
+Please consider the following recommendations about exams:
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/w1w0dkHdakE")
+```
 
 **Where?** You do not have to be physically in the classroom to take the exams, you can take the exams anywhere you want as the exam is fully taken, answered and delivered in electronic format. You only have to make sure you have a good Internet connection. I will be available during the exams in Zoom, you do not have to log in the Zoom session, you only have to know I will be available in case you need it. In the case of 3 hour class sessions, you will have to log in to the Zoom session in the second part of the class to answer the $E_1$ and $E_2$ exam together.
 
 **How many questions?** In the case of $E_1$ and $E_2$, I include 4 questions and you have to answer 3 so you have the chance to select the 3 questions that you know the best. In the case of $E_F$, I include 5 questions and you have to answer 4. All questions have the same weight. It is not an option to answer all the exam questions, if you do that you may earn a significant mark deduction. The $E_F$ covers all the course topics/activities. For your convenience, I take one question from $E_1$ and one question from $E_2$, and I include them with a minor change in the $E_F$. This means that if you study $E_1$ and $E_2$ very well, you should be able to answer at least 50% of the $E_F$ correctly. In case you take the exam on a different date for any reason, your $E_1$ or $E_2$ will have 3, not 4 questions as stated above. This means that you will not have the benefit of not answering one exam question. The same principle applies for the $E_F$.
 
-**What are typical exam questions?** I always let my students keep their own partial exams, so I guess you can find old partial exams. The course material evolves and exam questions change every semester. However, looking at old exams can give you a good idea about what kind of questions to expect in the exam. I always include some questions that require the use of R. Exam questions usually require some analysis and interpretation of results. For your convenience, we have review class sessions and/or mock exams before each graded exam. If we need more time to review we can use the discussion forum. [a student's guide to college: review sessions](https://youtu.be/XoHx_UIgtt0).
+**What are typical exam questions?** I always let my students keep their own partial exams, so I guess you can find old partial exams. The course material evolves and exam questions change every semester. However, looking at old exams can give you a good idea about what kind of questions to expect in the exam. I always include some questions that require the use of R. Exam questions usually require some analysis and interpretation of results. For your convenience, we have review class sessions and/or mock exams before each graded exam. If we need more time to review we can use the discussion forum. 
+
+See some recommendations about review sessions:
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/XoHx_UIgtt0")
+```
 
 **Individual or in groups?** All exams $E_1$, $E_2$ and $E_F$ are group activities: no more than 4 students per group, otherwise you will earn a significant mark deduction. Groups are defined by yourself and will remain fixed throughout the semester. I will allocate a name to each group which corresponds to the name of a Jupiter moon. These groups are the same for the homework assignments $H$. The class list could change during the semester as some students may enroll later or drop the course, in this case groups members may change, but the maximum number of students per group remains the same. Your group will have private access to a Deepnote project, this project is private as only your group and me will be able to edit the contents. 
 
@@ -70,7 +98,7 @@ We have 3 homework assignments $H_1$ and $H_2$ (30% of the final grade), and a n
 
 **When?** The fixed deadline to complete homework assignments is 10:00 a.m. on the day marked in the course calendar and there is no late homework policy at all. This basically means that if you fail to do the assignment, and/or if you have an empty, wrong, or corrupted Deepnote notebook by the deadline, then the group mark is zero. This is important because sadly there are always some students who forget or simply ignore this information no matter how much I insist on this. The $H_1$ is due a few days before $E_1$; $H_2$ is due a few days before $E_2$; and $H_3$ is due a few days before $E_F$. I recommend taking enough time to plan and execute the required tasks in the assignments. Usually, low marks in this activity are not precisely because the assignment is difficult, but because the group started the assignment a couple of days before the deadline.
 
-**What are typical assignment questions?** You should expect applied questions, some of them with a research-oriented approach. These questions will require you to develop computational code in R. You will need to learn new things and conduct some research to be able to tackle them correctly. However, you are not alone in this process, you have a long list of resources described in this syllabus including my help in the form of synchronous Zoom meetings, or asynchronous communications via Deepnote comments, or email communication. The following video explains the relevance of the research method in business: <https://youtu.be/wZzupWR7TKc>.
+**What are typical assignment questions?** You should expect applied questions, some of them with a research-oriented approach. These questions will require you to develop computational code in R. You will need to learn new things and conduct some research to be able to tackle them correctly. However, you are not alone in this process, you have a long list of resources described in this syllabus including my help in the form of synchronous Zoom meetings, or asynchronous communications via Deepnote comments, or email communication.
 
 **Individual or in groups?** This is a group activity. These groups are the same for the exams. Please see the exam section above to review the definition of the groups and relevant policies. 
 
@@ -116,7 +144,13 @@ Some students may have a DataCamp activity completed. If your certificate is old
 
 There are four types of videos.
 
-* **Type 1: Feynman.** The Feynman technique for teaching and communication is a mental model (a breakdown of a personal thought process) to convey information using concise thoughts and simple language. The Feynman model is named after the Nobel prize-winning physicist Richard Feynman, who was recognized as someone who could clearly explain complex topics in a way that everybody --- even those without degrees in the sciences --- could understand. He was also named *The Smartest Man in the World* in 1979. According to him: *The person who says he knows what he thinks but cannot express it usually does not know what he thinks.* There are four simple steps to the Feynman technique: (1) choose a concept; (2) teach it to a toddler; (3) identify gaps and go back to the source material; (4) review and simplify. Teaching it to a toddler should not take it literally, it basically means that your explanation should be as clear and simple as a toddler could understand it. Further details about the technique here: [How to learn faster with the feynman technique](https://youtu.be/_f-qkGJBPts)
+* **Type 1: Feynman.** The Feynman technique for teaching and communication is a mental model (a breakdown of a personal thought process) to convey information using concise thoughts and simple language. The Feynman model is named after the Nobel prize-winning physicist Richard Feynman, who was recognized as someone who could clearly explain complex topics in a way that everybody --- even those without degrees in the sciences --- could understand. He was also named *The Smartest Man in the World* in 1979. According to him: *The person who says he knows what he thinks but cannot express it usually does not know what he thinks.* There are four simple steps to the Feynman technique: (1) choose a concept; (2) teach it to a toddler; (3) identify gaps and go back to the source material; (4) review and simplify. Teaching it to a toddler should not take it literally, it basically means that your explanation should be as clear and simple as a toddler could understand it. 
+
+Further details about the Feynman technique here:
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/_f-qkGJBPts")
+```
 
 * **Type 2: The interview.** You can interview someone who can share some thoughts with us. For example, you can interview your mom or dad to discuss topics about his or her job. You are free to design the questions and the format. This could be a good opportunity to know how people in a specific industry tackle business problems, or challenges of people working in the public sector.
 

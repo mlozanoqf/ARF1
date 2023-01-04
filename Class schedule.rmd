@@ -6,7 +6,7 @@ title: ''
 
 \newpage
 
-# \faCalendar \hspace{1 mm} IF class schedule.
+# `r fontawesome::fa("calendar-alt")` IF class schedule.
 
 Session 1. \faCogs \hfill Monday, 1 August, 19:00 – 22:00.
 
