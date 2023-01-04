@@ -1,0 +1,58 @@
+---
+title: ''
+  html_document:
+    df_print: paged
+---
+
+\newpage
+
+# \faHandshake[regular] \hspace{1 mm} Introduction.
+
+Welcome to the course! I wish that at the time you are reading this document you, your family and friends are all well.
+
+A course syllabus is an academic document with relevant information for students. This document represents your ultimate guide to the successful completion of this course. Please read it regularly and carefully. Here, you will find a comprehensive description of the course's goals, rules, objectives, recommendations, grading details, a detailed schedule, activities, resources, references and learning outcomes. The objective of this document is to give you full certainty about what to expect from this course starting from day 1 until the final exam. In my experience, reading this syllabus is positively related with the student's performance.
+
+## Perfil de egreso (en español).
+
+This course contributes to developing the following professional profile.
+
+El egresado y la egresada de la licenciatura en finanzas internacionales comprende el funcionamiento de los mercados económico-financieros e implementa modelos cuantitativos para analizar y ejecutar estrategias de financiamiento e inversión en un ambiente de incertidumbre. El graduado toma decisiones financieras innovadoras basadas en el análisis de datos, la creación de valor económico, y su conducta profesional es coherente con altos estándares éticos. Además, es consciente de su responsabilidad en la solución de los retos sociales y ambientales en el contexto de las finanzas sostenibles. Las habilidades y competencias del egresado son congruentes con las demandas de la industria 4.0 al incorporar lenguajes computacionales y aplicaciones tecnológicas para el análisis de Big Data, automatización de análisis financiero, y el desarrollo de algoritmos usados en \textit{machine learning} e inteligencia artificial para abordar los retos de la industria financiera. Su perfil le permite reaccionar y adaptarse ágilmente a los cambios vertiginosos de la industria y los mercados financieros, hacer investigación aplicada, y proponer nuevas soluciones de valor a negocios tradicionales y FinTech.
+
+## Distance and face-to-face learning.
+
+The content of this syllabus applies for any learning format, including face-to-face, blended or fully distance learning. 
+
+Distance learning is the education in which students are not physically present at a school premises. In my experience, distance learning courses can be as good or as bad as traditional regular learning. Students may prefer one or another, but I think students are supposed to be able to learn under a wide variety of changing circumstances. In fact, recruiters want applicants to be able to demonstrate that they can adapt to unfamiliar environments and respond positively to unexpected changes and new ways of working. So, do not be afraid of online courses or distance learning schemes. If you are positive about them, you could not only learn a lot but also develop some useful skills that are increasingly valuable in the job market.
+
+The first distance learning course I taught was in September 1999, and I have been into distance learning since then as a postgraduate student and professor. My growing research network consists of colleagues in Chile, Ireland, UK, Italy and Spain. Even though we physically meet about once a year, most of the time we work remotely and we are quite used to it. It is important to know how to collaborate in virtual environments just as well as we do in face-to-face formats, including the available technology that allows us to shorten physical distance between us. 
+
+I have vast experience with face-to-face, blended and distance learning in all its variants, and I hope this experience can contribute to help you complete this course successfully. Welcome again!
+
+## About me \faGrin[regular].
+
+I am currently professor of finance and economics at UDEM. I regularly collaborate with The University of Manchester (Alliance Manchester Business School); the Centre for Financial and Management Studies (CeFiMS) at SOAS University of London, among others universities.
+
+Let me introduce myself by listing my postgraduate studies and describing my professional background.
+
+**Areas of expertise.** Finance, Economics, Statistics, Data Science.
+
+**Research interests.** Empirical asset pricing; beta and SDF pricing models and tests; financial econometrics; GMM estimation and inference; portfolio allocation models and performance; computational finance; data science applications in business.
+
+**Education.** I have a Postdoc in Finance from The University of Manchester; a PhD in Quantitative Finance from the University of the Basque Country; a Doctor *Europaeus* mention from the European University Association. I have four MSc degrees in Statistical Learning and Data Mining; Modern Applied Statistical Methods; Quantitative Finance; and Finance. I have three University Expert degrees in Statistical Learning and Data Mining; Statistical Techniques for the Scientific Analysis of Data; and Advanced Methods of Applied Statistics. I have a BS in Economics. 
+
+I also have more than 20 professional training in the area of data science, sustainable finance, migration and innovation from Strathclyde Business School, University of Bath, Duke University, RISIS (Research Infrastructure for Science and Innovation Policy Studies), Università della Svizzera Italiana, AIT Austrian Institute of Technology, The Alan Turing Institute, Universidad Complutense de Madrid, Manchester Institute of Innovation Research, among others.
+
+**Research.** I am a researcher in the area of quantitative finance. I have held a couple of full-time research positions as a one-year pre-doctoral Marie Curie research fellow Supported by the Sixth European Community Framework Programme, and a two-year post-doctoral research fellow position both at the University of Manchester (Business School, and the Centre for the Analysis of Investment Risk). My research has been published in 3-star journals according to [The Chartered Association of Business Schools](https://charteredabs.org/), including Journal of Empirical Finance, Quantitative Finance, and Journal of Financial and Quantitative Analysis (research assistance). My research has been presented in numerous research seminars in the UK, Spain, Mexico, Sweden and Ireland. My research has also been presented in prestigious international conferences including the [Spanish Association of Finance Forum](https://finance-forum.es/); [Eastern Finance Association](https://easternfinance.org/) (USA); [World Congress of the Econometric Society](https://www.econometricsociety.org/) (Italy); [French Finance Association](https://www.affi.asso.fr/en); and [Econometric Research in Finance](https://www.erfin.org/journal/index.php/erfin) among others. I collaborate as reviewer and editor for several academic journals in the areas of finance.
+
+**Teaching.** I have been a lecturer in economics, finance and data science for under and postgraduate levels at different universities in Mexico and the UK for the last 20 years. Also, I have supervised almost 90 dissertations at under and postgraduate academic programs of schools including the London School of Business & Finance; University of London, School of Oriental and African Studies (SOAS); The University of Manchester; Universidad Complutense de Madrid, UDEM, among others. Also, I have experience in continuous education, consulting, and executive training in the area of finance.
+
+<!-- [^1]: The Chartered Association of Business Schools is considered the voice of the UK's business and management education sector. According to ABS, all 3 stars rated journals publish original and well executed research papers and are highly regarded. These journals typically have good submission rates and are very selective in what they publish. Papers are heavily refereed in 3 stars rated journals. -->
+
+My academic profile, including my full and updated curriculum vitae, can be found [here](https://github.com/mlozanoqf/resume/raw/master/cv-mlozano.pdf).
+
+<!-- This is my teaching philosophy in 100 words: *The time and the brain are resources and constraints as both restrict the amount of time available to learn. We understand this at the university, so we use these resources efficiently. Here, we stimulate our mental capacity to create and innovate by doing research; and we teach how to think and learn in a systematic and scientific manner. Here, we promote the most fundamental human values to build a prosperous society. I love teaching almost as much as doing research because every semester represents a new opportunity to further enhance our lives by learning the most given our time constraints.* -->
+
+I love art, mainly painting and music, as the expression of human creativity and imagination. I spend some free time playing my Yamaha digital piano. I also used to be an active keyboardist, piano player, and orchestra director. Most of my experience in this field has been as a musician at live concerts in Mexico and Europe, piano solo concerts, and musicals organized by the Tecnológico de Monterrey (Campus Monterrey) for about a decade.
+
+
+

@@ -1,0 +1,775 @@
+---
+title: "**Ingeniería financiera (IF).   \nCourse Syllabus.
+  Spring 2023.**"
+author:
+- \faAddressCard \hspace{1 mm} \texttt{https://sites.google.com/site/mlozanoqf/}
+- \faGithub \hspace{1 mm} \texttt{https://github.com/mlozanoqf/}
+date: "\\faClock \\hspace{1 mm} Last compiled on: `r format(Sys.time(), '%d/%m/%Y, %H:%M:%S.')`"
+output:
+  pdf_document:
+    latex_engine: xelatex
+    fig_caption: yes
+    number_sections: yes
+    extra_dependencies: float
+    citation_package: natbib
+    keep_tex: yes
+  html_document:
+    df_print: paged
+  word_document: default
+subtitle: "**\\LARGE UDEM. Department of Economics & Finance. \\vspace{20 mm}   \n\\Huge
+  \\fontsize{100}{100}\\faChalkboardTeacher \\vspace{20 mm}   \n\\Huge Dr. Martín
+  Lozano.**"
+urlcolor: blue
+fontsize: 12pt
+header-includes:
+- \usepackage{placeins}
+- \usepackage{setspace}
+- \usepackage{chngcntr}
+- \onehalfspacing
+- \counterwithin{figure}{subsection}
+- \counterwithin{table}{subsection}
+- \usepackage[nottoc]{tocbibind}
+- \usepackage{url}
+- \usepackage{fontawesome5}
+- \usepackage{booktabs}
+- \usepackage{multirow}
+bibliography: mybibfile.bib
+---
+
+------------------------------------------------------------------------
+
+```{=tex}
+\newpage 
+\hypersetup{linkcolor=black}
+\renewcommand*\contentsname{Index.}
+\tableofcontents
+```
+```{r setup, include=FALSE, cache=F, message=F, warning=F, results="hide"}
+library(knitr)
+knitr::opts_chunk$set(warning = F, message = F)
+```
+
+```{r global_options, include=FALSE}
+library(graphics)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+knitr::opts_chunk$set(fig.pos = "H", out.extra = "")
+```
+
+\newpage
+
+# \faHandshake[regular] \hspace{1 mm} Introduction.
+
+Welcome to the course! I wish that at the time you are reading this document you, your family and friends are all well.
+
+A course syllabus is an academic document with relevant information for students. This document represents your ultimate guide to the successful completion of this course. Please read it regularly and carefully. Here, you will find a comprehensive description of the course's goals, rules, objectives, recommendations, grading details, a detailed schedule, activities, resources, references and learning outcomes. The objective of this document is to give you full certainty about what to expect from this course starting from day 1 until the final exam. In my experience, reading this syllabus is positively related with the student's performance.
+
+## Perfil de egreso (en español).
+
+This course contributes to developing the following professional profile.
+
+El egresado y la egresada de la licenciatura en finanzas internacionales comprende el funcionamiento de los mercados económico-financieros e implementa modelos cuantitativos para analizar y ejecutar estrategias de financiamiento e inversión en un ambiente de incertidumbre. El graduado toma decisiones financieras innovadoras basadas en el análisis de datos, la creación de valor económico, y su conducta profesional es coherente con altos estándares éticos. Además, es consciente de su responsabilidad en la solución de los retos sociales y ambientales en el contexto de las finanzas sostenibles. Las habilidades y competencias del egresado son congruentes con las demandas de la industria 4.0 al incorporar lenguajes computacionales y aplicaciones tecnológicas para el análisis de Big Data, automatización de análisis financiero, y el desarrollo de algoritmos usados en \textit{machine learning} e inteligencia artificial para abordar los retos de la industria financiera. Su perfil le permite reaccionar y adaptarse ágilmente a los cambios vertiginosos de la industria y los mercados financieros, hacer investigación aplicada, y proponer nuevas soluciones de valor a negocios tradicionales y FinTech.
+
+## Distance and face-to-face learning.
+
+The content of this syllabus applies for any learning format, including face-to-face, blended or fully distance learning. 
+
+Distance learning is the education in which students are not physically present at a school premises. In my experience, distance learning courses can be as good or as bad as traditional regular learning. Students may prefer one or another, but I think students are supposed to be able to learn under a wide variety of changing circumstances. In fact, recruiters want applicants to be able to demonstrate that they can adapt to unfamiliar environments and respond positively to unexpected changes and new ways of working. So, do not be afraid of online courses or distance learning schemes. If you are positive about them, you could not only learn a lot but also develop some useful skills that are increasingly valuable in the job market.
+
+The first distance learning course I taught was in September 1999, and I have been into distance learning since then as a postgraduate student and professor. My growing research network consists of colleagues in Chile, Ireland, UK, Italy and Spain. Even though we physically meet about once a year, most of the time we work remotely and we are quite used to it. It is important to know how to collaborate in virtual environments just as well as we do in face-to-face formats, including the available technology that allows us to shorten physical distance between us. 
+
+I have vast experience with face-to-face, blended and distance learning in all its variants, and I hope this experience can contribute to help you complete this course successfully. Welcome again!
+
+## About me \faGrin[regular].
+
+I am currently professor of finance and economics at UDEM. I regularly collaborate with The University of Manchester (Alliance Manchester Business School); the Centre for Financial and Management Studies (CeFiMS) at SOAS University of London, among others universities.
+
+Let me introduce myself by listing my postgraduate studies and describing my professional background.
+
+**Areas of expertise.** Finance, Economics, Statistics, Data Science.
+
+**Research interests.** Empirical asset pricing; beta and SDF pricing models and tests; financial econometrics; GMM estimation and inference; portfolio allocation models and performance; computational finance; data science applications in business.
+
+**Education.** I have a Postdoc in Finance from The University of Manchester; a PhD in Quantitative Finance from the University of the Basque Country; a Doctor *Europaeus* mention from the European University Association. I have four MSc degrees in Statistical Learning and Data Mining; Modern Applied Statistical Methods; Quantitative Finance; and Finance. I have three University Expert degrees in Statistical Learning and Data Mining; Statistical Techniques for the Scientific Analysis of Data; and Advanced Methods of Applied Statistics. I have a BS in Economics. 
+
+I also have more than 20 professional training in the area of data science, sustainable finance, migration and innovation from Strathclyde Business School, University of Bath, Duke University, RISIS (Research Infrastructure for Science and Innovation Policy Studies), Università della Svizzera Italiana, AIT Austrian Institute of Technology, The Alan Turing Institute, Universidad Complutense de Madrid, Manchester Institute of Innovation Research, among others.
+
+**Research.** I am a researcher in the area of quantitative finance. I have held a couple of full-time research positions as a one-year pre-doctoral Marie Curie research fellow Supported by the Sixth European Community Framework Programme, and a two-year post-doctoral research fellow position both at the University of Manchester (Business School, and the Centre for the Analysis of Investment Risk). My research has been published in 3-star journals according to [The Chartered Association of Business Schools](https://charteredabs.org/), including Journal of Empirical Finance, Quantitative Finance, and Journal of Financial and Quantitative Analysis (research assistance). My research has been presented in numerous research seminars in the UK, Spain, Mexico, Sweden and Ireland. My research has also been presented in prestigious international conferences including the [Spanish Association of Finance Forum](https://finance-forum.es/); [Eastern Finance Association](https://easternfinance.org/) (USA); [World Congress of the Econometric Society](https://www.econometricsociety.org/) (Italy); [French Finance Association](https://www.affi.asso.fr/en); and [Econometric Research in Finance](https://www.erfin.org/journal/index.php/erfin) among others. I collaborate as reviewer and editor for several academic journals in the areas of finance.
+
+**Teaching.** I have been a lecturer in economics, finance and data science for under and postgraduate levels at different universities in Mexico and the UK for the last 20 years. Also, I have supervised almost 90 dissertations at under and postgraduate academic programs of schools including the London School of Business & Finance; University of London, School of Oriental and African Studies (SOAS); The University of Manchester; Universidad Complutense de Madrid, UDEM, among others. Also, I have experience in continuous education, consulting, and executive training in the area of finance.
+
+<!-- [^1]: The Chartered Association of Business Schools is considered the voice of the UK's business and management education sector. According to ABS, all 3 stars rated journals publish original and well executed research papers and are highly regarded. These journals typically have good submission rates and are very selective in what they publish. Papers are heavily refereed in 3 stars rated journals. -->
+
+My academic profile, including my full and updated curriculum vitae, can be found [here](https://github.com/mlozanoqf/resume/raw/master/cv-mlozano.pdf).
+
+<!-- This is my teaching philosophy in 100 words: *The time and the brain are resources and constraints as both restrict the amount of time available to learn. We understand this at the university, so we use these resources efficiently. Here, we stimulate our mental capacity to create and innovate by doing research; and we teach how to think and learn in a systematic and scientific manner. Here, we promote the most fundamental human values to build a prosperous society. I love teaching almost as much as doing research because every semester represents a new opportunity to further enhance our lives by learning the most given our time constraints.* -->
+
+I love art, mainly painting and music, as the expression of human creativity and imagination. I spend some free time playing my Yamaha digital piano. I also used to be an active keyboardist, piano player, and orchestra director. Most of my experience in this field has been as a musician at live concerts in Mexico and Europe, piano solo concerts, and musicals organized by the Tecnológico de Monterrey (Campus Monterrey) for about a decade.
+
+# \faBinoculars \hspace{1 mm} Course overview.
+
+In this section I describe and explain the course objectives, mechanics, and important information about academic integrity.
+
+## Description.
+
+<!-- EMF. \faChartLine \hspace{1 mm} The course includes a COIL (Collaborative Online International Learning) activity with students at Universidad Pontificia Bolivariana in Colombia in the hope that students attain a degree of intercultural understanding. Econometrics is the branch of economics concerned with the use of mathematical and statistical methods describing economic systems. We define financial econometrics as the application of statistical techniques to answer problems in finance. For example, we might know from previous courses that there is a negative relationship between interest rates and stock prices, but we cannot know the size or the magnitude of this relationship unless we measure it and verify how strong or weak this relationship is by applying econometrics. Financial econometrics also allows us to incorporate data into existing financial models to empirically test their validity and find estimates which are significantly superior to informal *guesstimates*. Forecasting is also a common and popular task in financial econometrics. It is an integral part of the decision-making activities of management, as it can play an important role in many areas of a company. Most of this course is about forecasting methods that we commonly use in finance and economics. Forecasting is about predicting the future as accurately as possible, given all of the information available, including historical data and knowledge of any future events that might impact the forecasts. This subject can contribute to evolving from a student to a practitioner in the area of finance, especially because we are going to incorporate computational finance in R as a way to learn financial econometrics. The main electronic textbooks are the following: @49018680cf534023b6ae0f4e933c475d, and @lozanoEMF. Other good reference books based on R are @hanck2020introduction, @gujarati2012basic, @brooks2019introductory, @Oswaldeconometrics, @heiss2020usingR and @mcnulty2021handbook, @RundelIntroduction, @james2013introduction. For Python, see @heiss2020usingPython. Please see the course calendar at the end of this syllabus to review the topics, activities as well as the required readings. -->
+
+<!-- ARF. \faCreditCard[regular] \hspace{1 mm} Financial risk management is about identifying, quantifying and managing financial risks. In this course we focus our attention on credit risk models and their corresponding computational applications in R. Credit risk refers to the probability of loss due to a borrower's failure to make payments on any type of debt. Credit risk management is the practice of mitigating losses by understanding how to measure the probability of default and the corresponding potential losses. Traditionally, courses like these rely only on firms as the main subject of study, but this course also incorporates issues related with individuals and countries which open an interesting avenue to apply financial and economic analysis. In fact, we can understand this course as a two-pillar course, one of them is about modern techniques and methodologies aimed to identify, quantify and manage financial risks, especially credit risk. The second pillar is about developing analysis skills and understanding the most relevant financial and economic challenges of Mexico. The main textbooks are the following: @Hull9 as it incorporates the most influential credit risk models in the financial industry, @crouhy2014essentials, @brealey2020principles as they present a comprehensive analysis of the various sources of risk in financial markets, and @lozanoARF which closes the gap between the model analysis and its corresponding computational modeling in R. A couple of complementary reference books are @hull2020machine, @james2013introduction. Please see the course calendar at the end of this syllabus to review the topics, activities as well as the required readings. -->
+
+IF. \faCogs \hspace{1 mm} Engineering is the branch of science and technology concerned with the design, building, use of engines, machines, and structures. In this sense, financial engineering is concerned with the design, modeling and use of combined financial techniques and instruments to build a strategy that changes or mitigates a given risk exposure. You will learn how to build a quantitative financial strategy, the nature of financial instruments like options, and understand the available tools and techniques we have to measure risk in finance as value at risk and GARCH models. The course is based on the legendary John C. Hull's textbook @Hull9 which is undoubtedly a very important reference in academia and the financial industry. This course represents a good foundation if you plan to study a master degree in Finance or if you want to pursue a professional certification in the area of quantitative finance. The second reference is @lozanoIF which closes the gap between the model analysis and its corresponding computational modeling in R. A good complementary reference book for this course is @goetzmann2014modern because it offers a very thorough and up-to-date presentation of modern portfolio analysis. Others are @brealey2020principles, @ruppert2011statistics and @james2013introduction, which seeks to balance the formal aspects of theory with the demands of practitioners. The beauty of financial engineering is that it allows us to incorporate knowledge from other related topics such as computational finance, financial derivatives and statistics to innovate and to come up with improved solutions to create valuable financial decisions. Please see the course calendar at the end of this syllabus to review the topics, activities as well as the required readings.
+
+<!-- PMF. Traditional financial models expressed in assumptions, principles, functions and equations are fundamental tools to make better and more informed financial decisions. By incorporating the relevant technology, financial models can be expressed in computational code, which is the first step towards automation and allows us to expand the scope and limits of financial analysis. This course merges financial analysis, and financial modeling in order to translate models originally stated in paper into functional computational code. These kinds of skills are currently highly demanded and valued not only in the job market but also in research, FinTech and innovation projects. The main textbook is @lozanoPMF which has been developed to close the gap between the model analysis and its corresponding computational modeling in R. Some complementary reference books are @hull2020machine, @james2013introduction and @ruppert2011statistics. Please see the course calendar at the end of this syllabus to review the topics, activities as well as the required readings. -->
+
+<!-- EFPI. \faSearchDollar \hspace{1 mm} Investment is normally referred to as a source of growth within a firm (and even a country). However, investment decisions can lead to negative outcomes depending on economic conditions or simply because of a poor risk assessment. In this course we will learn the basics and some of the advanced techniques available for evaluating investment projects. Examples of investment projects include financial products like investment funds or even firms. Investment projects usually require an initial payment now in exchange for future cash flows. Here, the problem arises when investment projects fail to generate those future cash flows. Evaluation of investment projects help us to understand how risky they are with respect to the promised future cash flows. The analysis and evaluation of investment projects allow us to understand how to make them more attractive, and discriminate between good and bad investment decisions. Our main textbook is @brealey2020principles. -->
+
+<!-- MPA. Economics is the social science that allows us to comprehend the allocation of resources to satisfy needs. It is a social science because the allocation of resources is a human choice, thus it is based on human behavior rather than on natural laws such as in physics or chemistry. In this course we are going to learn microeconomics, which is the branch of economics that studies the economic behavior of single agents such as firms. Following the same logic, macroeconomics is the branch of economics that studies the aggregate behavior of many agents. Microeconomics helps us to better comprehend how individual agents – such as firms, consumers and governments – make informed and rational decisions in terms of assigning limited resources to unlimited wants and needs. This segmentation is convenient in order to elucidate the interactions between preferences, incentives, objectives and constraints within each particular economic agent. For example, an individual wants to consume goods and services to increase his or her well-being but at the same time the individual is restricted by a limited budget formed by income and wealth. Similarly, the firm is bound by regulatory issues, costs, scarce monetary resources, market conditions, asymmetric and imperfect information, but at the same time is looking forward to maximizing profits. Finally, any government would ideally be interested in providing public goods, decreasing poverty levels, promoting welfare and an appropriate competitive environment; although resources coming from taxes are limited and incentives are not always well aligned. Therefore, every single economic agent tries to do their best in order to allocate limited resources to satisfy unlimited needs and understanding microeconomics helps these economic agents to take better and more informed decisions as these decisions are based in a scientific approach rather than following an intuitive approach. Given that this process is perpetual and inherent in real-life, whoever that understands the foundations of microeconomic analysis, has a significant comparative advantage in business and management. This is why you are expected to understand microeconomics at an early stage in your undergraduate studies. -->
+
+
+## Objectives.
+
+The main objectives of the course is that you understand the course topics, learn to apply a variety of models in the area of financial economics and quantitative finance, and develop the required competences in the field. You will learn the topics by implementing the relevant quantitative techniques and models originally presented in paper into computer code and then report your insights, analysis and results. The learning activities and the available resources are designed to help you acquire or strengthen your skills as a financial professional, practitioner and junior researcher.
+
+To achieve these objectives, you will take a series of tasks during the semester, which can be summarized by reading, working hard and contact me in case you need assistance. Consider the pseudocode below. It might not run in R, but it is still good to illustrate the learning process based on personal determination that I recommend you to follow. The learning process is much more complicated than this simplified pseudocode. However, complicated concepts can be represented in a simple form to better understand and communicate it.
+
+```{r eval = FALSE}
+# Initial condition.
+learn <- FALSE
+# Initial inputs assigned to study the topic.
+inputs <- c(read, time, effort, assistance, others)
+# Learning process.
+while (learn == FALSE) {
+  understand <- study(inputs) # Evaluate study function.
+  if (understand == FALSE) {
+    print("Add more inputs and try again.")
+    inputs <- inputs + 1
+    }
+  else { # Understanding is the way to learn.
+    learn == TRUE
+    print ("Well done!")
+  }
+  }
+```
+
+
+## Mechanics.
+
+The whole course is based on the following assumption: *you are expected to happily and enthusiastically work throughout the semester to accomplish my expectations as professor, complete the learning activities well on time, understand the subject and its applications as good as possible*. You are expected to follow the course calendar (at the end of this syllabus) as a main tool to prepare yourself in advance for every lecture topic, readings, and be aware of every future activity, assignment submission and exams. Following the course calendar is an easy way for us to be on the same page during the semester as we know with certainty the course progresses from day 1 until the final exam day. Most of the time, you will have to assign more than one week to complete a task in the calendar, this is why you are expected to manage your time efficiently so you can accomplish your course duties.
+
+In this course, you are expected to consciously study the required material in advance as well as practice on your own because this will allow you to develop the necessary conditions to contribute with valuable comments and/or interesting questions in class. If you openly decide not to do this, then you might feel that you are getting behind, or perhaps you might not get advantage of the number of things that you can potentially learn in this course. In fact, if you fail to consciously read the required material in advance, the risk of getting frustrated increases, and frustration is the best way to lose interest, get lower marks and eventually fail in the worst case scenario. Then, if you are interested in reducing the risk of failing the course, I recommend you to consciously study the required material in advance as well as practice on your own as much as you want or need.
+
+For your convenience, and in accordance with some of [The Sustainable Development Goals](https://sdgs.un.org/goals) by the United Nations, see @UN17, all the compulsory readings and activities submissions are available in electronic format. Other complementary material and activities could be incorporated or altered during the semester depending on relevant news or events that do not exist at the moment, or that are hard to anticipate at the beginning of the semester. If that is the case, I will let you know in advance. As a student, you should be confident that all the course material and activities are perfectly suitable for an undergraduate student enrolled in a prestigious world-class university. In other words, there will not be an intellectual challenge that you cannot overcome with an appropriate amount of enthusiasm, time, work, determination, and assistance (if necessary). This course is designed in such a way that you can pass and learn as long as you invest the right amount of time and work.
+
+I assume you are aware of the academic regulations dictated by the university. If you are not familiar with these, please review the corresponding student regulations. In this course, we will attach to them.
+
+## Academic integrity.
+
+We pledge to hold ourselves and our peers to the highest standards of honesty and integrity. Academic integrity violations including plagiarism and cheating are prohibited and may result in the failure of the assignment, failure of the course, and/or additional disciplinary actions depending on current regulations. We understand plagiarism as the presentation of another person's thoughts or words as if they were the student's own. For example, copying from textbooks and other sources (including the Internet) without due acknowledgment that the passages quoted are copied and without giving the source of those passages. Please watch the following video about plagiarism taken from York St. John University (UK) [understanding plagiarism](http://youtu.be/ptHIA5bMnio).
+
+I strongly advise you not to construct a piece of work by cutting and pasting, or copying material written by other people into something you are submitting as your own work. No matter what pressure you may be under to complete an assignment, you should never succumb to the temptation to take a *short cut* and use someone else's material inappropriately. See the following video to illustrate this point: [homework dealer.](https://youtu.be/cUVAbvXjTeg)
+
+Ethical behavior is implicit in the course mechanics and rules, and it will be explicit in several topics throughout the course material. Following the indications of this syllabus is a simple way and a clear example regarding how we can effectively pursue ethical behavior. Ethics concerns are inherent in business, economics and finance activities because the professionals in these fields frequently manage resources to achieve a range of objectives, not exclusively maximize profits. Pursuing ethical behavior also helps us to build solid institutions, which is consistent with the United Nations 17 sustainable development goals @UN17. Managing own or third-party resources entails a high degree of responsibility because people often face the alternative to apply unethical strategies to achieve their own interests. A proper discussion of the ethical aspect in the decision-taking process including conflict of interests is necessary to increase the awareness of young professionals like you. In the end, following an ethical code as a business practice can contribute to strengthening or building your own reputation -- one of the most significant assets you have, or are currently building.
+
+Take a look of this video. [a student's guide to college: integrity](https://youtu.be/m1AxHZSX5VA).
+
+## Sustainable finance \faEnvira.
+
+I am certified as *carbon literate* by the UN Climate Change Conference and Coventry University. The certification represents a robust understanding of the climate context and a commitment to recognise ways to adjust our behaviour to reduce our carbon footprint, as well as influencing our social and professional circles. My view is that one way of achieving a positive impact over the environment and the society is to learn more about sustainable finance. 
+
+According to the European Commission, sustainable finance refers to the process of taking environmental, social and governance (ESG) considerations into account when making investment decisions in the financial sector, leading to more long-term investments in sustainable economic activities and projects. Environmental considerations might include climate change mitigation and adaptation, as well as the environment more broadly, for instance the preservation of biodiversity, pollution prevention and the circular economy. Social considerations could refer to issues of inequality, inclusiveness, labour relations, investment in human capital and communities, as well as human rights issues. The governance of public and private institutions – including management structures, employee relations and executive remuneration – plays a fundamental role in ensuring the inclusion of social and environmental considerations in the decision-making process.
+
+In this course, you will be exposed to an introduction about sustainable finance. In particular, you will acquaint yourself with the basic skills and tools for applying the sustainable finance mechanisms to a real-world policy or business context. 
+
+
+# \faCode \hspace{1 mm} Data science.
+
+Data science is the study of the generalizable extraction of knowledge from data. Being a data scientist requires an integrated skill set spanning operations research, statistics, and computer science along with a good understanding of crafting a problem formulation in a specific field for effective solutions. This course will introduce you to this rapidly growing field and equip you with some of its basic principles and tools as well as its general mindset in the context of business. Ideally, you will learn to apply financial and economic concepts, models, techniques and tools to review various facets of data science practice, including data collection and integration, exploratory data analysis, descriptive and predictive modeling, visualization, evaluation, and effective communication. See @hull2020machine for a good introduction to the world of data science applied to finance.
+
+You are not going to become a data scientist in this course. Although you can always specialize in this field in your further postgraduate studies. Nowadays, most undergraduate students recognize that they need some knowledge of data science and machine learning to survive in a world where jobs are increasingly impacted by these areas. Yesterday, all executives needed to know how to use computers. Today, all executives will need to be comfortable managing large data sets and working with data science professionals to innovate and boost their productivity.
+
+Learning these computational skills is consistent with the purpose of developing STEAM (Science, Technology, Engineering, Arts and Mathematics) skills in your undergraduate studies. I believe learning opportunities for undergraduate students should include authentic tasks set in a real-world context. Authentic tasks consist of ill-defined problems, complex or multi-step questions, multiple ways to approach a problem and sub-tasks that integrate across disciplines. Some of these STEAM principles and ideas are incorporated in several learning activities in this course.
+
+Data science is strongly linked with finance and economics. Here, we will incorporate data science concepts and tools in the context of *digital humanities*. Digital humanities is a field of study, research, teaching, and invention concerned with the intersection of computing and the disciplines of the humanities, including economics and finance. It is methodological by nature and interdisciplinary in scope. It involves investigation, analysis, synthesis and presentation of information in electronic form. It studies how these media affect the disciplines in which they are used, and what these disciplines have to contribute to our knowledge of computing. 
+
+If you are interested to know more about the concept and the current vibrant discussion about digital humanities, please see @klein2019debates, and to know more about data science and data ethics that is informed by the ideas of intersectional feminism, which is consistent with fifth United Nations Sustainable Development Goals, gender equality @UN17, see @d2020data. To learn more about the 17 United Nations Sustainable Development Goals [click here.](https://youtu.be/5G0ndS3uRdo) 
+
+## \faRProject \hspace{1 mm}, a language and environment for statistical computing and graphics.
+
+This course incorporates data science, data analysis and computational finance with R @Rcitation to learn the main subject. Therefore, you will learn or continue learning to code as this will enhance your possibilities to apply economic and finance models in practical situations. It is true that this is not a computer science course, and we have a limited amount of time to review the compulsory finance-related material. This is why you will learn by doing the assignments, collaborating with other colleagues, doing [Swirl](https://swirlstats.com/) online lessons and/or [DataCamp](https://www.datacamp.com/) courses to learn R. R is a programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data miners for developing statistical software and data analysis. The barriers to getting started with R are currently very low because there are plenty of free resources available on the Internet, you only have to allocate the right amount of time and effort to learn. Probably the most important barrier is that some people might think computer programming is difficult, once they realize it is not as difficult then things improve significantly.
+
+You may know that just a few years ago, those economic agents who had privileged access to information had a clear comparative advantage in business and overall decision taking. Today, information and data are pretty much available to everyone thanks to technology, and as a consequence the possibility to achieve an advantage simply due to information access has vanished. Now that data availability per-se is no longer a comparative advantage in business, knowledge has become a critical aspect in business. Nowadays, it is not about having access to information; it is about knowing what to do with increasing amounts of it to create value in business. Manipulating and transforming data into business tools and decisions has become a required skill for all business professionals.
+
+There are many ways in which you can learn basic data science, or how to transform information into valuable business intelligence, but I consider learning to code is one of them. This is because computer coding allows you to train your brain to think more efficiently and more productively to solve complex problems and come up with innovative solutions. In this course, you will learn how to use R, a free computer language which allows branching and looping as well as doing modular programming using functions. Today, the Finance job market is increasingly demanding for candidates with some knowledge in the field of data science or computational finance, mainly because this boosts creative problem-solving skills and data analysis abilities.
+
+According to my view, English is the leading language for doing research and business; math and statistics are the languages used to understand nature; and R is one of the most popular languages to communicate directly to a computer to conduct statistical experiments in the context of business. Given that computers are and will be part of our lives, we better learn how to communicate with them not only as a limited plain and boring user level but as a programmer level. As young professionals, it is important to differentiate yourselves with the rest of your colleagues and be prepared for the changing job market conditions in the area of financial economics. My view is that you are expected to be as proficient as possible in these three ways to interact with our environment regardless of your own professional expertise: English, math, and coding. If you still do not believe me, listen to Steve Jobs: [everyone should learn to code.](https://youtu.be/BRTOlPdyPYU)
+
+If you have not yet the program in your computer, please download R and RStudio from <https://www.r-project.org/> and <https://www.rstudio.com/> respectively. There are some nice YouTube installation guides in the reference list (at the end of this document) that explains how to download and install R and RStudio from scratch. Those videos have been useful for my previous students. However, if you find a new and better video please share. 
+
+During your undergraduate studies, you will be expected to learn a bunch of good commercial software such as Microsoft Excel, SPSS, STATA, E-Views and many others. I truly encourage you to learn them as good as you can, especially if your professor asks you. However, you will have to be aware that these programs are fully controlled by private firms who seek to create value for their shareholders, so there is no guarantee that their associated file formats could be readable in the future, or even exist in the future, which negatively impacts reproducibility. I will never advise you not to learn commercial software like the ones listed above; but I will always encourage you to consider the alternative to learn and use R, Python or others for serious data analysis in the area of economics and finance. These computer languages are user-oriented and are created and constantly improved by a growing scientific community with an immense online presence to assist enthusiastic beginners like you.
+
+Commercial software products as the ones listed above are definitely important in the job market, but you also should realize that the main interaction with these programs is by using the mouse to click on pre-defined, limited and inflexible menus. This kind of user-interaction is most of the times ephemeral and unrecorded, so that many of the choices made during a full quantitative procedure are frequently undocumented and this turns out to be highly problematic because there is no trace about how an analysis was conducted, and also because it becomes hard to propose an extension to the analysis in phases or replication in different contexts. In contrast, coding allows us to conduct and develop reproducible research. Learning how to code is equivalent to writing a cooking recipe and every time you click *run* you get the dish done. If you want chocolate instead of vanilla, you do not need to start your cake from scratch, you only have to change the flavor parameter from vanilla to chocolate, click *run* and voilà. Although chefs have to pay for ovens, kitchen items and even ingredients, while in economics and finance most of our inputs are free data and the technology is also free, as R is an open source software. So, by learning how to code, you can share, expand, reproduce and innovate on your own to the point of producing original empirical results that are important inputs for research outputs as in the case of your dissertation or other professional projects. My suggestion is: *stop clicking and start scripting*. Look at this video to find out: [coding is not difficult](https://youtu.be/hb7Q33ysCwI).
+
+Commercial products have high licensing fees and also rely on mysterious *black boxes* to produce a battery of results. These black boxes are problematic because the data comes in and the result comes out as magic, showing no details about the assumptions and procedure followed to produce the final results, and the user could sadly get the wrong illusion that he or she can do data analysis. This might be convenient in some specific and limited cases, but in others you miss the fun that represents having access to all the details of the computation and limit the extent to which you can customize or extend to innovative and create new improved applications. The general alternative to using a point-and-click program is to familiarize with languages like R which allows writing scripts to program algorithms for economic and financial analysis and visualisation. This is a good video that summarizes these ideas: [Why you should use R?](https://youtu.be/9kYUGMg_14s)
+
+## Deepnote \faHeart \hspace{1.4 mm} \faRProject.
+
+[Deepnote](https://deepnote.com/) is a cloud-based new kind of [Jupyter](https://jupyter.org/) compatible data notebook built for collaboration. Most of the graded activities in this course are conducted in Deepnote. Deepnote allows you to easily work on your data science projects, together in real-time and in one place with your colleagues. Deepnote is usually a pay service, but I have free access because I requested it for educational purposes, so it is free for you as well. Please bear in mind that Deepnote is a service provided by a private company, so their policies may change and they could eventually cancel free access. 
+
+Deepnote is built for the browser so you can use it across any platform (Windows, Mac, Linux or Chromebook). No downloads required, with frequent updates and all changes instantly saved. In the background, Deepnote is running on powerful machines in the cloud. Notebooks are the heart of Deepnote, they are a rich computational medium which combines blocks of code including R and Python, text, charts, SQL queries, among others. I recommend you to take the following Deepnote crash course: [click here.](https://docs.deepnote.com/getting-started/deepnote-crash-course-videos)
+
+The basic Deepnote structure is as follows:
+
+* **A workspace.** The workspsace name is formed by the semester ID and the course ID. It also has a workspace picture and it is located at the top left corner. In particular, I teach S23ARF1 (yellow cat), S23ARF2 (red bird), S23EMF (a dog), and S23IF (a frog). 
+* **Projects.** Every workspace has at least 3 projects. One is called as the course name (ARF1, ARF2, EMF, or IF) and the entire class can edit its contents. The second is a read-only project and collects feedback, activities instructions and exam solutions. The third project is called as your group name which is the name of a Jupiter moon, this project is private as only your group and me will be able to edit the contents. I do not recommend you to create new projects as by default they will be running a Python kernel. Instead, you can create a new notebook within your private project with the \texttt{Create a new notebook} option, this will allow you to create a notebook with an R kernel.
+* **Notebooks.** Every project has notebooks, I usually start notebooks with a panda picture. Notebooks are \texttt{.ipynb} files or Jupyter Notebooks. They include code, narrative text, equations, and rich output. In sum, in your course workspace you will find assignment instructions in the read-only project in the form of a notebook. You can then export the \texttt{ipynb} file with the assignment instructions with the \texttt{Export as ipynb} option, and then upload the instructions in your group project with the \texttt{Upload ipynb file} option.
+
+I personally use cloud-based alternatives like [Google Colab](https://colab.research.google.com/), [GitHub Codespaces](https://github.com/features/codespaces) when I need a lot computational resources such as Graphics Processor Unit (GPU) or a Tensor Processing Unit (TPU), I also use Deepnote when I require real-time collaboration features and when I teach. I also have several free IDE (Integrated Development Environment) installed on my computer like [RStudio](https://posit.co/), [Anaconda](https://www.anaconda.com/), [Visual Studio Code](https://code.visualstudio.com/), and [JetBrains](https://www.jetbrains.com/). If you ask, my favorite is RStudio, in fact his syllabus has been created in RStudio with R markdown. Working with a cloud-based alternative versus a locally installed IDE is like working with Google Docs versus MS-Word. I believe we are all used to working locally and in the cloud, and we are all used to dealing with data privacy issues and backing up our files regularly. 
+
+I anticipate that some of you might be frustrated because you may think programming is very difficult. At this moment you might wonder why you are expected to get into such a painful process. The answer is that it is not that painful and you will discover a fascinating whole new world with respect to the free open source software, the generous online community, and you will get to know some of the ultimate innovation advances in terms of scientific document production with virtually no limits compared with other commercial software. Learning new things is one of the things you do at University and this is only one of many new things you will learn. At the beginning, learning new languages like R requires some time and effort, but I guarantee the benefit is much greater than the time and effort invested. As a student, sometimes you need to know which are the important doors that will lead to new and valuable knowledge, so this is definitely one of them. Do not let temporary frustration damper your learning experience at the University.
+
+<!-- ## RStudio. -->
+
+<!-- The difference between R and RStudio (@RStudiocitation) is that R is the main program whereas RStudio represents the open-source integrated development environment to develop data science projects. In other words, RStudio is the user-friendly interface and the main program that runs internally in your computer is R, so you need to download and install both, but you will only need to open RStudio to work with R. In practical terms, you will spend your time programming directly in RStudio and internally your computer will call R to do all calculations. RStudio also makes it easy to combine R and Python (among other computer languages) in a single data science project, which is very convenient when the work team is bilingual in the context of computer programming languages.  -->
+
+<!-- First time users of R are often confused as to the difference between R and RStudio. RStudio is actually an add-on to R: it takes the R software and adds to it a very user-friendly graphical interface. In simple terms, consider R as a car's powerful engine, and RStudio as a very modern and convenient car's dashboard. Thus, when we use RStudio, we are still using the full version of R while also getting the benefit of greater functionality and usability due to an improved RStudio user interface. -->
+
+<!-- ## R markdown. -->
+
+<!-- You may be quite familiar with using MS-Word to produce reports. The process is simple as you start with a MS-Word document and your final result is a MS-Word or perhaps a PDF document. However, taking a pdf file and converting it into a webpage or MS-Word document is not that easy as it requires a lot of editing. In fact, this is usually a painful and timely process. RStudio allow you to produce professional documents in a wide variety of types including finished web page, PDF, MS Word document, slide show, presentations, handout, book (see for example <https://otexts.com/fpp3/>), dashboard, package vignette, shiny applications (see for example <https://shiny.rstudio.com/gallery/>), scientific articles, academic thesis, among others. R markdown files have an rmd extension and this source file can be easily converted into a wide and growing different and convenient alternatives as listed above. -->
+
+<!-- ![](syllabus.png){width="100%"} -->
+
+<!-- You will use RStudio not only to write your R code in this course, but also to produce (typesetting) the whole PDF assignment reports that you will submit. There is an online course in Datacamp called Reporting with R Markdown (Amy Peterson). If you have not taken it yet, I strongly recommend you to complete it as soon as possible. -->
+
+<!-- A typical assignment report in my courses is a PDF document with a simple cover page, introduction (text), content (text, tables, figures, R code), conclusion (text), and references if applicable. In this course you will write the whole assignment report in RStudio, using the R Markdown package to produce the PDF final document. This is, knit a rmd file into a PDF. This task is not minor. For starters, this means that you will need to get familiar with \LaTeX, a high-quality typesetting system, to create your assignment reports. As an example, in \LaTeX you type: `$\displaystyle \sum_{n=1}^{\infty} \frac{1}{n}$` and the PDF output looks like this: -->
+
+<!-- $\displaystyle \sum_{n=1}^{\infty} \frac{1}{n}$, or this $\sum_{n=1}^{\infty} \frac{1}{n}$. -->
+
+<!-- \LaTeX is a computer programming language used for typesetting technical documents, and fortunately RStudio and R Markdown makes it easier to deal with \LaTeX. Learning how to use R Markdown to write formal reports is not an insignificant format issue; it is rather an opportunity to get to know and develop a new branch of skills that are very well aligned with the fourth industrial revolution and with the free data science technology. Eventually, you will learn that creating scientific documents that integrate code, output and analysis with R Markdown is easy if you use RStudio. See @xie2020r for a complete reference about R Markdown. -->
+
+<!-- R Markdown requires you to download and install the full version of MiK\TeX  which is available here <https://miktex.org/download>. Please see <https://rmarkdown.rstudio.com/> and <https://rmarkdown.rstudio.com/authoring_quick_tour.html> for further details on this topic. -->
+
+<!-- Installing the full version of MiK\TeX can be troublesome if you are not quite familiar with software installation. For this reason, Yihui Xie created a package in R that essentially does everything automatically: Tiny\TeX. I use MiK\TeX and I am not familiar with Tiny\TeX. However, it seems like a good alternative according to my students. I added a YouTube video that explains how to install Tiny\TeX in the reference list by the end of this syllabus. Most of my students use Tiny\TeX and they have had no issues at all. -->
+
+<!-- It is common to get error messages when trying to produce an R Markdown PDF in RStudio, and people might find it hard to get the PDF done especially if this is their first time dealing with \LaTeX. In this respect, my best advice is to Google your question or the error message to find out the answer to your specific case. Fortunately, there is a very kind and growing community online that helps each other in a wide variety of data science topics at all levels of expertise. In my case, every time I have a question about programming, I find my answer online. I am not suggesting to Google the questions of your learning activities, but to Google how to deal with specific programming issues or specific error messages.  -->
+
+<!-- ## \faGithub \hspace{1 mm} GitHub. -->
+
+<!-- Git is a free and open source distributed version control system designed to handle everything from small to very large software projects with speed and efficiency. GitHub is the user-friendly interface of Git. Just as RStudio is a user-friendly interface of R. Therefore, you need to download and install Git (<https://git-scm.com/>) in order to sign up for a GitHub account. I use the web based client of GitHub, although others prefer the GitHub desktop version. I consider you will be OK with the web based client as well. -->
+
+<!-- GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code and projects. GitHub is one of the world's largest communities of open source code developers. It fosters collaboration and communication between developers similar to a social network of coders. GitHub has a number of useful features that enable development teams to work together on the same project and easily track changes made by collaborators, and create new versions of software without disrupting the current versions. In this sense, GitHub is similar to Google Docs, but far, far more powerful and flexible. -->
+
+<!-- I recommend you to use GitHub in your team in order to collaborate on your own homework assignments that require coding. My PEF students are required to use GitHub to collaborate on their project. -->
+
+<!-- ## R, RStudio, R markdown, \LaTeX, Git, GitHub. -->
+
+<!-- At this point you should be wondering how you are going to work with all these new software, languages and interfaces. First, you have to download and install the main base programs which are R and Git. There are some YouTube installation guides available at the end of this document, if you find better/newer videos please let me know to update this section. Second, you have to download and install RStudio and sign up for a free GitHub account. Third, you have to install the Tiny\TeX and the R markdown packages in RStudio so you can create your PDF assignment reports. You will work in your local computer using RStudio, and you will produce rmd files which will allow you to produce PDF documents. You will also have to collaborate so here comes the fourth step. Fourth, you have to learn how to integrate RStudio with GitHub. You have some nice YouTube videos to explain how to deal with this integration at the end of this document. This RStudio and GitHub integration will allow you to collaborate with others. Fifth, during all these steps you will need to take some DataCamp courses that can help you to learn how to code in R. In the course calendar you can see a list of courses that you will need to take in this course. -->
+
+<!-- It is common that some students get familiar very quickly with these previous steps, especially with the installation steps. If you are one of those, I may need your help to assist other students that struggle with the download and installation process. If you are interested in helping me with this, please contact me and I can compensate for your extra work with stickers (see what they are later in this syllabus). Your job will be to help me with the questions I may receive throughout the semester. -->
+
+# \faTasks \hspace{1 mm} Learning resources and activities.
+
+This course is conducted in Spanish and English. Most learning resources are in English, exams and homework assignments submitted in English. However, discussion forums, emails, and class sessions are conducted in Spanish. 
+
+The learning activities are classified as graded, non-graded and extra marks. All graded activities represent 100% of your final grade; non-graded activities are relevant for your learning but are not graded, so if you fail to do them you will not get any mark deduction. Extra marks are applied as a bonus to your graded activities or final grade. 
+
+The learning activities are also classified as individual and groups activities. 
+
+## Learning resources \faBrain.
+
+Here is the list and description of available resources for you to learn the subject. My advice is to use as many resources as possible because they will allow you to learn the subject and develop the required professional competences that you need to have.
+
+**Professor.** I have vast experience as an academic and researcher. I also have numerous postgraduate studies and willingness to help you in case you need assistance to better understand the course topics. You only have to contact me and follow my advice. Please see the video [a student's guide to college: professors.](https://youtu.be/IzG85NDDo1Q)
+
+**Class sessions.** We explain and discuss specific topics, ask and answer questions, review your study progress, and sometimes we conduct brief activities. Please note that the time available in class sessions is limited and we are not going to cover every single topic in full detail. Instead, we will use other resources and learning activities to cover the rest of the topics. You are expected to attend on time, participate, and engage in our discussions. I expect you to use your computer because you may need to use R, see the PDF textbook, or your own homework during the session.
+
+In case of virtual learning, it is OK if you want to keep your microphone on, and camera on or off as most of the time we are going to share the screen during the class. For your convenience, unless otherwise stated, class Zoom sessions are recorded and available for you. Internet service may fail during class sessions, but this is a risk we all face. 
+
+See the following video for a good recommendation from Prof. Fleisch valid for online sessions and traditional course sessions: [a student's guide to college: class.](https://youtu.be/KX-sg1HXAws)
+
+**Audio files (if available).** I explain part of the course material with my *sweet melodic* voice. Some students might have difficulties at understanding the required readings and I believe these mp3 audio files are useful to better understand some topics. It is compulsory to listen to them before the class session. Please note that not all the course material is discussed in audio files, for this reason you are not supposed to listen to audio files and ignore the rest of the course material, all resources complement each other. Audio files are not listed in the course calendar, but it will be easy for you to identify which audio file corresponds to each course topic.
+
+**Discussion forums.** There are discussion forums in which we can interact. The interesting thing about discussion forums is that we can all read how the discussion is progressing and we can all participate. The logical evolution of ideas remains recorded while you receive my feedback and comments. Given that we have limited time in class sessions, we occasionally need discussion forums. We may also use the discussion forums as a way to submit individual activities. 
+
+**Email.** You are free to contact me by email at any time: \texttt{<martin.lozano@udem.edu>}. I also send group emails with important information, so please make sure my email address is not in your spam list. If I ever take longer than expected to answer an email or any other request, please insist and kindly remind me.
+
+**Meetings.** Regardless of face-to-face or virtual learning, we can arrange 30 minute Zoom online meetings if you need further assistance or any other issue you want to discuss with me. Meetings can be individual or in group. You only have to ask for it by email to check for my time availability. If you need more time we can arrange more meetings or more time, whatever is best.
+
+**Book.** The book (or books) is one of the main pillars of this course. In my experience you mainly learn by reading and then reinforce by doing, although you have other diverse activities in this course. The book authors are one of the best in their field: John C. Hull (University of Toronto) @Hull9, Richard A. Brealey (London Business School), Stewart C. Myers (Sloan School of Management Massachusetts Institute of Technology) and Franklin Allen (Imperial College London) @brealey2020principles in the case of ARF and IF; Rob J. Hyndman and George Athanasopoulos (Monash University) @49018680cf534023b6ae0f4e933c475d in the case of EMF. These books are not only good for intermediate and advanced undergraduate degrees but also for first year master degree. I prefer to use original book versions rather than translations because according to my experience these are not always as good as the original English version, and in some cases are not available.
+
+**Tutorial.** I have written a specialized tutorial to explain how to implement some topics and estimate models using data. The tutorial can help you to understand how to go from the paper (textbook chapters) to R code. This is sometimes known as literate programming.
+
+**Others**. All learning resources described above represent a good resource for your own study of the course material. There are plenty of Internet resources that you will have to use, from databases, [YouTube](https://www.youtube.com/) videos, [GitHub](https://github.com/) public repositories, specialized programming blogs, books, electronic books, etc. See the resource list at the end of this document for further details. You are encouraged to read articles, reports and news on your own to enhance and expand your understanding about how theoretical concepts relate with current real-life events. [The Economist](https://www.economist.com/), [The Financial Times](https://www.ft.com/), [The Guardian](https://www.theguardian.com/), [The Wall Street Journal](https://www.wsj.com/), [MarketWatch](https://www.marketwatch.com/), [Reuters](https://www.reuters.com/), [Bloomberg](https://www.bloomberg.com/), [Bureau of Economic Analysis](https://www.bea.gov/), [Banxico](https://www.banxico.org.mx/), [Project Syndicate](https://www.project-syndicate.org/), [The New York Times](https://www.nytimes.com/), [El Financiero](https://www.elfinanciero.com.mx/) (México), [El Confidencial](https://www.elconfidencial.com/) (Spain), [OECD](https://www.oecd.org/), are a good way to grasp contemporary insights related with this course. Other references to support your learning process include economic and financial reports from private banks such as Banamex and BBVA, and think tanks websites such as [The Mexico Institute](https://www.wilsoncenter.org/program/mexico-institute), [México cómo vamos](https://mexicocomovamos.mx/), [CIDAC](http://cidac.org/), [IMCO](https://imco.org.mx/), [COMEXI](https://www.consejomexicano.org/), among many others. My advice in this respect is rather simple: *the more you read the more you learn*.
+
+## Graded activities. Exams: $E_1$, $E_2$ and $E_F$ \faGrimace[regular].
+
+We have 2 partial exams $E_1$, $E_2$ (40% of the final grade), and one final exam $E_F$ (30% of the final grade) in English. Every topic discussed in this course is subject to be evaluated in exams. Therefore, if you are looking forward to achieving an outstanding final grade in this course, my sincere advice is to take class notes during the semester. Please take a look at this video about taking notes [a student's guide to college: notes](https://youtu.be/pAvPE0lPlqE).
+
+**When?** Exams will be taken according to the course calendar, these dates correspond to the official dates dictated by the university partial and final exam calendars. Both $E_1$ and $E_2$ are 1.5 hours activities during the class session, and the $E_F$ lasts 2 hours. In the case of 3 hour class sessions, the exam takes place in the first part of the class, and we review the exam answers the same day in the second part of the class session. In the case of graduated students we may need to change the final exam date for administrative reasons. Please consider the following recommendations [a student's guide to college: exams](https://youtu.be/w1w0dkHdakE).
+
+**Where?** You do not have to be physically in the classroom to take the exams, you can take the exams anywhere you want as the exam is fully taken, answered and delivered in electronic format. You only have to make sure you have a good Internet connection. I will be available during the exams in Zoom, you do not have to log in the Zoom session, you only have to know I will be available in case you need it. In the case of 3 hour class sessions, you will have to log in to the Zoom session in the second part of the class to answer the $E_1$ and $E_2$ exam together.
+
+**How many questions?** In the case of $E_1$ and $E_2$, I include 4 questions and you have to answer 3 so you have the chance to select the 3 questions that you know the best. In the case of $E_F$, I include 5 questions and you have to answer 4. All questions have the same weight. It is not an option to answer all the exam questions, if you do that you may earn a significant mark deduction. The $E_F$ covers all the course topics/activities. For your convenience, I take one question from $E_1$ and one question from $E_2$, and I include them with a minor change in the $E_F$. This means that if you study $E_1$ and $E_2$ very well, you should be able to answer at least 50% of the $E_F$ correctly. In case you take the exam on a different date for any reason, your $E_1$ or $E_2$ will have 3, not 4 questions as stated above. This means that you will not have the benefit of not answering one exam question. The same principle applies for the $E_F$.
+
+**What are typical exam questions?** I always let my students keep their own partial exams, so I guess you can find old partial exams. The course material evolves and exam questions change every semester. However, looking at old exams can give you a good idea about what kind of questions to expect in the exam. I always include some questions that require the use of R. Exam questions usually require some analysis and interpretation of results. For your convenience, we have review class sessions and/or mock exams before each graded exam. If we need more time to review we can use the discussion forum. [a student's guide to college: review sessions](https://youtu.be/XoHx_UIgtt0).
+
+**Individual or in groups?** All exams $E_1$, $E_2$ and $E_F$ are group activities: no more than 4 students per group, otherwise you will earn a significant mark deduction. Groups are defined by yourself and will remain fixed throughout the semester. I will allocate a name to each group which corresponds to the name of a Jupiter moon. These groups are the same for the homework assignments $H$. The class list could change during the semester as some students may enroll later or drop the course, in this case groups members may change, but the maximum number of students per group remains the same. Your group will have private access to a Deepnote project, this project is private as only your group and me will be able to edit the contents. 
+
+**What are the mechanics?** The exam instructions will be available for you according to the course calendar in an electronic format as an \texttt{.ipynb} file. The instructions will automatically appear in Blackboard 5 minutes before the class session starts. As soon as the file is available in Blackboard, you will have to download it and upload it in your own Deepnote project named as your group (the name of a Jupiter moon), and solve it online with your group. By the deadline, I will make a copy of your notebook to review it and mark it. There is no need to submit your exam file as I have access to your Deepnote project to make an electronic copy, you only have to make sure to finish before the deadline. A few days later, you will receive your group mark and some comments or feedback in the Deepnote read-only project. During the exam, I may visit your notebook quietly to see \faEye[regular] your progress.
+
+**Do all group members receive the same mark?** Not necessarily. Individual activities may represent extra marks. Also, if one member does not contribute then he or she will receive a zero mark. I assign a group mark which is the same for all the group members. However, you have to complete an auto and co-evaluation. Your individual exam mark is then a combination of a group mark assigned by me, and the auto and co-evaluation, assigned by you and your colleagues. Full details below.
+
+**Can we open the textbook during the exam?** Yes, you are free to use the Internet and all course material if you need it, including the textbook and tutorial. Exams are designed to evaluate your reasoning, coding and analytical skills rather than your capability to memorize concepts and do an Internet search. Exams are designed in such a way that you will not find the answers online, in a textbook or a test bank. Although the questions are designed according to the course material, these questions are most of the time new and original. The only constraint is that you are expected to answer the exam on your own with the help of your own group, no more than 4 students per group. 
+
+**Are we going to review the exam answers?** Yes, the class session after the exam is a Zoom session to solve the exam questions and the correct approach to answer the questions. This applies only for $E_1$ and $E_2$, we cannot do it for $E_F$ because classes are over by then. Exam questions are open and there are usually more than one way to answer them correctly, so we will discuss a range of correct answers and common mistakes. Sometimes students are used to closed and unique answers, but this is frequently not the case in this course. If we need more time to discuss the exam answers, we can use the discussion forum, Deepnote, or you can ask for an online meeting. This is important as we usually have a limited time during the class session. Correct your own mistakes in the exam is a good way to learn and practice towards the final exam.
+
+**What if we fail to understand our own mistakes?** Regardless of the activity, you are expected to contact me in case you fail to fully understand your mistakes. I may ask you to answer them again before we can discuss your own mistakes in a meeting. Please note that the grade you get in the exam, including individual extra marks and the auto and co-evaluation is your registered partial grade.
+
+## Graded activities. Homework assignments: $H_1$, $H_2$ and $H_3$ \faGrimace[regular].
+
+We have 3 homework assignments $H_1$ and $H_2$ (30% of the final grade), and a non-graded homework $H_3$ in English. Assignments are good practice towards exams. Therefore, if you are looking forward to achieving an outstanding final grade in this course, my sincere advice is to start working on them as soon as possible. You can always show me your assignment progress and I can give you comments to improve. Deepnote allow you to add comments to some specific part of your assignment, if you tag me as \texttt{@martin.lozano@udem.edu} then I will receive an email notification to review your specific question, then I will answer you back as a reply to your original comment and you will receive an email notification as well.
+
+**When?** The fixed deadline to complete homework assignments is 10:00 a.m. on the day marked in the course calendar and there is no late homework policy at all. This basically means that if you fail to do the assignment, and/or if you have an empty, wrong, or corrupted Deepnote notebook by the deadline, then the group mark is zero. This is important because sadly there are always some students who forget or simply ignore this information no matter how much I insist on this. The $H_1$ is due a few days before $E_1$; $H_2$ is due a few days before $E_2$; and $H_3$ is due a few days before $E_F$. I recommend taking enough time to plan and execute the required tasks in the assignments. Usually, low marks in this activity are not precisely because the assignment is difficult, but because the group started the assignment a couple of days before the deadline.
+
+**What are typical assignment questions?** You should expect applied questions, some of them with a research-oriented approach. These questions will require you to develop computational code in R. You will need to learn new things and conduct some research to be able to tackle them correctly. However, you are not alone in this process, you have a long list of resources described in this syllabus including my help in the form of synchronous Zoom meetings, or asynchronous communications via Deepnote comments, or email communication. The following video explains the relevance of the research method in business: <https://youtu.be/wZzupWR7TKc>.
+
+**Individual or in groups?** This is a group activity. These groups are the same for the exams. Please see the exam section above to review the definition of the groups and relevant policies. 
+
+**What are the mechanics?** This is similar as in the case of exams. The assignment instructions will be available for you in an electronic format in the read-only Deepnote project. As soon as the file is available, you will have to upload the instructions in your own Deepnote project named as your group (the name of a Jupiter moon), and solve it online with your group. By the deadline, I will make a copy of your notebook to review it and mark it. There is no need to submit your assignment file as I have access to your Deepnote project to make an electronic copy, you only have to make sure to finish before the deadline. A few days later, you will receive your group mark and some comments or feedback in the Deepnote read-only project.
+
+**Do all group members receive the same mark?** The same as in the case of exams.
+
+**Are we going to review the homework assignment answers?** The same as in the case of exams.
+
+**What if we fail to understand our own mistakes?** The same as in the case of exams.
+
+**Why is $H_3$ a non-graded activity?** The $H_3$ is a special assignment that is designed to help you to practice and study for your final exam by learning from your previous mistakes. It has a deadline but it is a non-graded activity. Given that it is non-graded, this activity is optional. The $H_3$ instructions are the following: You are required to (1) correct all your mistakes in all your previous graded activities, including all the four $E_1$ and $E_2$ questions, and assignments; and (2) complete all your missed extra mark activities, mostly from DataCamp. The format and delivery is the same as the rest of the assignments. You can do it in group or individually. You will not receive $H_3$ as by then you will have access to all exam and assignment answers. In any case, you can ask me to review it if necessary. 
+
+## Extra marks activities \faGrinHearts[regular].
+
+We have 2 kinds of extra marks for individual activities: DataCamp and stickers. As any extra mark activity, you do not lose marks if you fail to complete them, but you can get extra marks if you complete them on time. Full details below.
+
+For every DataCamp course and skill track listed in the course calendar and completed on time you get a nice PDF certificate that looks good in your CV and LinkedIn profile. It also can help you to have more tools to write your homework assignments, exams, write your own PEF, and apply for interesting jobs. The list of courses, skill tracks and projects that apply for this course is available in the course calendar. 
+
+I find the DataCamp a very good alternative, although not the only one, to learn R and data science. Normally, people have to pay for a DataCamp account to learn data science, and some firms have to pay for these kind of training to help their employees to learn R or Python. Current fees for a DataCamp premium individual account is about 33.25 USD per month, about 200 USD for the semester. However, as my student, you have free individual access for full access to all DataCamp courses and resources for the whole semester as long as this firm keeps its promise to make this access free for my students. In exchange, DataCamp ask for a mention on social media, please find all the resources and instructions on these [communication guidelines.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit) Are you able to provide this?
+
+<!-- [^6]: Please note that DataCamp is not the only alternative to learn R. There are other free alternatives available in the web such as [Swirl.](https://swirlstats.com/) You can find many free electronic resources to learn R in the reference section at the end of this syllabus. There are also some students who find the tutorials (developed by myself) a good enough resource to learn R. However, there are other students who need more specialized courses, or more basic courses to understand the logic of programming in R and some other extensions. In my attempt to offer you as many free and useful resources as possible, you have a DataCamp account. According to Martijn Theuwissen Co-founder and COO at DataCamp, they are no.1 ranked Forbes certifications. -->
+
+I understand learning R could represent a source of uncertainty and stress for some of my students. This is why I have developed and gathered a vast amount of varied and free resources to learn R in the reference section of this syllabus. In fact, you have more free resources that you need in the semester. It is true that you will have to learn a few things on your own, and it is true you will have to investigate to learn some other things. You are expected to learn how to learn as well and as quickly as you can because in the job market you need to constantly learn and apply new knowledge, and solve problems that currently do not exist. A competitive graduate is not the one who learns what was taught in class, a competitive graduate is the one who also manages to learn how to learn.
+
+**DataCamp (courses, skill tracks, and projects).** Starting from the second activity completed on time, you will earn extra marks over your next exam, it could be $E_1$, $E_2$ or $E_F$. These activities will be available for you to complete in your DataCamp Assignments section, and listed in the course calendar as *extra marks* tag. Projects and courses can be completed in a few hours, but skill tracks require more time as they include more than one regular course. The amount of extra marks is a function of the cumulative number of activities during the semester. In particular, you earn $n-1$ extra marks per activity $n$. For example, if you complete 9 activities in the semester, you earn a total of $\displaystyle \sum_{n=1}^{9} (n-1) = 36$. According to this example, extra marks will be assigned as 0, 1, 2, 3, 4, 5, 6, 7, and 8. See the course calendar for the correspondent deadlines.
+
+**DataCamp assessments.** DataCamp assessments are individual activities that allow you to get extra marks over your final grade $F$. Yes, over your final grade. These are time-limit online evaluations of your knowledge of R. DataCamp marks your assessment as N (novice), I (intermediate), and A (advanced) depending on your own performance. The rule to allocate the extra marks over your final grade $F$ is the following: 0 for N; +1 for I; and +2 for A. Assessments will be available in your DataCamp Assignments section and in the course calendar as *super extra marks* tag. Assessments are completed during the class session and although DataCamp allow you to complete the assessment twice, I will take your first try as your grade.
+
+Some students may have a DataCamp activity completed. If your certificate is older than the starting date of this current academic term, then you will have to do it again. In case DataCamp do now allow you to do it again, then you can substitute it by one of the following DataCamp Career Tracks: (1) R programmer; (2) Data Scientist with R; (3) Data Analyst with R; (4) Quantitative Analyst with R; (5) Statistician with R; or (6) Machine Learning Scientist with R. If this is the case, please let me know and share your certificate with me by email before the deadline so I can assign the corresponding extra marks.
+
+**Stickers.** There are some opportunities throughout the semester to get extra marks. In this course, extra marks are allocated in the form of stickers, every sticker stands for 5 extra marks on your next exam $E_1$, $E_2$, or $E_F$. They are called *stickers* because I give real stickers to my students. Stickers are assigned by merit. It is not very easy to get a sticker, but it is worth a try. The record so far is one student who got 30 extra marks over the $E_F$, and he finally passed the course partially because of that.
+
+**The wheel of fortune.** We roll a virtual wheel of fortune three times in the semester to randomly allocate extra marks to a lucky group of students. These extra marks are allocated to the next exam $E_1$, $E_2$, or $E_F$. 
+
+**Mock exams.** We have three mock exams $ME_1$, $ME_2$ and $ME_F$. These are similar as regular exams, taken during class before the real and graded $E_1$, $E_2$ and $E_F$ exams. They represent an opportunity to get familiar with the examination process, logistic and level of difficulty of the real and graded exams. Mock exams are group activities, usually one question. Only if your group answer the question 100% correctly then your group will receive a sticker. I will post the correct answer after the deadline. 
+
+## Non-graded activities \faMehRollingEyes[regular].
+
+**DataCamp webinars.** You are free to attend live webinars organized by DataCamp. See the *live events* DataCamp section for the upcoming webinars in this semester. Please note that you have to register to attend. Let me know which ones you are planning to attend. 
+
+**Videos.** You can record and submit one video per period (up to one per partial exam). This is an individual non-graded activity, in Spanish. The submission of this activity is by the discussion forum. I recommend you to upload the video as a YouTube link or any other similar platform so you can submit only the web url in the discussion forum. I would like to avoid others downloading the video, so I believe sharing the link is the best way to submit it. By sharing the video url will allow you to delete your video after the semester ends if you wish. The design of the video and the length is free although you have to start by introducing yourself and the course name. 
+
+There are four types of videos.
+
+* **Type 1: Feynman.** The Feynman technique for teaching and communication is a mental model (a breakdown of a personal thought process) to convey information using concise thoughts and simple language. The Feynman model is named after the Nobel prize-winning physicist Richard Feynman, who was recognized as someone who could clearly explain complex topics in a way that everybody --- even those without degrees in the sciences --- could understand. He was also named *The Smartest Man in the World* in 1979. According to him: *The person who says he knows what he thinks but cannot express it usually does not know what he thinks.* There are four simple steps to the Feynman technique: (1) choose a concept; (2) teach it to a toddler; (3) identify gaps and go back to the source material; (4) review and simplify. Teaching it to a toddler should not take it literally, it basically means that your explanation should be as clear and simple as a toddler could understand it. Further details about the technique here: [How to learn faster with the feynman technique](https://youtu.be/_f-qkGJBPts)
+
+* **Type 2: The interview.** You can interview someone who can share some thoughts with us. For example, you can interview your mom or dad to discuss topics about his or her job. You are free to design the questions and the format. This could be a good opportunity to know how people in a specific industry tackle business problems, or challenges of people working in the public sector.
+
+* **Type 3: Your pet.** You can show us your pet. Tell us something about your pet, and how special it is for you and your family. Do you have a spider \faSpider, fish \faFish, frog \faFrog, cat \faCat, dog \faDog, craw \faCrow, dragon \faDragon? All kinds of pets are welcome.
+
+* **Type 4: Your hobby or talent.** You may have a special artistic or sport talent you would like to share with us or a hobby which could be interesting for all. This could be a good opportunity to get to know you better.
+
+<!-- **Discussion forums.** -->
+
+<!-- Discussion forums are a good opportunity to discuss topics further while keeping track of ideas, procedures, results and conclusions. The use of discussion forums represent an extension of the class session and learning activities. My advice is to read the course material to be prepared for the discussion forum questions. My view is that discussion forums are not a repository of individual answers but an opportunity to conduct a proper discussion. Then, please make sure that every time you post a contribution you read the current state of the discussion so you can add value to it. We also use the discussion forums as an open space to ask me questions about the course contents. Please subscribe to the discussion forum so you can receive email notifications. This is convenient because I normally do not announce new discussions. There is no fixed frequency for this activity, most of the time it depends on the students interests. You should add your picture in the settings so we can easily match face with name. This is an individual non-graded activity, in Spanish. -->
+
+
+# \faUserCheck \hspace{1 mm} Evaluation. 
+
+Let's see how your final grade $F$ is calculated.
+
+## Auto and co-evaluation for partial exams and assignments.
+
+Of most frustration to students is receiving the same mark as their fellow non-contributing group members despite producing much of the group's work. In order to avoid this free-rider problem you will have to answer an auto and co-evaluation. Co-evaluation is so important that one student may fail simply because of his or her low contribution in the group. Sometimes students face mitigating circumstances, if that is the case you will have to discuss with your group because their marks may have a significant negative impact on your mark. 
+
+Consider the co-evaluation as an effective tool to incentive or penalize the group members to work well and on time. As a professor, I am not always aware of who is working well within a group, but the co-evaluation can help us to be fair and assign marks based on academic merits. I am not planning to reveal specific details about how you co-evaluate your colleagues, I am only going to reveal the group mark and the final individual mark. So, your co-evaluation details will remain anonymous. Then, there are many incentives aligned so the group should work well, otherwise the chances to get a low mark are high.
+
+Consider an hypothetical group of four students that worked together in their first assignment $H_1$ for illustration purposes. The group mark is $H_m = 90$, and now they have to complete their auto and co-evaluation. The group members are: Bebito Fiu-Fiu, Baby Yoda, John Doe and Winnie Pooh. Every member assigns a mark to the rest including himself using a simple Google Form. Then, John Doe's auto and co-evaluation mark $mean(AC)$ is the simple average of his 4 assigned marks. 
+
+In case $mean(AC) \ge 70$, the group mark $H_m \ge 70$ and he does not receive a zero from the group, then John Doe's individual $H_1$ mark is computed as $H_1=(0.70 \times H_m)+(0.30 \times mean(AC))$. Otherwise, the individual assignment mark will be the lowest of $mean(AC)$ and $H_m$: $H_1=min(mean(AC), H_m)$. 
+
+Using R:
+
+```{r}
+fun <- function(AC, Hm) {
+  if (mean(AC) >= 70 && Hm >= 70 && any(AC == 0) == FALSE) { 
+  H <- (0.7 * Hm) + (0.3 * mean(AC)) } # H is the individual assignment mark.
+  else {H <- min(mean(AC), Hm) } # Free-riders are penalized.
+  H }
+```
+
+Let's evaluate this function in R to see how it works. Assume this auto and co-evaluation is for the $H_1$ and we are calculating John Doe's mark.
+
+```{r}
+# Bebito Fiu-Fiu assigns 90 to John Doe.
+# Baby Yoda 0 to John Doe.
+# John Doe 90 (autoevaluation).
+# Winnie Pooh 100 to John Doe.
+AC <- c(90, 0, 90, 100)
+Hm <- 90 # Group mark.
+H1 <- fun(AC, Hm) # Individual mark.
+paste("John Doe's individual mark in the first assignment is:", H1)
+```
+If instead of the 0, Baby Yoda evaluates John Doe with a 70, then:
+
+```{r}
+AC <- c(90, 70, 90, 100)
+Hm <- 90 # Group mark.
+H1 <- fun(AC, Hm) # Individual mark.
+paste("John Doe's individual mark in the first assignment is:", H1)
+```
+
+Clearly, your co-evaluation matters because although the group mark is 90, John Doe's individual $H_1$ mark could range from 70 to 89.25 depending on Baby Yoda coevaluation.
+
+Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/nqVoY8pt9oTddtHK9>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in the course calendar.
+
+In particular, you will have two Google Forms web links to complete your auto and co-evaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is no auto and co-evaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
+
+## Final grade $F$ \faFlagCheckered.
+
+The final grade $F$ is computed as follows:
+$$
+\begin{aligned}
+ F &= 0.4[0.7max(E_1, E_2) + 0.3min(E_1, E_2)] \\
+ &+ 0.3[0.7max(H_1, H_2) + 0.3min(H_1, H_2)] \\
+ & + 0.3E_F
+\end{aligned}
+$$
+This criterion is significantly better compared with the traditional average as the higher exam and assignment marks weigh more than twice the lower marks (70% versus 30%).
+
+Unfortunately, some students who do badly in their first exam and/or their first homework assignment believe that everything is lost and they should drop the class. My view is that this is not a good strategy as the grading above allows you to have a very bad exam and/or homework assignment and still be in a good position to pass the course. For example, imagine that for some reason you have $H_1=35$, but you manage to improve and get $H_2=85$. In any other course you will have an average of $\frac{35+85}{2}=60$ \faMeh[regular]. However, in my course we compute weighted averages for both homework assignments and partial exams, so your weighted average is $(35\times 0.3) + (85\times 0.7)=70$ \faGrinStars[regular].
+
+The difference between the weighted versus regular average is illustrated below:
+
+```{r echo=FALSE}
+H1 <- seq(from = 0, to = 100)
+H2 <- H1
+HF <- function(H1, H2) { 0.7 * pmax(H1, H2) + 
+    0.3 * pmin(H1, H2) }
+
+HF2 <- function(H1, H2) { 0.5 * pmax(H1, H2) + 
+    0.5 * pmin(H1, H2) }
+```
+
+```{r echo=FALSE}
+# outer evaluates the function for each combination of the vectors.
+z <- outer(H1, H2, HF) # z is now 50x50 matrix.
+par(mfrow=c(1, 2), oma = c(0, 0, 2, 0))
+par(pty = "s")
+contour(H1, H2, z, xlab = expression('H'[1]), 
+        ylab = expression('H'[2]), lwd = 3, 
+        nlevels = 10,
+        main = "Weighted average.
+This course.",
+        sub = expression((35 %*% 0.3) + (85 %*% 0.7) == 70),
+        axes = FALSE)
+axis(1)
+axis(2)
+abline(v = 35, lty = 2, col = "red")
+abline(h = 85, lty = 2, col = "blue")
+points(35, 85, pch = 19, col = "blue", cex = 2)
+
+z2 <- outer(H1, H2, HF2) # z is now 50x50 matrix.
+par(pty = "s")
+contour(H1, H2, z2, xlab = expression('H'[1]), 
+        ylab = expression('H'[2]), lwd = 3, 
+        nlevels = 10,
+        main = "Simple average.
+Other courses.",
+        sub = expression((35 %*% 0.5) + (85 %*% 0.5) == 60),
+        axes = FALSE)
+axis(1)
+axis(2)
+abline(v = 35, lty = 2, col = "red")
+abline(h = 85, lty = 2, col = "blue")
+points(35, 85, pch = 19, col = "red", cex = 2)
+```
+
+The effect of weighted averages over the final grade $F$ is quite significant. Here is a very extreme example to illustrate the effect of the weighted average. See the difference between a final grade of 56 versus 70.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}|c|cc|c|c|@{}}
+\toprule
+\textbf{Weight} & \multicolumn{1}{c|}{\textbf{Activity}} & \textbf{Mark} & \textbf{Points in this course} & \textbf{Points in other courses} \\ \midrule
+\multirow{2}{*}{40\%} & \multicolumn{1}{c|}{$E_1$} & 0 & $0 \times 0.3 \times 0.4 = 0$ & $0 \times 0.5 \times 0.4 = 0$ \\ \cmidrule(l){2-5} 
+ & \multicolumn{1}{c|}{$E_2$} & 100 & $100 \times \ 0.7 \times 0.4 = 28$ & $100 \times \ 0.5 \times 0.4 = 20$ \\ \midrule
+\multirow{2}{*}{30\%} & \multicolumn{1}{c|}{$H_1$} & 0 & $0 \times 0.3 \times 0.3 = 0$ & $0 \times 0.5 \times 0.3 = 0$ \\ \cmidrule(l){2-5} 
+ & \multicolumn{1}{c|}{$H_2$} & 100 & $100 \times \ 0.7 \times 0.3 = 21$ & $100 \times \ 0.5 \times 0.3 = 15$ \\ \midrule
+30\% & \multicolumn{1}{c|}{$E_F$} & 70 & $70 \times 0.3 = 21$ & $70 \times 0.3 = 21$ \\ \midrule
+100\% & \multicolumn{2}{c|}{$F$} & 70 & 56 \\ \bottomrule
+\end{tabular}
+\end{table}
+
+In any case, my sincere advice is to keep the standard as high as possible in order to minimize the risk of achieving low grades. Note that stickers are not explicitly reported in $F$ because they are part of $E_1$, $E_2$ and $E_F$. Homework assignment co-evaluations are not explicitly reported either because they are part of $H_1$ and $H_2$.
+
+## General rubric.
+
+The following list illustrates a typical rubric for graded activities.
+
+**What is a very good answer?** Competent and well presented. The work is critical and comprehensive and has a degree of depth in presenting and considering the material. Integrates the concepts introduced and applies them to problems with some evidence of critical analysis. Provides clear and competent answers to the questions, written in good English. Clearly presents solutions to calculative questions and demonstrates very good analytic skills and understanding.
+
+**What is an average answer?** Competent discussion of relevant material, but are largely descriptive and lack critical/analytic depth. Answers are well structured, well presented and demonstrate an average awareness of relevant material. Shows a basic understanding of concepts introduced but with limited ability to apply these concepts. Tends to miss the point of the question. Is written poorly, written in note form, lacks structure or is too short to properly address the question.
+
+**What is a poor answer?** Work shows some weak understanding of the main elements of the course material. Shows very limited achievement of the relevant intended learning outcomes of the course. Has a weak understanding of fundamental concepts with no critical analysis. Produces answers that contain factual or conceptual inadequacies or inadequate analytic skills. Provides poorly written answers that fail to address the question, or answers that are too brief to answer the question properly.
+
+You have to realize as soon as possible that you are being evaluated all the time, so every answer provided by you either in exams, assignments or even verbally during class should be clearly stated, showing your full thought-process, this will allow me to understand your own logic and grade your work fairly. Please do not forget this point as this will allow us to keep the academic quality standards high throughout the semester.
+
+## If you are struggling with the course.
+
+In case you have any concern, any question about the course contents, or if you are having trouble understanding the course material, you have to contact me as soon as possible. This is your own responsibility starting from day 1. We can arrange an online meeting, or we can solve your questions or concerns by email, whatever is best. In case you are having a poor academic performance and you are genuinely interested to improve, my best advice is to contact me during the lecture period, not after the last session of the semester, and we can discuss specific strategies that can potentially help you to get higher marks and reduce the risk of failing the course. The point here is that you have to know that I can help you to improve your academic performance during the semester only if you are truly interested. If you would like to improve your marks at a later stage, or after the final exam, then I am afraid I can do nothing for you, but I can do a lot during the semester. Please email me in case you would like to arrange an appointment, my full contact details are in the first page of this syllabus. The email is definitely the best way to initially approach me.
+
+In case you get a low mark in one activity or you get difficulties at some specific topic you should take immediate actions in order to quickly revert this. I am not planning to relax the marking criterion so what you have to do is to improve your own quality standards in order to pass given my marking standards and my expectations about your academic performance. You are free to contact me in case you need assistance about specific strategies to improve your academic performance.
+
+I do not recommend you to get disappointed, angry or sad if you get a low mark. There is no need for that because getting one low mark is not determinant to fail the course. Please see the evaluation method to verify how the final grade is computed and you will be amazed in a positive way. Also, I do not recommend you to get frustrated if you receive an unexpected low mark or an unexpected negative feedback about your work or your answers. The mechanics here are very simple: *in order to improve, understand and learn, you need to know what you did well, what you did wrong, and try again until you do well without getting desperate or frustrated in the process*. In short, avoid negative feelings as these might lead to further frustration. Nobody wants to hurt you, we all want you to learn in a favorable environment. You have overcome challenges before, so avoid the dark side \faGhost. On the contrary, you should rather work harder to meet the course standards. We are not in conflict, in fact we are collaborating. According to my experience, students who sadly fail this course ignore or forget these recommendations.
+
+As a student, you may have different responsibilities. You are probably working, you might have family commitments, other courses, unexpected workload, troubles, and other diverse duties. All these may affect your academic performance at some time. My view here is that you are expected to do well in all aspects of your life and you will have to manage your time effectively and be productive. I hope you can allocate your time in such a way that you can pass this course and do well in the rest of your personal activities. Sometimes the workload is so intense that you have to evaluate whether you need to drop an activity to do well in the rest and keep you healthy, physically and mentally. If you find yourself overwhelmed by your personal troubles, workload and responsibilities, please ask for help, the university has professionals that can help you with this. If you have personal problems I can hear you and if I am unable to guide you properly, we can ask for professional help. Keep this in mind, we all care about your health, and health is far more important than a job, a course, and the university.
+
+We all know that good grades do not necessarily make you a good person or a good professional. One could have difficulties at school but have such a good professional network, or an impressive ability to do business, or an impressive entrepreneurship spirit. However, grades are still quite useful to assess how well you are at meeting some academic standards and how well you manage to understand the relevant topics in your area of expertise. It is more important to be a good person than a good professional, and the graded activities are specifically designed to partially evaluate your technical abilities as a professional. Then, we all assume that you are a good person, and the course activities will help us to evaluate some of the required skills and competences as professionals. Having said that, I hope you can achieve high grades in this course.
+
+In sum, I expect the best academic performance you can achieve, not the average, and definitely not the minimum. This should not be a surprise since you are studying at one of the most prestigious private universities in the country (we belong to a business school with AACSB and AMBA accreditation). If you succeed at delivering your best performance in this course, and I believe you can, then you might be in a better position to eventually tackle business problems including the most interesting and valuable ones which includes those that do not exist yet. I am sure you have done some extraordinary things in the past, you have overcome very hard challenges, so take this course just as another opportunity to unleash your full potential and show me how committed you are with your academic professional training. I strongly believe you can learn anything just as this video from Khan Academy indicates: [you can learn anything.](https://youtu.be/JC82Il2cjqA)
+
+Most of my previous recommendations in this subsection are for those who are having difficulties with the course. If you are doing fine, then good for you \faThumbsUp[regular], try to enjoy the learning process as much as you can. My commitment is that you will have all the support and resources you need to pass the course during the semester; you only have to take them or ask for them during the lecture period, not after the last course session, and follow all my recommendations in this syllabus.
+
+
+# \faCheckSquare \hspace{1 mm} Checklist.
+
+Please consider the following checklist to improve the chances to achieve a good performance in this course.
+
+1.  Read very consciously this document as it contains important information about the course, including the attached videos and references. You might need to read it several times during the semester. Quoting Yoda \faJediOrder: *read the syllabus you must.*
+2.  If you consider learning how to code is very difficult and you think you need more practice, then take all the [Swirl](https://swirlstats.com/) and [DataCamp](https://www.datacamp.com/) courses that you want or need. I teach a course of R every year, and you can also contact me if you need further help. You are expected to learn new things, and this is only one of them.
+3.  If I ever take longer than expected to answer an email or any other request, please insist and kindly remind me.
+4.  Always keep academic quality standards high for your own work and overall course performance. Find your own motivation and keep a regular weekly progress to study the course material in advance.
+5.  If you fail one activity do not get angry or upset as this is the best way to frustration. You better do the activity again by yourself the best way you can. You may say *how can I do it again if I failed?* Well, just remember we have one class session in which we discuss the correct exam and homework assignment answers, so look at your class notes again because you will find the answers there. Once you do that, you are free to contact me to comment on your work or to verify that now you know how to do it correctly. Most of the students who sadly fail this class ignore this recommendation because they are truly convinced that they do not understand or get frustrated because they fail to understand in the first attempts. Try and try again, eventually you will get it: [you can learn anything.](https://youtu.be/JC82Il2cjqA)
+6.  If you have trouble with your group members because they fail to work under the basic standards, and you consider it unfair to include their names in the assignment cover sheet, remember you can co-evaluate them with 0 to activate a straight penalty in his or her mark. Your homework assignment co-evaluation will remain anonymous.
+7.  Never get frustrated for too long because there will be no challenge that you cannot overcome with the right amount of time and effort. If after all you get frustrated, upset, or angry, do not let it happen too frequently and do not let it last for long. Ask for help whenever you need it, and remember you are free to contact me. This video explains this very well [a student's guide to college: asking for help](https://youtu.be/dXG9UgW65fU).
+8.  Remember the grading scheme. The lowest mark always weighs 30%, not 50%. And the highest mark always weighs 70%, not 50%. Do the math and you will see that failing one activity does not necessarily represent a risk to fail the class.
+9.  If you would like to share something (anything) with me, feel free to do so. My email is: \texttt{<martin.lozano@udem.edu>}
+10. Follow number 1.
+
+\newpage
+
+# \faCalendar \hspace{1 mm} IF class schedule.
+
+Session 1. \faCogs \hfill Monday, 1 August, 19:00 – 22:00.
+
+- Readings. Course syllabus (this document).
+- Activity. Welcome. Introduction to the course.
+- Activity. Set up your free DataCamp and Deepnote accounts (you should have invitations in your UDEM student email).
+- Activity. Define your group of no more than 4 members (you should have an invitation in your UDEM student email).
+- Readings. @Hull9: Chapter 10 Mechanics of options markets; @lozanoIF: Chapter 1 Options.
+- Complementary material. Video: [Mechanics of Options Markets.](https://youtu.be/z7P2bMCovf0)
+- Complementary material. Reading: @brealey2020principles: Chapter 20 Understanding Options.
+
+Session 2. \faCogs \hfill Monday, 8 August, 19:00 – 22:00.
+
+- Readings. @Hull9: Chapter 12 Trading strategies involving options; @lozanoIF: Chapter 1 Options.
+- Complementary material. PowerPoint slides: [John C. Hull.](https://www-2.rotman.utoronto.ca/~hull/ofodslides/index.html)
+- Extra marks. DataCamp skill track: Applied Finance in R. Before 10:00 a.m.
+
+Session 3. \faCogs \hfill Monday, 15 August, 19:00 – 22:00.
+
+- Readings. @Hull9: Chapter 11 Properties of stock options; @lozanoIF: Chapter 2 Options properties.
+- Complementary material. Video: [Basics of Derivative Pricing and Valuation.](https://youtu.be/NdX7vDIUVQg)
+- Complementary material. Reading: @brealey2020principles: Chapter 20 Understanding Options.
+- Super extra marks. Individual class activity. DataCamp assessment: R Programming.
+
+Session 4. \faCogs \hfill Monday, 22 August, 19:00 – 22:00.
+
+- Class activity. Ask me questions about $H_1$.
+- Readings. @Hull9: Chapter 11 Properties of stock options; @lozanoIF: Chapter 2 Options properties.
+- Extra marks. DataCamp skill track: Machine Learning Fundamentals in R. Before 10:00 a.m.
+
+Session 5. \faCogs \hfill Monday, 29 August, 19:00 – 22:00.
+
+- Complete your $H_1$ before 10:00 a.m.
+- Class activity. Review and discuss correct/incorrect $H_1$ answers.
+- Class activity. Ask me questions about $E_1$.
+
+Session 6. \faCogs \hfill Monday, 5 September, 19:00 – 22:00.
+
+- Exam $E_1$ instructions available.
+- Class activity. Review and discuss correct/incorrect $E_1$ answers.
+
+Session 7. \faCogs \hfill Monday, 12 September, 19:00 – 22:00.
+
+- Submit (Google Forms) your $H_1$ and $E_1$ auto and co-evaluation before 10:00 a.m.
+- Readings. @Hull9: Chapter 13 Binomial trees; @lozanoIF: Chapter 3 Binomial trees.
+- Complementary material. Video: [Binomial Option Pricing Model.](https://youtu.be/7hL_4J5VjRw)
+- Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+- Extra marks: DataCamp project: *The Impact of Climate Change on Birds* by Laurens Geffert. Before 10:00 a.m.
+
+Session 8. \faCogs \hfill Monday, 19 September, 19:00 – 22:00.
+
+- Readings. @Hull9: Chapter 14 Wiener Processes and Itô's lemma; @lozanoIF: Chapter 4 Wiener processes.
+- Complementary material. Video: [Wiener Processes.](https://youtu.be/X-VRWeqG_I8)
+- Complementary material. Blog entry: [Brownian Motion in Financial Markets.](https://www.cantorsparadise.com/brownian-motion-in-financial-markets-ea5f02204b14)
+- Extra marks. DataCamp skill track: Supervised Machine Learning in R. Before 10:00 a.m.
+
+Session 9. \faCogs \hfill Monday, 26 September, 19:00 – 22:00.
+
+- Class activity. Ask me questions about $H_2$.
+- Extra marks course: [Introduction to Sustainable Finance.](https://unccelearn.org/course/view.php?id=139&page=overview)
+
+Session 10. \faCogs \hfill Monday, 3 October, 19:00 – 22:00.
+
+- Complete your $H_2$ before 10:00 a.m.
+- Class activity. Review and discuss correct/incorrect $H_2$ answers.
+- Class activity. Ask me questions about $E_2$.
+
+Session 11. \faCogs \hfill Monday, 10 October, 19:00 – 22:00.
+
+- Exam $E_2$ instructions available.
+- Class activity. Review and discuss correct/incorrect $E_2$ answers.
+
+Session 12. \faCogs \hfill Monday, 17 October, 19:00 – 22:00.
+
+- Submit (Google Forms) your $H_2$ and $E_2$ auto and co-evaluation before 10:00 a.m.
+- [International Day for the Eradication of Poverty.](https://www.un.org/en/observances/day-for-eradicating-poverty)
+- Readings. @Hull9: Chapter 15 The Black–Scholes–Merton model.
+- Complementary material. Videos: First [Introduction to the Black-Scholes formula.](https://youtu.be/pr-u4LCFYEY) Second [How to interpret N(d1) and N(d2) in Black Scholes Merton.](https://youtu.be/spkim5Ns304)
+- Super extra marks. Individual class activity. DataCamp assessment: Machine Learning Fundamentals in R.
+
+Session 13. \faCogs \hfill Monday, 24 October, 19:00 – 22:00.
+
+- Readings. @Hull9: Chapter 15 The Black–Scholes–Merton model.
+- Readings. @Hull9: Chapter 22 Value at Risk (sections 22.1 to 22.4); @lozanoIF: Chapter 5 VaR.
+- Extra marks. DataCamp skill track: Unsupervised Machine Learning with R. Before 10:00 a.m.
+
+Session 14. \faCogs \hfill Monday, 31 October, 19:00 – 22:00.
+
+- Readings. @Hull9: Section 23.8 Estimating volatilities and correlations; @lozanoIF: Chapter 5 VaR.
+- Complementary material. Videos from my YouTube channel: [Efficient frontiers.](https://youtu.be/_GnJRviyYJI)
+- Complementary material. Reading: @brealey2020principles: Chapter 8 Portfolio Theory and the Capital Asset Pricing Model.
+- To know more about portfolio selection see @ruppert2011statistics: Chapters 16.
+- Extra marks: DataCamp project: *What Makes a Pokémon Legendary?* by Joshua Feldman. Before 10:00 a.m.
+
+Session 15. \faCogs \hfill Monday, 7 November, 19:00 – 22:00.
+
+- Complete your $H_3$ before 10:00 a.m.
+- Class activity. Review of $H_3$.
+- Extra marks. DataCamp skill track: Text Mining with R. Before 10:00 a.m.
+
+Session 16. \faCogs \hfill Monday, 14 November, 19:00 – 22:00.
+
+- Class activity. Ask me questions about $E_F$.
+- Farewell.
+
+Final exam: TBD.
+
+
+
+\newpage
+
+# \faGlobe \hspace{1 mm} Internet resources.
+
+The amount of online resources and references to learn R, and its applications in  finance and economics is huge. This list is constantly growing.
+
+## Learn \faRProject.
+
+Consider the following specific online and free resources to start or continue learning R.
+
+- As my student you have a free DataCamp account. You can find at least 151 courses and 45 projects about R.
+- [LearnR](https://learnr.numbat.space/). An interactive introduction to data analysis with R. In this course, you'll learn the basics of using R for data analysis. This should provide you with the necessary skills to use R when learning more advanced and specialised topics. You don't need any prior experience with R, statistics, or programming to work through this material, however if you already have some experience you can start from any chapter you'd like to learn from. 
+- [Swirl](https://swirlstats.com/) teaches you R programming and data science interactively, at your own pace, and right in the R console. 
+- [Interactive Tutorials for R.](https://rstudio.github.io/learnr/) The \texttt{learnr} package makes it easy to turn any R Markdown document into an interactive tutorial. 
+- R for Dummies. @de2015r.
+- Introduction to Econometrics with R. @hanck2020introduction.
+- Introduction to Econometrics with R. @Oswaldeconometrics.
+- Using R for Introductory Econometrics. @heiss2020usingR.
+- Handbook of Regression Modeling in People Analytics. With Examples in R and Python. @mcnulty2021handbook.
+- R Programming for Data Science. @peng2016r.
+- \texttt{ggplot}: elegant graphics for data analysis. @wickham2016ggplot2.
+- Bookdown: Authoring Books and Technical Documents with R Markdown. @xie2021bookdown.
+- R Markdown Cookbook. @xie2020r.
+- R markdown: The Definitive Guide. @xie2021r.
+- R for Data Science. @grolemund2018r.
+- To understand how R Markdown works: [R Markdown guidelines.](https://crd150.github.io/hw_guidelines.html)
+- Thiyanga Talagala: [A detailed R Markdown guide.](https://talks-thiyanga.netlify.app/rmarkdown_rladies/rmarkdownrladies_tst#1)
+- Let’s Git started. @bryan2018happy.
+- Probability, Statistics, and Data: A fresh approach using R. [Foundations of Statistics with R.](https://mathstat.slu.edu/~speegle/_book/)
+
+
+## YouTube installation guides.
+
+In principle, as we are using Deepnote, you do not need to install any software in your computer. However, you may be interested to work with R in your local computer. Here is a good list of YouTube installation guides to do so. 
+
+As you may understand, R and RStudio versions are frequently updated and people regularly upload installation guides on YouTube. If you find a newer video for installing a newer version please share. In any case, these videos can definitely help you as a guide to install the newer version available.
+
+-   [Download & Install R 3.6.3](https://youtu.be/3OxPMYP8lNU)
+-   [Download & Install RStudio Desktop 1.3.959](https://youtu.be/uvnuQ_fKrMc)
+-   [Installing R and Rstudio on MacOS.](https://youtu.be/Y20P3u3c_1c)
+-   [Orientation and Setting up R (Setting up R)](https://www.youtube.com/watch?v=y2wgdw5_MZg&t=2498s)
+-   [Orientation and Setting up R (Setting up RStudio)](https://www.youtube.com/watch?v=y2wgdw5_MZg&t=3002s)
+-   [RStudio: A Guided Tour (by Jamison Crawford).](https://youtu.be/xgPwDlAtuNI)
+-   [How to Install RStudio (and Knit to PDF).](https://youtu.be/2Sovzf6lVRo)
+-   [RStudio: Explaining the Interface & R Markdown.](https://youtu.be/AHAR7j-IUOw)
+-   [How to Connect RStudio with Git (Github) for Cloning and Pushing Repo.](https://youtu.be/lXwH2R4n3RQ)
+
+## RStudio and GitHub integration plus pull request (PR).
+
+GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code and projects. GitHub is one of the world's largest communities of open source code developers. It fosters collaboration and communication between developers similar to a social network of coders. Here, we assume you have installed R, RStudio, Git, and you have a GitHub account. This series of videos are good to understand the basics of how professionals develop code in a collaborative way.
+
+**Video 1 of 4.** I recommend you to start at minute 10. Before minute 10 you can see an installation process, but there are better videos in the previous section (YouTube installation guides). Starting from minute 10 you can learn how to link RStudio with your GitHub account using the SSH RSA key which I highly recommend. You may find Samsun's voice speed a bit slow, just remember you can change the playback speed in YouTube if necessary. [Installing R, R Studio, and link R Studio with Github account - Part 4 - by Samsun.](https://youtu.be/-LKFxtaU5bY)
+
+**Video 2 of 4.** The relevant part starts at minute 5:50. In the first part Lisa explains how to use the `{usethis}` library to link RStudio with your GitHub account, but I recommend you to follow the video 1 for that purpose. So, please watch this from minute 5:50 to the end. There is one more thing, in 8:39 she clones with HTTPS, but I recommend you cloning with SSH, the option to select SSH is just right there in the same window. In my experience, cloning with SSH is better because of security issues and because you may not be asked to log in repeatedly. [Using git and GitHub in R Studio.](https://youtu.be/QLFc9gw_Hfs)
+
+**Video 3 of 4.** Video 2 explained RStudio and GitHub integration to work alone. This video 3 explains how to work with others as collaborators (Lisa and Heather). In the context of this class, your classmate colleagues are collaborators, I am not included as a collaborator. Note that Lisa and Heather cloned with HTTPS but I recommend cloning with SSH. They show how to work with branches and pull request between collaborators. Starting from 30:40 the tutorial is somewhat less interesting, you are free to look at it, but it is not vital for our purposes. [Using Git and GitHub in R (second part).](https://youtu.be/megZYkCLMA4)
+
+**Video 4 of 4.** Layla explains very well how to interact between a team of students and your professor or instructor. Note that her RStudio panes are in a very weird location but I guess you still can follow. Layla also recommends working with branches, this is a good practice. She also knits in html but I will ask you to knit in pdf most of the time. Note that she actually takes the side of the students who are interacting with an instructor which is called reviewer in GitHub. [Branching and Committing from RStudio and creating a PR on GitHub.](https://youtu.be/4Jjk_43g9xU)
+
+**Complementary video.** This is in Spanish, it is a good video, but the previous 4 are somewhat better. She links RStudio and GitHub using the terminal, I normally follow the procedure in the first video (Samsun's video). She also clones with HTTPS, but I recommend you cloning with SSH as I explained before. [RStudio y GitHub: control de versiones. ](https://youtu.be/Xy_CLr7htfA)
+
+## Main sites and program webpages.
+
+Main technology used in this course.
+
+-   [The R Project for Statistical Computing.](https://www.r-project.org/) R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS. 
+-   [RStudio.](https://posit.co/) Inspired by innovators in science, education, government, and industry, RStudio develops free and open tools for R, and enterprise-ready professional products for teams who use both R and Python, to scale and share their work. 
+-   [DataCamp.](https://www.datacamp.com/) Learn the data skills you need online at your own pace—from non-coding essentials to data science and machine learning. 
+-   [Tiny\TeX.](https://yihui.org/tinytex/) A lightweight, cross-platform, portable, and easy-to-maintain \LaTeX distribution based on \TeX Live. 
+-   [Compile R online.](https://rextester.com/l/r_online_compiler)
+-   [\LaTeX base.](https://latexbase.com) A web-based \LaTeX editor with live document preview. 
+-   [Overleaf.](https://www.overleaf.com/) The easy to use, online, collaborative \LaTeX editor. 
+-   [\LaTeX.](https://www.latex-project.org/) \LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. 
+-   [Git.](https://git-scm.com/) A free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. 
+-   [GitHub.](https://github.com/) A provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features. 
+
+## Blogs and resources.
+
+Here you can find questions and answers about programming in R.
+
+-   [R-Bloggers](https://www.r-bloggers.com) is a blog aggregator of content contributed by bloggers who write about R (in English). The site helps R bloggers and users to connect and follow the R blogosphere. 
+-   [Stack Overflow.](https://stackoverflow.com) Founded in 2008, Stack Overflow’s public platform is used by nearly everyone who codes to learn, share their knowledge, collaborate, and build their careers. 
+-   [R and Data Mining.](http://www.rdatamining.com)
+-   [Revolutions.](https://blog.revolutionanalytics.com/) Milestones in AI, Machine Learning, Data Science, and visualization with R and Python since 2008. 
+-   [R-ladies](https://rladies.org/) is a worldwide organization whose mission is to promote gender diversity in the R community.
+-   These sources are the ones that most often hold the data that social science students and researchers at Tufts are looking for. [Social Science Data and Statistics Resources.](https://researchguides.library.tufts.edu/data/r)
+-   [Stack Exchange](https://tex.stackexchange.com/) is a question and answer site for users of \TeX, \LaTeX, ConTeXt, and related typesetting systems. 
+-   [Kaggle.](https://www.kaggle.com/) Inside Kaggle you’ll find all the code & data you need to do your data science work. Use over 50,000 public datasets and 400,000 public notebooks to conquer any analysis in no time.
+-   A gap exists between the Data Scientist's skillset and the Business Objectives. [Learn Data Science.](https://www.business-science.io/)
+-   [Rdatasets](https://vincentarelbundock.github.io/Rdatasets/index.html) A collection of nearly 1500 datasets that were originally distributed alongside the statistical software environment R and some of its add-on packages.
+
+## Others.
+
+-   [ProjectElon.](https://www.youtube.com/c/ProjectElon/) Study Motivation.
+-   [iPanda.](https://www.youtube.com/c/iPandaChannel) Pandas are precious and vulnerable species in the world today.  
+-   Twitter hashtags: \#rstats, \#DataScience
+
+\newpage
+
+# \faBookOpen \hspace{1 mm} References.

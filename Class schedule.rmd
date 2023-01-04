@@ -1,0 +1,115 @@
+---
+title: ''
+  html_document:
+    df_print: paged
+---
+
+\newpage
+
+# \faCalendar \hspace{1 mm} IF class schedule.
+
+Session 1. \faCogs \hfill Monday, 1 August, 19:00 – 22:00.
+
+- Readings. Course syllabus (this document).
+- Activity. Welcome. Introduction to the course.
+- Activity. Set up your free DataCamp and Deepnote accounts (you should have invitations in your UDEM student email).
+- Activity. Define your group of no more than 4 members (you should have an invitation in your UDEM student email).
+- Readings. @Hull9: Chapter 10 Mechanics of options markets; @lozanoIF: Chapter 1 Options.
+- Complementary material. Video: [Mechanics of Options Markets.](https://youtu.be/z7P2bMCovf0)
+- Complementary material. Reading: @brealey2020principles: Chapter 20 Understanding Options.
+
+Session 2. \faCogs \hfill Monday, 8 August, 19:00 – 22:00.
+
+- Readings. @Hull9: Chapter 12 Trading strategies involving options; @lozanoIF: Chapter 1 Options.
+- Complementary material. PowerPoint slides: [John C. Hull.](https://www-2.rotman.utoronto.ca/~hull/ofodslides/index.html)
+- Extra marks. DataCamp skill track: Applied Finance in R. Before 10:00 a.m.
+
+Session 3. \faCogs \hfill Monday, 15 August, 19:00 – 22:00.
+
+- Readings. @Hull9: Chapter 11 Properties of stock options; @lozanoIF: Chapter 2 Options properties.
+- Complementary material. Video: [Basics of Derivative Pricing and Valuation.](https://youtu.be/NdX7vDIUVQg)
+- Complementary material. Reading: @brealey2020principles: Chapter 20 Understanding Options.
+- Super extra marks. Individual class activity. DataCamp assessment: R Programming.
+
+Session 4. \faCogs \hfill Monday, 22 August, 19:00 – 22:00.
+
+- Class activity. Ask me questions about $H_1$.
+- Readings. @Hull9: Chapter 11 Properties of stock options; @lozanoIF: Chapter 2 Options properties.
+- Extra marks. DataCamp skill track: Machine Learning Fundamentals in R. Before 10:00 a.m.
+
+Session 5. \faCogs \hfill Monday, 29 August, 19:00 – 22:00.
+
+- Complete your $H_1$ before 10:00 a.m.
+- Class activity. Review and discuss correct/incorrect $H_1$ answers.
+- Class activity. Ask me questions about $E_1$.
+
+Session 6. \faCogs \hfill Monday, 5 September, 19:00 – 22:00.
+
+- Exam $E_1$ instructions available.
+- Class activity. Review and discuss correct/incorrect $E_1$ answers.
+
+Session 7. \faCogs \hfill Monday, 12 September, 19:00 – 22:00.
+
+- Submit (Google Forms) your $H_1$ and $E_1$ auto and co-evaluation before 10:00 a.m.
+- Readings. @Hull9: Chapter 13 Binomial trees; @lozanoIF: Chapter 3 Binomial trees.
+- Complementary material. Video: [Binomial Option Pricing Model.](https://youtu.be/7hL_4J5VjRw)
+- Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+- Extra marks: DataCamp project: *The Impact of Climate Change on Birds* by Laurens Geffert. Before 10:00 a.m.
+
+Session 8. \faCogs \hfill Monday, 19 September, 19:00 – 22:00.
+
+- Readings. @Hull9: Chapter 14 Wiener Processes and Itô's lemma; @lozanoIF: Chapter 4 Wiener processes.
+- Complementary material. Video: [Wiener Processes.](https://youtu.be/X-VRWeqG_I8)
+- Complementary material. Blog entry: [Brownian Motion in Financial Markets.](https://www.cantorsparadise.com/brownian-motion-in-financial-markets-ea5f02204b14)
+- Extra marks. DataCamp skill track: Supervised Machine Learning in R. Before 10:00 a.m.
+
+Session 9. \faCogs \hfill Monday, 26 September, 19:00 – 22:00.
+
+- Class activity. Ask me questions about $H_2$.
+- Extra marks course: [Introduction to Sustainable Finance.](https://unccelearn.org/course/view.php?id=139&page=overview)
+
+Session 10. \faCogs \hfill Monday, 3 October, 19:00 – 22:00.
+
+- Complete your $H_2$ before 10:00 a.m.
+- Class activity. Review and discuss correct/incorrect $H_2$ answers.
+- Class activity. Ask me questions about $E_2$.
+
+Session 11. \faCogs \hfill Monday, 10 October, 19:00 – 22:00.
+
+- Exam $E_2$ instructions available.
+- Class activity. Review and discuss correct/incorrect $E_2$ answers.
+
+Session 12. \faCogs \hfill Monday, 17 October, 19:00 – 22:00.
+
+- Submit (Google Forms) your $H_2$ and $E_2$ auto and co-evaluation before 10:00 a.m.
+- [International Day for the Eradication of Poverty.](https://www.un.org/en/observances/day-for-eradicating-poverty)
+- Readings. @Hull9: Chapter 15 The Black–Scholes–Merton model.
+- Complementary material. Videos: First [Introduction to the Black-Scholes formula.](https://youtu.be/pr-u4LCFYEY) Second [How to interpret N(d1) and N(d2) in Black Scholes Merton.](https://youtu.be/spkim5Ns304)
+- Super extra marks. Individual class activity. DataCamp assessment: Machine Learning Fundamentals in R.
+
+Session 13. \faCogs \hfill Monday, 24 October, 19:00 – 22:00.
+
+- Readings. @Hull9: Chapter 15 The Black–Scholes–Merton model.
+- Readings. @Hull9: Chapter 22 Value at Risk (sections 22.1 to 22.4); @lozanoIF: Chapter 5 VaR.
+- Extra marks. DataCamp skill track: Unsupervised Machine Learning with R. Before 10:00 a.m.
+
+Session 14. \faCogs \hfill Monday, 31 October, 19:00 – 22:00.
+
+- Readings. @Hull9: Section 23.8 Estimating volatilities and correlations; @lozanoIF: Chapter 5 VaR.
+- Complementary material. Videos from my YouTube channel: [Efficient frontiers.](https://youtu.be/_GnJRviyYJI)
+- Complementary material. Reading: @brealey2020principles: Chapter 8 Portfolio Theory and the Capital Asset Pricing Model.
+- To know more about portfolio selection see @ruppert2011statistics: Chapters 16.
+- Extra marks: DataCamp project: *What Makes a Pokémon Legendary?* by Joshua Feldman. Before 10:00 a.m.
+
+Session 15. \faCogs \hfill Monday, 7 November, 19:00 – 22:00.
+
+- Complete your $H_3$ before 10:00 a.m.
+- Class activity. Review of $H_3$.
+- Extra marks. DataCamp skill track: Text Mining with R. Before 10:00 a.m.
+
+Session 16. \faCogs \hfill Monday, 14 November, 19:00 – 22:00.
+
+- Class activity. Ask me questions about $E_F$.
+- Farewell.
+
+Final exam: TBD.
