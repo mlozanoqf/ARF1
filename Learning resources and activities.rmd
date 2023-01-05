@@ -160,7 +160,7 @@ embed_url("https://youtu.be/_f-qkGJBPts")
 
 * **Type 2: The interview.** You can interview someone who can share some thoughts with us. For example, you can interview your mom or dad to discuss topics about his or her job. You are free to design the questions and the format. This could be a good opportunity to know how people in a specific industry tackle business problems, or challenges of people working in the public sector.
 
-* **Type 3: Your pet.** You can show us your pet. Tell us something about your pet, and how special it is for you and your family. Do you have a spider \faSpider, fish \faFish, frog \faFrog, cat \faCat, dog \faDog, craw \faCrow, dragon \faDragon? All kinds of pets are welcome.
+* **Type 3: Your pet.** You can show us your pet. Tell us something about your pet, and how special it is for you and your family. Do you have a spider `r fontawesome::fa("spider")`, fish `r fontawesome::fa("fish")`, frog `r fontawesome::fa("frog")`, cat `r fontawesome::fa("cat")`, dog `r fontawesome::fa("dog")`, craw `r fontawesome::fa("crow")`, dragon `r fontawesome::fa("dragon")`? All kinds of pets are welcome.
 
 * **Type 4: Your hobby or talent.** You may have a special artistic or sport talent you would like to share with us or a hobby which could be interesting for all. This could be a good opportunity to get to know you better.
 
