@@ -142,6 +142,8 @@ Some students may have a DataCamp activity completed. If your certificate is old
 
 **Mock exams.** We have three mock exams $ME_1$, $ME_2$ and $ME_F$. These are similar to regular exams, taken during class before the real and graded $E_1$, $E_2$ and $E_F$ exams. They represent an opportunity to get familiar with the examination process, logistics and level of difficulty of the real and graded exams. Mock exams are group activities, usually one question. Only if your group answers the question 100% correctly then your group will receive a sticker. I will post the correct answer after the deadline. 
 
+**Mentimeter.** We may have a few sessions in which we include a mentimeter activity. This activity is subject to be evaluated and if it is, then the top 10 best answers will have extra marks.
+
 ## Non-graded activities `r fontawesome::fa("meh-rolling-eyes")`.
 
 **DataCamp webinars.** You are free to attend live webinars organized by DataCamp. See the *live events* DataCamp section for the upcoming webinars in this semester. Please note that you have to register to attend. Let me know which ones you are planning to attend. 
