@@ -85,7 +85,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 **Session 11. Monday, 20 February.**
 
 - Review $E_1$ answers.
-- Submit $H_1$ and $E_1$ auto and co-evaluation before 10:00 a.m. by Google Forms.
+- Submit $H_1$ and $E_1$ auto and co-evaluation before 10:00 a.m. Instructions available in Blackboard.
 
 <!-- - Readings. @Hull9: Section 24.6 Using equity prices to estimate default probabilities; @lozanoARF: Chapter 2 The Merton model. -->
 
@@ -153,7 +153,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 **Session 20. Monday, 27 March.**
 
 - Review $E_2$ answers.
-- Submit $H_2$ and $E_2$ auto and co-evaluation before 10:00 a.m. by Google Forms.
+- Submit $H_2$ and $E_2$ auto and co-evaluation before 10:00 a.m. Instructions available in Blackboard.
 
 <!-- - Readings. @Hull9: Section 24.8 Default correlation; @lozanoARF: Chapter 3 The Gaussian copula model. -->
 <!-- - Extra marks. DataCamp skill track: Finance Fundamentals in R. Before 10:00 a.m. -->
