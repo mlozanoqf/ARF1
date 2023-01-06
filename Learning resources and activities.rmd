@@ -60,6 +60,12 @@ Please take a look at this video about taking notes:
 embed_url("https://youtu.be/pAvPE0lPlqE")
 ```
 
+This one is good as well. In this video, students from The University of Melbourne talk about using digital tools to take notes and stay focused.
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/Lll3MsS5chk")
+```
+
 **When?** Exams will be taken according to the course calendar, these dates correspond to the official dates dictated by the university partial and final exam calendars. Both $E_1$ and $E_2$ are 1.5 hours activities during the class session, and the $E_F$ lasts 2 hours. In the case of 3 hour class sessions, the exam takes place in the first part of the class, and we review the exam answers the same day in the second part of the class session. In the case of graduated students we may need to change the final exam date for administrative reasons. 
 
 Please consider the following recommendations about exams:

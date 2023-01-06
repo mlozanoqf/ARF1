@@ -16,6 +16,12 @@ Of most frustration to students is receiving the same mark as their fellow non-c
 
 Consider the co-evaluation as an effective tool to incentive or penalize the group members to work well and on time. As a professor, I am not always aware of who is working well within a group, but the co-evaluation can help us to be fair and assign marks based on academic merits. I am not planning to reveal specific details about how you co-evaluate your colleagues, I am only going to reveal the group mark and the final individual mark. So, your co-evaluation details will remain anonymous. Then, there are many incentives aligned so the group should work well, otherwise the chances to get a low mark are high.
 
+In this video, students from The University of Melbourne share their thoughts on how to effectively work in teams.
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/_-mP3YKptwQ")
+```
+
 Consider an hypothetical group of four students that worked together in their first assignment $H_1$ for illustration purposes. The group mark is $H_m = 90$, and now they have to complete their auto and co-evaluation. The group members are: Bebito Fiu-Fiu, Baby Yoda, John Doe and Winnie Pooh. Every member assigns a mark to the rest including himself using a simple Google Form. Then, John Doe's auto and co-evaluation mark $mean(AC)$ is the simple average of his 4 assigned marks. 
 
 In case $mean(AC) \ge 70$, the group mark $H_m \ge 70$ and he does not receive a zero from the group, then John Doe's individual $H_1$ mark is computed as $H_1=(0.70 \times H_m)+(0.30 \times mean(AC))$. Otherwise, the individual assignment mark will be the lowest of $mean(AC)$ and $H_m$: $H_1=min(mean(AC), H_m)$. 
@@ -156,6 +162,12 @@ In any case, my sincere advice is to keep the standard as high as possible in or
 The following list illustrates a typical rubric for graded activities.
 
 **What is a very good answer?** Competent and well presented. The work is critical and comprehensive and has a degree of depth in presenting and considering the material. Integrates the concepts introduced and applies them to problems with some evidence of critical analysis. Provides clear and competent answers to the questions, written in good English. Clearly presents solutions to calculative questions and demonstrates very good analytic skills and understanding.
+
+In this video, students from The University of Melbourne give their tips on ways to improve your English.
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/NPwTgfswnD8")
+```
 
 **What is an average answer?** Competent discussion of relevant material, but are largely descriptive and lack critical/analytic depth. Answers are well structured, well presented and demonstrate an average awareness of relevant material. Shows a basic understanding of concepts introduced but with limited ability to apply these concepts. Tends to miss the point of the question. Is written poorly, written in note form, lacks structure or is too short to properly address the question.
 

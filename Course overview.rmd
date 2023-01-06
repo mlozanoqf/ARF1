@@ -57,6 +57,12 @@ The whole course is based on the following assumption: *you are expected to happ
 
 In this course, you are expected to consciously study the required material in advance as well as practice on your own because this will allow you to develop the necessary conditions to contribute with valuable comments and/or interesting questions in class. If you openly decide not to do this, then you might feel that you are getting behind, or perhaps you might not get advantage of the number of things that you can potentially learn in this course. In fact, if you fail to consciously read the required material in advance, the risk of getting frustrated increases, and frustration is the best way to lose interest, get lower marks and eventually fail in the worst case scenario. Then, if you are interested in reducing the risk of failing the course, I recommend you to consciously study the required material in advance as well as practice on your own as much as you want or need.
 
+In this video, students from The University of Melbourne share great tips and strategies about how they get the most out of university lectures.
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/Aa01-lwYllU")
+```
+
 For your convenience, and in accordance with some of [The Sustainable Development Goals](https://sdgs.un.org/goals) by the United Nations, see @UN17, all the compulsory readings and activities submissions are available in electronic format. Other complementary material and activities could be incorporated or altered during the semester depending on relevant news or events that do not exist at the moment, or that are hard to anticipate at the beginning of the semester. If that is the case, I will let you know in advance. As a student, you should be confident that all the course material and activities are perfectly suitable for an undergraduate student enrolled in a prestigious world-class university. In other words, there will not be an intellectual challenge that you cannot overcome with an appropriate amount of enthusiasm, time, work, determination, and assistance (if necessary). This course is designed in such a way that you can pass and learn as long as you invest the right amount of time and work.
 
 I assume you are aware of the academic regulations dictated by the university. If you are not familiar with these, please review the corresponding student regulations. In this course, we will attach to them.
