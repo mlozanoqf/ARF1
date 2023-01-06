@@ -93,10 +93,10 @@ xfun::file_string('contact.html')
 ```{r check, child = 'Checklist.Rmd'}
 ```
 
-<!-- \newpage -->
+\newpage
 
-<!-- ```{r schedule, child = 'Class schedule.Rmd'} -->
-<!-- ``` -->
+```{r schedule, child = 'Class schedule.Rmd'}
+```
 
 \newpage
 
