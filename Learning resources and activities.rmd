@@ -28,7 +28,7 @@ embed_url("https://youtu.be/IzG85NDDo1Q")
 
 **Class sessions.** We explain and discuss specific topics, ask and answer questions, review your study progress, and sometimes we conduct brief activities. Please note that the time available in class sessions is limited and we are not going to cover every single topic in full detail. Instead, we will use other resources and learning activities to cover the rest of the topics. You are expected to attend on time, participate, and engage in our discussions. I expect you to use your computer because you may need to use R, see the PDF textbook, or your own homework during the session.
 
-In case of virtual learning, it is OK if you want to keep your microphone on, and camera on or off as most of the time we are going to share the screen during the class. For your convenience, unless otherwise stated, class Zoom sessions are recorded and available for you. Internet service may fail during class sessions, but this is a risk we all face. 
+In case of Zoom sessions, it is OK if you want to keep your microphone on, and camera on or off as most of the time we are going to share the screen during the class. For your convenience, unless otherwise stated, class Zoom sessions are recorded and available for you. Internet service may fail during class sessions, but this is a risk we all face. The Zoom link to join the class is in Blackboard.
 
 See the following video for a good recommendation from Prof. Fleisch valid for online sessions and traditional course sessions:
 
@@ -42,7 +42,7 @@ embed_url("https://youtu.be/KX-sg1HXAws")
 
 **Email.** You are free to contact me by email at any time: <tt>`<martin.lozano@udem.edu>`</tt>. I also send group emails with important information, so please make sure my email address is not in your spam list. If I ever take longer than expected to answer an email or any other request, please insist and kindly remind me.
 
-**Meetings.** Regardless of face-to-face or virtual learning, we can arrange 30 minute Zoom online meetings if you need further assistance or any other issue you want to discuss with me. Meetings can be individual or in group. You only have to ask for it by email to check for my time availability. If you need more time we can arrange more meetings or more time, whatever is best. This is the Zoom meeting link https://us02web.zoom.us/j/9209945512
+**Meetings.** Regardless of face-to-face or virtual learning, we can arrange 30 minute Zoom online meetings if you need further assistance or any other issue you want to discuss with me. Meetings can be individual or in group. You only have to ask for it by email <tt>`<martin.lozano@udem.edu>`</tt> to check for my time availability. If you need more time we can arrange more meetings or more time, whatever is best. This is the Zoom link for meetings: https://us02web.zoom.us/j/9209945512. For the class session Zoom link please see Blackboard.
 
 **Book.** The book (or books) is one of the main pillars of this course. In my experience you mainly learn by reading and then reinforce by doing, although you have other diverse activities in this course. The book authors are one of the best in their field: John C. Hull (University of Toronto) @Hull9, Richard A. Brealey (London Business School), Stewart C. Myers (Sloan School of Management Massachusetts Institute of Technology) and Franklin Allen (Imperial College London) @brealey2020principles in the case of ARF and IF; Rob J. Hyndman and George Athanasopoulos (Monash University) @49018680cf534023b6ae0f4e933c475d in the case of EMF. These books are not only good for intermediate and advanced undergraduate degrees but also for first year master degree. I prefer to use original book versions rather than translations because according to my experience these are not always as good as the original English version, and in some cases are not available.
 
@@ -146,7 +146,7 @@ Some students may have a DataCamp activity completed. If your certificate is old
 
 **The wheel of fortune.** I roll a virtual wheel of fortune three times in the semester to randomly allocate extra marks to a lucky group of students. These extra marks are allocated to the next exam $E_1$, $E_2$, or $E_F$. Make sure to attend this class as this is one requirement to get the extra marks if you are selected by the wheel of fortune.
 
-**Mock exams.** We have three mock exams $ME_1$, $ME_2$ and $ME_F$. These are similar to regular exams, taken during class before the real and graded $E_1$, $E_2$ and $E_F$ exams. They represent an opportunity to get familiar with the examination process, logistics and level of difficulty of the real and graded exams. Mock exams are group activities, usually one question. Only if your group answers the question 100% correctly then your group will receive a sticker. I will post the correct answer after the deadline. 
+**Mock exams.** We have three mock exams $ME_1$, $ME_2$ and $ME_F$. These are similar to regular exams, taken during class before the real and graded $E_1$, $E_2$ and $E_F$ exams. They represent an opportunity to get familiar with the examination process, logistics and level of difficulty of the real and graded exams. Mock exams are group activities, usually one question. Only if your group answers the question 100% correctly then your group will receive a sticker. I will post the correct answer in Blackboard after the deadline. 
 
 **Mentimeter.** We may have a few sessions in which we include a mentimeter activity. This activity is subject to be evaluated and if it is, then the top 10 best answers will have extra marks.
 
@@ -166,11 +166,11 @@ Further details about the Feynman technique here:
 embed_url("https://youtu.be/_f-qkGJBPts")
 ```
 
-* **Type 2: The interview.** You can interview someone who can share some thoughts with us. For example, you can interview your mom or dad to discuss topics about his or her job. You are free to design the questions and the format. This could be a good opportunity to know how people in a specific industry tackle business problems, or challenges of people working in the public sector.
+* **Type 2: The interview.** You can interview `r fontawesome::fa("video")` someone who can share some thoughts with us. For example, you can interview your mom or dad to discuss topics about his or her job. You are free to design the questions and the format. This could be a good opportunity to know how people in a specific industry tackle business problems, or challenges of people working in the public sector.
 
 * **Type 3: Your pet.** You can show us your pet. Tell us something about your pet, and how special it is for you and your family. Do you have a spider `r fontawesome::fa("spider")`, fish `r fontawesome::fa("fish")`, frog `r fontawesome::fa("frog")`, cat `r fontawesome::fa("cat")`, dog `r fontawesome::fa("dog")`, craw `r fontawesome::fa("crow")`, dragon `r fontawesome::fa("dragon")`? All kinds of pets are welcome.
 
-* **Type 4: Your hobby or talent.** You may have a special artistic or sport talent you would like to share with us or a hobby which could be interesting for all. This could be a good opportunity to get to know you better.
+* **Type 4: Your hobby or talent.** You may have a special artistic `r fontawesome::fa("music")` or sport `r fontawesome::fa("volleyball-ball")` talent you would like to share with us or a hobby which could be interesting for all. This could be a good opportunity to get to know you better.
 
 <!-- **Discussion forums.** -->
 

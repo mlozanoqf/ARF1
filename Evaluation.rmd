@@ -10,7 +10,7 @@ title: ''
 
 Let's see how your final grade $F$ is calculated.
 
-## Auto and co-evaluation for partial exams and assignments.
+## Auto and co-evaluation for $E$ and $H$.
 
 Of most frustration to students is receiving the same mark as their fellow non-contributing group members despite producing much of the group's work. In order to avoid this free-rider problem you will have to answer an auto and co-evaluation. Co-evaluation is so important that one student may fail simply because of his or her low contribution in the group. Sometimes students face mitigating circumstances, if that is the case you will have to discuss with your group because their marks may have a significant negative impact on your mark. 
 
@@ -24,7 +24,9 @@ embed_url("https://youtu.be/_-mP3YKptwQ")
 
 Consider an hypothetical group of four students that worked together in their first assignment $H_1$ for illustration purposes. The group mark is $H_m = 90$, and now they have to complete their auto and co-evaluation. The group members are: Bebito Fiu-Fiu, Baby Yoda, John Doe and Winnie Pooh. Every member assigns a mark to the rest including himself using a simple Google Form. Then, John Doe's auto and co-evaluation mark $mean(AC)$ is the simple average of his 4 assigned marks. 
 
-In case $mean(AC) \ge 70$, the group mark $H_m \ge 70$ and he does not receive a zero from the group, then John Doe's individual $H_1$ mark is computed as $H_1=(0.70 \times H_m)+(0.30 \times mean(AC))$. Otherwise, the individual assignment mark will be the lowest of $mean(AC)$ and $H_m$: $H_1=min(mean(AC), H_m)$. 
+In case $mean(AC) \ge 70$, the group mark $H_m \ge 70$ and he does not receive a zero from the group, then John Doe's individual $H_1$ mark is computed as: $H_1=(0.70 \times H_m)+(0.30 \times mean(AC))$. 
+
+Otherwise, the individual assignment mark will be the lowest of $mean(AC)$ and $H_m$: $H_1=\mathrm{min}(mean(AC), H_m)$. 
 
 Using R:
 
@@ -48,7 +50,8 @@ Hm <- 90 # Group mark.
 H1 <- fun(AC, Hm) # Individual mark.
 paste("John Doe's individual mark in the first assignment is:", H1)
 ```
-If instead of the 0, Baby Yoda evaluates John Doe with a 70, then:
+
+This is because we apply $H_1=\mathrm{min}(mean(AC), H_m) \rightarrow H_1=\mathrm{min}(70, 90)\rightarrow H_1=70$. If instead of the 0, Baby Yoda evaluates John Doe with a 70, then:
 
 ```{r}
 AC <- c(90, 70, 90, 100)
@@ -57,9 +60,9 @@ H1 <- fun(AC, Hm) # Individual mark.
 paste("John Doe's individual mark in the first assignment is:", H1)
 ```
 
-Clearly, your co-evaluation matters because although the group mark is 90, John Doe's individual $H_1$ mark could range from 70 to 89.25 depending on Baby Yoda coevaluation.
+This is because we apply $H_1=(0.70 \times 90)+\left(0.30 \times \frac{90+70+90+100}{4}\right) = 89.25$. Clearly, your co-evaluation matters because although the group mark is 90, John Doe's individual $H_1$ mark could range from 70 to 89.25 depending on Baby Yoda coevaluation.
 
-Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/nqVoY8pt9oTddtHK9>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in the course calendar.
+Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/nqVoY8pt9oTddtHK9>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in Blackboard.
 
 In particular, you will have two Google Forms web links to complete your auto and co-evaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is no auto and co-evaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
 
