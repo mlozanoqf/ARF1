@@ -26,7 +26,7 @@ The first distance learning course I taught was in September 1999, and I have be
 
 I have vast experience with face-to-face, blended and distance learning in all its variants, and I hope this experience can contribute to help you complete this course successfully. Welcome again!
 
-## About me `r fontawesome::fa("laugh")`.
+## About me. `r fontawesome::fa("laugh")`
 
 I am currently professor of finance and economics at UDEM. I regularly collaborate with The University of Manchester (Alliance Manchester Business School); the Centre for Financial and Management Studies (CeFiMS) at SOAS University of London, among others universities.
 

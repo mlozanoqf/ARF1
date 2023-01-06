@@ -14,7 +14,7 @@ The learning activities are classified as graded, non-graded and extra marks. Al
 
 The learning activities are also classified as individual and group activities. 
 
-## Learning resources `r fontawesome::fa("brain")`.
+## Learning resources. `r fontawesome::fa("brain")`
 
 Here is the list and description of available resources for you to learn the subject. My advice is to use as many resources as possible because they will allow you to learn the subject and develop the required professional competences that you need to have.
 
@@ -50,7 +50,7 @@ embed_url("https://youtu.be/KX-sg1HXAws")
 
 **Others**. All learning resources described above represent a good resource for your own study of the course material. There are plenty of Internet resources that you will have to use, from databases, [YouTube](https://www.youtube.com/) videos, [GitHub](https://github.com/) public repositories, specialized programming blogs, books, electronic books, etc. See the resource list at the end of this document for further details. You are encouraged to read articles, reports and news on your own to enhance and expand your understanding about how theoretical concepts relate with current real-life events. [The Economist](https://www.economist.com/), [The Financial Times](https://www.ft.com/), [The Guardian](https://www.theguardian.com/), [The Wall Street Journal](https://www.wsj.com/), [MarketWatch](https://www.marketwatch.com/), [Reuters](https://www.reuters.com/), [Bloomberg](https://www.bloomberg.com/), [Bureau of Economic Analysis](https://www.bea.gov/), [Banxico](https://www.banxico.org.mx/), [Project Syndicate](https://www.project-syndicate.org/), [The New York Times](https://www.nytimes.com/), [El Financiero](https://www.elfinanciero.com.mx/) (México), [El Confidencial](https://www.elconfidencial.com/) (Spain), [OECD](https://www.oecd.org/), are a good way to grasp contemporary insights related with this course. Other references to support your learning process include economic and financial reports from private banks such as Banamex and BBVA, and think tanks websites such as [The Mexico Institute](https://www.wilsoncenter.org/program/mexico-institute), [México cómo vamos](https://mexicocomovamos.mx/), [CIDAC](http://cidac.org/), [IMCO](https://imco.org.mx/), [COMEXI](https://www.consejomexicano.org/), among many others. My advice in this respect is rather simple: *the more you read the more you learn*.
 
-## Graded activities. Exams: $E_1$, $E_2$ and $E_F$ `r fontawesome::fa("grimace")`.
+## Graded activities. Exams: $E_1$, $E_2$ and $E_F$. `r fontawesome::fa("grimace")`
 
 We have 2 partial exams $E_1$, $E_2$ (40% of the final grade), and one final exam $E_F$ (30% of the final grade) in English. Every topic discussed in this course is subject to be evaluated in exams. Therefore, if you are looking forward to achieving an outstanding final grade in this course, my sincere advice is to take class notes during the semester. 
 
@@ -98,7 +98,7 @@ embed_url("https://youtu.be/XoHx_UIgtt0")
 
 **What if we fail to understand our own mistakes?** Regardless of the activity, you are expected to contact me in case you fail to fully understand your mistakes. I may ask you to answer them again before we can discuss your own mistakes in a meeting. Please note that the grade you get in the exam, including individual extra marks and the auto and co-evaluation is your registered partial grade.
 
-## Graded activities. Homework assignments: $H_1$, $H_2$ and $H_3$ `r fontawesome::fa("grimace")`.
+## Graded activities. Homework assignments: $H_1$, $H_2$ and $H_3$. `r fontawesome::fa("grimace")`
 
 We have 3 homework assignments $H_1$ and $H_2$ (30% of the final grade), and non-graded homework $H_3$ in English. Assignments are good practice towards exams. Therefore, if you are looking forward to achieving an outstanding final grade in this course, my sincere advice is to start working on them as soon as possible. You can always show me your assignment progress and I can give you comments to improve. Deepnote allow you to add comments to some specific part of your assignment, if you tag me as <tt>`@martin.lozano@udem.edu`</tt> then I will receive an email notification to review your specific question, then I will answer you back as a reply to your original comment and you will receive an email notification as well.
 
@@ -118,7 +118,7 @@ We have 3 homework assignments $H_1$ and $H_2$ (30% of the final grade), and non
 
 **Why is $H_3$ a non-graded activity?** The $H_3$ is a special assignment that is designed to help you to practice and study for your final exam by learning from your previous mistakes. It has a deadline but it is a non-graded activity. Given that it is non-graded, this activity is optional. The $H_3$ instructions are the following: You are required to (1) correct all your mistakes in all your previous graded activities, including all the four $E_1$ and $E_2$ questions, and assignments; and (2) complete all your missed extra mark activities, mostly from DataCamp. The format and delivery is the same as the rest of the assignments. You can do it in group or individually. You will not receive $H_3$ as by then you will have access to all exam and assignment answers. In any case, you can ask me to review it if necessary. 
 
-## Extra marks activities `r fontawesome::fa("grin-hearts")`.
+## Extra marks activities. `r fontawesome::fa("grin-hearts")`
 
 As with any extra mark activity, you do not lose marks if you fail to complete them, but you can get extra marks over your graded activities if you complete them on time. In case you are taking two courses with me this semester, then the extra marks that you get in one course will be valid for the second and vice versa.
 
@@ -150,7 +150,7 @@ Some students may have a DataCamp activity completed. If your certificate is old
 
 **Mentimeter.** We may have a few sessions in which we include a mentimeter activity. This activity is subject to be evaluated and if it is, then the top 10 best answers will have extra marks.
 
-## Non-graded activities `r fontawesome::fa("meh-rolling-eyes")`.
+## Non-graded activities. `r fontawesome::fa("meh-rolling-eyes")`
 
 **DataCamp webinars.** You are free to attend live webinars organized by DataCamp. See the *live events* DataCamp section for the upcoming webinars in this semester. Please note that you have to register to attend. Let me know which ones you are planning to attend. 
 

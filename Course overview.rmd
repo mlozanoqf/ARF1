@@ -95,7 +95,7 @@ Take a look at this video about integrity.
 embed_url("https://youtu.be/m1AxHZSX5VA")
 ```
 
-## Sustainable finance `r fontawesome::fa("envira")`.
+## Sustainable finance. `r fontawesome::fa("envira")`
 
 I am certified as *carbon literate* by the UN Climate Change Conference and Coventry University. The certification represents a robust understanding of the climate context and a commitment to recognise ways to adjust our behaviour to reduce our carbon footprint, as well as influencing our social and professional circles. My view is that one way of achieving a positive impact over the environment and the society is to learn more about sustainable finance. 
 
