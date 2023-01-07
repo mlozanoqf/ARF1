@@ -132,11 +132,11 @@ I understand learning R could represent a source of uncertainty and stress for s
 
 **DataCamp (courses, skill tracks, and projects).** Starting from the second activity completed on time, you will earn extra marks over your next exam, it could be $E_1$, $E_2$ or $E_F$. These activities will be available for you to complete in your DataCamp Assignments section, and listed in the course calendar as *extra marks* tag. Projects and courses can be completed in a few hours, but skill tracks require more time as they include more than one regular course. The amount of extra marks is a function of the cumulative number of activities during the semester. In particular, you earn $n-1$ extra marks per activity $n$. 
 
-For example, if you complete 9 activities in the semester, you earn a total of:
+For example, if you complete 7 activities in the semester, you earn a total of:
 
-$\displaystyle \sum_{n=1}^{9} (n-1) = 36$. 
+$\displaystyle \sum_{n=1}^{7} (n+1) = 35$. 
 
-According to this example, extra marks will be assigned as 0, 1, 2, 3, 4, 5, 6, 7, and 8. See the course calendar for the correspondent deadlines of DataCamp activities.
+According to this example, extra marks will be assigned as: 2, 3, 4, 5, 6, 7, and 8. See the course calendar for the correspondent deadlines of DataCamp activities. I may also include courses from The One UN Climate Change Learning Partnership (UN CC:Learn).
 
 **DataCamp assessments.** DataCamp assessments are individual activities that allow you to get extra marks over your final grade $F$. Yes, over your final grade. These are time-limit online evaluations of your knowledge of R. DataCamp marks your assessment as N (novice), I (intermediate), and A (advanced) depending on your own performance. The rule to allocate the extra marks over your final grade $F$ is the following: 0 for N; +1 for I; and +2 for A. Assessments will be available in your DataCamp Assignments section and in the course calendar as *super extra marks* tag. Assessments are completed during the class session and although DataCamp allows you to complete the assessment twice, I will take your first try as your grade.
 
