@@ -38,7 +38,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 5. Thursday, 26 January.**
 
-- Extra marks. DataCamp skill track: R Programming. Before 10:00 a.m.
+- Extra marks. DataCamp skill track: *R Programming*. Before 10:00 a.m.
 
 <!-- - Readings. @lozanoARF: Chapter 1. Loan analysis. -->
 <!-- - To know more about regression with a binary dependent variable, and references to credit risk please see @hanck2020introduction: Chapter 11. @hull2020machine: Chapter 3. Classifiers: [ROC Curves, Area under curve, classification rate, true/false positive rate.](https://youtu.be/HljSmQhLs8M) -->
@@ -51,8 +51,8 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 7, Zoom. Thursday, 2 February.**
 
-- $ME_1$ instructions available in Blackboard.
-- Super extra marks. Individual class activity. DataCamp assessment: R Programming.
+- Extra marks. $ME_1$ Instructions in Blackboard.
+- Super extra marks. DataCamp assessment: *R Programming*.
 
 <!-- - Readings. @lozanoARF: Chapter 1. Loan analysis. -->
 
@@ -60,7 +60,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 8. Thursday, 9 February.**
 
-- $H_1$ review session.
+- Activity. $H_1$ review.
 
 <!-- - Readings. @Hull9: Section 24.1 Credit ratings; Section 24.2 Historical default probabilities; Section 24.3 Recovery rates. -->
 <!-- - Complementary material. Fictional video (warning, it has offensive language): [FrontPoint Partners confronts Morgan Stanley Risk Assessors and S&P.](https://youtu.be/Vvxbc8L4s64) -->
@@ -71,9 +71,9 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 9. Monday, 13 February.**
 
-- Complete $H_1$ before 10:00 a.m.
-- Review $H_1$ answers.
-- $E_1$ review session.
+- Graded. Complete $H_1$ before 10:00 a.m.
+- Activity. Review $H_1$ answers.
+- Activity. $E_1$ review.
 
 <!-- - Readings. @Hull9: Section 24.6 Using equity prices to estimate default probabilities; @lozanoARF: Chapter 2 The Merton model. -->
 <!-- - Complementary material. Reading: @brealey2020principles: Chapter 23 Credit Risk and the Value of Corporate Debt. -->
@@ -81,7 +81,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 10, Zoom. Thursday, 16 February.**
 
-- $E_1$ instructions available in Blackboard.
+- Graded. $E_1$ Instructions in Blackboard.
 
 <!-- - Readings. @Hull9: Section 24.6 Using equity prices to estimate default probabilities; @lozanoARF: Chapter 2 The Merton model. -->
 <!-- - Complementary material. Video: [FRM: How d2 in Black-Scholes becomes PD in Merton model](https://youtu.be/lV0ytJYbVzc) -->
@@ -91,10 +91,10 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 11, Zoom. Monday, 20 February.**
 
-- Review $E_1$ answers.
-- The wheel of fortune 1/3.
-- Submit $H_1$ and $E_1$ auto and co-evaluation before 10:00 a.m. Instructions available in Blackboard.
-- Extra marks. DataCamp skill track: Data Visualization with R. Before 10:00 a.m.
+- Activity. Review $E_1$ answers.
+- Extra marks. The wheel of fortune 1/3.
+- Graded. Submit $H_1$ and $E_1$ auto and co-evaluation before 10:00 a.m. Instructions in Blackboard.
+- Extra marks. DataCamp skill track: *Data Visualization with R*. Before 10:00 a.m.
 
 <!-- - Readings. @Hull9: Section 24.6 Using equity prices to estimate default probabilities; @lozanoARF: Chapter 2 The Merton model. -->
 
@@ -104,7 +104,8 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 <!-- - [International Literacy Day.](https://youtu.be/spAAxgGZ4HI) -->
 
 **Session 13. Monday, 27 February.**
-- Extra marks. DataCamp skill track: Finance Fundamentals in R. Before 10:00 a.m.
+
+- Extra marks. DataCamp skill track: *Finance Fundamentals in R*. Before 10:00 a.m.
 
 
 **Session 14. Thursday, 2 March.**
@@ -116,7 +117,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 15. Monday, 6 March.**
 
-- Extra marks course: [Open Online Course on Gender and Environment.](https://unccelearn.org/course/view.php?id=39&page=overview). Please submit your PDF certificate before 10:00 a.m. by the Discussion forum in Blackboard.
+- Extra marks. [Open Online Course on Gender and Environment.](https://unccelearn.org/course/view.php?id=39&page=overview) Submit your PDF certificate before 10:00 a.m. by the discussion forum.
 
 <!-- - Class activity. Analysis of the Mexican economy 1/2. -->
 <!-- - Readings. Look for a recent and relevant Banxico presentation: [Banxico.](https://www.banxico.org.mx/publicaciones-y-prensa/presentaciones/presentaciones-junta-gobierno.html) -->
@@ -128,7 +129,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 17. Monday, 13 March.**
 
-- $H_2$ review session.
+- Activity. $H_2$ review.
 
 
 <!-- - Readings. @Hull9: Section 24.8 Default correlation; @lozanoARF: Chapter 3 The Gaussian copula model. -->
@@ -136,11 +137,11 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 18, Zoom. Thursday, 16 March.**
 
-- $ME_2$ instructions available in Blackboard.
-- Complete $H_2$ before 10:00 a.m.
-- Review $H_2$ answers.
-- $E_2$ review session.
-- Super extra marks. Individual class activity. DataCamp assessment: Data Visualization with R.
+- Extra marks. $ME_2$ Instructions in Blackboard.
+- Graded. Complete $H_2$ before 10:00 a.m.
+- Activity. Review $H_2$ answers.
+- Activity. $E_2$ review.
+- Super extra marks. DataCamp assessment: *Data Visualization with R*.
 
 
 <!-- - [International Day of Awareness on Food Loss and Waste Reduction.](https://www.un.org/en/observances/end-food-waste-day/) -->
@@ -153,7 +154,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 19, Zoom. Thursday, 23 March.**
 
-- $E_2$ instructions available in Blackboard.
+- Graded. $E_2$ Instructions in Blackboard.
 
 
 <!-- - Readings. @Hull9: Section 24.8 Default correlation; @lozanoARF: Chapter 3 The Gaussian copula model. -->
@@ -165,8 +166,8 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 **Session 20, Zoom. Monday, 27 March.**
 
 - Review $E_2$ answers.
-- The wheel of fortune 2/3.
-- Submit $H_2$ and $E_2$ auto and co-evaluation before 10:00 a.m. Instructions available in Blackboard.
+- Extra marks. The wheel of fortune 2/3.
+- Graded. Submit $H_2$ and $E_2$ auto and co-evaluation before 10:00 a.m. Instructions in Blackboard.
 
 
 **Session 21. Thursday, 30 March.**
@@ -182,7 +183,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 23. Thursday, 13 April.**
 
-- Extra marks course: [Introduction to Green Economy.](https://unccelearn.org/course/view.php?id=51&page=overview). Please submit your PDF certificate before 10:00 a.m. by the Discussion forum in Blackboard.
+- Extra marks. [Introduction to Green Economy.](https://unccelearn.org/course/view.php?id=51&page=overview) Submit your PDF certificate before 10:00 a.m. by the discussion forum.
 
 <!-- - [International Day for the Eradication of Poverty.](https://www.un.org/en/observances/day-for-eradicating-poverty) -->
 
@@ -198,7 +199,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 26. Monday, 24 April.**
 
-- Extra marks. DataCamp skill track: Tidyverse Fundamentals with R. Before 10:00 a.m.
+- Extra marks. DataCamp skill track: *Tidyverse Fundamentals with R*. Before 10:00 a.m.
 
 <!-- - Readings. @Hull9: Section 25.1 Credit default swaps. -->
 <!-- - Complementary material. Fictional video: [Dr. Michael Burry Betting Against the Housing Market.](https://youtu.be/dqDu1sHoIAw) -->
@@ -208,7 +209,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 27, Zoom. Thursday, 27 April.**
 
-- $ME_F$ instructions available in Blackboard.
+- Extra marks. $ME_F$ Instructions in Blackboard.
 
 **Holiday. `r fontawesome::fa("umbrella-beach")` Monday, 1 May.**
 
@@ -227,21 +228,20 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 <!-- - Time to catch up with the material. -->
 
-
-- Complete $H_3$ before 10:00 a.m.
-- $E_F$ review session.
-- The wheel of fortune 3/3.
+- Non graded. Complete $H_3$ before 10:00 a.m.
+- Activity. $E_F$ review.
+- Extra marks. The wheel of fortune 3/3.
 - Farewell.
 
 **Session 31, Zoom. Friday, 12 May, 16:00 – 19:00.**
 
-- Open rehearsal PEF students.
+- Activity. Open rehearsal PEF students.
 
 ## The end. `r fontawesome::fa("battery-full")`
 
 **Final exam, Zoom. Thursday, 25 May, 16:00 – 18:00.**
 
-- $E_F$ instructions available in Blackboard.
+- Graded. $E_F$ Instructions in Blackboard.
 
 
 \newpage
