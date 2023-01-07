@@ -69,7 +69,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 
 
-**Session 9. Monday, 13 February.**
+**Session 9. `r fontawesome::fa("heart")` Monday, 13 February.**
 
 - Graded. Complete $H_1$ before 10:00 a.m.
 - Activity. Review $H_1$ answers.
@@ -115,7 +115,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 <!-- - Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit) -->
 
 
-**Session 15. Monday, 6 March.**
+**Session 15. `r fontawesome::fa("female")` Monday, 6 March.**
 
 - Extra marks. [Open Online Course on Gender and Environment.](https://unccelearn.org/course/view.php?id=39&page=overview) Submit your PDF certificate before 10:00 a.m. by the discussion forum.
 
@@ -215,7 +215,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 <!-- - Readings. @Hull9: Section 25.2: Valuation of credit default swaps. -->
 
-**Session 28. Thursday, 4 May.**
+**Session 28. `r fontawesome::fa("jedi-order")` Thursday, 4 May.**
 
 
 <!-- - Readings. @Hull9: Section 25.2: Valuation of credit default swaps. -->
