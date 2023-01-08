@@ -39,7 +39,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 5. Thursday, 26 January.**
 
-- Extra marks. DataCamp skill track: *R Programming*. Before 10:00 a.m.
+- Extra marks. DataCamp skill track: *R programming*. Before 10:00 a.m.
 - Reading. @lozanoARF, Chapter 1 *Loan analysis*.
 - To know more about regression with a binary dependent variable, and references to credit risk please see @hanck2020introduction, Chapter 11. @hull2020machine, Chapter 3.
 
@@ -84,7 +84,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 - Activity. Review $E_1$ answers.
 - Extra marks. The wheel of fortune 1/3.
 - Graded. Submit $H_1$ and $E_1$ auto and co-evaluation before 10:00 a.m. Instructions in Blackboard.
-- Extra marks. DataCamp skill track: *Data Visualization with R*. Before 10:00 a.m.
+- Extra marks. DataCamp skill track: *Data visualization with R*. Before 10:00 a.m.
 - Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
 
 
@@ -100,7 +100,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 - Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
 - Reading. @lozanoARF, Chapter 2 *The Merton model*.
 - Complementary material. Video: [FRM: How d2 in Black-Scholes becomes PD in Merton model.](https://youtu.be/lV0ytJYbVzc)
-- Extra marks. DataCamp skill track: *Finance Fundamentals in R*. Before 10:00 a.m.
+- Extra marks. DataCamp skill track: *Finance fundamentals in R*. Before 10:00 a.m.
 
 
 **Session 14. Thursday, 2 March.**
@@ -188,7 +188,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 26. Monday, 24 April.**
 
-- Extra marks. DataCamp skill track: *Tidyverse Fundamentals with R*. Before 10:00 a.m.
+- Extra marks. DataCamp skill track: *Tidyverse fundamentals with R*. Before 10:00 a.m.
 - Reading. @Hull9, Section 25.1 *Credit default swaps*.
 - Complementary material. Fictional video: [Dr. Michael Burry betting against the housing market.](https://youtu.be/dqDu1sHoIAw)
 
