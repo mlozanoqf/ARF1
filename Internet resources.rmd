@@ -8,7 +8,7 @@ title: ''
 
 # `r fontawesome::fa("globe")` Internet resources.
 
-The amount of online resources and references to learn R, and its applications in  finance and economics is huge. This list is constantly growing.
+The amount of free online resources and references to learn R, and its applications in  finance and economics is huge. This list is constantly growing.
 
 ## Learn `r fontawesome::fa("r-project")`.
 
@@ -17,14 +17,14 @@ Consider the following specific online and free resources to start or continue l
 - As my student you have a free DataCamp account. You can find at least 151 courses and 45 projects about R.
 - [LearnR](https://learnr.numbat.space/). An interactive introduction to data analysis with R. In this course, you'll learn the basics of using R for data analysis. This should provide you with the necessary skills to use R when learning more advanced and specialised topics. You don't need any prior experience with R, statistics, or programming to work through this material, however if you already have some experience you can start from any chapter you'd like to learn from. 
 - [Swirl](https://swirlstats.com/) teaches you R programming and data science interactively, at your own pace, and right in the R console. 
-- [Interactive Tutorials for R.](https://rstudio.github.io/learnr/) The \texttt{learnr} package makes it easy to turn any R Markdown document into an interactive tutorial. 
+- [Interactive Tutorials for R.](https://rstudio.github.io/learnr/) The <tt>`learnr`</tt> package makes it easy to turn any R Markdown document into an interactive tutorial. 
 - R for Dummies. @de2015r.
 - Introduction to Econometrics with R. @hanck2020introduction.
 - Introduction to Econometrics with R. @Oswaldeconometrics.
 - Using R for Introductory Econometrics. @heiss2020usingR.
 - Handbook of Regression Modeling in People Analytics. With Examples in R and Python. @mcnulty2021handbook.
 - R Programming for Data Science. @peng2016r.
-- \texttt{ggplot}: elegant graphics for data analysis. @wickham2016ggplot2.
+- <tt>`ggplot`</tt>: elegant graphics for data analysis. @wickham2016ggplot2.
 - Bookdown: Authoring Books and Technical Documents with R Markdown. @xie2021bookdown.
 - R Markdown Cookbook. @xie2020r.
 - R markdown: The Definitive Guide. @xie2021r.
@@ -65,18 +65,18 @@ As you may understand, R and RStudio versions are frequently updated and people 
 
 <!-- **Complementary video.** This is in Spanish, it is a good video, but the previous 4 are somewhat better. She links RStudio and GitHub using the terminal, I normally follow the procedure in the first video (Samsun's video). She also clones with HTTPS, but I recommend you cloning with SSH as I explained before. [RStudio y GitHub: control de versiones. ](https://youtu.be/Xy_CLr7htfA) -->
 
-## Main sites and program webpages.
+## Software.
 
 Main technology used in this course.
 
 -   [The R Project for Statistical Computing.](https://www.r-project.org/) R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS. 
 -   [RStudio.](https://posit.co/) Inspired by innovators in science, education, government, and industry, RStudio develops free and open tools for R, and enterprise-ready professional products for teams who use both R and Python, to scale and share their work. 
 -   [DataCamp.](https://www.datacamp.com/) Learn the data skills you need online at your own pace—from non-coding essentials to data science and machine learning. 
--   [Tiny\TeX.](https://yihui.org/tinytex/) A lightweight, cross-platform, portable, and easy-to-maintain \LaTeX distribution based on \TeX Live. 
+-   [Tiny$\TeX{}$.](https://yihui.org/tinytex/) A lightweight, cross-platform, portable, and easy-to-maintain $\LaTeX{}$ distribution based on $\TeX{}$ Live. 
 -   [Compile R online.](https://rextester.com/l/r_online_compiler)
--   [\LaTeX base.](https://latexbase.com) A web-based \LaTeX editor with live document preview. 
--   [Overleaf.](https://www.overleaf.com/) The easy to use, online, collaborative \LaTeX editor. 
--   [\LaTeX.](https://www.latex-project.org/) \LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. 
+-   [$\LaTeX{}$ base.](https://latexbase.com) A web-based $\LaTeX{}$ editor with live document preview. 
+-   [Overleaf.](https://www.overleaf.com/) The easy to use, online, collaborative $\LaTeX{}$ editor. 
+-   [$\LaTeX{}$.](https://www.latex-project.org/) $\LaTeX{}$ is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. 
 -   [Git.](https://git-scm.com/) A free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. 
 -   [GitHub.](https://github.com/) A provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features. 
 
@@ -90,7 +90,7 @@ Here you can find questions and answers about programming in R.
 -   [Revolutions.](https://blog.revolutionanalytics.com/) Milestones in AI, Machine Learning, Data Science, and visualization with R and Python since 2008. 
 -   [R-ladies](https://rladies.org/) is a worldwide organization whose mission is to promote gender diversity in the R community.
 -   These sources are the ones that most often hold the data that social science students and researchers at Tufts are looking for. [Social Science Data and Statistics Resources.](https://researchguides.library.tufts.edu/data/r)
--   [Stack Exchange](https://tex.stackexchange.com/) is a question and answer site for users of \TeX, \LaTeX, ConTeXt, and related typesetting systems. 
+-   [Stack Exchange](https://tex.stackexchange.com/) is a question and answer site for users of $\TeX{}$, $\LaTeX{}$, Con$\TeX{}$t, and related typesetting systems. 
 -   [Kaggle.](https://www.kaggle.com/) Inside Kaggle you’ll find all the code & data you need to do your data science work. Use over 50,000 public datasets and 400,000 public notebooks to conquer any analysis in no time.
 -   A gap exists between the Data Scientist's skillset and the Business Objectives. [Learn Data Science.](https://www.business-science.io/)
 -   [Rdatasets](https://vincentarelbundock.github.io/Rdatasets/index.html) A collection of nearly 1500 datasets that were originally distributed alongside the statistical software environment R and some of its add-on packages.
