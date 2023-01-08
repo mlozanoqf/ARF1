@@ -6,7 +6,7 @@ title: ''
 
 \newpage
 
-# `r fontawesome::fa("tasks")` Learning resources and activities.
+# `r fontawesome::fa("tasks")` Resources & activities.
 
 This course is conducted in Spanish and English. Most learning resources are in English, exams and homework assignments submitted in English. However, discussion forums, emails, and class sessions are conducted in Spanish. 
 

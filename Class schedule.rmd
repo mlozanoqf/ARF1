@@ -127,7 +127,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 <!-- - Class activity. Analysis of the Mexican economy 2/2. -->
 
-**Session 17. Monday, 13 March.**
+**Session 17. $\pi$ Monday, 13 March.**
 
 - Activity. $H_2$ review.
 
@@ -207,7 +207,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 <!-- - Readings. @Hull9: Section 24.8 Default correlation; @lozanoARF: Chapter 3 The Gaussian copula model. -->
 
 
-**Session 27, Zoom. Thursday, 27 April.**
+**Session 27, Zoom. `r fontawesome::fa("children")` Thursday, 27 April.**
 
 - Extra marks. $ME_F$ Instructions in Blackboard.
 
@@ -220,7 +220,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 <!-- - Readings. @Hull9: Section 25.2: Valuation of credit default swaps. -->
 
-**Session 29. Monday, 8 May.**
+**Session 29. `r fontawesome::fa("female")` Monday, 8 May.**
 
 <!-- - Readings. @Hull9: Section 25.2: Valuation of credit default swaps. -->
 
