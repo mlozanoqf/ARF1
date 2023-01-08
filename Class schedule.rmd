@@ -99,7 +99,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 - Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
 - Reading. @lozanoARF, Chapter 2 *The Merton model*.
-- Complementary material. Video: [FRM: How d2 in Black-Scholes becomes PD in Merton model.](https://youtu.be/lV0ytJYbVzc)
+- Complementary material. Video: [FRM: How $d_2$ in Black-Scholes becomes PD in Merton model.](https://youtu.be/lV0ytJYbVzc)
 - Extra marks. DataCamp skill track: *Finance fundamentals in R*. Before 10:00 a.m.
 
 
