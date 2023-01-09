@@ -24,7 +24,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 - Reading. @crouhy2014essentials, Chapter 1 *Risk management a helicopter view*.
 - Complementary material. @crouhy2014essentials, video 1 [The building blocks of risk management.](https://youtu.be/sKMt1qzmGfU) video 2 [Risk management: A helicopter view.](https://youtu.be/PJbRtIVGdaI)
 - Complementary material. @brealey2020principles, Chapter 26 *Managing risk*.
-- Register and attend the following DataCamp webinar. [Exploratory data analysis in R for absolute beginners.](https://www.datacamp.com/webinars/data-analysis-r-beginners)
+- Non graded. Register and attend the following DataCamp webinar. [Exploratory data analysis in R for absolute beginners.](https://www.datacamp.com/webinars/data-analysis-r-beginners)
 
 **Session 3. Thursday, 19 January.**
 
@@ -85,7 +85,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 - Extra marks. The wheel of fortune 1/3.
 - Graded. Submit $H_1$ and $E_1$ auto and co-evaluation before 10:00 a.m. Instructions in Blackboard.
 - Extra marks. DataCamp skill track: *Data visualization with R*. Before 10:00 a.m.
-- Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+- Non graded. Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
 
 
 **Session 12. Thursday, 23 February.**
@@ -147,7 +147,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 20, Zoom. Monday, 27 March.**
 
-- Review $E_2$ answers.
+- Activity. Review $E_2$ answers.
 - Extra marks. The wheel of fortune 2/3.
 - Graded. Submit $H_2$ and $E_2$ auto and co-evaluation before 10:00 a.m. Instructions in Blackboard.
 
@@ -198,8 +198,6 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 - Extra marks. $ME_F$ Instructions in Blackboard.
 
 **Holiday. `r fontawesome::fa("umbrella-beach")` Monday, 1 May.**
-
-- Reading. @Hull9, Section 25.2 *Valuation of credit default swaps*.
 
 **Session 28. `r fontawesome::fa("jedi-order")` Thursday, 4 May.**
 
