@@ -111,7 +111,7 @@ ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 
 **Session 15. `r fontawesome::fa("female")` Monday, 6 March.**
 
-- Extra marks. [Open Online Course on Gender and Environment.](https://unccelearn.org/course/view.php?id=39&page=overview) Submit your PDF certificate before 10:00 a.m. by the discussion forum.
+- Extra marks. [Open online course on gender and environment.](https://unccelearn.org/course/view.php?id=39&page=overview) Submit your PDF certificate before 10:00 a.m. by the discussion forum.
 - Class activity. Analysis of the Mexican economy.
 - Readings. Look for a recent and relevant Banxico presentation: [Banxico.](https://www.banxico.org.mx/publicaciones-y-prensa/presentaciones/presentaciones-junta-gobierno.html)
 
