@@ -16,7 +16,7 @@ Of most frustration to students is receiving the same mark as their fellow non-c
 
 Consider the co-evaluation as an effective tool to incentive or penalize the group members to work well and on time. As a professor, I am not always aware of who is working well within a group, but the co-evaluation can help us to be fair and assign marks based on academic merits. I am not planning to reveal specific details about how you co-evaluate your colleagues, I am only going to reveal the group mark and the final individual mark. So, your co-evaluation details will remain anonymous. Then, there are many incentives aligned so the group should work well, otherwise the chances to get a low mark are high.
 
-In this video, students from The University of Melbourne share their thoughts on how to effectively work in teams.
+In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) share their thoughts on how to effectively work in teams.
 
 ```{r echo=FALSE}
 embed_url("https://youtu.be/_-mP3YKptwQ")
@@ -66,7 +66,7 @@ Coevaluations are completed using a Google Form. I set up an example here: <http
 
 In particular, you will have two Google Forms web links to complete your auto and co-evaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is no auto and co-evaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
 
-## Final grade $F$. `r fontawesome::fa("flag-checkered")`
+## `r fontawesome::fa("flag-checkered")` Final grade $F$. 
 
 The final grade $F$ is computed as follows:
 $$
@@ -160,7 +160,7 @@ tex2markdown(textable)
 
 In any case, my sincere advice is to keep the standard as high as possible in order to minimize the risk of achieving low grades. Note that stickers and extra marks are not explicitly reported in $F$ because they are part of $E_1$, $E_2$ and $E_F$. Homework assignment co-evaluations are not explicitly reported either because they are part of $H_1$ and $H_2$.
 
-## General rubric. `r fontawesome::fa("marker")`
+## `r fontawesome::fa("marker")` General rubric. 
 
 The following list illustrates a typical rubric for graded activities.
 
@@ -178,7 +178,7 @@ embed_url("https://youtu.be/NPwTgfswnD8")
 
 You have to realize as soon as possible that you are being evaluated all the time, so every answer provided by you either in exams, assignments or even verbally during class should be clearly stated, showing your full thought-process, this will allow me to understand your own logic and grade your work fairly. Please do not forget this point as this will allow us to keep the academic quality standards high throughout the semester.
 
-## If you are struggling with the course. `r fontawesome::fa("hands-helping")`
+## `r fontawesome::fa("hands-helping")` If you are struggling with the course. 
 
 In case you have any concern, any question about the course contents, or if you are having trouble understanding the course material, you have to contact me as soon as possible. This is your own responsibility starting from day 1. We can arrange an online meeting, or we can solve your questions or concerns by email, whatever is best. In case you are having a poor academic performance and you are genuinely interested to improve, my best advice is to contact me during the lecture period, not after the last session of the semester, and we can discuss specific strategies that can potentially help you to get higher marks and reduce the risk of failing the course. The point here is that you have to know that I can help you to improve your academic performance during the semester only if you are truly interested. If you would like to improve your marks at a later stage, or after the final exam, then I am afraid I can do nothing for you, but I can do a lot during the semester. Please email me in case you would like to arrange an appointment, my full contact details are in the first page of this syllabus. The email is definitely the best way to initially approach me.
 

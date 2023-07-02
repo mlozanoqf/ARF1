@@ -1,7 +1,7 @@
 ---
-title: Administración de riesgos financieros ARF1. `r fontawesome::fa("credit-card")`
-subtitle: Course syllabus `r fontawesome::fa("chalkboard-teacher")` Spring 2023.
-author: Dr. Martín Lozano `r fontawesome::fa("envelope")` <tt>`<martin.lozano@udem.edu>`</tt>
+title: Administración de riesgos financieros ARF1 #`r fontawesome::fa("credit-card")`.
+subtitle: Course syllabus. Fall 2023. 
+author: Dr. Martín Lozano <tt>`<martin.lozano@udem.edu>`</tt>
 #- name: Back to main [`r fontawesome::fa("home")`](https://mlozanoqf.github.io/)
 #  affiliation: Academic website. [Web.](https://sites.google.com/site/mlozanoqf/)
 date: Current `r fontawesome::fa("code-commit") ` `r format(Sys.time(), '%d %b %Y, %H:%M:%S.')`
@@ -17,10 +17,10 @@ output:
     theme: readable #darkly 
     includes:
       after_body: analytics_arf1.html
-abstract: A course syllabus is an academic document with relevant information for students. This document represents your ultimate guide to the successful completion of this course. Please read it regularly and carefully. Here, you will find a comprehensive description of the course goals, rules, objectives, recommendations, grading details, a detailed schedule, activities, resources, references and learning outcomes. The objective of this document is to give you full certainty about what to expect from this course starting from day 1 until the final exam. In my experience, reading this syllabus is positively related with the student's performance.
+abstract: A course syllabus is an academic document containing relevant information for students. This document serves as your ultimate guide to successfully completing this course. Please read it regularly and carefully. Within this document, you will find a comprehensive description of the course goals, rules, objectives, recommendations, grading details, a detailed schedule, activities, resources, references, and learning outcomes. The objective of this document is to provide you with complete certainty regarding what to expect from this course, starting from day 1 until the final exam. Based on my experience, reading this syllabus is positively correlated with students' performance.
 
 bibliography: mybibfile.bib
-
+link-citations: true
 ---
 
 ```{=tex}
