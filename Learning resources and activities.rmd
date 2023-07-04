@@ -136,13 +136,19 @@ For every DataCamp and [UN CC:Learn](https://www.uncclearn.org/) course complete
 
 <!-- [^6]: Please note that DataCamp is not the only alternative to learn R. There are other free alternatives available in the web such as [Swirl.](https://swirlstats.com/) You can find many free electronic resources to learn R in the reference section at the end of this syllabus. There are also some students who find the tutorials (developed by myself) a good enough resource to learn R. However, there are other students who need more specialized courses, or more basic courses to understand the logic of programming in R and some other extensions. In my attempt to offer you as many free and useful resources as possible, you have a DataCamp account. According to Martijn Theuwissen Co-founder and COO at DataCamp, they are no.1 ranked Forbes certifications. -->
 
-**DataCamp and UN CC:Learn courses.** You will earn extra marks over your next exam, it could be $E_1$, $E_2$ or $E_F$. These activities will be available for you to complete in your DataCamp Assignments section or UN CC:Learn courses, and listed in the course calendar as *extra marks* tag. DataCamp's projects and courses can be completed in a few hours, but skill tracks and career tracks require more time as they include more than one regular course. The amount of extra marks is a function of the cumulative number of activities during the semester. In particular, you earn $n+1$ extra marks per activity $n$. 
+**DataCamp and UN CC:Learn courses.** You will earn extra marks over your next exam, it could be $E_1$, $E_2$ or $E_F$. These activities will be available for you to complete in your DataCamp Assignments section or [UN CC:Learn](https://www.uncclearn.org/) courses, and listed in the course calendar as *extra marks* tag. DataCamp's projects and courses can be completed in a few hours, but skill tracks and career tracks require more time as they include more than one regular course. Please note that [UN CC:Learn](https://www.uncclearn.org/) courses may require a minimum mark to get a valid certificate. The amount of extra marks is a function of the cumulative number of activities during the semester. In particular, you earn $n+1$ extra marks per activity $n$. 
 
-For example, if there are 7 activities in the semester allocated as 3 in the first partial, 2 in the second, 2 in the third, and you complete all of them on time, you earn:
+For example, if there are 7 activities (DataCamp and UN CC:Learn courses) in the semester allocated as 3 in the first partial, 2 in the second, 2 in the third, and you complete all of them on time, you earn:
 
 * $\displaystyle \sum_{n=1}^{3} (n+1) = 9$ extra marks over your $E_1$. 
 * $\displaystyle \sum_{n=4}^{5} (n+1) = 11$ extra marks over your $E_2$. 
 * $\displaystyle \sum_{n=6}^{7} (n+1) = 15$ extra marks over your $E_F$.
+
+However, if there are 7 activities (DataCamp and UN CC:Learn courses) in the semester allocated as 3 in the first partial, 2 in the second, 2 in the third, and you complete three, one in each period, you earn:
+
+* $\displaystyle \sum_{n=1}^{1} (n+1) = 2$ extra marks over your $E_1$. 
+* $\displaystyle \sum_{n=2}^{2} (n+1) = 3$ extra marks over your $E_2$. 
+* $\displaystyle \sum_{n=3}^{3} (n+1) = 4$ extra marks over your $E_F$.
 
 
 ```{r eval=FALSE, include=FALSE}
@@ -156,7 +162,6 @@ df <- data.frame("Activity completed" = x,
 df
 ```
 
-I may also include courses from The One UN Climate Change Learning Partnership, [UN CC:Learn](https://www.uncclearn.org/).
 
 ```{r echo=FALSE}
 embed_url("https://youtu.be/5B8eajiYzjE")
