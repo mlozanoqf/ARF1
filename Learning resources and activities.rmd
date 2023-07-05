@@ -8,33 +8,33 @@ title: ''
 
 # `r fontawesome::fa("tasks")` Resources & activities.
 
-Academic resources refer to various materials, tools, and sources of information that are specifically designed to support and enhance learning, research, and scholarly pursuits in an academic setting. These resources play a crucial role in facilitating the acquisition of knowledge, promoting critical thinking, and advancing scholarly activities within the academic community.
+Academic resources encompass a wide range of materials, tools, and sources of information specifically designed to support and enhance learning, research, and scholarly pursuits in an academic setting. These resources play a crucial role in facilitating knowledge acquisition, promoting critical thinking, and advancing scholarly activities within the academic community.
 
 Learning activities are structured tasks or exercises designed to facilitate the acquisition of knowledge, skills, and understanding in an educational context. They are intended to promote active engagement, deepen understanding, and support the achievement of specific learning objectives.
 
-This course is conducted in Spanish and English. Most learning resources are in English, and exams and homework assignments are submitted in English. However, discussion forums, emails, and class sessions are conducted in Spanish. 
+This course is conducted in both Spanish and English. Most learning resources are in English, and exams and homework assignments are to be submitted in English. However, discussion forums, emails, and class sessions will be conducted in Spanish.
 
-The learning activities are classified as graded, non-graded, and extra marks. All graded activities represent 100% of your final grade. Non-graded activities are relevant for your learning but are not included in the grading process. Therefore, if you fail to complete them, there will be no mark deduction. Extra marks are applied as a bonus to your next partial exams or final exam.
+The learning activities are classified into graded, non-graded, and extra marks categories. All graded activities account for 100% of your final grade. Non-graded activities are relevant for your learning but are not included in the grading process. Therefore, failure to complete them will not result in any mark deduction. Extra marks are awarded as a bonus to your next partial exams or final exam.
 
-The learning activities are also classified as individual and group activities. 
+Furthermore, learning activities are classified as either individual or group activities.
 
 ## `r fontawesome::fa("brain")` Learning resources.
 
-Here is a list and description of the available resources for you to learn the subject. My advice is to utilize as many resources as possible, as they will enable you to grasp the subject matter and develop the necessary professional competences required.
+Here is a list and description of the available resources to help you learn the subject. My advice is to utilize as many resources as possible, as they will enable you to grasp the subject matter and develop the necessary professional competences.
 
 **Professor.** I have extensive experience as an academic and researcher, along with numerous postgraduate studies. I am willing to assist you in better understanding the course topics. If you need any help, feel free to contact me <tt>`<martin.lozano@udem.edu>`</tt> and follow my advice.
 
-Please see the video about professors:
+Please watch the video about professors:
 
 ```{r echo=FALSE}
 embed_url("https://youtu.be/IzG85NDDo1Q")
 ```
 
-**Class sessions.** We will explain and discuss specific topics, address questions, review your study progress, and occasionally conduct brief activities during class sessions. Please note that the available time in class sessions is limited, and we may not be able to cover every topic in full detail. Instead, we will utilize other resources and learning activities to cover the remaining topics. It is expected that you attend on time, actively participate, and engage in our discussions. I recommend using your computer during the sessions as you may need to access an IDE, view the PDF textbook, or refer to your own homework.
+**Class sessions.** During our class sessions, we will explain and discuss specific topics, address questions, review your study progress, and occasionally conduct brief activities. Please keep in mind that the time available during class sessions is limited, and we may not be able to cover every topic in full detail. To ensure comprehensive coverage, we will utilize other resources and learning activities. It is expected that you attend on time, actively participate, and engage in our discussions. I recommend using your computer during the sessions as you may need to access an IDE, view the PDF textbook, or refer to your own homework.
 
-For Zoom sessions, it is fine if you prefer to keep your camera either on or off, as we will often be sharing the screen during class. To ensure convenience, unless otherwise specified, class Zoom sessions are recorded and accessible to you. Please note that internet service may occasionally fail during class sessions, but this is a risk we all face. The Zoom link to join the class can be found in Blackboard.
+For Zoom sessions, you have the option to keep your camera either on or off, as we will often be sharing the screen during class. To provide convenience, unless otherwise specified, class Zoom sessions will be recorded and made accessible to you. Please note that occasional internet service disruptions during class sessions are a risk we all face. The Zoom link to join the class can be found in Blackboard.
 
-Watch the following video for a valuable recommendation from Prof. Fleisch, applicable to both online and face-to-face sessions:
+Please watch the following video for a valuable recommendation from Prof. Fleisch, which is applicable to both online and face-to-face sessions:
 
 ```{r echo=FALSE}
 embed_url("https://youtu.be/KX-sg1HXAws")
@@ -42,7 +42,15 @@ embed_url("https://youtu.be/KX-sg1HXAws")
 
 <!-- **Audio files (if available).** I explain part of the course material with my *sweet melodic* voice. Some students might have difficulties at understanding the required readings and I believe these mp3 audio files are useful to better understand some topics. It is compulsory to listen to them before the class session. Please note that not all the course material is discussed in audio files, for this reason you are not supposed to listen to audio files and ignore the rest of the course material, all resources complement each other. Audio files are not listed in the course calendar, but it will be easy for you to identify which audio file corresponds to each course topic. -->
 
-**Discussion forums.** There are three discussion forums available for us to interact and engage with one another. Each one corresponds to each part of the course: the first, second, and third partials. The benefit of the discussion forums is that everyone can track the progression of discussions and actively participate. The logical flow of ideas remains recorded, allowing you to receive my feedback and comments. Since our class sessions have limited time, we may occasionally utilize the discussion forums. Additionally, we may use the discussion forums as a means to submit individual activities.
+**Review sessions.** We have review sessions for assignments and exams, which take place before the assignment submission deadline and prior to the exams. These sessions provide a great opportunity to ask questions and enhance your chances of achieving higher marks in both assignments and exams.
+
+Please see some recommendations about review sessions:
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/XoHx_UIgtt0")
+```
+
+**Discussion forums.** There are three discussion forums available for us to interact and engage with one another. Each forum corresponds to a different part of the course: the first, second, and third partials. The benefit of the discussion forums is that everyone can track the progression of discussions and actively participate. The logical flow of ideas remains recorded, allowing you to receive my feedback and comments. Since our class sessions have limited time, we may occasionally utilize the discussion forums. Additionally, we may use the discussion forums as a means to submit individual activities.
 
 **Email.** You are welcome to contact me via email at any time: <tt>`<martin.lozano@udem.edu>`</tt>. I also send group emails containing important information, so please ensure that my email address is not marked as spam. If there is ever a delay in my response to an email or any other request, please feel free to insist and kindly remind me.
 
@@ -56,11 +64,11 @@ embed_url("https://youtu.be/KX-sg1HXAws")
 
 ## `r fontawesome::fa("check")` Graded activities. Exams: $E_1$, $E_2$ and $E_F$. 
 
-We will have two partial exams, $E_1$ and $E_2$, which together contribute 40% to the final grade, as well as one final exam, $E_F$, which accounts for 30% of the final grade. In sum, these three exams represent 70% of the final grade, and the remaining 30% consists of homework assignments $H$.
+We will have two partial exams, $E_1$ and $E_2$, which together contribute 40% to the final grade, as well as one final exam, $E_F$, which accounts for 30% of the final grade. In total, these three exams represent 70% of the final grade, while the remaining 30% consists of homework assignments, denoted as $H$.
 
-All the topics covered in this course are subject to evaluation in the exams. If you aim to achieve an outstanding final grade, I strongly advise you to take thorough class notes throughout the semester.
+All the topics covered in this course will be evaluated in the exams. If you aim to achieve an outstanding final grade, I strongly advise you to take thorough class notes throughout the semester.
 
-Please take a look at this video about taking notes:
+Please take a look at this video about taking notes:"
 
 ```{r echo=FALSE}
 embed_url("https://youtu.be/pAvPE0lPlqE")
@@ -80,17 +88,11 @@ Please consider the following recommendations about exams:
 embed_url("https://youtu.be/w1w0dkHdakE")
 ```
 
-**Where?** Physical presence in the classroom is not required for taking the exams. You can complete the exams from any location of your choice, as they are conducted, answered, and submitted entirely in electronic format. Just ensure that you and the rest of your group have a stable internet connection. I will be available during the exams through Zoom, and while joining the Zoom session is not mandatory, please be aware that I will be accessible in case you need any assistance. The Zoom link for the exams is the same as the one assigned to the course. It is important to note that for 3-hour class sessions, the first part of the session is dedicated to taking the exam. During the second part of the class, you will need to log in to the Zoom session to review and discuss the answers for the $E_1$ and $E_2$ exams. I can create Zoom rooms for your group to answer the exam if you wish. 
+**Where?** Physical presence in the classroom is not required for taking the exams. You can complete the exams from any location of your choice, as they are conducted, answered, and submitted entirely in electronic format. Just ensure that you and the rest of your group have a stable internet connection. I will be available during the exams through Zoom, and while joining the Zoom session is not mandatory, please be aware that I will be accessible in case you need any assistance. The Zoom link for the exams is the same as the one assigned to the course. It is important to note that for 3-hour class sessions, the first part of the session is dedicated to taking the exam. During the second part of the class, you will need to log in to the Zoom session to review and discuss the answers for the $E_1$ and $E_2$ exams. I can create Zoom rooms for your group to answer the exam if you wish. If desired, I can create separate Zoom rooms for your group to answer the exam.
 
 **How many questions?** For both $E_1$ and $E_2$, there will be a total of 4 questions, out of which you are required to answer 3. This allows you the opportunity to choose the 3 questions that you feel most confident about. As for $E_F$, there will be 5 questions, and you are expected to answer 4. All questions carry equal weight. It is important to note that attempting to answer all the exam questions is not recommended, as it may result in a significant deduction of marks. The $E_F$ covers all the topics and activities covered in the course. To ensure convenience, one question from $E_1$ and one question from $E_2$ will be included in $E_F$ with minor modifications. This means that if you have prepared well for $E_1$ and $E_2$, you should be able to answer at least 50% of the $E_F$ correctly. However, if you take the exam on a different date for any reason, your $E_1$ or $E_2$ will consist of 3 questions instead of 4. In this case, you will not have the advantage of leaving one exam question unanswered. The same principle applies to the $E_F$.
 
 **What are typical exam questions?** I always allow my students to retain their own partial exams, so it is possible that you can find previous partial exams. It is important to note that the course material evolves, and exam questions change every semester. However, reviewing old exams can provide you with a good understanding of the types of questions you can expect. I often include questions that require the use of R and/or Python, and the exam questions typically involve analysis and interpretation of results. To assist you in your exam preparation, we will have review class sessions and mock exams prior to each graded exam. If additional time is needed for review, we can utilize the discussion forum for that purpose.
-
-See some recommendations about review sessions:
-
-```{r echo=FALSE}
-embed_url("https://youtu.be/XoHx_UIgtt0")
-```
 
 **Individual or in groups?** All exams $E_1$, $E_2$, and $E_F$ are group activities, with a maximum of 4 students per group. If there are more than 4 students in a group, a significant mark deduction will be applied. You have the freedom to define your own groups, and these groupings will remain fixed throughout the semester. Each group will be assigned a distinctive name. These groups will also be used for the homework assignments $H$. Please note that the class list may change during the semester due to late enrollments or dropouts. In such cases, group members may change, but the maximum number of students per group will remain the same. Your group will have private access to a Deepnote project, where only your group members and I will have editing privileges.
 
@@ -104,8 +106,7 @@ embed_url("https://youtu.be/XoHx_UIgtt0")
 
 **What if we fail to understand our own mistakes?** Regardless of the activity, if you have any difficulty understanding your mistakes, it is expected that you reach out to me for clarification. In such cases, I may request you to attempt the questions again before we can discuss your specific mistakes in a meeting. It is important to note that the grade you receive in the exam, which includes individual extra marks and the auto and co-evaluation, will be recorded as your partial grade.
 
-**Mock exams.** We have three mock exams $ME_1$, $ME_2$ and $ME_F$. These are similar to regular exams, taken during class before the real and graded $E_1$, $E_2$ and $E_F$ exams. They represent an opportunity to get familiar with the examination process, logistics and level of difficulty of the real and graded exams. Mock exams are group activities, usually one or two questions. Only if your group answers the question 100% correctly then your group will receive 2 stickers (+10 marks) on your next partial or final exam. If not, your group will lose 5 marks on your next partial or final exam. We will review the correct answers after the deadline. 
-
+**Mock exams.** We have three mock exams: $ME_1$, $ME_2$, and $ME_F$. These exams are similar to the regular exams $E_1$, $E_2$, and $E_3$ as they can be taken without physical presence in the classroom. Mock exams provide an opportunity to become familiar with the examination process, logistics, and the level of difficulty of the graded exams. Mock exams are conducted as group activities, typically consisting of one or two questions. If your group answers the mock exam correctly (100% accuracy), you will receive 2 stickers (+10 marks) to be added to your next partial or final exam. However, if your group does not answer the mock exam correctly, you will lose 5 marks on your next partial or final exam. We will review the correct answers immediately during the same session.
 
 ## `r fontawesome::fa("check")` Graded activities. Homework assignments: $H_1$, $H_2$ and $H_3$. 
 
@@ -121,7 +122,7 @@ We have 3 homework assignments $H_1$ and $H_2$ (30% of the final grade), and one
 
 **Do all group members receive the same mark?** The same as in the case of exams.
 
-**Are we going to review the homework assignment answers?** The same as in the case of exams.
+**Are we going to review the homework assignment answers?** Yes, we can review the answers during the class that coincides with the submission deadline. I may ask a team to present their answers in class. 
 
 **What if we fail to understand our own mistakes?** The same as in the case of exams.
 
@@ -136,7 +137,9 @@ For every DataCamp and [UN CC:Learn](https://www.uncclearn.org/) course complete
 
 <!-- [^6]: Please note that DataCamp is not the only alternative to learn R. There are other free alternatives available in the web such as [Swirl.](https://swirlstats.com/) You can find many free electronic resources to learn R in the reference section at the end of this syllabus. There are also some students who find the tutorials (developed by myself) a good enough resource to learn R. However, there are other students who need more specialized courses, or more basic courses to understand the logic of programming in R and some other extensions. In my attempt to offer you as many free and useful resources as possible, you have a DataCamp account. According to Martijn Theuwissen Co-founder and COO at DataCamp, they are no.1 ranked Forbes certifications. -->
 
-**DataCamp and UN CC:Learn courses.** You will earn extra marks over your next exam, it could be $E_1$, $E_2$ or $E_F$. These activities will be available for you to complete in your DataCamp Assignments section or [UN CC:Learn](https://www.uncclearn.org/) courses, and listed in the course calendar as *extra marks* tag. DataCamp's projects and courses can be completed in a few hours, but skill tracks and career tracks require more time as they include more than one regular course. Please note that [UN CC:Learn](https://www.uncclearn.org/) courses may require a minimum mark to get a valid certificate. The amount of extra marks is a function of the cumulative number of activities during the semester. In particular, you earn $n+1$ extra marks per activity $n$. 
+**DataCamp and UN CC:Learn courses.** You will earn extra marks over your next exam, it could be $E_1$, $E_2$ or $E_F$. These activities will be available for you to complete in your DataCamp Assignments section or [UN CC:Learn](https://www.uncclearn.org/) courses, and listed in the course calendar as *extra marks* tag. DataCamp's projects and courses can be completed in a few hours, but skill tracks and career tracks require more time as they include more than one regular course. Please note that [UN CC:Learn](https://www.uncclearn.org/) courses may require a minimum mark to get a valid certificate. 
+
+The amount of extra marks is a function of the cumulative number of activities during the semester. In particular, you earn $n+1$ extra marks per activity $n$. This function provides incentives to complete as many activities as possible.
 
 For example, if there are 7 activities (DataCamp and UN CC:Learn courses) in the semester allocated as 3 in the first partial, 2 in the second, 2 in the third, and you complete all of them on time, you earn:
 
@@ -149,7 +152,6 @@ However, if there are 7 activities (DataCamp and UN CC:Learn courses) in the sem
 * $\displaystyle \sum_{n=1}^{1} (n+1) = 2$ extra marks over your $E_1$. 
 * $\displaystyle \sum_{n=2}^{2} (n+1) = 3$ extra marks over your $E_2$. 
 * $\displaystyle \sum_{n=3}^{3} (n+1) = 4$ extra marks over your $E_F$.
-
 
 ```{r eval=FALSE, include=FALSE}
 cumulative <- cumsum(2:8)

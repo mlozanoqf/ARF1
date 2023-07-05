@@ -51,7 +51,10 @@ H1 <- fun(AC, Hm) # Individual mark.
 paste("John Doe's individual mark in the first assignment is:", H1)
 ```
 
-This is because we apply $H_1=\mathrm{min}(mean(AC), H_m) \rightarrow H_1=\mathrm{min}(70, 90)\rightarrow H_1=70$. If instead of the 0, Baby Yoda evaluates John Doe with a 70, then:
+This is because we apply $H_1=\mathrm{min}(mean(AC), H_m) \rightarrow H_1=\mathrm{min}(70, 90)\rightarrow H_1=70$. 
+
+
+If instead of the 0, Baby Yoda evaluates John Doe with a 70, then:
 
 ```{r}
 AC <- c(90, 70, 90, 100)
