@@ -8,7 +8,7 @@ title: ''
 
 # `r fontawesome::fa("handshake")` Introduction. 
 
-Welcome to the course! I hope that at the time you are reading this document you, your family and friends are all well.
+Welcome to the course! My name is Martín. I hope that at the time you are reading this document you, your family and friends are all well.
 
 <!-- ## Perfil de egreso (en español). -->
 
