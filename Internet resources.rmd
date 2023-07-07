@@ -35,7 +35,7 @@ Consider the following specific online and free resources to start or continue l
 - Probability, Statistics, and Data: A fresh approach using R. [Foundations of Statistics with R.](https://mathstat.slu.edu/~speegle/_book/)
 
 
-## YouTube installation guides.
+## `r fontawesome::fa("youtube")` YouTube installation guides.
 
 In principle, as we are using Deepnote, you do not need to install any software on your computer. However, you may be interested to work with R on your local computer. Here is a good list of YouTube installation guides to do so. 
 
