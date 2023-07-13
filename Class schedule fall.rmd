@@ -16,7 +16,7 @@ ARF1, Fall 2023. Room 1202, 16:00 – 17:30.
 
 - Reading. Course syllabus (this document).
 - Activity. Welcome and introduction to the course.
-- Activity. Set up your free DataCamp and Deepnote accountsYou should have received invitations in your UDEM student email.
+- Activity. Set up your free DataCamp and Deepnote accounts. You should have received invitations in your UDEM student email.
 - Activity. Define your group of no more than 4 members. You should have received an invitation in your UDEM student email.
 
 **Session 2. Monday, 7 August.**
