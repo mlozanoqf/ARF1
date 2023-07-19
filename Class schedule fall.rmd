@@ -51,6 +51,7 @@ ARF1, Fall 2023. Room 1202, 16:00 – 17:30.
 **Session 7. Thursday, 24 August.**
 
 - Activity. $H_1$ review.
+- Extra marks. Mentimeter 1/3.
 - Reading. @lozanoARF, Chapter 1 *Loan analysis*.
 
 **Session 8, Zoom. Monday, 28 August.**
@@ -114,6 +115,7 @@ ARF1, Fall 2023. Room 1202, 16:00 – 17:30.
 **Session 17. Thursday, 28 September.**
 
 - Activity. $H_2$ review.
+- Extra marks. Mentimeter 2/3.
 - Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
 - Reading. @lozanoARF, Chapter 2 *The Merton model*.
 
@@ -180,6 +182,7 @@ ARF1, Fall 2023. Room 1202, 16:00 – 17:30.
 **Session 29, Zoom. Thursday, 9 November.**
 
 - Extra marks 8/8. DataCamp skill track: *Data Visualization with Python*, before 7:00 a.m.
+- Extra marks. Mentimeter 3/3.
 - Reading. @Hull9, Section 25.2 *Valuation of credit default swaps*.
 
 **Session 30, Zoom. Monday, 13 November.**
