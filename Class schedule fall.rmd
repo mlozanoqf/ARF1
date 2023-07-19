@@ -193,6 +193,10 @@ ARF1, Fall 2023. Room 1202, 16:00 – 17:30.
 - Extra marks. The wheel of fortune 3/3.
 - Farewell.
 
+**Session 32, Zoom. Tuesday, 21 November.**
+
+- Review.
+
 ## `r fontawesome::fa("battery-full")` The end.
 
 **Final exam, Zoom. Thursday, 23 November, 16:00 – 18:00.**
