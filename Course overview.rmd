@@ -6,9 +6,9 @@ title: ''
 
 \newpage
 
-# `r fontawesome::fa("info-circle")` Course overview.
+# `r fontawesome::fa("info-circle")` Overview.
 
-In this section I describe and explain the course objectives, mechanics, and important information about academic integrity.
+This section includes the course objectives, mechanics, and important information about academic integrity.
 
 ## `r fontawesome::fa("credit-card")` ARF description.
 
@@ -18,13 +18,13 @@ Forecasting is a key aspect of financial econometrics and holds great importance
 
 The main electronic textbooks recommended for this course are: @49018680cf534023b6ae0f4e933c475d, and @lozanoEMF. Additionally, there are other highly regarded reference books that employ R, such as: @hanck2020introduction, @gujarati2012basic, @brooks2019introductory, @Oswaldeconometrics, @heiss2020usingR and @mcnulty2021handbook, @RundelIntroduction, @james2013introduction. For Python enthusiasts, see @heiss2020usingPython is a recommended resource. Please refer to the course calendar provided at the end of this syllabus for a detailed overview of topics, activities, and required readings. -->
 
-Financial risk management involves the identification, quantification, and mitigation of financial risks. In this course, our focus is on credit risk models and their practical implementation using R and Python. Credit risk refers to the potential loss arising from a borrower's failure to make payments on their debt obligations. Managing credit risk involves measuring the probability of default and the associated potential losses to minimize financial losses. While traditional courses often concentrate on studying firms, this course also incorporates the analysis of credit risk at the individual and country levels, providing a broader perspective and enabling the application of financial and economic analysis.
+Financial risk management involves the identification, quantification, and mitigation of financial risks. In this course, our focus is on credit and market risk models and their practical implementation using R and Python. 
 
-This course can be viewed as having two main pillars. The first pillar covers modern techniques and methodologies used to identify, quantify, and manage financial risks, particularly credit risk. The second pillar focuses on developing analytical skills and understanding the key financial and economic challenges specific to México.
+Credit risk refers to the potential loss arising from a borrower's failure to make payments on their debt obligations. Managing credit risk involves measuring the probability of default and the associated potential losses to minimize financial losses. While traditional courses often concentrate on studying firms, this course also incorporates the analysis of credit risk at the individual and country levels, providing a broader perspective and enabling the application of financial and economic analysis. Market risk refers to the potential for financial losses arising from adverse movements in market prices, such as the prices of stocks, bonds, currencies, commodities, and other financial instruments. This risk is inherent in the dynamic nature of financial markets, where prices are influenced by various factors such as economic indicators, geopolitical events, interest rates, and overall market sentiment.
 
-The main textbooks recommended for this course are: @Hull9, which covers influential credit risk models widely used in the financial industry; @crouhy2014essentials and @brealey2020principles, which provide comprehensive analyses of various sources of risk in financial markets; and @lozanoARF, which bridges the gap between theoretical model analysis and practical computational modeling using R. Complementing these resources, @hull2020machine and @james2013introduction are recommended as additional reference books.
+The main textbooks recommended for this course are: @Hull9, which covers influential credit risk models widely used in the financial industry; @crouhy2014essentials and @brealey2020principles, which provide comprehensive analyses of various sources of risk in financial markets; @lozanoARF and @lozanoIF, which bridges the gap between theoretical model analysis and practical computational modeling using R. Complementing these resources, @hull2020machine and @james2013introduction are recommended as additional reference books.
 
-Please refer to the course calendar provided at the end of this syllabus for a detailed overview of the topics, activities, and required readings.
+Please refer to the course calendar provided at the end of this syllabus for further details about the topics, activities, and required readings.
 
 <!-- IF. `r fontawesome::fa("cogs")` Engineering is a field of science and technology that focuses on the design, construction, and utilization of engines, machines, and structures. Similarly, financial engineering involves the design, modeling, and utilization of various financial techniques and instruments to develop strategies that modify or mitigate specific risk exposures. In this course, you will learn how to create quantitative financial strategies, understand financial instruments like options, and become familiar with tools and techniques used to measure risk in finance, such as value at risk and GARCH models.
 
@@ -61,11 +61,11 @@ The main objectives of this course are threefold:
 
 Overall, the course provides a comprehensive learning experience that combines theoretical understanding with practical application. It aims to prepare you for a successful career in finance by fostering your proficiency as a financial professional and enabling you to contribute as a practitioner or junior researcher.
 
-To achieve the objectives of the course, you will be required to undertake various tasks throughout the semester. These tasks can be summarized as follows:
+To achieve the objectives of the course, you are required to undertake various tasks throughout the semester. These tasks can be summarized as follows:
 
-1. **Reading.** You will be expected to engage in extensive reading to grasp the concepts and theories covered in the course. This will involve studying the recommended textbooks, academic papers, and other relevant resources provided. Reading materials will serve as a foundation for understanding the subject matter.
+1. **Reading.** You are be expected to engage in extensive reading to grasp the concepts and theories covered in the course. This involves studying the recommended textbooks, academic papers, and other relevant resources provided. Reading is fundamental for understanding the subject matter.
 
-2. **Hard work.** Success in the course will require dedicated effort and hard work. You will need to actively participate in lectures, complete assignments and projects, and actively engage with the course material. It is important to invest sufficient time and energy into mastering the concepts and techniques taught.
+2. **Hard work.** Success in the course will require dedicated effort and hard work. You need to actively participate in lectures, complete assignments and projects, and actively engage with the course material. It is important to invest sufficient time and energy into mastering the concepts and techniques taught.
 
 3. **Seeking assistance.** Should you encounter difficulties or have questions, it is encouraged to reach me out for assistance. I can help you to clarify concepts, resolve doubts, and ensure a deeper understanding of the material. I am available to support your learning journey.
 
@@ -119,7 +119,7 @@ embed_url("https://youtu.be/Aa01-lwYllU")
 
 In accordance with some of [The Sustainable Development Goals](https://sdgs.un.org/goals) by the United Nations, see @UN17, all the compulsory readings and activity submissions are available in electronic format. Other complementary materials and activities may be incorporated or altered during the semester, depending on relevant news or events that do not currently exist or are hard to anticipate at the beginning of the semester. If that is the case, I will inform you in advance. As a student, you should be confident that all the course materials and activities are perfectly suitable for an undergraduate student enrolled in a prestigious world-class university. In other words, there will not be an intellectual challenge that you cannot overcome with the appropriate amount of enthusiasm, time, work, determination, and, if necessary, assistance. This course is designed in such a way that you can pass and learn as long as you invest the right amount of time and work.
 
-I assume you are aware of the academic regulations dictated by the university. If you are not familiar with them, please review the corresponding student regulations. In this course, we will adhere to those regulations.
+I assume you are aware of the academic regulations dictated by the university, including class attendance and maximum absences allowed. If you are not familiar with them, please review the corresponding student regulations. In this course, we will adhere to those regulations.
 
 ## `r fontawesome::fa("thumbs-up")` Academic integrity.
 

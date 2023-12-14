@@ -6,7 +6,7 @@ title: ''
 
 \newpage
 
-# `r fontawesome::fa("calendar-alt")` Class schedule. 
+# `r fontawesome::fa("calendar-alt")` Schedule. 
 
 `r fontawesome::fa("credit-card")` ARF1, Fall 2023. 
 

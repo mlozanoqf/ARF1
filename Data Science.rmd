@@ -81,8 +81,11 @@ I recommend you to take the following Deepnote crash course: [click here.](https
 
 Each course in Deepnote is organized within a workspace. The basic Deepnote structure is as follows:
 
-* **A workspace.** The workspace name consists of the semester ID and the course ID. Additionally, each workspace has a corresponding picture located at the top left corner. For instance, I teach the following courses: F23ARF1 (depicted by a yellow cat), F23ARF2 (represented by a red bird), F23EMF (symbolized by a dog), F23FCF (represented by a lion), and F23IF (illustrated by a frog).
-* **Projects.** Within each workspace, there are three main projects. The first project is named after the course (ARF1, ARF2, EMF, FCF, or IF), and it is open for editing by the entire class. The second project is a read-only project that contains feedback, activity instructions, and exam solutions. The third project is named after your group. This project is private and can only be edited by your group and me.
+* **A workspace.** The workspace name consists of the semester ID and the course ID. Additionally, each workspace has a corresponding picture located at the top left corner. For instance, I teach the following courses: P24ARF1 (depicted by a yellow cat), P24ARF2 (represented by a red bird), and P24EMF (symbolized by a dog), P24FCF (represented by a lion).
+
+<!-- , and P24IF (illustrated by a frog). -->
+
+* **Projects.** Within each workspace, there are three main projects. The first project is named after the course (ARF1, ARF2, EMF, or FCF), and it is open for editing by the entire class. The second project is a read-only project that contains feedback, activity instructions, and exam solutions. The third project is named after your group. This project is private and can only be edited by your group and me.
 * **Notebooks.** Within each project, there are notebooks that contain code, narrative text, equations, and rich output. The notebooks are stored as .ipynb files, also known as Jupyter Notebooks. Typically, I begin the notebooks with a panda picture. At the end of the semester, your access to the course workspace will expire, but you can export your notebooks to your personal workspace if desired.
 
 
@@ -125,7 +128,7 @@ If you have not yet installed the necessary programs on your computer, please do
 knitr::include_graphics('./proof.jpg')
 ```
 
-Please note that there are other alternatives to RStudio like  [Anaconda](https://www.anaconda.com/) and [Visual Studio Code](https://code.visualstudio.com/). If you were to ask, my personal favorite is RStudio. In fact, I created this syllabus using RStudio with R markdown.
+Please note that there are other alternatives to RStudio like  [Anaconda](https://www.anaconda.com/) and [Visual Studio Code](https://code.visualstudio.com/). If you were to ask, my personal favorite is RStudio. In fact, I created this syllabus using RStudio with R markdown and Quarto.
 
 
 ## `r fontawesome::fa("surprise")` Why it is important?

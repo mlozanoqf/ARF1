@@ -6,7 +6,7 @@ title: ''
 
 \newpage
 
-# `r fontawesome::fa("calendar-alt")` Class schedule. 
+# `r fontawesome::fa("calendar-alt")` Schedule. 
 
 ARF1, Spring 2023. Room 2102, 16:00 – 17:30.
 

@@ -1,10 +1,10 @@
 ---
-title: Administración de riesgos financieros ARF1 #`r fontawesome::fa("credit-card")`.
-subtitle: Course syllabus. Fall 2023. 
+title: Administración de riesgos financieros ARF1 
+subtitle: Course syllabus. Spring 2024. 
 author: Dr. Martín Lozano <tt>`<martin.lozano@udem.edu>`</tt>
 #- name: Back to main [`r fontawesome::fa("home")`](https://mlozanoqf.github.io/)
 #  affiliation: Academic website. [Web.](https://sites.google.com/site/mlozanoqf/)
-date: Current `r fontawesome::fa("code-commit") ` `r format(Sys.time(), '%d %b %Y, %H:%M:%S.')` #Under revision `r fontawesome::fa("exclamation-circle", fill = "red")`
+date: Current `r fontawesome::fa("code-commit") ` `r format(Sys.time(), '%d %b %Y, %H:%M:%S.')` Under revision `r fontawesome::fa("exclamation-circle", fill = "red")`
 #  bookdown::gitbook: default
 output: 
   bookdown::html_document2:
@@ -31,8 +31,6 @@ link-citations: true
 ```
 
 ```{r include=FALSE}
-# This removes all items in environment. 
-# It is a good practice to start your code this way.
 rm(list=ls())
 library(fontawesome)
 library(vembedr)
@@ -96,8 +94,8 @@ xfun::file_string('contact.html')
 
 \newpage
 
-```{r schedule, child = 'Class schedule fall.Rmd'}
-```
+<!-- ```{r schedule, child = 'Class schedule fall.Rmd'} -->
+<!-- ``` -->
 
 \newpage
 
