@@ -1,10 +1,5 @@
----
-title: ''
-  html_document:
-    df_print: paged
----
 
-\newpage
+
 
 # `r fontawesome::fa("code")` Data science.
 
