@@ -25,7 +25,7 @@ I have vast experience with face-to-face, blended and distance learning in all i
 
 I am currently a professor of finance and economics at UDEM. I regularly collaborate with [The University of Manchester](https://www.manchester.ac.uk/) at the [Alliance Manchester Business School](https://www.alliancembs.manchester.ac.uk/), and [SOAS University of London](https://www.soas.ac.uk/) at the [Centre for Financial and Management Studies (CeFiMS)](https://www.cefims.ac.uk/), among others universities.
 
-These are my postgraduate studies and a description of my professional background.
+My academic profile, including my full and updated curriculum vitae, is [here](https://sites.google.com/site/mlozanoqf/). These are my postgraduate studies and a description of my professional background.
 
 **Areas of expertise.** Finance, Economics, Statistics, Data Science.
 
@@ -40,8 +40,6 @@ I have also completed more than 20 professional training programs in various are
 **Teaching.** I have been a lecturer in economics, finance and data science for under and postgraduate levels at different universities in Mexico and the UK for the last 20 years. Also, I have supervised more than 90 dissertations at under and postgraduate academic programs of schools including the [London School of Business & Finance](https://www.lsbf.org.uk/); [University of London](https://www.london.ac.uk/), [SOAS University of London](https://www.soas.ac.uk/); [The University of Manchester](https://www.manchester.ac.uk/); [Universidad Complutense de Madrid](https://www.ucm.es/), UDEM, among others. Also, I have experience in continuous education, consulting, and executive training in the area of finance.
 
 <!-- [^1]: The Chartered Association of Business Schools is considered the voice of the UK's business and management education sector. According to ABS, all 3 stars rated journals publish original and well executed research papers and are highly regarded. These journals typically have good submission rates and are very selective in what they publish. Papers are heavily refereed in 3 stars rated journals. -->
-
-My academic profile, including my full and updated curriculum vitae, is [here](https://github.com/mlozanoqf/resume/raw/master/cv-mlozano.pdf).
 
 <!-- This is my teaching philosophy in 100 words: *The time and the brain are resources and constraints as both restrict the amount of time available to learn. We understand this at the university, so we use these resources efficiently. Here, we stimulate our mental capacity to create and innovate by doing research; and we teach how to think and learn in a systematic and scientific manner. Here, we promote the most fundamental human values to build a prosperous society. I love teaching almost as much as doing research because every semester represents a new opportunity to further enhance our lives by learning the most given our time constraints.* -->
 
