@@ -29,5 +29,9 @@ format:
     toc-depth: 2
     page-layout: full
     include-after-body: analytics_arf1.html
+    include-in-header: 
+      - back-to-top.html
+      - progressbar.html
         
 link-citations: true
+
