@@ -61,7 +61,7 @@
 - Complementary material. PowerPoint slides: [John C. Hull.](https://www-2.rotman.utoronto.ca/~hull/ofodslides/index.html)
 - Activity. $H_1$ review.
 
-**Session 10, Zoom. `r fontawesome::fa("heart")` Thursday, 15 February.**
+**Session 10, Zoom. `r fontawesome::fa("heart", fill = "red")` Thursday, 15 February.**
 
 - Graded. Complete $H_1$ before 10:00 a.m.
 
