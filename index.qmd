@@ -1,9 +1,7 @@
 
 
 ```{r include=FALSE}
-# This removes all items in environment. 
-# It is a good practice to start your code this way.
-rm(list=ls())
+rm(list = ls())
 library(fontawesome)
 library(vembedr)
 library(tictoc)

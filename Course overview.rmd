@@ -19,7 +19,7 @@ Credit risk refers to the potential loss arising from a borrower's failure to ma
 
 The main textbooks recommended for this course are: @Hull9, which covers influential credit risk models widely used in the financial industry; @drake2010basics, @crouhy2014essentials and @brealey2020principles, which provide comprehensive analyses of various sources of risk in financial markets; @lozanoARF and @lozanoIF, which bridges the gap between theoretical model analysis and practical computational modeling using R. Complementing these resources, @hull2020machine and @james2013introduction are recommended as additional reference books.
 
-Please refer to the course calendar provided at the end of this syllabus for further details about the topics, activities, and required readings.
+Please refer to the course calendar provided at the end of this syllabus for further details about the topics, activities, and required readings: @sec-schedule.
 
 <!-- IF. `r fontawesome::fa("cogs")` Engineering is a field of science and technology that focuses on the design, construction, and utilization of engines, machines, and structures. Similarly, financial engineering involves the design, modeling, and utilization of various financial techniques and instruments to develop strategies that modify or mitigate specific risk exposures. In this course, you will learn how to create quantitative financial strategies, understand financial instruments like options, and become familiar with tools and techniques used to measure risk in finance, such as value at risk and GARCH models.
 

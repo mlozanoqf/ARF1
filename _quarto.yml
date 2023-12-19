@@ -11,13 +11,13 @@ bibliography: mybibfile.bib
 theme:
   light: flatly
   dark: darkly
-    
+  
 format: 
   html:
     toc: true
     toc-title: Contents
     smooth-scroll: true
-    code-fold: true
+    code-fold: false
     code-tools:
       source: false
       toggle: true
