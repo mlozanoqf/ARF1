@@ -1,6 +1,6 @@
 # `r fontawesome::fa("calendar-alt")` Schedule. {#sec-schedule}
 
-`r fontawesome::fa("credit-card")` ARF1, Spring 2024. Room  4403 A, 16:00 – 17:30. Zoom [https://us02web.zoom.us/j/85044414325](https://us02web.zoom.us/j/85044414325)
+`r fontawesome::fa("credit-card")` ARF2, Spring 2024. Room  4403 A, 16:00 – 17:30. Zoom [https://us02web.zoom.us/j/85044414325](https://us02web.zoom.us/j/85044414325)
 
 ## `r fontawesome::fa("battery-quarter")` Part 1.
 
