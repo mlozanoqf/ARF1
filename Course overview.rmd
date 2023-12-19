@@ -162,7 +162,7 @@ Integrity is particularly crucial in the realm of finance professionals due to t
 
 In summary, integrity is vital for finance professionals to establish trust, uphold ethical standards, protect confidentiality, manage risks, comply with regulations, maintain a strong professional reputation, and contribute to the overall integrity of the finance industry.
 
-## `r fontawesome::fa("envira")` Sustainable finance. 
+## `r fontawesome::fa("envira", fill = "green")` Sustainable finance. 
 
 I am certified as 'carbon literate' by the [UN Climate Change Conference](https://unfccc.int/) and [Coventry University](https://www.coventry.ac.uk/). The certification represents a robust understanding of the climate context and a commitment to recognizing ways to adjust our behavior to reduce our carbon footprint, as well as influencing our social and professional circles. My view is that one way of achieving a positive impact on the environment and society is to learn more about sustainable finance.
 
