@@ -1,4 +1,4 @@
-title: Administración de riesgos financieros ARF1.
+title: Administración de riesgos financieros ARF1. {{< fa credit-card >}}
 subtitle: Course syllabus. Spring 2024. <tt>`<Currently under revision.>`</tt>
 author: Dr. Martín Lozano <tt>`<martin.lozano@udem.edu>`</tt>
 date-modified: now
@@ -32,6 +32,6 @@ format:
     include-in-header: 
       - back-to-top.html
       - progressbar.html
-        
+
 link-citations: true
 

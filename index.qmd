@@ -20,6 +20,15 @@ xfun::file_string('contact.html')
 ```
 ````
 
+<!-- {{< fa thumbs-up >}}  -->
+<!-- {{< fa folder >}} -->
+<!-- {{< fa chess-pawn >}} -->
+<!-- {{< fa brands bluetooth >}} -->
+<!-- {{< fa brands twitter size=2xl >}} -->
+<!-- {{< fa brands github size=5x >}} -->
+<!-- {{< fa battery-half size=Huge >}} -->
+<!-- {{< fa envelope title="An envelope" >}} -->
+
 ```{r introduction, child = 'Introduction.Rmd'}
 ```
 
