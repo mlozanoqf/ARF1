@@ -64,6 +64,7 @@
 **Session 10, Zoom. `r fontawesome::fa("heart", fill = "red")` Thursday, 15 February.**
 
 - Graded. Complete $H_1$ before 10:00 a.m.
+- Activity. $H_1$ presentations.
 
 **Session 11. Monday, 19 February.**
 
@@ -72,6 +73,7 @@
 **Session 12, Zoom. Thursday, 22 February.**
 
 - Graded. $E_1$ Instructions in Blackboard.
+- Graded. $H_1$ and $E_1$ auto and co-evaluation form is available for you to complete after the exam. Instructions in Blackboard.
 
 ## `r fontawesome::fa("battery-half")` Part 2.
 
@@ -116,6 +118,7 @@
 **Session 19. Thursday, 21 March.**
 
 - Graded. Complete $H_2$ before 10:00 a.m.
+- Activity. $H_2$ presentations.
 
 **Holiday. `r fontawesome::fa("umbrella-beach")` Monday, 25 March.**
 
@@ -129,6 +132,7 @@
 **Session 21, Zoom. Thursday, 4 April.**
 
 - Graded. $E_2$ Instructions in Blackboard.
+- Graded. $H_2$ and $E_2$ auto and co-evaluation form is available for you to complete after the exam. Instructions in Blackboard.
 
 ## `r fontawesome::fa("battery-three-quarters")` Part 3.
 
@@ -137,6 +141,7 @@
 - Activity. Discuss $E_2$ answers.
 - Graded. Submit $H_2$ and $E_2$ auto and co-evaluation before 10:00 a.m. Instructions in Blackboard.
 - Extra marks. The wheel of fortune 2/3.
+- Extra marks. Tuesday, April 9th: DataCamp top 5 XP of the last 90 days.
 
 **Session 23. Thursday, 11 April.**
 
