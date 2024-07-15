@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.54">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -23,7 +23,7 @@ ul.task-list li input[type="checkbox"] {
 }
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -34,7 +34,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -59,6 +59,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -95,61 +96,142 @@ div.csl-indent {
 
 
 
+
+
+
   <meta charset="UTF-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
+
     #btn-back-to-top {
+
       position: fixed;
+
       bottom: 20px;
+
       right: 20px;
+
       width: 15px; /* Adjust the width */
+
       height: 15px; /* Adjust the height */
+
       box-sizing: content-box;
+
       z-index: 1000;
+
       background-color: rgba(0, 123, 255, 0.7);
+
       border: none;
+
       color: white;
+
       display: flex;
+
       align-items: center;
+
       justify-content: center;
+
     }
+
   </style>
+
 </head>
+
 <body>
+
+
 
 <button type="button" class="btn btn-primary btn-lg bi bi-arrow-up" id="btn-back-to-top"></button>
 
+
+
 <script>
+
   let backToTopButton = document.getElementById("btn-back-to-top");
 
+
+
   backToTopButton.addEventListener("click", function () {
+
     document.documentElement.scrollTop = 0;
+
   });
+
 </script>
+
+
+
+
 
 
 
 <div id="progress-bar" style="width: 0%; height:2px; background-color: rgb(89 127 235);; position: fixed; top: 0px; z-index: 2000;"></div>
 
+
+
 <script id="progressbar" type="text/javascript">
+
+
 
 document.addEventListener("DOMContentLoaded", function() {
 
+
+
     const bar = document.querySelector('#progress-bar');
+
     const post = document.querySelector('#quarto-content');
+
     const html = document.documentElement;
+
     
+
     const height = post.scrollHeight + post.offsetTop;
+
     
+
     window.addEventListener('scroll', () => {
+
         bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+
     });
+
 });
+
 </script>
 <link href="index_files/libs/vembedr-0.1.5/css/vembedr.css" rel="stylesheet">
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 
 
@@ -227,12 +309,12 @@ document.addEventListener("DOMContentLoaded", function() {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Administración de riesgos financieros ARF1.</h1>
-<p class="subtitle lead">Course syllabus. Spring 2024.</p>
+<p class="subtitle lead">Course syllabus. Fall 2024.</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-right">
 
     <div>
     <div class="quarto-title-meta-heading">Author</div>
@@ -245,7 +327,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">January 17, 2024, 01:55:57 am.</p>
+      <p class="date-modified">July 15, 2024, 21:59:58 pm.</p>
     </div>
   </div>
     
@@ -253,12 +335,14 @@ document.addEventListener("DOMContentLoaded", function() {
   
 <div>
   <div class="abstract">
-    <div class="abstract-title">Abstract</div>
+    <div class="block-title">Abstract</div>
     A course syllabus is an academic document containing relevant information for students. This document serves as your ultimate guide to successfully completing this course. Please read it regularly and carefully. Within this document, you will find a comprehensive description of the course goals, rules, objectives, recommendations, grading details, a detailed schedule, activities, resources, references, and learning outcomes. The objective of this document is to provide you with complete certainty regarding what to expect from this course, starting from day 1 until the final exam. Based on my experience, reading this syllabus is positively correlated with students’ performance.
   </div>
 </div>
 
+
 </header>
+
 
 
 <br>
@@ -281,7 +365,6 @@ document.addEventListener("DOMContentLoaded", function() {
 </p>
 
 <hr style="border:2px solid gray">
-
 <!--   -->
 <!--  -->
 <!--  -->
@@ -340,7 +423,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>Financial risk management involves the identification, quantification, and mitigation of financial risks. In this course, our focus is on credit and market risk models and their practical implementation using R and Python.</p>
 <p>Credit risk refers to the potential loss arising from a borrower’s failure to make payments on their debt obligations. Managing credit risk involves measuring the probability of default and the associated potential losses to minimize financial losses. While traditional courses often concentrate on studying firms, this course also incorporates the analysis of credit risk at the individual and country levels, providing a broader perspective and enabling the application of financial and economic analysis. Market risk refers to the potential for financial losses arising from adverse movements in market prices, such as the prices of stocks, bonds, currencies, commodities, and other financial instruments. This risk is inherent in the dynamic nature of financial markets, where prices are influenced by various factors such as economic indicators, geopolitical events, interest rates, and overall market sentiment.</p>
 <p>The main textbooks recommended for this course are: <span class="citation" data-cites="Hull9">Hull (<a href="#ref-Hull9" role="doc-biblioref">2015</a>)</span>, which covers influential credit risk models widely used in the financial industry; <span class="citation" data-cites="drake2010basics">Drake and Fabozzi (<a href="#ref-drake2010basics" role="doc-biblioref">2010</a>)</span>, <span class="citation" data-cites="crouhy2014essentials">Crouhy, Galai, and Mark (<a href="#ref-crouhy2014essentials" role="doc-biblioref">2014</a>)</span> and <span class="citation" data-cites="brealey2020principles">Brealey et al. (<a href="#ref-brealey2020principles" role="doc-biblioref">2020</a>)</span>, which provide comprehensive analyses of various sources of risk in financial markets; <span class="citation" data-cites="lozanoARF">Lozano (<a href="#ref-lozanoARF" role="doc-biblioref">2024a</a>)</span> and <span class="citation" data-cites="lozanoIF">Lozano (<a href="#ref-lozanoIF" role="doc-biblioref">2024b</a>)</span>, which bridges the gap between theoretical model analysis and practical computational modeling using R. Complementing these resources, <span class="citation" data-cites="hull2020machine">Hull (<a href="#ref-hull2020machine" role="doc-biblioref">2020</a>)</span> and <span class="citation" data-cites="james2013introduction">James et al. (<a href="#ref-james2013introduction" role="doc-biblioref">2021</a>)</span> are recommended as additional reference books.</p>
-<p>Please refer to the course calendar provided at the end of this syllabus for further details about the topics, activities, and required readings: <a href="#sec-schedule">Section&nbsp;8</a>.</p>
+<p>Please refer to the course calendar provided at the end of this syllabus for further details about the topics, activities, and required readings: <a href="#sec-schedule" class="quarto-xref">Section&nbsp;8</a>.</p>
 <!-- IF. `<svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M308.5 135.3c7.1-6.3 9.9-16.2 6.2-25c-2.3-5.3-4.8-10.5-7.6-15.5L304 89.4c-3-5-6.3-9.9-9.8-14.6c-5.7-7.6-15.7-10.1-24.7-7.1l-28.2 9.3c-10.7-8.8-23-16-36.2-20.9L199 27.1c-1.9-9.3-9.1-16.7-18.5-17.8C173.9 8.4 167.2 8 160.4 8h-.7c-6.8 0-13.5 .4-20.1 1.2c-9.4 1.1-16.6 8.6-18.5 17.8L115 56.1c-13.3 5-25.5 12.1-36.2 20.9L50.5 67.8c-9-3-19-.5-24.7 7.1c-3.5 4.7-6.8 9.6-9.9 14.6l-3 5.3c-2.8 5-5.3 10.2-7.6 15.6c-3.7 8.7-.9 18.6 6.2 25l22.2 19.8C32.6 161.9 32 168.9 32 176s.6 14.1 1.7 20.9L11.5 216.7c-7.1 6.3-9.9 16.2-6.2 25c2.3 5.3 4.8 10.5 7.6 15.6l3 5.2c3 5.1 6.3 9.9 9.9 14.6c5.7 7.6 15.7 10.1 24.7 7.1l28.2-9.3c10.7 8.8 23 16 36.2 20.9l6.1 29.1c1.9 9.3 9.1 16.7 18.5 17.8c6.7 .8 13.5 1.2 20.4 1.2s13.7-.4 20.4-1.2c9.4-1.1 16.6-8.6 18.5-17.8l6.1-29.1c13.3-5 25.5-12.1 36.2-20.9l28.2 9.3c9 3 19 .5 24.7-7.1c3.5-4.7 6.8-9.5 9.8-14.6l3.1-5.4c2.8-5 5.3-10.2 7.6-15.5c3.7-8.7 .9-18.6-6.2-25l-22.2-19.8c1.1-6.8 1.7-13.8 1.7-20.9s-.6-14.1-1.7-20.9l22.2-19.8zM112 176a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM504.7 500.5c6.3 7.1 16.2 9.9 25 6.2c5.3-2.3 10.5-4.8 15.5-7.6l5.4-3.1c5-3 9.9-6.3 14.6-9.8c7.6-5.7 10.1-15.7 7.1-24.7l-9.3-28.2c8.8-10.7 16-23 20.9-36.2l29.1-6.1c9.3-1.9 16.7-9.1 17.8-18.5c.8-6.7 1.2-13.5 1.2-20.4s-.4-13.7-1.2-20.4c-1.1-9.4-8.6-16.6-17.8-18.5L583.9 307c-5-13.3-12.1-25.5-20.9-36.2l9.3-28.2c3-9 .5-19-7.1-24.7c-4.7-3.5-9.6-6.8-14.6-9.9l-5.3-3c-5-2.8-10.2-5.3-15.6-7.6c-8.7-3.7-18.6-.9-25 6.2l-19.8 22.2c-6.8-1.1-13.8-1.7-20.9-1.7s-14.1 .6-20.9 1.7l-19.8-22.2c-6.3-7.1-16.2-9.9-25-6.2c-5.3 2.3-10.5 4.8-15.6 7.6l-5.2 3c-5.1 3-9.9 6.3-14.6 9.9c-7.6 5.7-10.1 15.7-7.1 24.7l9.3 28.2c-8.8 10.7-16 23-20.9 36.2L315.1 313c-9.3 1.9-16.7 9.1-17.8 18.5c-.8 6.7-1.2 13.5-1.2 20.4s.4 13.7 1.2 20.4c1.1 9.4 8.6 16.6 17.8 18.5l29.1 6.1c5 13.3 12.1 25.5 20.9 36.2l-9.3 28.2c-3 9-.5 19 7.1 24.7c4.7 3.5 9.5 6.8 14.6 9.8l5.4 3.1c5 2.8 10.2 5.3 15.5 7.6c8.7 3.7 18.6 .9 25-6.2l19.8-22.2c6.8 1.1 13.8 1.7 20.9 1.7s14.1-.6 20.9-1.7l19.8 22.2zM464 304a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>`{=html} Engineering is a field of science and technology that focuses on the design, construction, and utilization of engines, machines, and structures. Similarly, financial engineering involves the design, modeling, and utilization of various financial techniques and instruments to develop strategies that modify or mitigate specific risk exposures. In this course, you will learn how to create quantitative financial strategies, understand financial instruments like options, and become familiar with tools and techniques used to measure risk in finance, such as value at risk and GARCH models.
 
 The course primarily relies on the renowned textbook by John C. Hull, @Hull9, which is widely recognized as an essential reference in both academia and the financial industry. This course serves as a solid foundation for students aspiring to pursue a master's degree in Finance or seeking professional certification in the field of quantitative finance. Another valuable resource for this course is @lozanoIF, which effectively combines model analysis with practical computational modeling using R. Additionally, @goetzmann2014modern is a recommended complementary reference book as it offers a comprehensive and up-to-date presentation of modern portfolio analysis. Other useful references include @brealey2020principles, @ruppert2011statistics, and @james2013introduction, which strike a balance between theoretical aspects and practical applications.
@@ -618,7 +701,7 @@ Understanding microeconomics empowers economic agents to make better-informed de
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="./proof.jpg" class="img-fluid figure-img" style="width:70.0%"></p>
+<p><img src="./proof.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" data-fig-pos="H"></p>
 </figure>
 </div>
 </div>
@@ -635,7 +718,6 @@ Understanding microeconomics empowers economic agents to make better-informed de
 <!-- You may be quite familiar with using MS-Word to produce reports. The process is simple as you start with a MS-Word document and your final result is a MS-Word or perhaps a PDF document. However, taking a pdf file and converting it into a webpage or MS-Word document is not that easy as it requires a lot of editing. In fact, this is usually a painful and timely process. RStudio allow you to produce professional documents in a wide variety of types including finished web page, PDF, MS Word document, slide show, presentations, handout, book (see for example <https://otexts.com/fpp3/>), dashboard, package vignette, shiny applications (see for example <https://shiny.rstudio.com/gallery/>), scientific articles, academic thesis, among others. R markdown files have an rmd extension and this source file can be easily converted into a wide and growing different and convenient alternatives as listed above. -->
 <!-- ![](syllabus.png){width="100%"} -->
 <!-- You will use RStudio not only to write your R code in this course, but also to produce (typesetting) the whole PDF assignment reports that you will submit. There is an online course in Datacamp called Reporting with R Markdown (Amy Peterson). If you have not taken it yet, I strongly recommend you to complete it as soon as possible. -->
-
 <!-- A typical assignment report in my courses is a PDF document with a simple cover page, introduction (text), content (text, tables, figures, R code), conclusion (text), and references if applicable. In this course you will write the whole assignment report in RStudio, using the R Markdown package to produce the PDF final document. This is, knit a rmd file into a PDF. This task is not minor. For starters, this means that you will need to get familiar with \LaTeX, a high-quality typesetting system, to create your assignment reports. As an example, in \LaTeX you type: `$\displaystyle \sum_{n=1}^{\infty} \frac{1}{n}$` and the PDF output looks like this: -->
 <!-- $\displaystyle \sum_{n=1}^{\infty} \frac{1}{n}$, or this $\sum_{n=1}^{\infty} \frac{1}{n}$. -->
 <!-- \LaTeX is a computer programming language used for typesetting technical documents, and fortunately RStudio and R Markdown makes it easier to deal with \LaTeX. Learning how to use R Markdown to write formal reports is not an insignificant format issue; it is rather an opportunity to get to know and develop a new branch of skills that are very well aligned with the fourth industrial revolution and with the free data science technology. Eventually, you will learn that creating scientific documents that integrate code, output and analysis with R Markdown is easy if you use RStudio. See @xie2020r for a complete reference about R Markdown. -->
@@ -669,7 +751,7 @@ Understanding microeconomics empowers economic agents to make better-informed de
 </div>
 </div>
 <p><strong>Class sessions.</strong> During our class sessions, we will explain and discuss specific topics, address questions, review your study progress, and occasionally conduct brief activities. Please keep in mind that the time available during class sessions is limited, and we may not be able to cover every topic in full detail. To ensure comprehensive coverage, we will utilize other resources and learning activities. It is expected that you attend on time, actively participate, and engage in our discussions. I recommend using your computer during the sessions as you may need to access an IDE, view the PDF textbook, or refer to your own homework.</p>
-<p>For Zoom sessions, you have the option to keep your camera either on or off, as we will often be sharing the screen during class, or you will be doing an activity. To provide convenience, unless otherwise specified, class Zoom sessions will be recorded and made accessible to you. Please note that occasional internet service disruptions during class sessions are a risk we all face. The Zoom link to join the class can be found in Blackboard and in <a href="#sec-schedule">Section&nbsp;8</a>.</p>
+<p>For Zoom sessions, you have the option to keep your camera either on or off, as we will often be sharing the screen during class, or you will be doing an activity. To provide convenience, unless otherwise specified, class Zoom sessions will be recorded and made accessible to you. Please note that occasional internet service disruptions during class sessions are a risk we all face. The Zoom link to join the class can be found in Blackboard and in <a href="#sec-schedule" class="quarto-xref">Section&nbsp;8</a>.</p>
 <p>Please watch the following video for a valuable recommendation from Prof.&nbsp;Fleisch, which is applicable to both online and face-to-face sessions:</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -694,7 +776,7 @@ Understanding microeconomics empowers economic agents to make better-informed de
 </div>
 <p><strong>Discussion forums.</strong> There are three discussion forums available for us to interact and engage with one another. Each forum corresponds to a different part of the course: the first, second, and third partials. The benefit of the discussion forums is that everyone can track the progression of discussions and actively participate. The logical flow of ideas remains recorded, allowing you to receive my feedback and comments. Since our class sessions have limited time, we may occasionally utilize the discussion forums. Additionally, we may use the discussion forums as a means to submit individual activities.</p>
 <p><strong>Email.</strong> You are welcome to contact me via email at any time: <tt><code>&lt;martin.lozano@udem.edu&gt;</code></tt>. I also send group emails containing important information, so please ensure that my email address is not marked as spam. If there is ever a delay in my response to an email or any other request, please feel free to insist and kindly remind me.</p>
-<p><strong>Meetings.</strong> Whether it is face-to-face or virtual learning, we can schedule 30-minute Zoom online meetings if you require additional assistance or have any other issues you would like to discuss with me. These meetings can be arranged either individually or in groups. Simply send an email to <tt><code>&lt;martin.lozano@udem.edu&gt;</code></tt> to inquire about my availability. If you need more time, we can arrange for additional meetings or extend the duration as needed. Here is the Zoom link for meetings: <a href="https://us02web.zoom.us/j/9209945512">https://us02web.zoom.us/j/9209945512</a>. For the class session Zoom link, please refer to the course calendar: <a href="#sec-schedule">Section&nbsp;8</a>.</p>
+<p><strong>Meetings.</strong> Whether it is face-to-face or virtual learning, we can schedule 30-minute Zoom online meetings if you require additional assistance or have any other issues you would like to discuss with me. These meetings can be arranged either individually or in groups. Simply send an email to <tt><code>&lt;martin.lozano@udem.edu&gt;</code></tt> to inquire about my availability. If you need more time, we can arrange for additional meetings or extend the duration as needed. Here is the Zoom link for meetings: <a href="https://us02web.zoom.us/j/9209945512">https://us02web.zoom.us/j/9209945512</a>. For the class session Zoom link, please refer to the course calendar: <a href="#sec-schedule" class="quarto-xref">Section&nbsp;8</a>.</p>
 <p><strong>Book.</strong> The book (or books) is one of the main pillars of this course. In my experience, learning primarily occurs through reading and then reinforcing the concepts through practical application, although there are various other activities included in this course. The authors of the book are esteemed experts in their respective fields: John C. Hull from <a href="https://www.utoronto.ca/">University of Toronto</a>; Frank Fabozzi from <a href="https://carey.jhu.edu/">Johns Hopkins Carey Business School</a>; Richard A. Brealey from <a href="https://www.london.edu/">London Business School</a>; Stewart C. Myers from <a href="https://mitsloan.mit.edu/">Sloan School of Management, Massachusetts Institute of Technology</a>; Franklin Allen from <a href="https://www.imperial.ac.uk/">Imperial College London</a>; Rob J. Hyndman and George Athanasopoulos from <a href="https://www.monash.edu/">Monash University</a>; ad Eugene F. Brigham and Joel F. Houston from <a href="https://www.ufl.edu/">University of Florida</a>. These books are not only suitable for intermediate and advanced undergraduate degrees but also for first-year master’s degrees. I prefer using the original versions of the books rather than translations because, in my experience, the translations may not always match the quality of the original English version and, in some cases, may not be available.</p>
 <p><strong>Tutorials.</strong> I have created a series of specialized online tutorials that provide step-by-step instructions on implementing various topics and estimating financial and economic models using data. These tutorials aim to help you bridge the gap between the theoretical concepts presented in the textbook and the practical implementation in R code. This approach, often referred to as literate programming, allows for a seamless transition. You can access my tutorials in my GitHub public repository: <a href="https://mlozanoqf.github.io/">Quantitative Finance with R</a>.</p>
 <p><strong>Others</strong>. All learning resources described above represent a good resource for your own study of the course material. There are plenty of Internet resources that you will have to use, from databases, <a href="https://www.youtube.com/">YouTube</a> videos, <a href="https://github.com/">GitHub</a> public repositories, specialized programming blogs, AI tools, books, electronic books, etc. See the resource list at the end of this document for further details. You are encouraged to read articles, reports and news on your own to enhance and expand your understanding about how theoretical concepts relate with current real-life events. <a href="https://www.economist.com/">The Economist</a>, <a href="https://www.ft.com/">The Financial Times</a>, <a href="https://www.theguardian.com/">The Guardian</a>, <a href="https://www.wsj.com/">The Wall Street Journal</a>, <a href="https://www.marketwatch.com/">MarketWatch</a>, <a href="https://www.reuters.com/">Reuters</a>, <a href="https://www.bloomberg.com/">Bloomberg</a>, <a href="https://www.bea.gov/">Bureau of Economic Analysis</a>, <a href="https://www.banxico.org.mx/">Banxico</a>, <a href="https://www.project-syndicate.org/">Project Syndicate</a>, <a href="https://www.nytimes.com/">The New York Times</a>, <a href="https://www.elfinanciero.com.mx/">El Financiero</a> (México), <a href="https://www.elconfidencial.com/">El Confidencial</a> (Spain), <a href="https://www.oecd.org/">OECD</a>, are a good way to grasp contemporary insights related with this course. Other references to support your learning process include economic and financial reports from private banks such as Banamex and BBVA, and think tanks websites such as <a href="https://www.wilsoncenter.org/program/mexico-institute">The Mexico Institute</a>, <a href="https://mexicocomovamos.mx/">México cómo vamos</a>, <a href="http://cidac.org/">CIDAC</a>, <a href="https://imco.org.mx/">IMCO</a>, <a href="https://www.consejomexicano.org/">COMEXI</a>, among many others. My advice in this respect is rather simple: <em>the more you read the more you learn</em>.</p>
@@ -730,7 +812,7 @@ Understanding microeconomics empowers economic agents to make better-informed de
 </div>
 </div>
 </div>
-<p><strong>When?</strong> The exams will be conducted as per the course calendar <a href="#sec-schedule">Section&nbsp;8</a>, aligning with the official dates specified by the university for partial and final exams. Both <span class="math inline">\(E_1\)</span> and <span class="math inline">\(E_2\)</span> will be 1.5-hour activities conducted during the class session, while <span class="math inline">\(E_F\)</span> will last for 2 hours. In the case of 3-hour class sessions, the <span class="math inline">\(E_1\)</span> and <span class="math inline">\(E_2\)</span> exams will be administered in the first part of the class, and we will review the exam answers on the same day during the second part of the class session. Note that the final exam date may need to be adjusted for administrative reasons in the case of students who are graduate candidates.</p>
+<p><strong>When?</strong> The exams will be conducted as per the course calendar <a href="#sec-schedule" class="quarto-xref">Section&nbsp;8</a>, aligning with the official dates specified by the university for partial and final exams. Both <span class="math inline">\(E_1\)</span> and <span class="math inline">\(E_2\)</span> will be 1.5-hour activities conducted during the class session, while <span class="math inline">\(E_F\)</span> will last for 2 hours. In the case of 3-hour class sessions, the <span class="math inline">\(E_1\)</span> and <span class="math inline">\(E_2\)</span> exams will be administered in the first part of the class, and we will review the exam answers on the same day during the second part of the class session. Note that the final exam date may need to be adjusted for administrative reasons in the case of students who are graduate candidates.</p>
 <p>Please consider the following recommendations about exams:</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -742,7 +824,7 @@ Understanding microeconomics empowers economic agents to make better-informed de
 </div>
 </div>
 <p><strong>Individual or in groups?</strong> All exams <span class="math inline">\(E_1\)</span>, <span class="math inline">\(E_2\)</span>, and <span class="math inline">\(E_F\)</span> are group activities, with a maximum of 4 students per group. If there are more than 4 students in a group, a significant mark deduction will be applied. You have the freedom to define your own groups, and these groupings will remain fixed throughout the semester. Each group will be assigned a distinctive name. These groups will also be used for the homework assignments <span class="math inline">\(H\)</span>. Please note that the class list may change during the semester due to late enrollments or dropouts. In such cases, group members may change, but the maximum number of students per group will remain the same. Your group will have private access to a Deepnote project, where only your group members and I will have editing privileges.</p>
-<p><strong>Do all group members receive the same mark?</strong> Not necessarily. Individual activities may contribute to earning extra marks in <span class="math inline">\(E_1\)</span>, <span class="math inline">\(E_2\)</span> and <span class="math inline">\(E_F\)</span>. Additionally, if a group member fails to contribute, they will receive a zero mark for that particular activity. While I assign a group mark that is the same for all group members, you are also required to complete an auto and co-evaluation. Then, your individual exam mark is a combination of the group mark assigned by me, extra marks, and the auto and co-evaluation marks assigned by you and your colleagues. Please find the full details in <a href="#sec-evaluation">Section&nbsp;6</a>.</p>
+<p><strong>Do all group members receive the same mark?</strong> Not necessarily. Individual activities may contribute to earning extra marks in <span class="math inline">\(E_1\)</span>, <span class="math inline">\(E_2\)</span> and <span class="math inline">\(E_F\)</span>. Additionally, if a group member fails to contribute, they will receive a zero mark for that particular activity. While I assign a group mark that is the same for all group members, you are also required to complete an auto and co-evaluation. Then, your individual exam mark is a combination of the group mark assigned by me, extra marks, and the auto and co-evaluation marks assigned by you and your colleagues. Please find the full details in <a href="#sec-evaluation" class="quarto-xref">Section&nbsp;6</a>.</p>
 <p><strong>Where?</strong> Physical presence in the classroom is not required for taking the exams. You can complete the exams from any location of your choice, as they are conducted, answered, and submitted entirely in electronic format. Just ensure that you and the rest of your group have a stable internet connection. I will be available during the exams through Zoom, and while joining the Zoom session is not mandatory, please be aware that I will be accessible in case you need any assistance. The Zoom link for the exams is the same as the one assigned to the course. It is important to note that for 3-hour class sessions, the first part of the session is dedicated to taking the exam. During the second part of the class, you will need to log in to the Zoom session to review and discuss the answers for the <span class="math inline">\(E_1\)</span> and <span class="math inline">\(E_2\)</span> exams. I can create Zoom rooms for your group to answer the exam if you wish.</p>
 <p><strong>How many questions?</strong> For both <span class="math inline">\(E_1\)</span> and <span class="math inline">\(E_2\)</span>, there will be a total of 4 questions, out of which you are required to answer 3. This allows you the opportunity to choose the 3 questions that you feel most confident about. As for <span class="math inline">\(E_F\)</span>, there will be 5 questions, and you are expected to answer 4. All questions carry equal weight. It is important to note that attempting to answer all the exam questions is not recommended, as it may result in a significant deduction of marks. The <span class="math inline">\(E_F\)</span> covers all the topics and activities covered in the course. To ensure convenience, one question from <span class="math inline">\(E_1\)</span> and one question from <span class="math inline">\(E_2\)</span> will be included in <span class="math inline">\(E_F\)</span> with minor modifications. This means that if you have prepared well for <span class="math inline">\(E_1\)</span> and <span class="math inline">\(E_2\)</span>, you should be able to answer at least 50% of the <span class="math inline">\(E_F\)</span> correctly. However, if you take the exam on a different date for any reason, your <span class="math inline">\(E_1\)</span> or <span class="math inline">\(E_2\)</span> will consist of 3 questions instead of 4. In this case, you will not have the advantage of leaving one exam question unanswered. The same principle applies to the <span class="math inline">\(E_F\)</span>.</p>
 <p><strong>What are typical exam questions?</strong> I always allow my students to retain their own partial exams, so it is possible that you can find previous partial exams. It is important to note that the course material evolves, and exam questions change every semester. However, reviewing old exams can provide you with a good understanding of the types of questions you can expect. I often include questions that require the use of R and/or Python, and the exam questions typically involve analysis and interpretation of results. To assist you in your exam preparation, we will have review class sessions and mock exams prior to each graded exam. If additional time is needed for review, we can utilize the discussion forum for that purpose.</p>
@@ -906,15 +988,14 @@ F &amp;= 0.4[0.7\mathrm{max}(E_1, E_2) + 0.3\mathrm{min}(E_1, E_2)] \\
 <p>The difference between the weighted versus regular average is illustrated below:</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
+<div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-70-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="index_files/figure-html/unnamed-chunk-70-1.png" class="img-fluid figure-img" data-fig-pos="H" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
 <p>The effect of weighted averages over the final grade <span class="math inline">\(F\)</span> is quite significant. Here is a very extreme example to illustrate the effect of the weighted average. See the difference between a final grade of 56 versus 70.</p>
-
 <table class="table">
 <thead>
 <tr class="header">
@@ -1030,7 +1111,6 @@ F &amp;= 0.4[0.7\mathrm{max}(E_1, E_2) + 0.3\mathrm{min}(E_1, E_2)] \\
 </td>
 </tr>
 </tbody>
-
 </table>
 <p>In any case, my sincere advice is to keep the standard as high as possible in order to minimize the risk of achieving low grades. Note that stickers and extra marks are not explicitly reported in <span class="math inline">\(F\)</span> because they are part of <span class="math inline">\(E_1\)</span>, <span class="math inline">\(E_2\)</span> and <span class="math inline">\(E_F\)</span>. Homework assignment co-evaluations are not explicitly reported either because they are part of <span class="math inline">\(H_1\)</span> and <span class="math inline">\(H_2\)</span>.</p>
 </section>
@@ -1406,12 +1486,12 @@ F &amp;= 0.4[0.7\mathrm{max}(E_1, E_2) + 0.3\mathrm{min}(E_1, E_2)] \\
 </li>
 <li>X hashtags: #rstats, #DataScience</li>
 </ul>
-<p>This document took 8.31 seconds to compile in Quarto version 1.3.450, and R version 4.3.2 (2023-10-31 ucrt).</p>
+<p>This document took 2.66 seconds to compile in Quarto version 1.5.54, and R version 4.4.1 (2024-06-14 ucrt).</p>
 </section>
 </section>
 <section id="references." class="level1 unnumbered">
 <h1 class="unnumbered"><svg aria-hidden="true" role="img" viewbox="0 0 576 512" style="height:1em;width:1.12em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C93.5 32 46.3 45.3 18.1 56.1C6.8 60.5 0 71.7 0 83.8V454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"></path></svg> References.</h1>
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-alonso2021understanding" class="csl-entry" role="listitem">
 Alonso, Andrés, and José Manuel Carbó Martínez. 2021. <span>“Understanding the Performance of Machine Learning Models to Predict Credit Default: A Novel Approach for Supervisory Evaluation.”</span> <em>Documentos de Trabajo/Banco de Espa<span>ñ</span>a, 2105</em>. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3774075">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3774075</a>.
 </div>
@@ -1500,14 +1580,23 @@ Xie, Yihui, Christophe Dervieux, and Emily Riederer. 2020. <em>R Markdown Cookbo
 </main>
 <!-- /main column -->
 <!-- Google tag (gtag.js) -->
+
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9QZBSVHDZ9"></script>
+
 <script>
+
   window.dataLayer = window.dataLayer || [];
+
   function gtag(){dataLayer.push(arguments);}
+
   gtag('js', new Date());
 
+
+
   gtag('config', 'G-9QZBSVHDZ9');
+
 </script>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1549,6 +1638,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -1617,13 +1733,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -1658,18 +1776,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -1701,7 +1808,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
   const viewSource = window.document.getElementById('quarto-view-source') ||
                      window.document.getElementById('quarto-code-tools-source');
   if (viewSource) {
@@ -1753,10 +1882,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   if (showAllCode) {
     showAllCode.addEventListener("click", toggleCodeHandler(true));
   }
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1766,8 +1912,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1779,7 +1934,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1823,6 +2101,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1848,6 +2127,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1908,6 +2213,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
