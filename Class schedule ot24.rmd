@@ -151,13 +151,12 @@
 
 - Reading. @Hull9, Chapter 22 *Value at Risk (sections 22.1 to 22.4)*.
 - Reading. @lozanoIF, Chapter 5 *Value at Risk*.
+- Extra marks. Mentimeter 3/3.
 
 **Session 26. Monday, November 4.**
 
-- Reading. @Hull9, Chapter 22 *Value at Risk (sections 22.1 to 22.4)*.
-- Reading. @lozanoIF, Chapter 5 *Value at Risk*.
+- Congreso.
 - Extra marks. DataCamp top 5 XP of the last 90 days.
-- Extra marks. Mentimeter 3/3.
 
 **Session 27. Thursday, November 7.**
 
