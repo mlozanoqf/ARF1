@@ -52,6 +52,10 @@ For a university student new to programming, using AI-based assistants for R and
 
 However, there are potential drawbacks to consider. Over-reliance on AI assistants might hinder the development of essential problem-solving skills and a deep understanding of programming concepts. Students might become too dependent on automated suggestions and fail to engage deeply with the code they are writing. Moreover, AI suggestions are not always accurate or contextually appropriate, and inexperienced programmers might struggle to discern which recommendations to follow. It's important to note that AI tools tend to be more effective when users already possess some programming skills, as they can better evaluate the AI's suggestions and integrate them appropriately. Additionally, the learning curve associated with integrating and using AI tools effectively, along with potential costs for advanced features, might be challenging for students with limited resources. Balancing the use of AI assistants with traditional learning methods is crucial to develop both practical skills and a robust understanding of programming.
 
+## ChatGPT.
+
+The use of ChatGPT and other virtual assistants or generative AI tools in course activities is not prohibited for two main reasons. First, it would be impossible to ban them due to their easy access and the fact that they are present and integrated into a significant number of applications. Second, it would be equivalent to banning one of the technologies that is most transforming the way people work, and the job market would expect graduates to be familiar with and skilled in using such tools. However, just because their use is not prohibited in the course does not mean it should be indiscriminate or used for everything without questioning. Based on my experience, and that of students who have taken the course, using ChatGPT does not guarantee a good grade. The main reason is that such tools, according to their own documentation, can make mistakes, especially when the task we ask is tied to a specific database, particular conditions dictated by the course materials, and specific methodologies and procedures of the course. Using these tools might give the false impression that they can infallibly solve class questions and activities, but that is not the case for the reasons mentioned. My recommendation is that these tools can be very useful for studying, learning, and improving the status of projects and assignments, but using them as a substitute for the student's own reasoning is not advisable and will most certainly be reflected in low grades.
+
 ## `r fontawesome::fa("lock")` Commercial alternatives.
 
 Throughout your undergraduate studies, you will be expected to acquire proficiency in various commercial software programs, such as Microsoft Excel, SPSS, STATA, E-Views, and many others. I strongly encourage you to develop your skills in these programs, particularly if their usage is required by your professor. However, it is crucial to recognize that these programs are owned by private firms and primarily focused on generating value for their shareholders. Consequently, there is no guarantee that the associated file formats will remain accessible or even exist in the future, which can adversely impact reproducibility.
@@ -88,13 +92,6 @@ In this course you will be asked to complete graded activities in Datalab. Howev
 
 I find [DataCamp](https://www.datacamp.com/) a very good alternative to learn data science. Normally, people have to pay for a DataCamp account to learn data science, and some firms have to pay for this kind of training to help their employees to learn R or Python. Current fees for a DataCamp premium individual account is about 33.25 USD per month, about 200 USD for the semester. However, as my student, you have free individual access for full access to all DataCamp courses and resources including DataCamp's Workspaces for the whole semester as long as this firm keeps its promise to make this access free for my students. In exchange, DataCamp ask for a mention on social media, please find all the resources and instructions on these [communication guidelines.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit) Are you able to provide this?
 
-To learn more about DataCamp updates:
-
-```{r echo=FALSE}
-embed_url("https://youtu.be/bLt9BEocsqM")
-```
-
-
 ## `r fontawesome::fa("desktop")` Desktop IDE.
 
 A desktop Integrated Development Environment (IDE) is a software application installed locally on a computer that provides a comprehensive set of tools for software development, including code editing, debugging, and testing functionalities. Desktop IDEs typically offer robust features such as syntax highlighting, code completion, refactoring tools, and integrated version control. They are optimized for performance and often provide extensive customization options and plugin support to tailor the development environment to specific needs. Working with a cloud-based alternative, instead of a desktop IDE is similar to working with Google Docs instead of MS Word. We are all familiar with both local and cloud-based work environments and understand the importance of data privacy and regular file backups.
@@ -105,23 +102,17 @@ RStudio is an integrated development environment (IDE) specifically designed for
 
 The main difference between R and RStudio is that R is the core programming language, while RStudio serves as the user-friendly integrated development environment (IDE) for developing data science projects. When working with R, you will need to download and install both R and RStudio. However, you will primarily use RStudio as your interface for coding in R. Behind the scenes, your computer will utilize the R program to execute the calculations. Moreover, RStudio is free and offers the convenience of seamlessly integrating multiple programming languages, such as R and Python, within a single data science project. This feature is particularly useful when collaborating with a team proficient in different programming languages.
 
-Here is a video about RStudio (a bit old as there are newer versions by now):
-
-```{r echo=FALSE}
-embed_url("https://youtu.be/SdMPh5uphO0")
-```
-
 In this course, you will be asked to complete graded activities (homework assignments and exams) using the cloud based alternatives, specifically DataCamp's Datalab. However, you are required to install RStudio in your own computer. 
 
 If you have not yet installed the necessary programs on your computer, please download R, Python, and RStudio from the following websites: <https://www.r-project.org/>, <https://www.python.org/downloads/>, and <https://posit.co/downloads/>, respectively. In the reference list at the end of this document, you will find some helpful YouTube installation guides that explain the step-by-step process of downloading and installing these programs from scratch. These videos have proven to be useful for my previous students. However, if you happen to come across a new and improved video, please feel free to share it.
 
-`r fontawesome::fa("egg")` Easter egg. I may need some volunteers to help other fellow students install RStudio and ensure that it can run both R and Python code on their own computers. These volunteers may need to familiarize themselves by reviewing YouTube tutorials on how to correctly install it on PC and Mac. Volunteers need to demonstrate that they have successfully assisted other students enrolled in this class in completing their installations. I will assign one sticker to each volunteer for every group of three students they provide help to. The evidence must be uploaded in the discussion forum (first partial) before our first partial exam. Here is a sample of valid evidence:
+<!-- `r fontawesome::fa("egg")` Easter egg. I may need some volunteers to help other fellow students install RStudio and ensure that it can run both R and Python code on their own computers. These volunteers may need to familiarize themselves by reviewing YouTube tutorials on how to correctly install it on PC and Mac. Volunteers need to demonstrate that they have successfully assisted other students enrolled in this class in completing their installations. I will assign one sticker to each volunteer for every group of three students they provide help to. The evidence must be uploaded in the discussion forum (first partial) before our first partial exam. Here is a sample of valid evidence: -->
 
-```{r echo=FALSE, out.width="70%", fig.align="center"}
-knitr::include_graphics('./proof.jpg')
-```
+<!-- ```{r echo=FALSE, out.width="70%", fig.align="center"} -->
+<!-- knitr::include_graphics('./proof.jpg') -->
+<!-- ``` -->
 
-Please note that there are other alternatives to RStudio like  [Anaconda](https://www.anaconda.com/) and [Visual Studio Code](https://code.visualstudio.com/). If you were to ask, my personal favorite is RStudio. In fact, I created this syllabus using RStudio with R markdown and Quarto.
+Please note that there are other alternatives to RStudio like  [Anaconda](https://www.anaconda.com/) and [Visual Studio Code](https://code.visualstudio.com/). If you were to ask, my personal favorite is RStudio. In fact, I created this syllabus using RStudio with R markdown and Quarto, and it is hosted in GitHub pages.
 
 
 ## `r fontawesome::fa("surprise")` Why it is important?
