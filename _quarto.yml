@@ -1,5 +1,5 @@
 title: Administración de riesgos financieros ARF1.
-subtitle: Course syllabus. Fall 2024.
+subtitle: Course syllabus. Spring 2025. Currently under review.
 author: Dr. Martín Lozano <tt>`<martin.lozano@udem.edu>`</tt>
 date-modified: now
 date-format: "MMMM D, YYYY, HH:mm:ss a."
@@ -22,7 +22,7 @@ format:
       source: false
       toggle: true
     code-block-bg: true
-    code-block-border-left: "#31BAE9"
+    code-block-border-left: "#6A0DAD"
     code-line-numbers: true
     number-sections: true
     toc-location: left
@@ -32,6 +32,6 @@ format:
     include-in-header: 
       - back-to-top.html
       - progressbar.html
-
-link-citations: true
+    css: styles.css
+    link-citations: true
 

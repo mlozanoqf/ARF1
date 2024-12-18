@@ -1,0 +1,6 @@
+/* Change the highlight color of the active section in the TOC */
+.nav-link.active {
+  color: #FF5733; /* Custom color for the active link */
+  font-weight: bold; /* Optional: Make it bold for emphasis */
+  text-decoration: underline; /* Optional: Add an underline */
+}
