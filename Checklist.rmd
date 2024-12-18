@@ -1,3 +1,11 @@
+# `r fontawesome::fa("gavel")` Policies.
+
+1. These policies regarding tardiness apply to face-to-face classes: Three tardies count as one absence. Tardies accumulate over the course of the semester. A tardy is recorded if the student arrives immediately after attendance is taken and remains for the rest of the class. If a student is marked as present or tardy, this can be changed to an absence if they leave the classroom or do not stay until the end of the class.
+1. If the class is online, there is no tardy policy, and attendance will be based on the user log provided by Zoom.
+1. With respect to the maximum absence policy, we will adhere to the current university regulations.
+1. Groups are formed with no more than four students. Group activities can be completed by one, two, three, or four students. Group formation is done by the students, and any changes must be notified and authorized by me.
+1. We can arrange 30-minute Zoom online meetings if you require additional assistance or have any other issues you would like to discuss with me. These meetings can be arranged either individually or in groups. Simply send an email to <tt>`<martin.lozano@udem.edu>`</tt> to inquire about my availability. If you need more time, we can arrange for additional meetings or extend the duration as needed. Here is the Zoom link for meetings: [https://us02web.zoom.us/j/9209945512](https://us02web.zoom.us/j/9209945512).
+1. For activities such as assignments, extra credit tasks, coevaluations, etc., that require submission by a specific time, there is no late submission policy.
 
 # `r fontawesome::fa("check-square")` Checklist.
 

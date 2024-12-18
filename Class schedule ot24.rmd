@@ -1,7 +1,5 @@
 # `r fontawesome::fa("calendar-alt")` Schedule. {#sec-schedule}
 
-**Política de retardos:** (1) El tercer retardo se convierte en falta; (2) la asistencia o el retardo se cambia a dos retardos en caso de abandonar la clase antes de que termine; (3) el retardo se asigna si llegan al final de que tome la asistencia de todo el grupo o más tarde; (4) los retardos se acumulan en el semestre.
-
 `r fontawesome::fa("credit-card")` ARF1, Fall 2024. Room  1301, 16:00 – 17:30. Zoom [https://us02web.zoom.us/j/89650489437](https://us02web.zoom.us/j/89650489437)
 
 ## `r fontawesome::fa("battery-quarter")` Part 1.
