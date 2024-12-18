@@ -2,6 +2,13 @@
 
 Data science is the study of extracting generalizable knowledge from data. Being a data scientist requires an integrated skill set that encompasses operations research, statistics, and computer science, along with a solid understanding of formulating problems in specific fields to achieve effective solutions. This course aims to introduce you to this rapidly growing field and equip you with its basic principles, tools, and general mindset within the context of business. Ideally, you will learn to apply financial and economic concepts, models, techniques, and tools to analyze various aspects of data science practice. This includes data collection and integration, exploratory data analysis, descriptive and predictive modeling, visualization, evaluation, and effective communication. For a comprehensive introduction to the application of data science in finance, I recommend referring to @hull2020machine.
 
+Listen to this podcast broadcasted on December 2023 to learn more about my view on this topic.
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/SKG3Kr-TK-w?si=W5wg2DXluuiEspWC")
+```
+
+
 In this course, the goal is not to become a data scientist, but rather to lay the foundation for further specialization in this field through postgraduate studies. Nowadays, many undergraduate students recognize the need for basic knowledge in data science and machine learning to thrive in a world where these areas have an increasing impact on job opportunities. In the past, computer literacy was essential for all executives. Today, executives are expected to be comfortable managing large data sets and collaborating with data science professionals to drive innovation and enhance productivity.
 
 Learning these computational skills aligns with the purpose of developing STEAM (Science, Technology, Engineering, Arts, and Mathematics) skills during your undergraduate studies in business. For more information on STEAM skills, you can refer to @boon2019exploring. In my opinion, learning opportunities for undergraduate students should include authentic tasks that are grounded in real-world business contexts. Authentic tasks typically involve ill-defined problems, complex or multi-step questions, multiple approaches to problem-solving, and sub-tasks that integrate across disciplines. This course incorporates some of these STEAM principles and ideas into various learning activities.
