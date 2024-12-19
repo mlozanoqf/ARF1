@@ -43,7 +43,7 @@ paste("John Doe's coevaluation in the first assignment is:", round(mean(C1), 2))
 paste("John Doe's individual mark in the first assignment is:", round((H1), 2))
 ```
 
-This is because we apply $H_1=\mathrm{min}(mean(C1), H_m) \rightarrow H_1=\mathrm{min}(66.67, 90)\rightarrow H_1=66.67$. 
+This is because we apply $H_1=\mathrm{min}(mean(C_1), H_m) \rightarrow H_1=\mathrm{min}(66.67, 90)\rightarrow H_1=66.67$. 
 
 If instead of 60, Baby Yoda evaluates John Doe with a 80, then:
 
@@ -175,7 +175,7 @@ You have to realize as soon as possible that you are being evaluated all the tim
 
 ## `r fontawesome::fa("hands-helping")` If you are struggling with the course. 
 
-In case you have any concern, any question about the course contents, or if you are having trouble understanding the course material, you have to contact me as soon as possible. This is your own responsibility starting from day 1. We can arrange an online meeting, or we can solve your questions or concerns by email, whatever is best. In case you are having a poor academic performance and you are genuinely interested to improve, my best advice is to contact me during the lecture period, not after the last session of the semester, and we can discuss specific strategies that can potentially help you to get higher marks and reduce the risk of failing the course. The point here is that you have to know that I can help you to improve your academic performance during the semester only if you are truly interested. If you would like to improve your marks at a later stage, or after the final exam, then I am afraid I can do nothing for you, but I can do a lot during the semester. Please email me in case you would like to arrange an appointment, my full contact details are in the first page of this syllabus. The email is definitely the best way to initially approach me.
+In case you have any concern, any question about the course contents, or if you are having trouble understanding the course material, you have to contact me as soon as possible. This is your own responsibility starting from day 1. We can arrange an online meeting, or we can solve your questions or concerns by email, whatever is best. In case you are having a poor academic performance and you are genuinely interested to improve, my best advice is to contact me during the lecture period, not after the last session of the semester, and we can discuss specific strategies that can potentially help you to get higher marks and reduce the risk of failing the course. The point here is that you have to know that I can help you to improve your academic performance during the semester only if you are truly interested. If you would like to improve your marks at a later stage, or after the final exam, then I am afraid I can do nothing for you, but I can do a lot during the semester. Please email me in case you would like to arrange an appointment, my full contact details are at the beginning of this syllabus. The email is definitely the best way to initially approach me.
 
 In case you get a low mark in one activity or you get difficulties at some specific topic you should take immediate actions in order to quickly revert this. I am not planning to relax the marking criterion so what you have to do is to improve your own quality standards in order to pass given my marking standards and my expectations about your academic performance. You are free to contact me in case you need assistance about specific strategies to improve your academic performance.
 
