@@ -2,14 +2,11 @@
 
 It is your responsibility as a student to read the syllabus to ensure good performance in the course, and I assume that you have read it and understand it well, including the following policies.
 
-
-
-
 ## `r fontawesome::fa_i("clock", class = "fa-solid")` Tardiness and absences.
 
 1. Face-to-face classes: Three tardies count as one absence. Tardies accumulate over the course of the semester. A tardy is recorded if the student arrives immediately after attendance is taken and remains for the rest of the class. If a student is marked as present or tardy, this can be changed to an absence if they leave the classroom or do not stay until the end of the class.
 1. If the class is online, there is no tardy policy, and attendance will be based on the user log provided by Zoom.
-1. With respect to the maximum absence policy, we will adhere to the current university regulations.
+1. With respect to the maximum absences policy, we will adhere to the current university regulations.
 
 
 ## `r fontawesome::fa("people-group")` Groups.
@@ -28,27 +25,27 @@ It is your responsibility as a student to read the syllabus to ensure good perfo
 
 ## `r fontawesome::fa("jedi")` Others.
 
+1. The partial grades I will report for the first and second periods will be the ones the student achieves in their partial exams $E_1$ and $E_2$.
 1. For activities such as assignments, extra credit tasks, coevaluations, etc., that require submission by a specific time, there is no late submission policy.
-1. We rely on Datalab, which is part of DataCamp, for completing assignments and exams. These platforms are not only essential for completing tasks and exams but also serve as the official means for submitting and turning them in. However, these platforms are not immune to occasional downtime. For this reason, it is important that, as a student, you have RStudio installed on your local computer, which will allow you to have a backup to continue your work in case of an emergency.
+1. We rely on Datalab, which is part of DataCamp, for completing assignments and exams. These platforms are not only essential for completing tasks and exams but also serve as the official means for submitting and turning them in. However, these platforms are not immune to occasional downtime. For this reason you must have RStudio installed on your local computer, which will allow you to have a backup to continue your work in case of an emergency.
 
 # `r fontawesome::fa("check-square")` Checklist.
 
 Please consider the following checklist to improve the chances to achieve a good performance in this course.
 
 1.  Read very consciously this document as it contains important information about the course, including the attached videos and references. You might need to read it several times during the semester. Quoting Yoda `r fontawesome::fa("jedi-order")`: *read the syllabus you must.*
-2.  If you consider learning how to code is very difficult and you think you need more practice, then take all the [Swirl](https://swirlstats.com/) and [DataCamp](https://www.datacamp.com/) courses that you want or need. I teach a course of R every year, and you can also contact me if you need further help. You are expected to learn new things, and this is only one of them.
-3.  If I ever take longer than expected to answer an email or any other request, please insist and kindly remind me.
-4.  Always keep academic quality standards high for your own work and overall course performance. Find your own motivation and keep a regular weekly progress to study the course material in advance.
-5.  If you fail one activity do not get angry or upset as this is the best way to frustration. You better do the activity again by yourself the best way you can. You may say *how can I do it again if I failed?* Well, just remember we have one class session in which we discuss the correct exam and homework assignment answers, so look at your class notes again because you will find the answers there. Once you do that, you are free to contact me to comment on your work or to verify that now you know how to do it correctly. Most of the students who sadly fail this class ignore this recommendation because they are truly convinced that they do not understand or get frustrated because they fail to understand in the first attempts. Try and try again, eventually you will get it.
-6.  If you have trouble with your group members because they fail to work under the basic standards, and you consider it unfair to include their names in the assignment cover sheet, remember you can co-evaluate them with 0 to activate a straight penalty in his or her mark. Your homework assignment co-evaluation will remain anonymous.
-7.  Never get frustrated for too long because there will be no challenge that you cannot overcome with the right amount of time and effort. If after all you get frustrated, upset, or angry, do not let it happen too frequently and do not let it last for long. Ask for help whenever you need it, and remember you are free to contact me.
+1.  If you consider learning how to code is very difficult and you think you need more practice, then take all the [Swirl](https://swirlstats.com/) and [DataCamp](https://www.datacamp.com/) courses that you want or need. I teach a course of R every year, and you can also contact me if you need further help. You are expected to learn new things, and this is only one of them.
+1.  If I ever take longer than expected to answer an email or any other request, please insist and kindly remind me.
+1.  Always keep academic quality standards high for your own work and overall course performance. Find your own motivation and keep a regular weekly progress to study the course material in advance.
+1.  If you fail one activity do not get angry or upset as this is the best way to frustration. You better do the activity again by yourself the best way you can. You may say *how can I do it again if I failed?* Well, just remember we have one class session in which we discuss the correct exam and homework assignment answers, so look at your class notes again because you will find the answers there. Once you do that, you are free to contact me to comment on your work or to verify that now you know how to do it correctly. Most of the students who sadly fail this class ignore this recommendation because they are truly convinced that they do not understand or get frustrated because they fail to understand in the first attempts. Try and try again, eventually you will get it.
+1.  If you have trouble with your group members because they fail to work under the basic standards, and you consider it unfair to include their names in the assignment cover sheet, remember you can co-evaluate them with 0 to activate a straight penalty in his or her mark. Your homework assignment co-evaluation will remain anonymous.
+1.  Never get frustrated for too long because there will be no challenge that you cannot overcome with the right amount of time and effort. If after all you get frustrated, upset, or angry, do not let it happen too frequently and do not let it last for long. Ask for help whenever you need it, and remember you are free to contact me.
+1.  Remember the evaluation method is particularly beneficial for students because of how the average is calculated. Instead of simply averaging the grades, I use a weighted system for both assignments and partial exams. For each category, the lower grade is weighted at 30% and the higher grade at 70%. This approach ensures that stronger performance is given greater importance, encouraging improvement and rewarding effort.
+1.  If you would like to share something (anything) with me, feel free to do so. My email is: <tt>`<martin.lozano@udem.edu>`</tt>.
+1. Follow number 1.
 
 Prof. Dan Fleisch describes an effective way to ask for help in college classes.
 
 ```{r echo=FALSE}
 embed_url("https://youtu.be/dXG9UgW65fU")
 ```
-
-8.  Remember the grading scheme. The lowest mark always weighs 30%, not 50%. And the highest mark always weighs 70%, not 50%. Do the math and you will see that failing one activity does not necessarily represent a risk to fail the class.
-9.  If you would like to share something (anything) with me, feel free to do so. My email is: <tt>`<martin.lozano@udem.edu>`</tt>.
-10. Follow number 1.
