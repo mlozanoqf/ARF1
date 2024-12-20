@@ -120,7 +120,7 @@ We have 3 homework assignments $H_1$ and $H_2$ (30% of the final grade), and one
 
 **Why is $H_3$ a non-graded activity?** The $H_3$ is a special assignment that is designed to help you to practice and study for your final exam by learning from your previous mistakes. It has a deadline but it is a non-graded activity. Given that it is non-graded, this activity is optional. The $H_3$ instructions are the following: You are required to (1) correct all your mistakes in all your previous graded activities, including all the four $E_1$ and $E_2$ questions, and assignments; and (2) complete all your missed extra mark activities, mostly from DataCamp and [UN CC:Learn](https://www.uncclearn.org/). The format and delivery is the same as the rest of the assignments. You can do it in group or individually. You will not receive $H_3$ feedback as by then you will have access to all exam and assignment answers. In any case, you can ask me to review it if necessary. 
 
-## `r fontawesome::fa("grin-hearts")` Extra marks activities. 
+## `r fontawesome::fa("grin-hearts")` Extra marks. 
 
 Extra marks activities are individual tasks. As with any extra marks activity, you will not lose points if you fail to complete them, but you can earn additional marks if you complete them on time. For each DataCamp and [UN CC:Learn](https://www.uncclearn.org/) course completed on time, you will receive a nice PDF certificate, which looks great on your CV and LinkedIn profile.
 
@@ -187,7 +187,7 @@ As with DataCamp, you are expected to choose the UN CC:Learn course based on you
 
 **Mentimeter.** We may have a few sessions that include a Mentimeter activity. This activity may be evaluated, and if it is, the top 10 best answers will earn extra marks. Points will be awarded based on your rank in the top 10: the first place earns +10, the second place earns +9, and so on, with the tenth place earning +1 extra marks for your next $E_1$, $E_2$, or $E_F$ exam.
 
-## `r fontawesome::fa("shapes")` Non-graded activities. 
+## `r fontawesome::fa("shapes")` Non-graded. 
 
 **DataCamp webinars.** You are free to attend live webinars organized by DataCamp. See the *live events* DataCamp section for the upcoming webinars in this semester. Please note that you have to register to attend. Let me know which ones you are planning to attend. 
 
