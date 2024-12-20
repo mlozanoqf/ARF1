@@ -28,7 +28,7 @@ embed_url("https://youtu.be/KX-sg1HXAws")
 
 **Review sessions.** We have review sessions for assignments and exams, which take place before the assignment submission deadline and prior to the exams. These sessions provide a great opportunity to ask questions and enhance your chances of achieving higher marks in both assignments and exams.
 
-Please see some recommendations about review sessions:
+See some recommendations about review sessions:
 
 ```{r echo=FALSE}
 embed_url("https://youtu.be/XoHx_UIgtt0")
@@ -36,9 +36,9 @@ embed_url("https://youtu.be/XoHx_UIgtt0")
 
 **Discussion forums.** There are three discussion forums available for us to interact and engage with one another. Each forum corresponds to a different part of the course: the first, second, and third partials. The benefit of the discussion forums is that everyone can track the progression of discussions and actively participate. The logical flow of ideas remains recorded, allowing you to receive my feedback and comments. Since our class sessions have limited time, we may occasionally utilize the discussion forums.
 
-**Email.** You are welcome to contact me via email at any time: <tt>`<martin.lozano@udem.edu>`</tt>. I also send group emails containing important information, so please ensure that my email address is not marked as spam. If there is ever a delay in my response to an email or any other request, please feel free to insist and kindly remind me.
+**Email.** You are welcome to contact me via email at any time: <tt>`<martin.lozano@udem.edu>`</tt>. I also send group emails containing important information, so ensure that my email address is not marked as spam. If there is ever a delay in my response to an email or any other request, please feel free to insist and kindly remind me.
 
-**Meetings.** Whether it is face-to-face or virtual learning, we can schedule 30-minute Zoom online meetings if you require additional assistance or have any other issues you would like to discuss with me. These meetings can be arranged either individually or in groups. Simply send an email to <tt>`<martin.lozano@udem.edu>`</tt> to inquire about my availability. If you need more time, we can arrange for additional meetings or extend the duration as needed. Here is the Zoom link for meetings: [https://us02web.zoom.us/j/9209945512](https://us02web.zoom.us/j/9209945512). For the class session Zoom link, please refer to the course calendar: @sec-schedule.
+**Meetings.** Whether it is face-to-face or virtual learning, we can schedule 30-minute Zoom online meetings if you require additional assistance or have any other issues you would like to discuss with me. These meetings can be arranged either individually or in groups. Simply send an email to <tt>`<martin.lozano@udem.edu>`</tt> to inquire about my availability. If you need more time, we can arrange for additional meetings or extend the duration as needed. Here is the Zoom link for meetings: [https://us02web.zoom.us/j/9209945512](https://us02web.zoom.us/j/9209945512). For the class session Zoom link, refer to the course calendar: @sec-schedule.
 
 **Book.** The book (or books) is one of the main pillars of this course. In my experience, learning primarily occurs through reading and then reinforcing the concepts through practical application, although there are various other activities included in this course. The authors of the book are esteemed experts in their respective fields: John C. Hull from [University of Toronto](https://www.utoronto.ca/); Frank Fabozzi from [Johns Hopkins Carey Business School](https://carey.jhu.edu/); Richard A. Brealey from [London Business School](https://www.london.edu/); Stewart C. Myers from [Sloan School of Management, Massachusetts Institute of Technology](https://mitsloan.mit.edu/); Franklin Allen from [Imperial College London](https://www.imperial.ac.uk/); Rob J. Hyndman and George Athanasopoulos from [Monash University](https://www.monash.edu/); ad Eugene F. Brigham and Joel F. Houston from [University of Florida](https://www.ufl.edu/). These books are not only suitable for intermediate and advanced undergraduate degrees but also for first-year master's degrees. I prefer using the original versions of the books rather than translations because, in my experience, the translations may not always match the quality of the original English version and, in some cases, may not be available.
 
@@ -122,28 +122,23 @@ We have 3 homework assignments $H_1$ and $H_2$ (30% of the final grade), and one
 
 ## `r fontawesome::fa("grin-hearts")` Extra marks activities. 
 
-As with any extra mark activity, you do not lose marks if you fail to complete them, but you can get extra marks over your next individual exam if you complete them on time. If you were taking two courses with me in the past, the extra marks that you earned in one course were also valid for the second and vice versa. Sadly, this benefit was recently canceled due to strong complaints from some students who considered it unfair.
-
-For every DataCamp and [UN CC:Learn](https://www.uncclearn.org/) course completed on time you get a nice PDF certificate that looks good in your CV and LinkedIn profile. It also can help you to have more tools to write your homework assignments, exams, write your own PEF, and apply for interesting jobs. The list of courses, skill tracks and projects that apply for this course is available in the course calendar. 
-
+Extra marks activities are individual tasks. As with any extra marks activity, you will not lose points if you fail to complete them, but you can earn additional marks if you complete them on time. For each DataCamp and [UN CC:Learn](https://www.uncclearn.org/) course completed on time, you will receive a nice PDF certificate, which looks great on your CV and LinkedIn profile.
 
 <!-- [^6]: Please note that DataCamp is not the only alternative to learn R. There are other free alternatives available in the web such as [Swirl.](https://swirlstats.com/) You can find many free electronic resources to learn R in the reference section at the end of this syllabus. There are also some students who find the tutorials (developed by myself) a good enough resource to learn R. However, there are other students who need more specialized courses, or more basic courses to understand the logic of programming in R and some other extensions. In my attempt to offer you as many free and useful resources as possible, you have a DataCamp account. According to Martijn Theuwissen Co-founder and COO at DataCamp, they are no.1 ranked Forbes certifications. -->
 
-**DataCamp and UN CC:Learn courses.** You will earn extra marks over your next exam, it could be $E_1$, $E_2$ or $E_F$. These activities will be available for you to complete in your DataCamp Assignments section or [UN CC:Learn](https://www.uncclearn.org/) courses, and listed in the course calendar as *extra marks* tag. The deadline is 10:00 a.m. on the day marked in the course calendar. DataCamp's projects and courses can be completed in a few hours, but skill tracks and career tracks require more time as they include more than one regular course. Please note that [UN CC:Learn](https://www.uncclearn.org/) courses may require a minimum mark to get a valid certificate. 
+**DataCamp.** You can earn extra marks for your next $E_1$, $E_2$, or $E_F$ exam by completing DataCamp assignments, which involve accumulating a specific amount of XP. XP is a measure of your engagement within DataCamp, automatically calculated based on the courses, exercises, or other content you complete. For more details, refer to the DataCamp Assignments section and the course calendar, where they are marked with the *extra marks* tag. The deadline is 10:00 a.m. on the date indicated in the course calendar. Since XP is calculated automatically, you do not need to submit any certificates, screenshots, or other evidence. Just make sure to complete the assignment on time.
 
-The amount of extra marks is a function of the cumulative number of activities during the semester. In particular, you earn $n+1$ extra marks per cumulative completed activity $n$. This function provides incentives to complete as many activities as possible during the semester.
+The amount of extra marks is based on the cumulative number of DataCamp assignments completed during the semester. There are 6 DataCamp assignments in total, allocated as 2 in the first partial, 2 in the second, and 2 in the third. You earn $n+1$ extra marks for each cumulative assignment completed, where $n$ is the number of assignments completed so far. If you complete all of them on time, for the $E_1$ exam you will earn:
 
-For example, if there are 7 activities (DataCamp and UN CC:Learn courses) in the semester allocated as 3 in the first partial, 2 in the second, 2 in the third, and you complete all of them on time, for the $E_1$ you earn:
-
-$\displaystyle \sum_{n=1}^{3} (n+1) = (1+1) + (2+1) + (3+1) = 2 + 3 + 4 = 9$.
+$\displaystyle \sum_{n=1}^{3} (n+1) = (1+1) + (2+1) = 2 + 3 = 5$.
 
 In sum:
 
-* $\displaystyle \sum_{n=1}^{3} (n+1) = 9$ extra marks over your $E_1$. 
-* $\displaystyle \sum_{n=4}^{5} (n+1) = 11$ extra marks over your $E_2$. 
-* $\displaystyle \sum_{n=6}^{7} (n+1) = 15$ extra marks over your $E_F$.
+* $\displaystyle \sum_{n=1}^{2} (n+1) = 5$ extra marks over your $E_1$. 
+* $\displaystyle \sum_{n=3}^{4} (n+1) = 9$ extra marks over your $E_2$. 
+* $\displaystyle \sum_{n=5}^{6} (n+1) = 13$ extra marks over your $E_F$.
 
-However, if there are 7 activities (DataCamp and UN CC:Learn courses) in the semester allocated as 3 in the first partial, 2 in the second, 2 in the third, and you complete one in each period, you earn:
+However, if you complete only one assignment in each period, you earn:
 
 * $\displaystyle \sum_{n=1}^{1} (n+1) = 2$ extra marks over your $E_1$. 
 * $\displaystyle \sum_{n=2}^{2} (n+1) = 3$ extra marks over your $E_2$. 
@@ -160,37 +155,37 @@ df <- data.frame("Activity completed" = x,
 df
 ```
 
-
-Some students may have completed a DataCamp or UN CC:Learn activity in the past. If your certificate is older than the starting date of this current academic term, then it is not valid and you have the option to substitute it.
-
-* You can substitute it with one of the following DataCamp Career Tracks: (1) Big Data with R; (2) Data Scientist with R; (3) Shiny Fundamentals with R; (4) Intermediate Tidyverse Toolbox; (5) Statistician with R; (6) Machine Learning Scientist with R; (7) SQL Fundamentals; (8) Data Scientist with Python; (9) Data Analyst with Python; (10) Machine Learning Scientist with Python; (11) Data Scientist Professional with Python; (12) AI Fundamentals; or (13) Tableau Fundamentals. If this is the case, please let me know and share your certificate with me by email before the deadline so I can assign the corresponding extra marks.
-* You can substitute it with one of your choice as long as you substitute a course by another course or a skill track for another skill track. If this is the case, please let me know and share your certificate with me by email before the deadline so I can assign the corresponding extra marks.
-* In case UN CC:Learn does not allow you to obtain a newer dated certificate, you can substitute it with one of the following: (1) Indicators for an inclusive green economy: Advanced course; (2) Green Fiscal Policy; (3) Green Economy and Trade; (4) Carbon Taxation; (5) Open Online Course on Gender and Environment; (6) other you may want to do given my written authorization. If this is the case, please let me know and share your certificate with me by email before the deadline so I can assign the corresponding extra marks.
+To complete the XP assignments, you will need to choose courses, skill tracks, career tracks, practice exercises, and other types of DataCamp content on your own. You are free to select based on your personal interests and preferences. However, if you would like some guidance, I recommend starting with basic or fundamental R courses, as well as finance courses with R. Other options include Python, SQL, Tableau, Power BI, Excel, ChatGPT, and more. Visit the "Learn" section on DataCamp to browse, search, and filter all available learning content to accumulate XP. Feel free to contact me if you would like further advice on which courses to take.
 
 <!-- **DataCamp assessments.** DataCamp assessments are individual activities that allow you to get extra marks over your final grade $F$. Yes, over your final grade. These are time-limit online evaluations of your knowledge of R and Python. DataCamp marks your assessment as N (novice), I (intermediate), and A (advanced) depending on your own performance. The rule to allocate the extra marks over your final grade $F$ is the following: 0 for N; +1 for I; and +2 for A. Assessments will be available in your DataCamp Assignments section and in the course calendar as *super extra marks* tag. Assessments are completed during the class session and although DataCamp allows you to complete the assessment twice, I will take your first try as your grade. -->
 
-**Stickers.** There are some opportunities throughout the semester to get extra marks. In this course, extra marks are allocated in the form of stickers, every sticker stands for 5 extra marks on your next exam $E_1$, $E_2$, or $E_F$. They are called *stickers* because I give real stickers to my students. Stickers are assigned by merit. It is not very easy to get a sticker, but it is worth a try. The record so far is one student who got 30 extra marks over the $E_F$, and he passed the course partially because of that.
+**DataCamp Top 5 XP for the First 30, 60, and 90 Days.** DataCamp has a leaderboard that ranks participants based on the amount of XP they earn. I will assign +5 extra marks to the top 5 students with the highest XP during three specific time ranges: the first 30 days, days 31 to 60, and days 61 to 90 of the semester. The allocation of these extra marks will be recorded according to the course calendar.
 
-**DataCamp top 5 XP of the last 90 days.** XP is a way of measuring your engagement within DataCamp. It is calculated automatically based on the courses, exercises, or other content that you complete. DataCamp has a leaderboard, which is a list that ranks participants' success compared to others. Participants are ranked based on the amount of XP earned and the number of chapters or courses completed. I will assign one sticker to the top 5 students based on their XP during the first 90 days of the semester. The allocation of stickers will be register by the end of Monday, April 14th, 2025.
-
-```{r}
+```{r eval=FALSE, include=FALSE}
 # Fecha inicial
 fecha_inicial <- as.Date("2025-01-13")
 
-# Sumar 90 días
-fecha_final <- fecha_inicial + 90
+# Sumar 30, 60 y 90 días
+fechas <- data.frame(
+  fecha = c(fecha_30, fecha_60, fecha_90),
+  dia_semana = weekdays(c(fecha_30, fecha_60, fecha_90))
+)
 
-# Obtener el día de la semana
-dia_semana <- weekdays(fecha_final)
+fechas
 
-# Mostrar la fecha final y el día de la semana
-list(fecha_final = fecha_final, dia_semana = dia_semana)
 ```
 
+**UN CC:Learn Courses.** You can earn extra marks for your next $E_1$, $E_2$, or $E_F$ exam by completing [UN CC:Learn](https://www.uncclearn.org/) courses, which are listed in the course calendar under the *extra marks* tag. The deadline is 10:00 a.m. on the date indicated in the course calendar. Please note that UN CC:Learn courses may require a minimum score to obtain a valid certificate.
 
-**The wheel of fortune.** I roll a virtual wheel of fortune three times in the semester to randomly allocate extra marks to a lucky group of students. These extra marks are allocated to the next exam $E_1$, $E_2$, or $E_F$. Make sure to attend this class as this is mandatory to get the extra marks if you are selected by the wheel of fortune.
+Some students may have completed a UN CC:Learn course in the past. If your certificate is older than the starting date of the current academic term, it is not valid, and you will need to choose a different course to substitute it. There are 3 UN CC:Learn activities in the semester, allocated as 1 in the first term, 1 in the second, and 1 in the third. You will earn +5 extra marks for each completed course.
 
-**Mentimeter.** We may have a few sessions in which we include a mentimeter activity. This activity is subject to be evaluated and if it is, then the top 10 best answers will have extra marks. Other restrictions may apply. 
+As with DataCamp, you are expected to choose the UN CC:Learn course based on your own interests and preferences. Visit the course section to browse the full catalog.
+
+**Stickers.** There are some opportunities throughout the semester to get extra marks. In this course, extra marks are allocated in the form of stickers, every sticker stands for 5 extra marks on your next exam $E_1$, $E_2$, or $E_F$. They are called *stickers* because I give real stickers to my students. Stickers are assigned by merit. It is not very easy to get a sticker, but it is worth a try. The record so far is one student who got 30 extra marks over the $E_F$, and he passed the course partially because of that.
+
+**The wheel of fortune.** I spin a virtual wheel of fortune three times during the semester to randomly allocate extra marks to a lucky group of students. Attendance in these sessions is mandatory to claim the extra marks if you are selected by the wheel. In total, you could earn +0, +5, or +10 extra marks for your next $E_1$, $E_2$, or $E_F$ exam.
+
+**Mentimeter.** We may have a few sessions that include a Mentimeter activity. This activity may be evaluated, and if it is, the top 10 best answers will earn extra marks. Points will be awarded based on your rank in the top 10: the first place earns +10, the second place earns +9, and so on, with the tenth place earning +1 extra marks for your next $E_1$, $E_2$, or $E_F$ exam.
 
 ## `r fontawesome::fa("shapes")` Non-graded activities. 
 
