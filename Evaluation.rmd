@@ -6,7 +6,7 @@ Let's see how your final grade $F$ is calculated.
 
 Of most frustration to students is receiving the same mark as their fellow non-contributing group members despite producing much of the group's work. In order to avoid this free-rider problem you will have to answer two co-evaluations $C_1$ and $C_2$, one for the first part of the course and one for the second part. The first co-evaluation $C_1$ is used to calculate the individual marks of $H_1$ and $E_1$; the second co-evaluation $C_2$ is used to calculate the individual marks of $H_2$ and $E_2$. Co-evaluation is so important that one student may fail simply because of his or her low contribution in the group. Sometimes students face mitigating circumstances, if that is the case you will have to discuss with your group because their marks may have a significant negative impact on your mark. 
 
-The co-evaluation is as an effective tool to incentive or penalize the group members to work well and on time. As a professor, I am not always aware of who is working well within a group, but the co-evaluation can help us to be fair and assign marks based on academic merits. I am not planning to reveal specific details about how you co-evaluate your colleagues, I am only going to reveal the group mark and the final individual mark. So, your co-evaluation details will remain anonymous. I am not going to change the co-evaluation, this is a mark assigned by your colleagues based on your performance and contribution. Then, there are many incentives aligned so the group should work well, otherwise the chances to get a low mark are high.
+The co-evaluation is as an effective tool to incentive or penalize the group members to work well and on time. As a professor, I am not always aware of who is working well within a group, but the co-evaluation can help us to be fair and assign marks based on academic merits. I do not reveal specific details about how you co-evaluate your colleagues. So, your co-evaluation details will remain anonymous. I cannot change the co-evaluation, this is a mark assigned by your colleagues based on your performance and contribution. Then, there are many incentives aligned so the group should work well, otherwise the chances to get a low mark are high.
 
 In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) share their thoughts on how to effectively work in teams.
 
@@ -61,7 +61,7 @@ Coevaluations are completed using a Google Form. I set up an example here: <http
 
 In particular, you will have two Google Forms web links in Blackboard to complete your co-evaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is co-evaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
 
-## `r fontawesome::fa("flag-checkered")` Final grade $F$. 
+## `r fontawesome::fa("flag-checkered")` Final grade. 
 
 The final grade $F$ is computed as follows:
 $$
@@ -155,9 +155,9 @@ tex2markdown(textable)
 
 In any case, my sincere advice is to keep the standard as high as possible in order to minimize the risk of achieving low grades. Note that stickers and extra marks are not explicitly reported in $F$ because they are part of $E_1$, $E_2$ and $E_F$. Homework assignment co-evaluations are not explicitly reported either because they are part of $H_1$ and $H_2$.
 
-## `r fontawesome::fa("marker")` General rubric. 
+## `r fontawesome::fa("marker")` Rubrics. 
 
-The following list illustrates a typical rubric for graded activities.
+The following list illustrates a typical generic rubric for graded activities.
 
 **What is a very good answer?** Competent and well presented. The work is critical and comprehensive and has a degree of depth in presenting and considering the material. Integrates the concepts introduced and applies them to problems with some evidence of critical analysis. Provides clear and competent answers to the questions, written in good English. Clearly presents solutions to calculative questions and demonstrates very good analytic skills and understanding.
 
@@ -173,7 +173,37 @@ embed_url("https://youtu.be/NPwTgfswnD8")
 
 You have to realize as soon as possible that you are being evaluated all the time, so every answer provided by you either in exams, assignments or even verbally during class should be clearly stated, showing your full thought-process, this will allow me to understand your own logic and grade your work fairly. Please do not forget this point as this will allow us to keep the academic quality standards high throughout the semester.
 
-## `r fontawesome::fa("hands-helping")` If you are struggling with the course. 
+This is a complementary rubric for some kind of quantitative assignments.
+
+**Criterio 1: Comentarios y explicaciones en el código.**
+
+| Nivel            | Descripción                                                                                                               |
+|------------------|---------------------------------------------------------------------------------------------------------------------------|
+| **3 – Completo (86 – 100)**  | El código está bien documentado con comentarios claros que explican las secciones clave. Las explicaciones en inglés son bien redactadas, con un hilo conductor lógico, y demuestran un sólido entendimiento de lo que se está haciendo y su propósito. Los comentarios demuestran no solo un entendimiento de lo que se está haciendo, sino también de por qué se hacen de esa manera, mostrando una comprensión avanzada de las decisiones de diseño. |
+| **2 – Adecuado (70 – 85)**   | El código incluye algunos comentarios, pero faltan en varias secciones clave. Las explicaciones en inglés son comprensibles, aunque pueden tener errores menores o falta de coherencia en el hilo conductor. El entendimiento del propósito es adecuado pero no profundo. Los comentarios son suficientes pero no profundizan en las decisiones de diseño o en la justificación de las implementaciones. |
+| **1 – Insuficiente (0 – 69)**| El código tiene pocos o ningún comentario, y las explicaciones en inglés son mínimas, mal redactadas, o inexistentes. No se demuestra un entendimiento claro de lo que se está haciendo ni de su propósito. La ausencia o escasez de comentarios hace que el código sea difícil de entender para terceros, afectando la calidad del reporte. |
+
+---
+
+**Criterio 2: Calidad del análisis.**
+
+| Nivel            | Descripción                                                                                                               |
+|------------------|---------------------------------------------------------------------------------------------------------------------------|
+| **3 – Ambicioso y Profundo (86 – 100)**  | El análisis es original, ambicioso, y profundamente desarrollado. Cumple con todas las instrucciones de la actividad, es claro, detallado y bien fundamentado. La solución presentada es creativa, bien estructurada y demuestra un entendimiento profundo del problema. El análisis no solo es profundo y ambicioso, sino que también anticipa y aborda posibles problemas o limitaciones en la solución propuesta. |
+| **2 – Adecuado (70 – 85)**   | El análisis es pertinente y cumple con la mayoría de las instrucciones de la actividad. Es claro y detallado, pero puede carecer de profundidad o creatividad. La solución presentada es correcta, pero no destaca por su originalidad o fundamentación exhaustiva. El análisis es adecuado pero puede no explorar completamente todas las posibles alternativas o implicaciones de la solución. |
+| **1 – Insuficiente (0 – 69)**| El análisis se aleja de las instrucciones de la actividad, es superficial o se limita a reproducir el material de estudio sin aportar ideas propias. La solución presentada es incompleta, mal fundamentada, o incorrecta. La falta de un análisis profundo sugiere una comprensión limitada del problema o de las posibles soluciones. |
+
+---
+
+**Criterio 3: Estructura del reporte.**
+
+| Nivel            | Descripción                                                                                                               |
+|------------------|---------------------------------------------------------------------------------------------------------------------------|
+| **3 – Clara y lógica (86 – 100)**  | El reporte está bien organizado con secciones y subsecciones claras. La estructura es lógica y facilita la comprensión de los resultados. La redacción es clara, y el contenido está bien presentado, priorizando calidad y claridad. La estructura lógica del reporte resalta los puntos clave del análisis, facilitando la comprensión del lector. |
+| **2 – Adecuada (70 – 85)**   | El reporte está organizado, pero puede carecer de algunas subsecciones necesarias o presentar una estructura que no siempre es fácil de seguir. La redacción es en general clara, aunque puede tener algunas partes confusas. Una estructura menos clara puede hacer que los argumentos pierdan fuerza y dificultar la presentación de resultados. |
+| **1 – Confusa y desordenada (0 – 69)**| El reporte carece de una estructura lógica, con secciones confusas o mal organizadas. La redacción es difícil de seguir y compromete la comprensión de los resultados. El reporte es extenso pero carece de claridad y calidad en el contenido. Una estructura confusa no solo dificulta la comprensión, sino que también compromete una evaluación justa del trabajo presentado. |
+
+## `r fontawesome::fa("hands-helping")` Help. 
 
 In case you have any concern, any question about the course contents, or if you are having trouble understanding the course material, you have to contact me as soon as possible. This is your own responsibility starting from day 1. We can arrange an online meeting, or we can solve your questions or concerns by email, whatever is best. In case you are having a poor academic performance and you are genuinely interested to improve, my best advice is to contact me during the lecture period, not after the last session of the semester, and we can discuss specific strategies that can potentially help you to get higher marks and reduce the risk of failing the course. The point here is that you have to know that I can help you to improve your academic performance during the semester only if you are truly interested. If you would like to improve your marks at a later stage, or after the final exam, then I am afraid I can do nothing for you, but I can do a lot during the semester. Please email me in case you would like to arrange an appointment, my full contact details are at the beginning of this syllabus. The email is definitely the best way to initially approach me.
 

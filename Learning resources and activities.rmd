@@ -2,7 +2,7 @@
 
 Academic resources encompass a wide range of materials, tools, and sources of information specifically designed to support and enhance learning, research, and scholarly pursuits in an academic setting. These resources play a crucial role in facilitating knowledge acquisition, promoting critical thinking, and advancing scholarly activities within the academic community.
 
-## `r fontawesome::fa("toolbox")` Learning resources.
+<!-- ## `r fontawesome::fa("toolbox")` Learning resources. -->
 
 Here is a list and description of the available resources to help you learn the subject. My advice is to utilize as many resources as possible, as they will enable you to grasp the subject matter and develop the necessary professional competences.
 
