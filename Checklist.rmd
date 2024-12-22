@@ -27,6 +27,7 @@ It is your responsibility as a student to read the syllabus to ensure good perfo
 
 1. The partial grades I will report for the first and second periods will be the ones the student achieves in their partial exams $E_1$ and $E_2$.
 1. For activities such as assignments, extra credit tasks, coevaluations, etc., that require submission by a specific time, there is no late submission policy.
+1. The final exam $E_F$ date may need to be adjusted for administrative reasons in the case of students who are graduate candidates.
 1. We rely on Datalab, which is part of DataCamp, for completing assignments and exams. These platforms are not only essential for completing tasks and exams but also serve as the official means for submitting and turning them in. However, these platforms are not immune to occasional downtime. For this reason you must have RStudio installed on your local computer, which will allow you to have a backup to continue your work in case of an emergency.
 
 # `r fontawesome::fa("check-square")` Checklist.
