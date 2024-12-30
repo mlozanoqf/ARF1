@@ -1,4 +1,4 @@
-# `r fontawesome::fa("brain")` Resources.
+# `r fontawesome::fa("brain")` Resources. {#sec-resources}
 
 Academic resources encompass a wide range of materials, tools, and sources of information specifically designed to support and enhance learning, research, and scholarly pursuits in an academic setting. These resources play a crucial role in facilitating knowledge acquisition, promoting critical thinking, and advancing scholarly activities within the academic community.
 
@@ -46,7 +46,7 @@ embed_url("https://youtu.be/XoHx_UIgtt0")
 
 **Others**. All learning resources described above represent a good resource for your own study of the course material. There are plenty of Internet resources that you will have to use, from databases, [YouTube](https://www.youtube.com/) videos, [GitHub](https://github.com/) public repositories, specialized programming blogs, AI tools, books, electronic books, etc. See the resource list at the end of this document for further details. You are encouraged to read articles, reports and news on your own to enhance and expand your understanding about how theoretical concepts relate with current real-life events. [The Economist](https://www.economist.com/), [The Financial Times](https://www.ft.com/), [The Guardian](https://www.theguardian.com/), [The Wall Street Journal](https://www.wsj.com/), [MarketWatch](https://www.marketwatch.com/), [Reuters](https://www.reuters.com/), [Bloomberg](https://www.bloomberg.com/), [Bureau of Economic Analysis](https://www.bea.gov/), [Banxico](https://www.banxico.org.mx/), [Project Syndicate](https://www.project-syndicate.org/), [The New York Times](https://www.nytimes.com/), [El Financiero](https://www.elfinanciero.com.mx/) (México), [El Confidencial](https://www.elconfidencial.com/) (Spain), [OECD](https://www.oecd.org/), are a good way to grasp contemporary insights related with this course. Other references to support your learning process include economic and financial reports from private banks such as Banamex and BBVA, and think tanks websites such as [The Mexico Institute](https://www.wilsoncenter.org/program/mexico-institute), [México cómo vamos](https://mexicocomovamos.mx/), [CIDAC](http://cidac.org/), [IMCO](https://imco.org.mx/), [COMEXI](https://www.consejomexicano.org/), among many others. My advice in this respect is rather simple: *the more you read the more you learn*.
 
-# `r fontawesome::fa("tasks")` Activities.
+# `r fontawesome::fa("tasks")` Activities. {#sec-activities}
 
 Learning activities are structured tasks or exercises designed to facilitate the acquisition of knowledge, skills, and understanding in an educational context. They are intended to promote active engagement, deepen understanding, and support the achievement of specific learning objectives.
 

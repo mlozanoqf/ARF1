@@ -29,6 +29,9 @@ It is your responsibility as a student to read the syllabus to ensure good perfo
 1. For activities such as assignments, extra credit tasks, coevaluations, etc., that require submission by a specific time, there is no late submission policy.
 1. The final exam $E_F$ date may need to be adjusted for administrative reasons in the case of students who are graduate candidates.
 1. We rely on Datalab, which is part of DataCamp, for completing assignments and exams. These platforms are not only essential for completing tasks and exams but also serve as the official means for submitting and turning them in. However, these platforms are not immune to occasional downtime. For this reason you must have RStudio installed on your local computer, which will allow you to have a backup to continue your work in case of an emergency.
+1. DataLab is the platform used for completing evaluated activities such as assignments and exams. The format for these activities is ipynb or Jupyter notebook. This means that it is not acceptable to submit documents in other formats, such as PDF or MS Word, and upload them to DataLab.
+1. Other more specific instructions and policies are in @sec-activities and @sec-evaluation.
+
 
 # `r fontawesome::fa("check-square")` Checklist.
 
