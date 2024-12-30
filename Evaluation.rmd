@@ -173,6 +173,20 @@ embed_url("https://youtu.be/NPwTgfswnD8")
 
 You have to realize as soon as possible that you are being evaluated all the time, so every answer provided by you either in exams, assignments or even verbally during class should be clearly stated, showing your full thought-process, this will allow me to understand your own logic and grade your work fairly. Please do not forget this point as this will allow us to keep the academic quality standards high throughout the semester.
 
+Following the assignment and exam instructions are important to get full marks. Here, I define a few common verbs used in assignment and exam instructions.  
+
+1. **Define.** State the precise meaning of a term or concept. Your response should be concise, accurate, and free from ambiguity, often including a formal or widely accepted definition.  
+1. **Describe.**  Provide a detailed account of the characteristics or features of a concept, process, or phenomenon. Focus on "what it is" and include relevant details, but avoid analysis or interpretation unless specified.  
+1. **Explain.**  Clarify the "why" or "how" of a concept or phenomenon. Provide reasoning, causes, or mechanisms to ensure the topic is fully understood, often using examples or logical arguments to support your answer.  
+1. **Replicate.** (e.g., replicate a figure or table). Reproduce a figure, table, or result from provided data or information using appropriate tools and methods. Ensure that the replication matches the original in terms of accuracy, formatting, and presentation.  
+1. **Compare.** Identify and discuss the similarities between two or more items, concepts, or processes. Highlight key points of resemblance and ensure the comparison is structured and focused.  
+1. **Contrast.**  Identify and discuss the differences between two or more items, concepts, or processes. Highlight key points of distinction while maintaining a clear structure in your response.  
+1. **Evaluate.**  Assess the strengths, weaknesses, or implications of a concept, argument, or result. Your answer should include a reasoned judgment supported by evidence or criteria, rather than mere opinion.  
+1. **Analyze.**  Break down a topic or problem into its essential components to examine relationships, patterns, or underlying principles. Your response should include interpretation and insight based on evidence or logical reasoning.  
+1. **Extend** (e.g., extend an analysis or model)  Go beyond the original scope of an analysis or model by adding new elements, perspectives, or considerations. This could involve applying it to new data, proposing modifications, or exploring additional implications.  
+1. **Estimate.**  
+Provide an approximate calculation, measurement, or judgment based on available data, information, or assumptions. Clearly state the method or reasoning used to arrive at your estimate and acknowledge its potential limitations.  
+
 This is a complementary rubric for some kind of quantitative assignments.
 
 **Criterion 1: Comments and explanations in the code.**
