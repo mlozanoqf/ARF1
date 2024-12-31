@@ -15,6 +15,7 @@ It is your responsibility as a student to read the syllabus to ensure good perfo
 
 1. Groups are formed with no more than four students. Group activities can be completed by one, two, three, or four students. Group formation is done by the students at the beginning of the semester. 
 1. A group member may switch groups as long as the members of both the group they are leaving and the group they wish to join agree and express their consent in writing; an email will suffice. Additionally, I must authorize the change to ensure the number of members per group does not exceed the limit.
+1. It is not mandatory, but I recommend that your team establish clear rules and put in writing the reasons that could justify expulsion from the team or a penalty in the peer evaluation. If things do not work well within the team, I will be in a better position to help you if there is evidence that the agreed-upon rules were not followed. These types of agreements should be managed within the team; I do not intervene in these matters because I consider them internal, and I believe each team can work in its own way.
 1. If a group member performs poorly, the rest of the group may use coevaluation to ensure the individual grade is more accurately assigned. This first option is a decision made by the group in which I do not intervene. Another option is for the group to remove the member due to poor performance, but in such cases, the group must have clear and concrete evidence that the initial group agreements were not upheld. For this second option, I must intervene to authorize, validate the evidence and make the necessary changes to the group formation.
 
 
@@ -25,13 +26,19 @@ It is your responsibility as a student to read the syllabus to ensure good perfo
 1. This is the Zoom link for all meetings: [https://us02web.zoom.us/j/9209945512](https://us02web.zoom.us/j/9209945512).
 1. The student or the group may request that the Zoom meeting be recorded, and I can share the recording with them for future reference.
 
+
+## `r fontawesome::fa_i("file-code", class = "fa-solid")` DataCamp.
+
+1. We rely on Datalab, which is part of DataCamp, for completing assignments and exams. These platforms are not only essential for completing tasks and exams but also serve as the official means for submitting and turning them in. However, these platforms are not immune to occasional downtime. For this reason you must have RStudio installed on your local computer, which will allow you to have a backup to continue your work in case of an emergency.
+1. DataLab is the platform used for completing evaluated activities such as assignments and exams. The format for these activities is ipynb or Jupyter notebook. This means that it is not acceptable to submit documents in other formats, such as PDF or MS-Word, and upload them to DataLab.
+1. After completing your final exam, you will no longer have editor access to DataLab. Therefore, I suggest that you create a backup of any documents you wish to keep.
+
+
 ## `r fontawesome::fa("jedi")` Others.
 
 1. For activities such as assignments, extra credit tasks, coevaluations, etc., that require submission by a specific time, there is no late submission policy.
 1. The partial grades I will report for the first and second periods will be the ones the student achieves in their partial exams $E_1$ and $E_2$.
 1. The final exam $E_F$ date may need to be adjusted for administrative reasons in the case of students who are graduate candidates.
-1. We rely on Datalab, which is part of DataCamp, for completing assignments and exams. These platforms are not only essential for completing tasks and exams but also serve as the official means for submitting and turning them in. However, these platforms are not immune to occasional downtime. For this reason you must have RStudio installed on your local computer, which will allow you to have a backup to continue your work in case of an emergency.
-1. DataLab is the platform used for completing evaluated activities such as assignments and exams. The format for these activities is ipynb or Jupyter notebook. This means that it is not acceptable to submit documents in other formats, such as PDF or MS Word, and upload them to DataLab.
 1. Other more specific instructions and policies are in @sec-activities and @sec-evaluation.
 
 
