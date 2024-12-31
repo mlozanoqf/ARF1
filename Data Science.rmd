@@ -119,7 +119,7 @@ If you have not yet installed the necessary programs on your computer, please do
 Please note that there are other alternatives to RStudio like  [Anaconda](https://www.anaconda.com/) and [Visual Studio Code](https://code.visualstudio.com/). If you were to ask, my personal favorite is RStudio. In fact, I created this syllabus using RStudio with R markdown and Quarto, and it is hosted in GitHub pages.
 
 
-## `r fontawesome::fa("surprise")` Why it is important?
+## `r fontawesome::fa("surprise")` Relevance.
 
 You may be aware that just a few years ago, economic agents with privileged access to information had a clear comparative advantage in business and decision-making. However, thanks to technology, information and data are now widely accessible, eradicating the possibility of gaining a competitive edge solely through information access. With data availability no longer being a distinguishing factor, knowledge has emerged as a critical aspect in business. In the present day, it is not merely about having access to information; rather, it is about understanding how to leverage the increasing volume of data to create value in business. Manipulating and transforming data into valuable business tools and informed decisions has become an essential skill for all business professionals.
 

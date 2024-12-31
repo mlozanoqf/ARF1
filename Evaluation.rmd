@@ -192,31 +192,31 @@ This is a complementary rubric for some kind of quantitative assignments.
 
 **Criterion 1: Comments and explanations in the code.**
 
-| Level            | Description                                                                                                               |
+| Level.            | Description.                                                                                                               |
 |------------------|---------------------------------------------------------------------------------------------------------------------------|
-| **3 – Complete (86 – 100)**  | The code is well-documented with clear comments explaining the key sections. The explanations in English are well-written, logically structured, and demonstrate a solid understanding of what is being done and its purpose. The comments show not only an understanding of what is being done but also why it is done this way, reflecting an advanced understanding of design decisions. |
-| **2 – Adequate (70 – 85)**   | The code includes some comments, but several key sections are missing them. The explanations in English are understandable, although they may have minor errors or lack consistency in the logical flow. The understanding of the purpose is adequate but not deep. The comments are sufficient but do not delve into the design decisions or the justification for the implementations. |
-| **1 – Insufficient (0 – 69)**| The code has few or no comments, and the explanations in English are minimal, poorly written, or nonexistent. There is no clear demonstration of understanding of what is being done or its purpose. The absence or scarcity of comments makes the code difficult for others to understand, affecting the quality of the report. |
+| 3. Complete (86 – 100).  | The code is well-documented with clear comments explaining the key sections. The explanations in English are well-written, logically structured, and demonstrate a solid understanding of what is being done and its purpose. The comments show not only an understanding of what is being done but also why it is done this way, reflecting an advanced understanding of design decisions. |
+| 2. Adequate (70 – 85).   | The code includes some comments, but several key sections are missing them. The explanations in English are understandable, although they may have minor errors or lack consistency in the logical flow. The understanding of the purpose is adequate but not deep. The comments are sufficient but do not delve into the design decisions or the justification for the implementations. |
+| 1. Insufficient (0 – 69).| The code has few or no comments, and the explanations in English are minimal, poorly written, or nonexistent. There is no clear demonstration of understanding of what is being done or its purpose. The absence or scarcity of comments makes the code difficult for others to understand, affecting the quality of the report. |
 
 ---
 
 **Criterion 2: Quality of analysis.**
 
-| Level            | Description                                                                                                               |
+| Level.            | Description.                                                                                                               |
 |------------------|---------------------------------------------------------------------------------------------------------------------------|
-| **3 – Ambitious and In-Depth (86 – 100)**  | The analysis is original, ambitious, and thoroughly developed. It fulfills all the activity instructions, is clear, detailed, and well-grounded. The solution presented is creative, well-structured, and demonstrates a deep understanding of the problem. The analysis is not only in-depth and ambitious but also anticipates and addresses possible problems or limitations in the proposed solution. |
-| **2 – Adequate (70 – 85)**   | The analysis is relevant and meets most of the activity instructions. It is clear and detailed but may lack depth or creativity. The solution presented is correct but does not stand out for its originality or thorough justification. The analysis is adequate but may not fully explore all possible alternatives or implications of the solution. |
-| **1 – Insufficient (0 – 69)**| The analysis deviates from the activity instructions, is superficial, or is limited to reproducing the study material without contributing original ideas. The solution presented is incomplete, poorly justified, or incorrect. The lack of in-depth analysis suggests limited understanding of the problem or possible solutions. |
+| 3. Ambitious & in-depth (86 – 100).  | The analysis is original, ambitious, and thoroughly developed. It fulfills all the activity instructions, is clear, detailed, and well-grounded. The solution presented is creative, well-structured, and demonstrates a deep understanding of the problem. The analysis is not only in-depth and ambitious but also anticipates and addresses possible problems or limitations in the proposed solution. |
+| 2. Adequate (70 – 85).   | The analysis is relevant and meets most of the activity instructions. It is clear and detailed but may lack depth or creativity. The solution presented is correct but does not stand out for its originality or thorough justification. The analysis is adequate but may not fully explore all possible alternatives or implications of the solution. |
+| 1. Insufficient (0 – 69).| The analysis deviates from the activity instructions, is superficial, or is limited to reproducing the study material without contributing original ideas. The solution presented is incomplete, poorly justified, or incorrect. The lack of in-depth analysis suggests limited understanding of the problem or possible solutions. |
 
 ---
 
 **Criterion 3: Report structure.**
 
-| Level            | Description                                                                                                               |
+| Level.            | Description.                                                                                                               |
 |------------------|---------------------------------------------------------------------------------------------------------------------------|
-| **3 – Clear and Logical (86 – 100)**  | The report is well-organized with clear sections and subsections. The structure is logical and facilitates understanding of the results. The writing is clear, and the content is well-presented, prioritizing quality and clarity. The logical structure of the report highlights key points of the analysis, making it easy for the reader to follow. |
-| **2 – Adequate (70 – 85)**   | The report is organized but may lack some necessary subsections or have a structure that is not always easy to follow. The writing is generally clear, though some parts may be confusing. A less clear structure may weaken the arguments and make the presentation of results more challenging. |
-| **1 – Confusing and Disorganized (0 – 69)**| The report lacks a logical structure, with confusing or poorly organized sections. The writing is difficult to follow, compromising the understanding of the results. The report is lengthy but lacks clarity and quality in its content. A confusing structure not only hinders comprehension but also undermines a fair evaluation of the work presented. |
+| 3. Clear & logical (86 – 100).  | The report is well-organized with clear sections and subsections. The structure is logical and facilitates understanding of the results. The writing is clear, and the content is well-presented, prioritizing quality and clarity. The logical structure of the report highlights key points of the analysis, making it easy for the reader to follow. |
+| 2. Adequate (70 – 85).   | The report is organized but may lack some necessary subsections or have a structure that is not always easy to follow. The writing is generally clear, though some parts may be confusing. A less clear structure may weaken the arguments and make the presentation of results more challenging. |
+| 1 – Confusing & disorganized (0 – 69).| The report lacks a logical structure, with confusing or poorly organized sections. The writing is difficult to follow, compromising the understanding of the results. The report is lengthy but lacks clarity and quality in its content. A confusing structure not only hinders comprehension but also undermines a fair evaluation of the work presented. |
 
 
 <!-- **Criterio 1: Comentarios y explicaciones en el código.** -->

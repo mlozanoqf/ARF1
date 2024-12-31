@@ -21,7 +21,7 @@ It is your responsibility as a student to read the syllabus to ensure good perfo
 ## `r fontawesome::fa("circle-nodes")` Meetings.
 
 1. We can arrange 30-minute Zoom online meetings if you require additional assistance or have any other issues you would like to discuss with me. If you need more time, we can arrange for additional meetings or extend the duration as needed.
-1. Meetings can be arranged either individually or in groups. Simply send an email to <tt>`<martin.lozano@udem.edu>`</tt> to inquire about my availability. 
+1. Meetings can be arranged either individually or in groups. Simply send an email to <tt>`<martin.lozano@udem.edu>`</tt> to inquire about my availability as I do not have fixed office hours during the semester. 
 1. This is the Zoom link for all meetings: [https://us02web.zoom.us/j/9209945512](https://us02web.zoom.us/j/9209945512).
 1. The student or the group may request that the Zoom meeting be recorded, and I can share the recording with them for future reference.
 
