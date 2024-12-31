@@ -183,9 +183,10 @@ Following the assignment and exam instructions are important to get full marks. 
 1. **Contrast.**  Identify and discuss the differences between two or more items, concepts, or processes. Highlight key points of distinction while maintaining a clear structure in your response.  
 1. **Evaluate.**  Assess the strengths, weaknesses, or implications of a concept, argument, or result. Your answer should include a reasoned judgment supported by evidence or criteria, rather than mere opinion.  
 1. **Analyze.**  Break down a topic or problem into its essential components to examine relationships, patterns, or underlying principles. Your response should include interpretation and insight based on evidence or logical reasoning.  
-1. **Extend** (e.g., extend an analysis or model)  Go beyond the original scope of an analysis or model by adding new elements, perspectives, or considerations. This could involve applying it to new data, proposing modifications, or exploring additional implications.  
-1. **Estimate.**  
-Provide an approximate calculation, measurement, or judgment based on available data, information, or assumptions. Clearly state the method or reasoning used to arrive at your estimate and acknowledge its potential limitations.  
+1. **Extend.** (e.g., extend an analysis or model)  Go beyond the original scope of an analysis or model by adding new elements, perspectives, or considerations. This could involve applying it to new data, proposing modifications, or exploring additional implications.  
+1. **Estimate.**  Provide an approximate calculation, measurement, or judgment based on available data, information, or assumptions. Clearly state the method or reasoning used to arrive at your estimate and acknowledge its potential limitations.  
+1. **Comment.** Provide a brief but insightful observation or opinion on a topic, issue, or result. Your response should be concise and focused, offering interpretation, critique, or additional perspective without requiring extensive elaboration.
+1. **Discuss.** Explore a topic in depth by presenting a balanced argument or analysis. Your response should include multiple viewpoints, evidence, or examples, and may evaluate or interpret different aspects of the topic. A structured and thorough approach is expected.
 
 This is a complementary rubric for some kind of quantitative assignments.
 
