@@ -1,6 +1,6 @@
-# `r fontawesome::fa("handshake")` Introduction. 
+# `r fontawesome::fa_i("handshake", class = "fa-solid")` Introduction. 
 
-Welcome to the course! My name is Martín. I hope that at the time you are reading this document you, your family and friends are all well.
+Welcome to the course! My name is Martín. I hope that at the time you are reading this document you, your family and friends are all well `r fontawesome::fa_i("heart", class = "fa-solid")`.
 
 <!-- ## Perfil de egreso (en español). -->
 
@@ -8,7 +8,7 @@ Welcome to the course! My name is Martín. I hope that at the time you are readi
 
 <!-- El egresado y la egresada de la licenciatura en finanzas internacionales comprende el funcionamiento de los mercados económico-financieros e implementa modelos cuantitativos para analizar y ejecutar estrategias de financiamiento e inversión en un ambiente de incertidumbre. El graduado toma decisiones financieras innovadoras basadas en el análisis de datos, la creación de valor económico, y su conducta profesional es coherente con altos estándares éticos. Además, es consciente de su responsabilidad en la solución de los retos sociales y ambientales en el contexto de las finanzas sostenibles. Las habilidades y competencias del egresado son congruentes con las demandas de la industria 4.0 al incorporar lenguajes computacionales y aplicaciones tecnológicas para el análisis de Big Data, automatización de análisis financiero, y el desarrollo de algoritmos usados en *machine learning* e inteligencia artificial para abordar los retos de la industria financiera. Su perfil le permite reaccionar y adaptarse ágilmente a los cambios vertiginosos de la industria y los mercados financieros, hacer investigación aplicada, y proponer nuevas soluciones de valor a negocios tradicionales y FinTech. -->
 
-## `r fontawesome::fa("chalkboard-teacher")` Distance and face-to-face learning.
+## `r fontawesome::fa("chalkboard-teacher")` Learning formats.
 
 The content of this syllabus applies to any learning format, including face-to-face, blended or fully distance learning. 
 
