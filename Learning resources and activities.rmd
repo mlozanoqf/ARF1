@@ -158,7 +158,7 @@ df <- data.frame("Activity completed" = x,
 df
 ```
 
-To complete the XP assignments, you will need to choose courses, skill tracks, career tracks, practice exercises, and other types of DataCamp content on your own. You are free to select based on your personal interests and preferences. However, if you would like some guidance, I recommend starting with basic or fundamental R courses, as well as finance courses with R. Other options include Python, SQL, Tableau, Power BI, Excel, ChatGPT, and more. Visit the "Learn" section on DataCamp to browse, search, and filter all available learning content to accumulate XP. Feel free to contact me if you would like further advice on which courses to take.
+To complete the XP assignments, you will need to choose courses, skill tracks, career tracks, practice exercises, and other types of DataCamp content on your own. You are free to select based on your personal interests and preferences. However, if you would like some guidance, I recommend starting with basic or fundamental R programming courses, data visualization in R, as well as finance courses with R. Other options include Python, SQL, Tableau, Power BI, Excel, ChatGPT, and more. Visit the "Learn" section on DataCamp to browse, search, and filter all available learning content to accumulate XP. Feel free to contact me if you would like further advice on which courses to take.
 
 <!-- **DataCamp assessments.** DataCamp assessments are individual activities that allow you to get extra marks over your final grade $F$. Yes, over your final grade. These are time-limit online evaluations of your knowledge of R and Python. DataCamp marks your assessment as N (novice), I (intermediate), and A (advanced) depending on your own performance. The rule to allocate the extra marks over your final grade $F$ is the following: 0 for N; +1 for I; and +2 for A. Assessments will be available in your DataCamp Assignments section and in the course calendar as *super extra marks* tag. Assessments are completed during the class session and although DataCamp allows you to complete the assessment twice, I will take your first try as your grade. -->
 
@@ -168,6 +168,10 @@ To complete the XP assignments, you will need to choose courses, skill tracks, c
 # Fecha inicial
 fecha_inicial <- as.Date("2025-01-13")
 
+fecha_30 <- fecha_inicial + 30
+fecha_60 <- fecha_30 + 30
+fecha_90 <- fecha_60 + 30
+  
 # Sumar 30, 60 y 90 días
 fechas <- data.frame(
   fecha = c(fecha_30, fecha_60, fecha_90),
@@ -177,6 +181,8 @@ fechas <- data.frame(
 fechas
 
 ```
+
+The dates on which I will assign these marks according to the DataCamp leaderboard are: Wednesday, February 12; Friday, March 14; and Monday, April 14.
 
 **UN CC:Learn courses.** You can earn extra marks for your next $E_1$, $E_2$, or $E_F$ exam by completing [UN CC:Learn](https://www.uncclearn.org/) courses, which are listed in the course calendar under the *extra marks* tag. The deadline is 10:00 a.m. on the date indicated in the course calendar. Please note that UN CC:Learn courses may require a minimum score to obtain a valid certificate.
 
