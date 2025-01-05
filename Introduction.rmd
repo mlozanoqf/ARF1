@@ -1,4 +1,4 @@
-# `r fontawesome::fa_i("handshake", class = "fa-solid")` Introduction. 
+# `r fontawesome::fa_i("handshake", class = "fa-solid")` Welcome. 
 
 Welcome to the course! My name is Martín. I hope that at the time you are reading this document you, your family and friends are all well `r fontawesome::fa_i("heart", class = "fa-solid")`.
 
