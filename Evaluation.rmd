@@ -57,7 +57,7 @@ paste("John Doe's individual mark in the first assignment is:", H1)
 
 This is because we apply $H_1=(0.70 \times 90)+\left(0.30 \times \frac{70+80+70}{3}\right) = 85$. Clearly, your co-evaluation matters because although the group mark is 90, John Doe's individual $H_1$ mark could range from 66.67 to 85 depending on Baby Yoda's co-evaluation.
 
-Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/89wVdX2N18csUVKZ9>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in Blackboard.
+Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/Rzd6Chv89X5HR4rWA>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in Blackboard.
 
 In particular, you will have two Google Forms web links in Blackboard to complete your co-evaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is co-evaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
 
