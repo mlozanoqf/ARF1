@@ -31,6 +31,7 @@ It is your responsibility as a student to read the syllabus to ensure good perfo
 
 1. We rely on DataLab, which is part of DataCamp, for completing assignments and exams. These platforms are not only essential for completing tasks and exams but also serve as the official means for submitting and turning them in. However, these platforms are not immune to occasional downtime. For this reason you must have RStudio installed on your local computer, which will allow you to have a backup to continue your work in case of an emergency.
 1. DataLab is the platform used for completing and submitting evaluated activities, such as assignments and exams. In this class, it is important to note that DataLab is not a repository for uploading files. All deliverables, including tasks and exams, must be created directly within the DataLab environment in the form of Jupyter notebooks (.ipynb). While DataLab technically allows uploading files in formats like PDF or MS Word, these formats are not acceptable for evaluated activities in this class. You are required to complete your work directly in the provided Jupyter notebook environment within DataLab, ensuring consistency and proper evaluation of your submissions.
+1. In my experience, my students create and work with various documents within DataLab. For convenience, I have created a folder called "submissions" in your workspace, where you, as students, will place the documents I need to evaluate as assignments and exams. My instruction is not to rename this folder and to use it so that I can easily identify the documents I need to assess and grade.
 1. After completing your final exam $E_F$, you will no longer have editor access to DataLab. Therefore, I suggest that you create a backup of any documents you wish to keep.
 
 
@@ -39,6 +40,7 @@ It is your responsibility as a student to read the syllabus to ensure good perfo
 1. For activities such as assignments, extra credit tasks, coevaluations, etc., that require submission by a specific time, there is no late submission policy.
 1. The partial grades I will report for the first and second periods will be the ones the student achieves in their partial exams $E_1$ and $E_2$.
 1. The final exam $E_F$ date may need to be adjusted for administrative reasons in the case of students who are graduate candidates.
+1. The final exam $E_F$ is the last activity of the semester. No activities are planned after the final exam to pass the course.
 1. Other more specific instructions and policies are in @sec-activities and @sec-evaluation.
 
 
