@@ -28,7 +28,7 @@ format:
     toc-location: left
     toc-depth: 2
     page-layout: full
-    include-after-body: 10_analytics_arf1.html
+    include-after-body: analytics_arf1.html
     include-in-header: 
       - 11_back-to-top.html
       - 12_progressbar.html
