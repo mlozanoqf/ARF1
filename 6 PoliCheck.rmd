@@ -5,19 +5,18 @@ It is your responsibility as a student to read the syllabus to ensure good perfo
 ## `r fontawesome::fa_i("clock", class = "fa-solid")` Tardiness.
 
 1. In face-to-face classes, three tardies count as one absence. Tardies accumulate over the course of the semester. A tardy is recorded if the student arrives immediately after attendance is taken and remains for the rest of the class. If a student is marked as present or tardy, this can be changed to an absence if they leave the classroom or do not stay until the end of the class.
-1. If the class is online, there is no tardy policy, and attendance will be based on the user log provided by Zoom.
+1. If the class is online, there is no tardiness policy. Attendance will be based on the Zoom activity log, which shows how many minutes each student remained connected during the session. Because there is no tardiness policy in online classes, each session will result in either an attendance or an absence being recorded. If a student is not connected for the entire class, or at least for the vast majority of it, the session will be marked as an absence. To ensure accurate tracking, it is essential that you join each class using your own Zoom login credentials. This is the only way to verify your identity and correctly attribute your attendance.
 1. In face-to-face classes, we usually hold a few Zoom sessions during the semester (see @sec-schedule for details). During these sessions, the tardy policy is the same as in online classes.
-1. In face-to-face classes, I allow my students to attend via Zoom once per semester as an exception. If this applies to you, please notify me by email. If it happens a second time, the student may still attend via Zoom, but I will need to record an absence in accordance with current university regulations.
+1. In face-to-face classes, I allow my students to attend via Zoom once per semester as an exception. If this applies to you, please notify me by email. If it happens a second time, the student may still attend via Zoom, but I will record an absence in accordance with current university regulations.
 1. With respect to the maximum absences policy, we will adhere to the current university regulations.
 
 
 ## `r fontawesome::fa("people-group")` Groups.
 
 1. Groups are formed with no more than four students. Group activities can be completed by one, two, three, or four students. Group formation is done by the students at the beginning of the semester. 
-1. A group member may switch groups as long as the members of both the group they are leaving and the group they wish to join agree and express their consent in writing; an email will suffice. Additionally, I must authorize the change to ensure the number of members per group does not exceed the limit.
-1. It is not mandatory, but I recommend that your team establish clear rules and put in writing the reasons that could justify expulsion from the team or a penalty in the peer evaluation. If things do not work well within the team, I will be in a better position to help you if there is evidence that the agreed-upon rules were not followed. These types of agreements should be managed within the team; I do not intervene in these matters because I consider them internal, and I believe each team can work in its own way.
-1. If a group member performs poorly, the rest of the group may use coevaluation to ensure the individual grade is more accurately assigned. This first option is a decision made by the group in which I do not intervene. Another option is for the group to remove the member due to poor performance, but in such cases, the group must have clear and concrete evidence that the initial group agreements were not upheld. For this second option, I must intervene to authorize, validate the evidence and make the necessary changes to the group formation.
-
+1. A group member may switch groups as long as the members of both the group they are leaving and the group they wish to join agree and express their consent in writing; an email will suffice. Additionally, I must authorize the change to ensure the number of members per group does not exceed the limit. All requests to change groups must be submitted no later than one week before the next partial or final exam. Requests received after this deadline will not be considered.
+1. It is not mandatory, but I recommend that your team establish clear rules and put in writing the reasons that could justify a penalty in the coevaluation (peer evaluation). These types of agreements should be managed within the team; I do not intervene in these matters because I consider them internal, and I believe each team can work in its own way. I cannot change coevaluations.
+1. If a group member performs poorly, the rest of the group may use coevaluation to ensure the individual grade is more accurately assigned. Coevaluation is a crucial component of group work. A coevaluation score of zero assigned to a student will directly result in a zero as their individual grade for that activity. Therefore, students are strongly encouraged to participate actively and contribute meaningfully to their group's work.
 
 ## `r fontawesome::fa("circle-nodes")` Meetings.
 
@@ -30,8 +29,9 @@ It is your responsibility as a student to read the syllabus to ensure good perfo
 ## `r fontawesome::fa_i("file-code", class = "fa-solid")` DataCamp.
 
 1. We rely on DataLab, which is part of DataCamp, for completing assignments and exams. These platforms are not only essential for completing tasks and exams but also serve as the official means for submitting and turning them in. However, these platforms are not immune to occasional downtime. For this reason you must have RStudio installed on your local computer, which will allow you to have a backup to continue your work in case of an emergency.
-1. DataLab is the platform used for completing and submitting evaluated activities, such as assignments and exams. In this class, it is important to note that DataLab is not a repository for uploading files. All deliverables, including tasks and exams, must be created directly within the DataLab environment in the form of Jupyter notebooks (.ipynb). While DataLab technically allows uploading files in formats like PDF or MS Word, these formats are not acceptable for evaluated activities in this class. You are required to complete your work directly in the provided Jupyter notebook environment within DataLab, ensuring consistency and proper evaluation of your submissions.
-1. In my experience, my students create and work with various documents within DataLab. For convenience, I have created a folder called "submissions" in your workspace, where you, as students, will place the documents I need to evaluate as assignments and exams. My instruction is not to rename this folder and to use it so that I can easily identify the documents I need to assess and grade.
+1. DataLab is the platform used for completing and submitting evaluated activities, such as assignments and exams. All deliverables, including tasks and exams, must be created directly within the DataLab environment in the form of Jupyter notebooks (.ipynb). While DataLab technically allows uploading files in formats like PDF or MS Word, these formats are not acceptable for evaluated activities in this class. You are required to complete your work directly in the provided Jupyter notebook environment within DataLab, ensuring consistency and proper evaluation of your submissions.
+1. In my experience, my students create and work with various documents and folders within DataLab. For convenience, I have created a folder called "submissions" in your workspace, where you, as students, will place the documents I need to evaluate as assignments and exams. My instruction is not to rename this folder and to use it so that I can easily identify the documents I need to assess and grade.
+1. DataLab and Jupyter Notebooks may be new tools for some students, so it is important to pay close attention when submitting exams and assignments. All activities must be submitted in the correct workspace, which is identified by the group name and the correct folder called "submissions". Submitting an activity in the wrong location, even if the work is completed, will be treated as not delivered. No exceptions will be made for submissions placed in incorrect folders or workspaces.
 1. After completing your final exam $E_F$, you will no longer have editor access to DataLab. Therefore, I suggest that you create a backup of any documents you wish to keep.
 
 
@@ -43,6 +43,17 @@ It is your responsibility as a student to read the syllabus to ensure good perfo
 1. The final exam $E_F$ is the last activity of the semester. No activities are planned after the final exam to pass the course.
 1. Other more specific instructions and policies are in @sec-activities and @sec-evaluation.
 
+## Expectations.
+
+As a student in this course and more broadly, as a member of the academic community, you are expected to respect the rules outlined in this syllabus and in the university’s academic regulations. These rules are not arbitrary; they exist to ensure fairness, transparency, and equity for everyone enrolled in the course.
+
+At times, students may feel that their personal situation warrants an exception to one of these rules. It is important to understand that, even when such requests are made sincerely and in good faith, they are, in effect, asking for different treatment from that received by others, which amounts to altering the rules.
+
+I recognize that such requests often do not come from a desire for unfair advantage, but from a genuine belief that the exception is reasonable. However, this often involves what is known as a *special pleading fallacy* assuming that a general rule should not apply in a particular case without an objective or institutional justification. It can also reflect a form of *motivated reasoning*, in which one interprets a situation in a way that aligns with what one wishes to be true.
+
+I also understand that students may sometimes argue: *Yes, I understand the rules, but what’s happening to me is unfair, and I have the right to have my case considered.* As your instructor, I will always listen respectfully to your concerns. Being heard is a right. However, being heard does not guarantee that an exception can be granted. My responsibility is to apply rules consistently to ensure fairness across the board. Making individual exceptions, even with the best intentions, could compromise that fairness and create new forms of injustice toward others.
+
+My commitment is to be clear, respectful, and fair with each of you. In return, I expect every student to approach their responsibilities with maturity, understanding that the rules are not obstacles, but essential parts of the learning environment we all share.
 
 # `r fontawesome::fa("check-square")` Checklist.
 

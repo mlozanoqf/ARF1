@@ -133,7 +133,7 @@ Extra marks activities are individual tasks. As with any extra marks activity, y
 
 The amount of extra marks is based on the cumulative number of DataCamp assignments completed during the semester. There are 6 DataCamp assignments in total, allocated as 2 in the first partial, 2 in the second, and 2 in the third. You earn $n+1$ extra marks for each cumulative assignment completed, where $n$ is the number of assignments completed so far. If you complete all of them on time, for the $E_1$ exam you will earn:
 
-$\displaystyle \sum_{n=1}^{3} (n+1) = (1+1) + (2+1) = 2 + 3 = 5$.
+$\displaystyle \sum_{n=1}^{2} (n+1) = (1+1) + (2+1) = 2 + 3 = 5$.
 
 In sum:
 
@@ -197,6 +197,8 @@ As with DataCamp, you are expected to choose the UN CC:Learn course based on you
 **Mentimeter.** We may have a few sessions that include a Mentimeter activity. This activity may be evaluated, and if it is, the top 10 best answers will earn extra marks. Points will be awarded based on your rank in the top 10: the first place earns +10, the second place earns +9, and so on, with the tenth place earning +1 extra marks for your next $E_1$, $E_2$, or $E_F$ exam.
 
 ## `r fontawesome::fa("shapes")` Non-graded. 
+
+A non-graded activity is a task that does not contribute to the final grade of the course.
 
 **DataCamp webinars.** You are free to attend live webinars organized by DataCamp. See the *live events* DataCamp section for the upcoming webinars in this semester. Please note that you have to register to attend. Let me know which ones you are planning to attend. 
 
