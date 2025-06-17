@@ -1,4 +1,4 @@
-# `r fontawesome::fa("brain")` Resources. {#sec-resources}
+# `r fontawesome::fa("brain", fill = "pink")` Resources. {#sec-resources}
 
 Academic resources encompass a wide range of materials, tools, and sources of information specifically designed to support and enhance learning, research, and scholarly pursuits in an academic setting. These resources play a crucial role in facilitating knowledge acquisition, promoting critical thinking, and advancing scholarly activities within the academic community.
 
