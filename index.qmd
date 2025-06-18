@@ -49,7 +49,7 @@ xfun::file_string('8 contact.html')
 ```
 
 
-```{r check, child = '6 PoliCheck.Rmd'}
+```{r check, child = '6 Check.Rmd'}
 ```
 
 
