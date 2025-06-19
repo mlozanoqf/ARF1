@@ -191,6 +191,68 @@ We have 3 homework assignments $H_1$ and $H_2$ (30% of the final grade), and one
 
 **Why is $H_3$ a non-graded activity?** The $H_3$ is a special assignment that is designed to help you to practice and study for your final exam by learning from your previous mistakes. It has a deadline but it is a non-graded activity. Given that it is non-graded, this activity is optional. The $H_3$ instructions are the following: You are required to (1) correct all your mistakes in all your previous graded activities, including all the four $E_1$ and $E_2$ questions, and assignments; and (2) complete all your missed extra mark activities, mostly from DataCamp and [UN CC:Learn](https://www.uncclearn.org/). The format and delivery is the same as the rest of the assignments. You can do it in group or individually. You will not receive $H_3$ feedback as by then you will have access to all exam and assignment answers. In any case, you can ask me to review it if necessary. 
 
+**Oral presentation rubric.**
+
+Each of the 5 criteria is worth 20 points, for a total of 100 points. The final assignment group grade is based entirely on the oral presentation. Written submissions must be delivered on time but are not directly graded. There is no late submission policy: submissions must be uploaded by the deadline through the group workspace in DataLab. Timely submission through the correct platform is a necessary condition for the assignment to be evaluated. In some cases, specific questions or components of an assignment may be evaluated under different or additional criteria. When this applies, it will be clearly stated in the assignment instructions.
+
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #000; padding: 8px;">No evidence (0–40%)</th>
+      <th style="border: 1px solid #000; padding: 8px;">Emerging (60%)</th>
+      <th style="border: 1px solid #000; padding: 8px;">Competent (80%)</th>
+      <th style="border: 1px solid #000; padding: 8px;">Strong (100%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4" style="border: 1px solid #000; padding: 8px; background-color: #f0f0f0;"><strong>1. Understanding of problem, objectives, and concepts: 20 points.</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 8px;">No explanation of the problem or objectives; no visible grasp of the core concepts or task.</td>
+      <td style="border: 1px solid #000; padding: 8px;">Some understanding is evident, but unclear or incomplete; vague or inaccurate use of concepts.</td>
+      <td style="border: 1px solid #000; padding: 8px;">Generally clear explanation of the problem and objectives; concepts are mostly correct and relevant.</td>
+      <td style="border: 1px solid #000; padding: 8px;">Clear, accurate, and thoughtful explanation of the problem; concepts are correctly used and well integrated.</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="border: 1px solid #000; padding: 8px; background-color: #f0f0f0;"><strong>2. Methodology and implementation (including code): 20 points.</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 8px;">No method presented or completely misunderstood; implementation or code not explained.</td>
+      <td style="border: 1px solid #000; padding: 8px;">Method is mentioned but poorly explained or justified; code seems copied or unclear.</td>
+      <td style="border: 1px solid #000; padding: 8px;">Method is mostly clear with some justification; implementation and code are explained with partial understanding.</td>
+      <td style="border: 1px solid #000; padding: 8px;">Methodology is clearly justified and correctly applied; code is well explained and understood.</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="border: 1px solid #000; padding: 8px; background-color: #f0f0f0;"><strong>3. Analysis and interpretation of results: 20 points.</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 8px;">No results shown or results are misinterpreted; no logical conclusions.</td>
+      <td style="border: 1px solid #000; padding: 8px;">Some results presented, but interpretation is shallow, confusing, or partially incorrect.</td>
+      <td style="border: 1px solid #000; padding: 8px;">Results are reasonably interpreted; conclusions are mostly clear and linked to the objectives.</td>
+      <td style="border: 1px solid #000; padding: 8px;">Results are clearly analyzed and interpreted; conclusions are logical, insightful, and relevant.</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="border: 1px solid #000; padding: 8px; background-color: #f0f0f0;"><strong>4. Communication and group presentation quality: 20 points.</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 8px;">Presentation is read aloud or disorganized; very poor clarity or group coordination.</td>
+      <td style="border: 1px solid #000; padding: 8px;">Delivery is hesitant or unclear; some members dominate or contribute little; moderate coherence.</td>
+      <td style="border: 1px solid #000; padding: 8px;">Presentation is mostly clear, structured, and coordinated; some minor delivery issues.</td>
+      <td style="border: 1px solid #000; padding: 8px;">Presentation is confident, well-articulated, and engaging; group is coordinated and professional.</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="border: 1px solid #000; padding: 8px; background-color: #f0f0f0;"><strong>5. Responsible use of tools and independent thinking: 20 points.</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 8px;">Clear signs of overreliance on AI tools; no personal understanding or critical thinking.</td>
+      <td style="border: 1px solid #000; padding: 8px;">AI tools used, but with limited understanding or personal contribution.</td>
+      <td style="border: 1px solid #000; padding: 8px;">AI tools used appropriately; students show some independent thinking and reflection.</td>
+      <td style="border: 1px solid #000; padding: 8px;">Responsible and critical use of AI; students clearly demonstrate understanding and learning in their own words.</td>
+    </tr>
+  </tbody>
+</table>
+
 ## `r fontawesome::fa("grin-hearts")` Extra marks. 
 
 Extra marks activities are individual tasks. As with any extra marks activity, you will not lose points if you fail to complete them, but you can earn additional marks if you complete them on time. For each DataCamp and [UN CC:Learn](https://www.uncclearn.org/) course completed on time, you will receive a nice PDF certificate, which looks great on your CV and LinkedIn profile.
