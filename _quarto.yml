@@ -34,6 +34,3 @@ format:
       - 12_progressbar.html
     css: 13_styles.css
     link-citations: true
-crossref:
-  lst-title: "Listing"
-  lst-prefix: "Listing"
