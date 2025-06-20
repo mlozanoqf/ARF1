@@ -14,13 +14,13 @@ Please watch the video about professors:
 embed_url("https://youtu.be/IzG85NDDo1Q")
 ```
 
-**Groups.** Your graded activities like exams and assignments are group-based, so your team will be an important part of your academic support throughout the course.
+**Groups.** Exams and homework assignments (see @sec-activities) are group-based, so your team will be an important part of your academic support throughout the course.
 
 Groups policies.
 
 1. Groups are formed with no more than four students. Group activities can be completed by one, two, three, or four students. Group formation is done by the students at the beginning of the semester. 
 1. A group member may switch groups as long as the members of both the group they are leaving and the group they wish to join agree and express their consent in writing; an email will suffice. Additionally, I must authorize the change to ensure the number of members per group does not exceed the limit. All requests to change groups must be submitted no later than one week before the next partial or final exam. Requests received after this deadline will not be considered.
-1. It is not mandatory, but I recommend that your team establish clear rules and put in writing the reasons that could justify a penalty in the coevaluation (peer evaluation). These types of agreements should be managed within the team; I do not intervene in these matters because I consider them internal, and I believe each team can work in its own way. I cannot change coevaluations.
+1. It is not mandatory, but I recommend that your team establish clear rules and put in writing the reasons that could justify a penalty in the coevaluation (peer evaluation). These types of agreements should be managed within the team; I do not intervene in these matters because I consider them internal, and I believe each team can work in its own way. I do not change coevaluation marks.
 1. If a group member performs poorly, the rest of the group may use coevaluation to ensure the individual grade is more accurately assigned. Coevaluation is a crucial component of group work. A coevaluation score of zero assigned to a student will directly result in a zero as their individual grade for that activity. Therefore, students are strongly encouraged to participate actively and contribute meaningfully to their group's work.
 
 
@@ -36,7 +36,6 @@ Tardiness policies:
 1. In face-to-face classes, while some sessions may be conducted online as part of the course design, I allow my students to attend the designated face-to-face sessions via Zoom once per semester as an exception. If this applies to you, please notify me by email. If it happens a second time, the student may still attend via Zoom, but I will record an absence in accordance with current university regulations.
 1. With respect to the maximum absences policy, we will adhere to the current university regulations.
 
-
 Please watch the following video for a valuable recommendation from Prof. Fleisch, which is applicable to both online and face-to-face sessions:
 
 ```{r echo=FALSE}
@@ -45,7 +44,7 @@ embed_url("https://youtu.be/KX-sg1HXAws")
 
 <!-- **Audio files (if available).** I explain part of the course material with my *sweet melodic* voice. Some students might have difficulties at understanding the required readings and I believe these mp3 audio files are useful to better understand some topics. It is compulsory to listen to them before the class session. Please note that not all the course material is discussed in audio files, for this reason you are not supposed to listen to audio files and ignore the rest of the course material, all resources complement each other. Audio files are not listed in the course calendar, but it will be easy for you to identify which audio file corresponds to each course topic. -->
 
-**Review sessions.** We have review sessions for assignments and exams, which take place before the assignment submission deadline and prior to the exams. These sessions provide a great opportunity to ask questions and enhance your chances of achieving higher marks in both assignments and exams. I usually avoid to discuss new material during these review sessions.
+**Review sessions.** We have review sessions for assignments and exams, which take place before the homework assignment submission deadline and prior to the exams. These sessions provide a great opportunity to ask questions and enhance your chances of achieving higher marks in both assignments and exams. I usually avoid to discuss new material during these review sessions.
 
 See some recommendations about review sessions:
 
@@ -61,17 +60,17 @@ embed_url("https://youtu.be/XoHx_UIgtt0")
 
 **DataCamp** DataCamp is an online learning platform focused on data science and analytics. It offers interactive courses in Python, R, SQL, and other tools commonly used in data analysis, machine learning, and statistics. Users learn by writing and running code directly in the browser, with instant feedback and guided exercises. You have free and full access as my student this semester.
 
-DataCamp policies.
+[DataCamp policies.](#lst:dcp)
 
-1. We rely on DataLab, which is part of DataCamp, for completing assignments and exams. These platforms are not only essential for completing tasks and exams but also serve as the official means for submitting and turning them in. However, these platforms are not immune to occasional downtime. For this reason you must have RStudio installed on your local computer, which will allow you to have a backup to continue your work in case of an emergency.
-1. DataLab is the platform used for completing and submitting evaluated activities, such as assignments and exams. All deliverables, including tasks and exams, must be created directly within the DataLab environment in the form of Jupyter notebooks (<tt>`.ipynb`</tt>). While DataLab technically allows uploading files in formats like PDF or MS Word, these formats are not acceptable for evaluated activities in this class. You are required to complete your work directly in the provided Jupyter notebook environment within DataLab, ensuring consistency and proper evaluation of your submissions.
-1. In my experience, my students create and work with various documents and folders within DataLab. For convenience, I have created a folder called "submissions" in your workspace, where you, as students, will place the documents I need to evaluate as assignments and exams. My instruction is not to rename this folder and to use it so that I can easily identify the documents I need to assess and grade.
+1. We rely on DataLab, which is part of DataCamp, for completing homework assignments and exams (see @sec-activities). These platforms are not only essential for completing tasks and exams but also serve as the official means for submitting and turning them in. However, these platforms are not immune to occasional downtime. For this reason you must have RStudio installed on your local computer, which will allow you to have a backup to continue your work in case of an emergency.
+1. All homework assignments and exams submissions, must be sent directly within the DataLab environment in the form of Jupyter notebooks (<tt>`.ipynb`</tt>). Although DataLab technically allows uploads in formats such as PDF or MS Word, these formats are not acceptable for evaluated homework or exams in this course. You are required to complete your work directly in the provided Jupyter notebook environment to ensure consistency and proper evaluation of your submissions.
+1. In my experience, my students create and work with various documents and folders within DataLab. For convenience, I have created a folder called "submissions" in your group workspace, where you, as students, will place the documents I need to evaluate as assignments and exams. My instruction is not to rename this folder, and to use it so that I can easily identify the documents I need to assess and grade.
 1. DataLab and Jupyter Notebooks may be new tools for some students, so it is important to pay close attention when submitting exams and assignments. All activities must be submitted in the correct workspace, which is identified by the group name and the correct folder called "submissions". Submitting an activity in the wrong location, even if the work is completed, will be treated as not delivered. No exceptions will be made for submissions placed in incorrect folders or workspaces.
 1. After completing your final exam $E_F$, you will no longer have editor access to DataLab. Therefore, I suggest that you create a backup of any documents you wish to keep.
 
 **Book.** The book (or books) is one of the main pillars of this course. In my experience, learning primarily occurs through reading and then reinforcing the concepts through practical application, although there are various other activities included in this course. The authors of the book are esteemed experts in their respective fields: John C. Hull from [University of Toronto](https://www.utoronto.ca/); Frank Fabozzi from [Johns Hopkins Carey Business School](https://carey.jhu.edu/); Richard A. Brealey from [London Business School](https://www.london.edu/); Stewart C. Myers from [Sloan School of Management, Massachusetts Institute of Technology](https://mitsloan.mit.edu/); Franklin Allen from [Imperial College London](https://www.imperial.ac.uk/); Rob J. Hyndman and George Athanasopoulos from [Monash University](https://www.monash.edu/); ad Eugene F. Brigham and Joel F. Houston from [University of Florida](https://www.ufl.edu/). These books are not only suitable for intermediate and advanced undergraduate degrees but also for first-year master's degrees. I prefer using the original versions of the books rather than translations because, in my experience, the translations may not always match the quality of the original English version and, in some cases, may not be available.
 
-**Tutorials.** I have created a series of specialized online tutorials that provide step-by-step instructions on implementing various topics and estimating financial and economic models using data. These tutorials aim to help you bridge the gap between the theoretical concepts presented in the textbook and the practical implementation in R code. This approach, often referred to as literate programming, allows for a seamless transition. You can access my tutorials in my GitHub public repository, via GitHub Pages: [Quantitative Finance with R](https://mlozanoqf.github.io/).
+**Tutorials.** I have created a series of specialized online tutorials that provide step-by-step instructions on implementing various topics and estimating financial and economic models using data. These tutorials aim to help you bridge the gap between the theoretical concepts presented in the textbook and the practical implementation in R code. This approach, often referred to as literate programming, allows for a seamless transition. You can access my tutorials in my GitHub public repository [https://github.com/mlozanoqf](https://github.com/mlozanoqf), or more easily via GitHub Pages: [Quantitative Finance with R](https://mlozanoqf.github.io/).
 
 **Others**. All learning resources described above represent a good resource for your own study of the course material. There are plenty of Internet resources that you will have to use, from databases, [YouTube](https://www.youtube.com/) videos, [GitHub](https://github.com/) public repositories, specialized programming blogs, AI tools, books, electronic books, etc. See the resource list at the end of this document for further details. You are encouraged to read articles, reports and news on your own to enhance and expand your understanding about how theoretical concepts relate with current real-life events. [The Economist](https://www.economist.com/), [The Financial Times](https://www.ft.com/), [The Guardian](https://www.theguardian.com/), [The Wall Street Journal](https://www.wsj.com/), [MarketWatch](https://www.marketwatch.com/), [Reuters](https://www.reuters.com/), [Bloomberg](https://www.bloomberg.com/), [Bureau of Economic Analysis](https://www.bea.gov/), [Banxico](https://www.banxico.org.mx/), [Project Syndicate](https://www.project-syndicate.org/), [The New York Times](https://www.nytimes.com/), [El Financiero](https://www.elfinanciero.com.mx/) (México), [El Confidencial](https://www.elconfidencial.com/) (Spain), [OECD](https://www.oecd.org/), are a good way to grasp contemporary insights related with this course. Other references to support your learning process include economic and financial reports from private banks such as Banamex and BBVA, and think tanks websites such as [The Mexico Institute](https://www.wilsoncenter.org/program/mexico-institute), [México cómo vamos](https://mexicocomovamos.mx/), [CIDAC](http://cidac.org/), [IMCO](https://imco.org.mx/), [COMEXI](https://www.consejomexicano.org/), among many others. My advice in this respect is rather simple: *the more you read the more you learn*.
 
@@ -79,15 +78,74 @@ DataCamp policies.
 
 Learning activities are structured tasks or exercises designed to facilitate the acquisition of knowledge, skills, and understanding in an educational context. They are intended to promote active engagement, deepen understanding, and support the achievement of specific learning objectives.
 
-This course is conducted in both Spanish and English. Most learning resources are in English, and exams and homework assignments are to be submitted in English. However, discussion forums, emails, and class sessions will be conducted in Spanish.
-
 The learning activities are classified into graded, non-graded, and extra marks categories. Graded activities account for 100% of your final grade. Non-graded activities are relevant for your learning but are not included in the grading process. Therefore, failure to complete them will not result in any mark deduction. Extra marks are awarded as a bonus to your next partial exams or final exam, so completing extra marks activities increases the maximum mark possible. Furthermore, learning activities are classified as either individual or group activities.
 
-For activities such as assignments, extra credit tasks, coevaluations, etc., that require submission by a specific time, there is no late submission policy.
+**How your final grade is calculated.**
+
+1. Group marks for all graded activities assigned by me (the professor): $G_{H1}, G_{H2}, G_{E1}, G_{E2}, G_{EF}.$
+
+1. Individual extra marks for partial exams and final exam only (earned through individual student effort): $X_{E1}, X_{E2}, X_{EF}.$
+
+1. Coevaluations from teammates for homeworks and partial exams (peer assessment): $C_{H1}, C_{H2}, C_{E1}, C_{E2}.$
+
+1. Exams (group mark + individual extra mark):  
+$$
+\begin{align}
+GX_{E1} &= G_{E1} + X_{E1}, \\
+GX_{E2} &= G_{E2} + X_{E2}.
+\end{align}
+$$
+
+1. Apply coevaluations for homework assignments $H_1$ and $H_2$:
+$$
+\begin{aligned}
+\text{If } G_{H1} \geq 70 \text{ and } C_{H1} \geq 70, &\quad H_1 = (0.7 \times G_{H1}) + (0.3 \times C_{H1}). \\
+\text{Else}, &\quad H_1 = \min(G_{H1}, C_{H1}).
+\end{aligned}
+$$
+$$
+\begin{aligned}
+\text{If } G_{H2} \geq 70 \text{ and } C_{H2} \geq 70, &\quad H_2 = (0.7 \times G_{H2}) + (0.3 \times C_{H2}). \\
+\text{Else}, &\quad H_2 = \min(G_{H2}, C_{H2}).
+\end{aligned}
+$$
+6. Apply coevaluations for partial exams $E_1$ and $E_2$:
+
+$$
+\begin{aligned}
+\text{If } GX_{E1} \geq 70 \text{ and } C_{E1} \geq 70, &\quad E_1 = (0.7 \times GX_{E1}) + (0.3 \times C_{E1}). \\
+\text{Else}, &\quad E_1 = \min(GX_{E1}, C_{E1}).
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+\text{If } GX_{E2} \geq 70 \text{ and } C_{E2} \geq 70, &\quad E_2 = (0.7 \times GX_{E2}) + (0.3 \times C_{E2}). \\
+\text{Else}, &\quad E_2 = \min(GX_{E2}, C_{E2}).
+\end{aligned}
+$$
+
+7. Final grade $F$:
+
+$$
+\begin{aligned}
+ F &= 0.4\times[0.7\mathrm{max}(E_1, E_2) + 0.3\mathrm{min}(E_1, E_2)] \\
+ &+ 0.3\times[0.7\mathrm{max}(H_1, H_2) + 0.3\mathrm{min}(H_1, H_2)] \\
+ & + 0.3\times E_F.
+\end{aligned}
+$$
+
+Where $E_F = G_{EF} + X_{EF}$, and no coevaluation is applied to $E_F$.
+
+
+Activities policies.
+
+1. Exams and homework assignments are submitted in English. 
+1. In this course there is no late submission policy at all.
+1. See [DataCamp policies](#lst:dcp).
+
 
 ## `r fontawesome::fa("check")` Exams. 
-
-Your final grade is composed of two partial exams $E_1$ and $E_2$, which together account for 40%, and one final exam $E_F$, which is worth 30%. These three exams make up 70% of the total grade. The remaining 30% comes from two homework assignments $H_1$ and $H_2$. In summary: 40% partial exams, 30% final exam, and 30% homework assignments. The grade you receive in the $E_1$ and $E_2$ exams includes individual extra marks and the co-evaluation, and this will be reported as your partial grade.
 
 All the topics covered in this course will be evaluated in the exams. If you aim to achieve an outstanding final grade, I strongly advise you to take thorough class notes throughout the semester.
 

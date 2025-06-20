@@ -77,26 +77,80 @@ Unfortunately, some students who do badly in their first exam and/or their first
 
 The difference between the weighted versus regular average is illustrated below:
 
+<!-- ```{r echo=FALSE} -->
+<!-- H1 <- seq(from = 0, to = 100) -->
+<!-- H2 <- H1 -->
+<!-- HF <- function(H1, H2) { 0.7 * pmax(H1, H2) +  -->
+<!--     0.3 * pmin(H1, H2) } -->
+
+<!-- HF2 <- function(H1, H2) { 0.5 * pmax(H1, H2) +  -->
+<!--     0.5 * pmin(H1, H2) } -->
+<!-- ``` -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- # outer evaluates the function for each combination of the vectors. -->
+<!-- z <- outer(H1, H2, HF) # z is now 50x50 matrix. -->
+<!-- par(mfrow=c(1, 2), oma = c(0, 0, 2, 0)) -->
+<!-- par(pty = "s") -->
+<!-- contour(H1, H2, z, xlab = expression('H'[1]),  -->
+<!--         ylab = expression('H'[2]), lwd = 3,  -->
+<!--         nlevels = 10, -->
+<!--         main = "Weighted average. -->
+<!-- This course.", -->
+<!--         sub = expression((35 %*% 0.3) + (85 %*% 0.7) == 70), -->
+<!--         axes = FALSE) -->
+<!-- axis(1) -->
+<!-- axis(2) -->
+<!-- abline(v = 35, lty = 2, col = "red") -->
+<!-- abline(h = 85, lty = 2, col = "blue") -->
+<!-- points(35, 85, pch = 19, col = "blue", cex = 2) -->
+
+<!-- z2 <- outer(H1, H2, HF2) # z is now 50x50 matrix. -->
+<!-- par(pty = "s") -->
+<!-- contour(H1, H2, z2, xlab = expression('H'[1]),  -->
+<!--         ylab = expression('H'[2]), lwd = 3,  -->
+<!--         nlevels = 10, -->
+<!--         main = "Simple average. -->
+<!-- Other courses.", -->
+<!--         sub = expression((35 %*% 0.5) + (85 %*% 0.5) == 60), -->
+<!--         axes = FALSE) -->
+<!-- axis(1) -->
+<!-- axis(2) -->
+<!-- abline(v = 35, lty = 2, col = "red") -->
+<!-- abline(h = 85, lty = 2, col = "blue") -->
+<!-- points(35, 85, pch = 19, col = "red", cex = 2) -->
+<!-- ``` -->
+
+
 ```{r echo=FALSE}
 H1 <- seq(from = 0, to = 100)
 H2 <- H1
-HF <- function(H1, H2) { 0.7 * pmax(H1, H2) + 
-    0.3 * pmin(H1, H2) }
 
-HF2 <- function(H1, H2) { 0.5 * pmax(H1, H2) + 
-    0.5 * pmin(H1, H2) }
-```
+HF <- function(H1, H2) { 
+  0.7 * pmax(H1, H2) + 0.3 * pmin(H1, H2) 
+}
 
-```{r echo=FALSE}
-# outer evaluates the function for each combination of the vectors.
-z <- outer(H1, H2, HF) # z is now 50x50 matrix.
-par(mfrow=c(1, 2), oma = c(0, 0, 2, 0))
+HF2 <- function(H1, H2) { 
+  0.5 * pmax(H1, H2) + 0.5 * pmin(H1, H2) 
+}
+
+z <- outer(H1, H2, HF)
+z2 <- outer(H1, H2, HF2)
+
+levels <- seq(10, 100, by = 10)
+colors <- ifelse(levels < 70, "red", "blue")
+
+par(mfrow = c(1, 2), oma = c(0, 0, 2, 0))
 par(pty = "s")
-contour(H1, H2, z, xlab = expression('H'[1]), 
-        ylab = expression('H'[2]), lwd = 3, 
-        nlevels = 10,
-        main = "Weighted average.
-This course.",
+
+# First plot: Weighted average
+contour(H1, H2, z, 
+        levels = levels, 
+        col = colors, 
+        lwd = 3,
+        xlab = expression(H[1] == 35),
+        ylab = expression(H[2] == 85),  
+        main = "Weighted average\n in this course: 70.",
         sub = expression((35 %*% 0.3) + (85 %*% 0.7) == 70),
         axes = FALSE)
 axis(1)
@@ -105,13 +159,15 @@ abline(v = 35, lty = 2, col = "red")
 abline(h = 85, lty = 2, col = "blue")
 points(35, 85, pch = 19, col = "blue", cex = 2)
 
-z2 <- outer(H1, H2, HF2) # z is now 50x50 matrix.
+# Second plot: Simple average
 par(pty = "s")
-contour(H1, H2, z2, xlab = expression('H'[1]), 
-        ylab = expression('H'[2]), lwd = 3, 
-        nlevels = 10,
-        main = "Simple average.
-Other courses.",
+contour(H1, H2, z2, 
+        levels = levels, 
+        col = colors, 
+        lwd = 3,
+        xlab = expression(H[1] == 35),
+        ylab = expression(H[2] == 85), 
+        main = "Simple average\n in other courses: 60.",
         sub = expression((35 %*% 0.5) + (85 %*% 0.5) == 60),
         axes = FALSE)
 axis(1)
@@ -120,6 +176,7 @@ abline(v = 35, lty = 2, col = "red")
 abline(h = 85, lty = 2, col = "blue")
 points(35, 85, pch = 19, col = "red", cex = 2)
 ```
+
 
 The effect of weighted averages over the final grade $F$ is quite significant. Here is a very extreme example to illustrate the effect of the weighted average. See the difference between a final grade of 56 versus 70.
 
