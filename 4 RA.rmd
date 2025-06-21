@@ -20,7 +20,7 @@ embed_url("https://youtu.be/IzG85NDDo1Q")
 `r fontawesome::fa_i("fa-file-signature", class = "fa-solid")` Groups policies.
 
 1. Groups are formed with no more than four students. Group activities can be completed by one, two, three, or four students. Group formation is done by the students at the beginning of the semester. 
-1. A group member may switch groups as long as the members of both the group they are leaving and the group they wish to join agree and express their consent in writing; an email will suffice. Additionally, I must authorize the change to ensure the number of members per group does not exceed the limit. All requests to change groups must be submitted no later than one week before the next partial or final exam. Requests received after this deadline will not be considered.
+1. A group member may switch groups as long as the members of both the group they are leaving and the group they wish to join agree and express their consent in writing; an email will suffice. Additionally, I must authorize the change to ensure the number of members per group does not exceed the limit. All requests to change groups must be submitted no later than one week before the next partial or final exam. Requests received after this deadline will not be considered or rejected.
 1. It is not mandatory, but I recommend that your team establish clear rules and put in writing the reasons that could justify a penalty in the coevaluation (peer evaluation). These types of agreements should be managed within the team; I do not intervene in these matters because I consider them internal, and I believe each team can work in its own way. I do not change coevaluation marks.
 1. If a group member performs poorly, the rest of the group may use coevaluation to ensure the individual grade is more accurately assigned. Coevaluation is a crucial component of group work. A coevaluation score of zero assigned to a student will directly result in a zero as their individual grade for that activity. Therefore, students are strongly encouraged to participate actively and contribute meaningfully to their group's work.
 
@@ -311,23 +311,23 @@ Extra marks activities are individual tasks. As with any extra marks activity, y
 
 <!-- [^6]: Please note that DataCamp is not the only alternative to learn R. There are other free alternatives available in the web such as [Swirl.](https://swirlstats.com/) You can find many free electronic resources to learn R in the reference section at the end of this syllabus. There are also some students who find the tutorials (developed by myself) a good enough resource to learn R. However, there are other students who need more specialized courses, or more basic courses to understand the logic of programming in R and some other extensions. In my attempt to offer you as many free and useful resources as possible, you have a DataCamp account. According to Martijn Theuwissen Co-founder and COO at DataCamp, they are no.1 ranked Forbes certifications. -->
 
-**DataCamp.** You can earn extra marks for your next $E_1$, $E_2$, or $E_F$ exam by completing DataCamp assignments, which involve accumulating a specific amount of XP. XP is a measure of your engagement within DataCamp, automatically calculated based on the courses, exercises, or other content you complete. For more details, refer to the DataCamp Assignments section and the course calendar, where they are marked with the *extra marks* tag. The deadline is 10:00 a.m. on the date indicated in the course calendar. Since XP is calculated automatically, you do not need to submit any certificates, screenshots, or other evidence. Just make sure to complete the assignment on time.
+**DataCamp.** You can earn extra marks for your next $G_{E1}, G_{E1}$ and $G_{E1}$ exams group marks by completing DataCamp assignments, which involve accumulating a specific amount of XP. XP is a measure of your engagement within DataCamp, automatically calculated based on the courses, exercises, or other content you complete. For more details, refer to the DataCamp Assignments section and the course calendar, where they are marked with the *extra marks* tag. The deadline is 10:00 a.m. on the date indicated in the course calendar. Since XP is calculated automatically, you do not need to submit any certificates, screenshots, or other evidence. Just make sure to complete the assignment on time.
 
 The amount of extra marks is based on the cumulative number of DataCamp assignments completed during the semester. There are 6 DataCamp assignments in total, allocated as 2 in the first partial, 2 in the second, and 2 in the third. You earn $n+1$ extra marks for each cumulative assignment completed, where $n$ is the number of assignments completed so far. If you complete all of them on time, for the $E_1$ exam you will earn:
 
-$\displaystyle \sum_{n=1}^{2} (n+1) = (1+1) + (2+1) = 2 + 3 = 5$.
+$X_{E1}=\displaystyle \sum_{n=1}^{2} (n+1) = (1+1) + (2+1) = 2 + 3 = 5$.
 
 In sum:
 
-* $\displaystyle \sum_{n=1}^{2} (n+1) = 5$ extra marks over your $E_1$. 
-* $\displaystyle \sum_{n=3}^{4} (n+1) = 9$ extra marks over your $E_2$. 
-* $\displaystyle \sum_{n=5}^{6} (n+1) = 13$ extra marks over your $E_F$.
+* $X_{E1}= \displaystyle \sum_{n=1}^{2} (n+1) = 5$ extra marks over your $G_{E1}$. 
+* $X_{E2}= \displaystyle \sum_{n=3}^{4} (n+1) = 9$ extra marks over your $G_{E2}$. 
+* $X_{EF}=\displaystyle \sum_{n=5}^{6} (n+1) = 13$ extra marks over your $G_{EF}$.
 
 However, if you complete only one assignment in each period, you earn:
 
-* $\displaystyle \sum_{n=1}^{1} (n+1) = 2$ extra marks over your $E_1$. 
-* $\displaystyle \sum_{n=2}^{2} (n+1) = 3$ extra marks over your $E_2$. 
-* $\displaystyle \sum_{n=3}^{3} (n+1) = 4$ extra marks over your $E_F$.
+* $X_{E1}=\displaystyle \sum_{n=1}^{1} (n+1) = 2$ extra marks over your $G_{E1}$. 
+* $X_{E2}=\displaystyle \sum_{n=2}^{2} (n+1) = 3$ extra marks over your $G_{E2}$. 
+* $X_{EF}=\displaystyle \sum_{n=3}^{3} (n+1) = 4$ extra marks over your $G_{EF}$.
 
 ```{r eval=FALSE, include=FALSE}
 cumulative <- cumsum(2:8)
@@ -366,17 +366,17 @@ fechas
 
 The dates on which I will assign these marks according to the DataCamp leaderboard are: Wednesday, February 12; Friday, March 14; and Monday, April 14.
 
-**UN CC:Learn courses.** You can earn extra marks for your next $E_1$, $E_2$, or $E_F$ exam by completing [UN CC:Learn](https://www.uncclearn.org/) courses, which are listed in the course calendar under the *extra marks* tag. The deadline is 10:00 a.m. on the date indicated in the course calendar. Please note that UN CC:Learn courses may require a minimum score to obtain a valid certificate.
+**UN CC:Learn courses.** You can earn extra marks for your next $G_{E1}, G_{E2}$ and $G_{EF}$ exams group marks by completing [UN CC:Learn](https://www.uncclearn.org/) courses, which are listed in the course calendar under the *extra marks* tag. The deadline is 10:00 a.m. on the date indicated in the course calendar. Please note that UN CC:Learn courses may require a minimum score to obtain a valid certificate.
 
 Some students may have completed a UN CC:Learn course in the past. If your certificate is older than the starting date of the current academic term, it is not valid, and you will need to choose a different course to substitute it. There are 3 UN CC:Learn activities in the semester, allocated as 1 in the first term, 1 in the second, and 1 in the third. You will earn +5 extra marks for each completed course.
 
 As with DataCamp, you are expected to choose the UN CC:Learn course based on your own interests and preferences. Visit the course section to browse the full catalog.
 
-**Stickers.** There are some opportunities throughout the semester to get extra marks. In this course, extra marks are allocated in the form of stickers, every sticker stands for 5 extra marks on your next exam $E_1$, $E_2$, or $E_F$. They are called *stickers* because I give real stickers to my students. Stickers are assigned by merit. It is not very easy to get a sticker, but it is worth a try. The record so far is one student who got 30 extra marks over the $E_F$, and he passed the course partially because of that.
+**Stickers.** There are some opportunities throughout the semester to get extra marks. In this course, extra marks are allocated in the form of stickers, every sticker stands for 5 extra marks on your $G_{E1}, G_{E2}$ and $G_{EF}$ exams group marks. They are called *stickers* because I give real stickers to my students. Stickers are assigned by merit. It is not very easy to get a sticker, but it is worth a try. The record so far is one student who got 30 extra marks over the $G_{EF}$, and he passed the course partially because of that.
 
-**The wheel of fortune.** I spin a virtual wheel of fortune three times during the semester to randomly allocate extra marks to a lucky group of students. Attendance in these sessions is mandatory to claim the extra marks if you are selected by the wheel. In total, you could earn +0, +5, or +10 extra marks for your next $E_1$, $E_2$, or $E_F$ exam.
+**The wheel of fortune.** I spin a virtual wheel of fortune three times during the semester to randomly allocate extra marks to a lucky group of students. Attendance in these sessions is mandatory to claim the extra marks if you are selected by the wheel. In total, you could earn +0, +5, or +10 extra marks for your next $G_{E1}, G_{E2}$ and $G_{EF}$ exams group marks.
 
-**Mentimeter.** We may have a few sessions that include a Mentimeter activity. This activity may be evaluated, and if it is, the top 10 best answers will earn extra marks. Points will be awarded based on your rank in the top 10: the first place earns +10, the second place earns +9, and so on, with the tenth place earning +1 extra marks for your next $E_1$, $E_2$, or $E_F$ exam.
+**Mentimeter.** We may have a few sessions that include a Mentimeter activity. This activity may be evaluated, and if it is, the top 10 best answers will earn extra marks. Points will be awarded based on your rank in the top 10: the first place earns +10, the second place earns +9, and so on, with the tenth place earning +1 extra marks for your next $G_{E1}, G_{E2}$ and $G_{EF}$ exams group marks.
 
 ## `r fontawesome::fa("shapes")` Non-graded. 
 

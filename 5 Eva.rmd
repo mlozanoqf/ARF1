@@ -61,6 +61,125 @@ Coevaluations are completed using a Google Form. I set up an example here: <http
 
 In particular, you will have two Google Forms web links in Blackboard to complete your co-evaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is co-evaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
 
+
+
+```{r}
+#| eval: false
+#| include: false
+# Function - vectorized version
+fun <- function(C1, Hm) {
+  ifelse(C1 >= 70 & Hm >= 70,
+         (0.7 * Hm) + (0.3 * C1),
+         pmin(C1, Hm))
+}
+
+# Grid
+C1_seq <- seq(0, 100, length.out = 201)
+Hm_seq <- seq(0, 100, length.out = 201)
+H_matrix <- outer(C1_seq, Hm_seq, fun)
+
+# Contour levels
+levels_low <- seq(0, 60, by = 10)
+levels_high <- seq(70, 100, by = 5)
+
+# Set plotting parameters for square plot
+par(pty = "s")  # Square plotting region
+
+# Create the contour plot
+contour(x = C1_seq, y = Hm_seq, z = H_matrix,
+        levels = levels_low, drawlabels = TRUE, col = "red", lwd = 3,
+        xlab = "Average Group Mark (C1)",
+        ylab = "Individual Work Mark (Hm)",
+        main = "Contour Plot of Final Mark H (Square Plot, Labeled & Colored)")
+
+# Force the plot limits to 0-100
+par(usr = c(0, 100, 0, 100))
+
+# Add the second set of contour lines
+contour(x = C1_seq, y = Hm_seq, z = H_matrix,
+        levels = levels_high, drawlabels = TRUE, col = "blue", add = TRUE, lwd = 3)
+
+# # Threshold lines
+# abline(h = 70, col = "gray", lty = 2)
+# abline(v = 70, col = "gray", lty = 2)
+
+# Reset plotting parameters to default
+par(pty = "m")
+```
+
+```{r}
+#| echo: false
+# Function - vectorized version
+fun <- function(C1, Hm) {
+  ifelse(C1 >= 70 & Hm >= 70,
+         (0.7 * Hm) + (0.3 * C1),
+         pmin(C1, Hm))
+}
+
+# Grid
+C1_seq <- seq(0, 100, length.out = 201)
+Hm_seq <- seq(0, 100, length.out = 201)
+H_matrix <- outer(C1_seq, Hm_seq, fun)
+
+# Contour levels
+levels_low <- seq(0, 60, by = 10)
+levels_high <- seq(70, 100, by = 5)
+
+# Set plotting parameters
+par(pty = "s", xaxs = "i", yaxs = "i", mar = c(5, 5, 4, 2) + 0.1)
+
+# Create base plot
+plot(NA, xlim = c(0, 100), ylim = c(0, 100),
+     xlab = "Average Group Mark (C1)",
+     ylab = "Individual Work Mark (Hm)",
+     main = "Contour Plot of Final Mark H")
+
+# Draw RED contours (lines only, no labels)
+contour(x = C1_seq, y = Hm_seq, z = H_matrix,
+        levels = levels_low, drawlabels = FALSE, 
+        col = "red", lwd = 3, add = TRUE)
+
+# Draw BLUE contours (with default centered labels)
+contour(x = C1_seq, y = Hm_seq, z = H_matrix,
+        levels = levels_high, drawlabels = TRUE,
+        col = "blue", lwd = 3, add = TRUE,
+        labcex = 0.9)
+
+# Get contour line coordinates for red levels
+cl <- contourLines(C1_seq, Hm_seq, H_matrix, levels = levels_low)
+
+# Custom label placement (above the lines)
+label_offset <- 3.5  # Vertical offset in plot units
+
+for (i in seq_along(cl)) {
+  # Find a suitable point on each contour line
+  n_points <- length(cl[[i]]$x)
+  
+  # Use a point about 1/4 along the line (avoids edges)
+  label_pos <- max(1, floor(n_points/4))
+  
+  x_pos <- cl[[i]]$x[label_pos]
+  y_pos <- cl[[i]]$y[label_pos] + label_offset
+  
+  # Only draw if within plot bounds
+  if (x_pos >= 0 && x_pos <= 100 && y_pos >= 0 && y_pos <= 100) {
+    text(x_pos, y_pos, labels = cl[[i]]$level, 
+         col = "red", cex = 0.9, font = 1)
+    
+    # # Optional: Add small leader line
+    # segments(x0 = x_pos, y0 = y_pos - label_offset + 0.5,
+    #          x1 = x_pos, y1 = y_pos - 0.5,
+    #          col = "red", lwd = 1)
+  }
+}
+
+# Reset plotting parameters
+par(pty = "m")
+```
+
+
+
+
 ## `r fontawesome::fa("flag-checkered")` Final grade. 
 
 The final grade $F$ is computed as follows:
