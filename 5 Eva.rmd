@@ -4,16 +4,6 @@ Let's see how your final grade $F$ is calculated.
 
 ## `r fontawesome::fa("users")` Co-evaluation.
 
-Of most frustration to students is receiving the same mark as their fellow non-contributing group members despite producing much of the group's work. In order to avoid this free-rider problem you will have to answer two co-evaluations $C_1$ and $C_2$, one for the first part of the course and one for the second part. The first co-evaluation $C_1$ is used to calculate the individual marks of $H_1$ and $E_1$; the second co-evaluation $C_2$ is used to calculate the individual marks of $H_2$ and $E_2$. Co-evaluation is so important that one student may fail simply because of his or her low contribution in the group. Sometimes students face mitigating circumstances, if that is the case you will have to discuss with your group because their marks may have a significant negative impact on your mark. 
-
-The co-evaluation is as an effective tool to incentive or penalize the group members to work well and on time. As a professor, I am not always aware of who is working well within a group, but the co-evaluation can help us to be fair and assign marks based on academic merits. I do not reveal specific details about how you co-evaluate your colleagues. So, your co-evaluation details will remain anonymous. I cannot change the co-evaluation, this is a mark assigned by your colleagues based on your performance and contribution. Then, there are many incentives aligned so the group should work well, otherwise the chances to get a low mark are high.
-
-In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) share their thoughts on how to effectively work in teams.
-
-```{r echo=FALSE}
-embed_url("https://youtu.be/_-mP3YKptwQ")
-```
-
 Consider an hypothetical group of four students that worked together in their first assignment $H_1$ for illustration purposes. The group mark is $H_m = 90$, and now they have to complete their co-evaluation. The group members are: Bebito Fiu-Fiu, Baby Yoda, John Doe and Winnie Pooh. Every member assigns a mark to the rest using a simple Google Form. Then, John Doe's co-evaluation mark $mean(C_1)$ is the simple average of his 3 assigned marks. 
 
 In case $mean(C_1) \ge 70$ and the group mark $H_m \ge 70$, then John Doe's individual $H_1$ mark is computed as: $H_1=(0.70 \times H_m)+(0.30 \times mean(C_1))$.
@@ -57,125 +47,7 @@ paste("John Doe's individual mark in the first assignment is:", H1)
 
 This is because we apply $H_1=(0.70 \times 90)+\left(0.30 \times \frac{70+80+70}{3}\right) = 85$. Clearly, your co-evaluation matters because although the group mark is 90, John Doe's individual $H_1$ mark could range from 66.67 to 85 depending on Baby Yoda's co-evaluation.
 
-Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/Rzd6Chv89X5HR4rWA>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in Blackboard.
 
-In particular, you will have two Google Forms web links in Blackboard to complete your co-evaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is co-evaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
-
-
-
-```{r}
-#| eval: false
-#| include: false
-# Function - vectorized version
-fun <- function(C1, Hm) {
-  ifelse(C1 >= 70 & Hm >= 70,
-         (0.7 * Hm) + (0.3 * C1),
-         pmin(C1, Hm))
-}
-
-# Grid
-C1_seq <- seq(0, 100, length.out = 201)
-Hm_seq <- seq(0, 100, length.out = 201)
-H_matrix <- outer(C1_seq, Hm_seq, fun)
-
-# Contour levels
-levels_low <- seq(0, 60, by = 10)
-levels_high <- seq(70, 100, by = 5)
-
-# Set plotting parameters for square plot
-par(pty = "s")  # Square plotting region
-
-# Create the contour plot
-contour(x = C1_seq, y = Hm_seq, z = H_matrix,
-        levels = levels_low, drawlabels = TRUE, col = "red", lwd = 3,
-        xlab = "Average Group Mark (C1)",
-        ylab = "Individual Work Mark (Hm)",
-        main = "Contour Plot of Final Mark H (Square Plot, Labeled & Colored)")
-
-# Force the plot limits to 0-100
-par(usr = c(0, 100, 0, 100))
-
-# Add the second set of contour lines
-contour(x = C1_seq, y = Hm_seq, z = H_matrix,
-        levels = levels_high, drawlabels = TRUE, col = "blue", add = TRUE, lwd = 3)
-
-# # Threshold lines
-# abline(h = 70, col = "gray", lty = 2)
-# abline(v = 70, col = "gray", lty = 2)
-
-# Reset plotting parameters to default
-par(pty = "m")
-```
-
-```{r}
-#| echo: false
-# Function - vectorized version
-fun <- function(C1, Hm) {
-  ifelse(C1 >= 70 & Hm >= 70,
-         (0.7 * Hm) + (0.3 * C1),
-         pmin(C1, Hm))
-}
-
-# Grid
-C1_seq <- seq(0, 100, length.out = 201)
-Hm_seq <- seq(0, 100, length.out = 201)
-H_matrix <- outer(C1_seq, Hm_seq, fun)
-
-# Contour levels
-levels_low <- seq(0, 60, by = 10)
-levels_high <- seq(70, 100, by = 5)
-
-# Set plotting parameters
-par(pty = "s", xaxs = "i", yaxs = "i", mar = c(5, 5, 4, 2) + 0.1)
-
-# Create base plot
-plot(NA, xlim = c(0, 100), ylim = c(0, 100),
-     xlab = "Average Group Mark (C1)",
-     ylab = "Individual Work Mark (Hm)",
-     main = "Contour Plot of Final Mark H")
-
-# Draw RED contours (lines only, no labels)
-contour(x = C1_seq, y = Hm_seq, z = H_matrix,
-        levels = levels_low, drawlabels = FALSE, 
-        col = "red", lwd = 3, add = TRUE)
-
-# Draw BLUE contours (with default centered labels)
-contour(x = C1_seq, y = Hm_seq, z = H_matrix,
-        levels = levels_high, drawlabels = TRUE,
-        col = "blue", lwd = 3, add = TRUE,
-        labcex = 0.9)
-
-# Get contour line coordinates for red levels
-cl <- contourLines(C1_seq, Hm_seq, H_matrix, levels = levels_low)
-
-# Custom label placement (above the lines)
-label_offset <- 3.5  # Vertical offset in plot units
-
-for (i in seq_along(cl)) {
-  # Find a suitable point on each contour line
-  n_points <- length(cl[[i]]$x)
-  
-  # Use a point about 1/4 along the line (avoids edges)
-  label_pos <- max(1, floor(n_points/4))
-  
-  x_pos <- cl[[i]]$x[label_pos]
-  y_pos <- cl[[i]]$y[label_pos] + label_offset
-  
-  # Only draw if within plot bounds
-  if (x_pos >= 0 && x_pos <= 100 && y_pos >= 0 && y_pos <= 100) {
-    text(x_pos, y_pos, labels = cl[[i]]$level, 
-         col = "red", cex = 0.9, font = 1)
-    
-    # # Optional: Add small leader line
-    # segments(x0 = x_pos, y0 = y_pos - label_offset + 0.5,
-    #          x1 = x_pos, y1 = y_pos - 0.5,
-    #          col = "red", lwd = 1)
-  }
-}
-
-# Reset plotting parameters
-par(pty = "m")
-```
 
 
 
