@@ -141,6 +141,147 @@ $$
 
 Where $E_F = G_{EF} + X_{EF}$ because no coevaluation is applied to $E_F$. 
 
+This criterion is significantly better compared with the traditional average as the higher exam and assignment marks weigh more than twice the lower marks (70% versus 30%).
+
+Unfortunately, some students who do badly in their first exam and/or their first homework assignment believe that everything is lost and they should drop the class. My view is that this is not an accurate view as the grading above allows you to have a very bad exam and/or homework assignment and still be in a good position to pass the course. For example, imagine that for some reason you have $H_1=35$, but you manage to improve and get $H_2=85$. In any other course you will have an average of $\frac{35+85}{2}=60$ `r fontawesome::fa("meh")`. However, in my course we compute weighted averages for both homework assignments and partial exams, so your weighted average is $(35\times 0.3) + (85\times 0.7)=70$ `r fontawesome::fa("grin-stars")`.
+
+The difference between the weighted versus regular average is illustrated below:
+
+<!-- ```{r echo=FALSE} -->
+<!-- H1 <- seq(from = 0, to = 100) -->
+<!-- H2 <- H1 -->
+<!-- HF <- function(H1, H2) { 0.7 * pmax(H1, H2) +  -->
+<!--     0.3 * pmin(H1, H2) } -->
+
+<!-- HF2 <- function(H1, H2) { 0.5 * pmax(H1, H2) +  -->
+<!--     0.5 * pmin(H1, H2) } -->
+<!-- ``` -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- # outer evaluates the function for each combination of the vectors. -->
+<!-- z <- outer(H1, H2, HF) # z is now 50x50 matrix. -->
+<!-- par(mfrow=c(1, 2), oma = c(0, 0, 2, 0)) -->
+<!-- par(pty = "s") -->
+<!-- contour(H1, H2, z, xlab = expression('H'[1]),  -->
+<!--         ylab = expression('H'[2]), lwd = 3,  -->
+<!--         nlevels = 10, -->
+<!--         main = "Weighted average. -->
+<!-- This course.", -->
+<!--         sub = expression((35 %*% 0.3) + (85 %*% 0.7) == 70), -->
+<!--         axes = FALSE) -->
+<!-- axis(1) -->
+<!-- axis(2) -->
+<!-- abline(v = 35, lty = 2, col = "red") -->
+<!-- abline(h = 85, lty = 2, col = "blue") -->
+<!-- points(35, 85, pch = 19, col = "blue", cex = 2) -->
+
+<!-- z2 <- outer(H1, H2, HF2) # z is now 50x50 matrix. -->
+<!-- par(pty = "s") -->
+<!-- contour(H1, H2, z2, xlab = expression('H'[1]),  -->
+<!--         ylab = expression('H'[2]), lwd = 3,  -->
+<!--         nlevels = 10, -->
+<!--         main = "Simple average. -->
+<!-- Other courses.", -->
+<!--         sub = expression((35 %*% 0.5) + (85 %*% 0.5) == 60), -->
+<!--         axes = FALSE) -->
+<!-- axis(1) -->
+<!-- axis(2) -->
+<!-- abline(v = 35, lty = 2, col = "red") -->
+<!-- abline(h = 85, lty = 2, col = "blue") -->
+<!-- points(35, 85, pch = 19, col = "red", cex = 2) -->
+<!-- ``` -->
+
+
+```{r echo=FALSE}
+H1 <- seq(from = 0, to = 100)
+H2 <- H1
+
+HF <- function(H1, H2) { 
+  0.7 * pmax(H1, H2) + 0.3 * pmin(H1, H2) 
+}
+
+HF2 <- function(H1, H2) { 
+  0.5 * pmax(H1, H2) + 0.5 * pmin(H1, H2) 
+}
+
+z <- outer(H1, H2, HF)
+z2 <- outer(H1, H2, HF2)
+
+levels <- seq(10, 100, by = 10)
+colors <- ifelse(levels < 70, "red", "blue")
+
+par(mfrow = c(1, 2), oma = c(0, 0, 2, 0))
+par(pty = "s")
+
+# First plot: Weighted average
+contour(H1, H2, z, 
+        levels = levels, 
+        col = colors, 
+        lwd = 3,
+        xlab = expression(H[1] == 35),
+        ylab = expression(H[2] == 85),  
+        main = "Weighted average\n in this course: 70.",
+        sub = expression((35 %*% 0.3) + (85 %*% 0.7) == 70),
+        axes = FALSE)
+axis(1)
+axis(2)
+abline(v = 35, lty = 2, col = "red")
+abline(h = 85, lty = 2, col = "blue")
+points(35, 85, pch = 19, col = "blue", cex = 2)
+
+# Second plot: Simple average
+par(pty = "s")
+contour(H1, H2, z2, 
+        levels = levels, 
+        col = colors, 
+        lwd = 3,
+        xlab = expression(H[1] == 35),
+        ylab = expression(H[2] == 85), 
+        main = "Simple average\n in other courses: 60.",
+        sub = expression((35 %*% 0.5) + (85 %*% 0.5) == 60),
+        axes = FALSE)
+axis(1)
+axis(2)
+abline(v = 35, lty = 2, col = "red")
+abline(h = 85, lty = 2, col = "blue")
+points(35, 85, pch = 19, col = "red", cex = 2)
+```
+
+
+The effect of weighted averages over the final grade $F$ is quite significant. Here is a very extreme example to illustrate the effect of the weighted average. See the difference between a final grade of 56 versus 70.
+
+
+```{r, results = "asis", echo = FALSE, message = FALSE}
+library(knitr)
+
+tex2markdown <- function(texstring) {
+  writeLines(text = texstring,
+             con = myfile <- tempfile(fileext = ".tex"))
+  texfile <- pandoc(input = myfile, format = "html")
+  cat(readLines(texfile), sep = "\n")
+  unlink(c(myfile, texfile))
+}
+
+textable <- "
+\\begin{table}[H]
+\\centering
+\\begin{tabular}{@{}|c|cc|c|c|@{}}
+\\toprule
+\\textbf{Weight} & \\multicolumn{1}{c|}{\\textbf{Activity}} & \\textbf{Mark} & \\textbf{Points in this course} & \\textbf{Points in other courses} \\\\ \\midrule
+\\multirow{2}{*}{40\\%} & \\multicolumn{1}{c|}{$E_1$} & 0 & $0 \\times 0.3 \\times 0.4 = 0$ & $0 \\times 0.5 \\times 0.4 = 0$ \\\\ \\cmidrule(l){2-5} 
+ & \\multicolumn{1}{c|}{$E_2$} & 100 & $100 \\times \\ 0.7 \\times 0.4 = 28$ & $100 \\times \\ 0.5 \\times 0.4 = 20$ \\\\ \\midrule
+\\multirow{2}{*}{30\\%} & \\multicolumn{1}{c|}{$H_1$} & 0 & $0 \\times 0.3 \\times 0.3 = 0$ & $0 \\times 0.5 \\times 0.3 = 0$ \\\\ \\cmidrule(l){2-5} 
+ & \\multicolumn{1}{c|}{$H_2$} & 100 & $100 \\times \\ 0.7 \\times 0.3 = 21$ & $100 \\times \\ 0.5 \\times 0.3 = 15$ \\\\ \\midrule
+30\\% & \\multicolumn{1}{c|}{$E_F$} & 70 & $70 \\times 0.3 = 21$ & $70 \\times 0.3 = 21$ \\\\ \\midrule
+100\\% & \\multicolumn{2}{c|}{$F$} & 70 & 56 \\\\ \\bottomrule
+\\end{tabular}
+\\end{table}"
+
+tex2markdown(textable)
+```
+
+In any case, my sincere advice is to keep the standard as high as possible in order to minimize the risk of achieving low grades. Note that stickers and extra marks are not explicitly reported in $F$ because they are part of $E_1$, $E_2$ and $E_F$. Homework assignment co-evaluations are not explicitly reported either because they are part of $H_1$ and $H_2$.
+
 <a id="sec-ap"></a>
 `r fontawesome::fa_i("fa-file-signature", class = "fa-solid")` Activities policies.
 
@@ -152,9 +293,9 @@ Where $E_F = G_{EF} + X_{EF}$ because no coevaluation is applied to $E_F$.
 1. The final exam $E_F$ date may need to be adjusted for administrative reasons in the case of students who are graduate candidates. 
 
 
-## `r fontawesome::fa("check")` Exams. 
+## `r fontawesome::fa("check")` Exams & Homework assignments. 
 
-All the topics covered in this course will be evaluated in the exams. If you aim to achieve an outstanding final grade, I strongly advise you to take thorough class notes throughout the semester.
+All topics covered in this course will be evaluated in the exams. To achieve an outstanding final grade, I strongly recommend taking detailed notes throughout the semester. Completing the assignments is also excellent preparation for the exams, so I encourage you to start working on them as early as possible. You're always welcome to share your progress with me, I’ll be happy to provide feedback to help you improve.
 
 Please take a look at this video about taking notes:
 
@@ -168,7 +309,7 @@ This one is good as well. In this video, students from [The University of Melbou
 embed_url("https://youtu.be/Lll3MsS5chk")
 ```
 
-**When?** The exams will be conducted as per the course calendar @sec-schedule, aligning with the official dates specified by the university for partial and final exams. Both $E_1$ and $E_2$ will be 1.5-hour activities conducted during the class session, while $E_F$ will last for 2 hours. In the case of 3-hour class sessions, the $E_1$ and $E_2$ exams will be administered in the first part of the class, and we will review the exam answers on the same day during the second part of the class session.
+**When?** The exams will follow the schedule in the course calendar (@sec-schedule), aligned with the university’s official dates. Exams $E_1$ and $E_2$ will be 1.5-hour in-class activities, and $E_F$ will last 2 hours. In 3-hour class sessions, $E_1$ and $E_2$ will take place during the first part, followed by a review of the answers in the second. Homework assignments are due at 10:00 a.m. on the specified dates in the course calendar, with no late submissions accepted under any circumstances: missing, incorrect, empty, or corrupted files will result in a zero for the group. This policy is strict and non-negotiable, and it’s important to be aware, as every semester some students lose marks due to preventable oversights. Homework $H_1$, $H_2$, and $H_3$ are due shortly before $E_1$, $E_2$, and $E_F$, respectively. Low assignment grades are usually not because the tasks are too difficult, but because groups begin working on them just a few days before the deadline; planning ahead is strongly advised.
 
 Please consider the following recommendations about exams:
 
@@ -176,74 +317,26 @@ Please consider the following recommendations about exams:
 embed_url("https://youtu.be/w1w0dkHdakE")
 ```
 
-**Do all group members receive the same mark?** Not necessarily. Individual activities may contribute to earning extra marks in $E_1$, $E_2$ and $E_F$. Additionally, if a group member fails to contribute, they will receive a zero mark for that particular activity. While I assign a group mark that is the same for all group members, you are also required to complete a co-evaluation. Then, your individual exam mark is a combination of the group mark assigned by me, extra marks, and the co-evaluation assigned by your colleagues.
+**What are typical questions?** While past partial exams may be available—since I allow students to keep their copies, it's important to keep in mind that the course content evolves and the questions change each semester. Still, reviewing older exams can help you understand the general format and types of questions. Exams often include tasks that require using R and/or Python, typically focused on analyzing and interpreting data or results. To help you prepare, we will have review sessions before each graded exams and homeworks assignments, and if more time is needed, we can continue discussions through the forum. Homework assignments will include applied, research-oriented questions that require writing code in R and/or Python, as well as learning new concepts and conducting independent research. However, you won’t be alone as you have access to many resources outlined in the syllabus, including my support through Zoom sessions, DataLab discussions, meetings and email.
+
+**What are the mechanics?** Exam instructions will be provided as a <tt>`.ipynb`</tt> Jupyter Notebook file, made available on Blackboard five minutes before the start of the class session, as scheduled in the course calendar. Once available, you must download the file and upload it to your group’s DataLab workbook, where you and your teammates will collaborate online to complete the exam within the given time frame. There's no need to submit the file separately as I have access to your DataLab and will make an electronic copy for grading. Be sure to finish before the deadline, as late work is not accepted. A few days later, you'll receive your group’s grade along with comments. I may also silently monitor your progress during the exam via your notebook. The process for homework assignments is similar: once the instructions are posted on Blackboard, upload them to your group’s DataLab workbook, complete the task online, and ensure everything is finalized before the deadline. I will make a copy for review and grading, and afterward, you’ll receive your group’s mark and feedback.
+
+**Are we going to review the exam and homework assignment answers?** Yes, after each exam, we will use the following class session (held via Zoom) to go over the questions and discuss correct approaches. This applies to $E_1$ and $E_2$, but not to $E_F$ since classes end before the final exam results can be reviewed. Exam questions are open-ended, and there are often multiple correct ways to answer them, so we will explore a variety of valid responses and common mistakes. Some students may be used to questions with only one right answer, but that is not usually the case in this course. If more time is needed for review, we can continue the discussion on the forum, in DataLab, or through a meeting upon request. Reviewing your mistakes is an important way to learn and prepare for the final exam. For homework assignments, students receive immediate feedback during their presentations, and additional comments are available upon request.
+
+**What if we fail to understand our own mistakes?** Regardless of the activity, if you have any difficulty understanding your mistakes, it is expected that you reach out to me for clarification. In such cases, I may request you to attempt the questions again before we can discuss your specific mistakes in a meeting. 
+
+**Do all group members receive the same mark?** Not necessarily. Individual marks are adjusted based on coevaluation results. For example, even if a group receives a perfect score on the first homework $G_{H1} = 100$, a student with a coevaluation score of $C_{H1} = 0$ would receive an individual mark of $H_1 = 0$. Conversely, if the group mark is $G_{H1} = 90$ and a student receives a coevaluation of $C_{H1} = 100$, their individual mark adjusts to $H_1 = 93$. In short, your final mark reflects both the group’s performance and your contribution. Additionally, exam marks may increase through participation in extra credit activities.
+
 
 **Where?** Physical presence in the classroom is not required for taking the exams. You can complete the exams from any location of your choice, as they are conducted, answered, and submitted entirely in electronic format. Just ensure that you and the rest of your group have a stable Internet connection. I can create Zoom rooms for your group to answer the exam if you wish. I will be available during the exams through Zoom, and while joining the Zoom session is not mandatory during exams, please be aware that I will be accessible in case you need any assistance. The Zoom link for the exams is the same as the one assigned to the course. It is important to note that for 3-hour class sessions, the first part of the session is dedicated to taking the exam. During the second part of the class, you will need to log in to the Zoom session to review and discuss the answers for the $E_1$ and $E_2$ exams. Logging in is required to register your attendance for this session.
 
 **How many questions?** For both $E_1$ and $E_2$, there will be a total of 4 questions, out of which you are required to answer 3. This allows you the opportunity to choose the 3 questions that you feel most confident about. As for $E_F$, there will be 5 questions, and you are expected to answer 4. All questions carry equal weight. It is important to note that if you answer all questions may result in a significant mark deduction, you only have to answer 3 out of 4 for partial exams and 4 out of 5 for the final exam. However, if you take the exam on a different date for any reason, your $E_1$ or $E_2$ will consist of 3 questions instead of 4. In this case, you will not have the advantage of leaving one exam question unanswered. The same principle applies to the $E_F$. The $E_F$ covers all the topics and activities covered in the course. To ensure convenience, one question from $E_1$ and one question from $E_2$ will be included in $E_F$ with minor modifications. This means that if you have prepared well for $E_1$ and $E_2$, you should be able to answer at least 50% of the $E_F$ correctly. 
 
-**What are typical exam questions?** I always allow my students to retain their own partial exams, so it is possible that you can find previous partial exams. It is important to note that the course material evolves, and exam questions change every semester. However, reviewing old exams can provide you with a good understanding of the types of questions you can expect. I often include questions that require the use of R and/or Python, and the exam questions typically involve analysis and interpretation of data or results. To assist you in your exam preparation, we will have review class sessions prior to each graded exam. If additional time is needed for review, we can utilize the discussion forum for that purpose.
-
-**What are the mechanics?** The exam instructions will be available to you in an electronic format (<tt>`.ipynb`</tt> Jupyter notebook file) according to the course calendar. These instructions will automatically appear in Blackboard 5 minutes before the start of the class session. Once the <tt>`.ipynb`</tt> file is available, you will need to download it and upload it to your own DataLab workbook, which should be named after your group. You and your group members will then collaborate online to solve the exam within the given time frame. There is no need to submit your exam file separately, as I have access to your DataLab workbook and can make an electronic copy for review and grading. It is important to ensure that you finish the exam before the specified time deadline. A few days later, you will receive your group's mark, along with comments and feedback. Please note that during the exam, I may quietly visit your notebook to monitor your progress `r fontawesome::fa("eye")`.
-
 **Can we open the textbook during the exam?** Yes, you are allowed to use the Internet and all course materials during the exams. The purpose of the exams is to assess your reasoning, coding, and analytical skills rather than your ability to memorize concepts or perform Internet searches. The exam questions are designed in a way that the answers cannot be found online, in the textbook, or in a test bank. Even AI tools frequently fail to provide full correct answers because most of the time questions are very specific and data oriented. While the questions are based on the course material, they are typically new and original. However, it is important to note that you are expected to answer the exam on your own, with the assistance of your own group, which should consist of no more than 4 students. 
 
-**Are we going to review the exam answers?** Yes, the class session after the exam is a Zoom session to solve the exam questions and discuss the correct approach to answering them. This applies only to $E_1$ and $E_2$; we cannot do it for $E_F$ because classes are over by then. Exam questions are open-ended, and there are usually multiple ways to answer them correctly. Therefore, we will discuss a range of correct answers and common mistakes. Sometimes students are accustomed to closed-ended and singular answers, but that is often not the case in this course. If we require more time to discuss the exam answers, we can utilize the discussion forum, DataLab, or you can request an online meeting. This is important as we usually have limited time during the class session. Correcting your own mistakes in the exam is a valuable way to learn and practice for the final exam.
 
-**What if we fail to understand our own mistakes?** Regardless of the activity, if you have any difficulty understanding your mistakes, it is expected that you reach out to me for clarification. In such cases, I may request you to attempt the questions again before we can discuss your specific mistakes in a meeting. 
 
 <!-- **Mock exams.** We may have one or more mock exams. These exams are similar to the regular exams as they can be taken without physical presence in the classroom. Mock exams provide an opportunity to become familiar with the examination process, logistics, and the level of difficulty of the graded exams. Mock exams are conducted as group activities, typically consisting of one or two questions. If your group answers the mock exam correctly (100% accuracy), you will receive 2 stickers (+10 marks) to be added to your next partial or final exam. However, if your group does not answer the mock exam correctly, you will lose 5 marks on your next partial or final exam. We will review the correct answers immediately during the same session. -->
-
-**How exams will be evaluated.**
-
-The following criteria will be used to assess your answers in both partial and final exams. They reflect the expectations regarding content, clarity, methodology, language, format, and academic integrity. Please review each item carefully and use them to guide how you prepare and structure your responses. Failing to meet these criteria may result in mark deductions or invalidation of your submission.
-
-1. **Relevance to the question requirements.**
-Each exam question includes specific instructions regarding the nature of the response required. For example, the question may specify whether the answer must involve coding, explanation, interpretation, or another form of analysis. It is essential that you follow these instructions carefully. If the question requests an interpretation of results, providing only raw code or calculations without interpretation will be considered an incomplete or incorrect response. Likewise, if a question asks for a written explanation and the answer consists only of equations or numerical results, marks will be deducted. Ignoring the type of response expected may result in low or no credit.
-
-1. **Correctness and methodological accuracy.**
-Your answers must demonstrate the correct application of theoretical concepts, formulas, and analytical methods introduced during the course. This includes implementing statistical or econometric procedures accurately, using proper assumptions, and applying models in appropriate contexts. Answers that include methodological mistakes, incorrect formulas, misapplied techniques, or unsupported reasoning will be penalized. Both accuracy in the process and correctness in the final outcome are important. In addition, formulas and equations should be properly formatted using Markdown, which is easily supported in Jupyter Notebooks. Clear mathematical notation helps ensure that your reasoning is understandable and professionally presented.
-
-1. **Interpretation and analytical insight.**
-In addition to obtaining correct numerical or coded results, you must show that you understand their meaning. This involves interpreting figures, tables, estimation outputs, or theoretical implications correctly. A good answer explains what the results show, what they imply, and how they relate to the broader question. Superficial or incorrect interpretations, or answers that merely report numbers without context or insight, will receive lower marks.
-
-1. **Use of English language.**
-All exams must be written in English. Responses submitted in other languages will not be evaluated. In addition to using English, it is important that your writing is grammatically correct and syntactically clear. Responses with poor grammar, fragmented sentences, or language errors that obscure meaning may receive fewer marks, even if the technical content is sound.
-
-1. **Clarity and organization.**
-Your answer should be well structured and logically organized. It should be easy to read and understand. This includes writing in complete sentences, presenting ideas in a coherent sequence, and clearly labeling key parts of the response, such as steps in a procedure or final conclusions. Avoid excessive jargon, unclear phrasing, or disorganized content. Answers that are confusing or hard to follow may receive lower marks, even if they contain correct elements.
-
-1. **Completeness of the answer.**
-An answer should address all parts of the question. Partial answers that omit key steps, relevant assumptions, or critical arguments will be penalized. For instance, if a question includes multiple subparts and you respond to only one, or if you present a final result without explaining how you obtained it, your answer will be considered incomplete. You are expected to provide full, coherent, and well-developed responses.
-
-1. **Code functionality and readability (when applicable).**
-If a question requires coding, the code must be functional and should run without errors unless stated otherwise. In addition, the code should be readable, efficient, and annotated when necessary. Simply copying code from previous material without adapting it to the specific question is not acceptable. Points may be deducted if the code is incorrect, does not produce the expected output, is difficult to follow, or lacks basic explanations.
-
-1. **Use of course materials and concepts.**
-Strong answers demonstrate your ability to connect your work to concepts, models, and tools discussed in the course. When appropriate, reference material from lectures, textbook figures or tables, or class examples to support your response. Doing so shows that you understand the broader context of the question. Answers that rely only on general intuition or personal opinion without grounding in course content are unlikely to receive high marks.
-
-1. **Exam validity: Group, time, and platform requirements.**
-Exams must be completed according to the official conditions set by the instructor. In particular, all exams are to be taken in groups unless individual participation has been explicitly authorized in advance. You must submit the exam during the designated time period and through the required format. In this course, that means submitting your group response using the DataLab platform on DataCamp. Failure to meet these requirements may result in the submission being considered invalid.
-
-1. **Academic integrity and similarity between groups.**
-Although the exams are completed in groups and students are not physically monitored, academic integrity is strictly enforced. If two or more groups submit answers that are significantly similar, whether due to collaboration between groups, the use of AI tools that generate identical content, or other forms of misconduct, this will be treated as a serious academic offense. In such cases, a substantial mark deduction will apply and/or the matter may be referred to the university for formal investigation of plagiarism.
-
-
-## `r fontawesome::fa("check")` Homework assignments. 
-
-We have 3 homework assignments $H_1$ and $H_2$ (30% of the final grade), and one non-graded homework $H_3$ in English. Assignments are good practice towards exams. Therefore, if you are looking forward to achieving an outstanding final grade in this course, my sincere advice is to start working on them as soon as possible. You can always show me your assignment progress and I can give you comments to improve. 
-
-**When?** The fixed deadline to complete homework assignments is 10:00 a.m. on the day marked in the course calendar and there is no late homework policy at all. This basically means that if you fail to do the assignment, and/or if you have an empty, wrong, or corrupted file by the deadline, then the group mark is zero. This is important because sadly there are always some students who forget or simply ignore this information no matter how much I insist on this. The $H_1$ is due a few days before $E_1$; $H_2$ is due a few days before $E_2$; and $H_3$ is due a few days before $E_F$. I recommend taking enough time to plan and execute the required tasks in the assignments. Usually, low marks in this activity are not precisely because the assignment is difficult, but because the group started the assignment a couple of days before the deadline.
-
-**What are typical assignment questions?** You should expect applied questions, some of them with a research-oriented approach. These questions will require you to develop computational code in R and/or Python. You will need to learn new things and conduct some research to be able to tackle them correctly. However, you are not alone in this process, you have a long list of resources described in this syllabus including my help in the form of synchronous Zoom meetings, or asynchronous communications via DataLab, or email communication.
-
-**What are the mechanics?** This is similar to the case of exams. The assignment instructions will be available for you in an electronic format in Blackboard. As soon as the file is available, you will have to upload the instructions in your own DataLab workbook named as your group, and solve it online with your group. By the deadline, I will make a copy of your notebook to review it and mark it. There is no need to submit your assignment file as I have access to your DataLab workbook to make an electronic copy, you only have to make sure to finish before the deadline. A few days later, you will receive your group mark and some comments.
-
-**Are we going to review the homework assignment answers?** Yes, we can review the answers during the class that coincides with the submission deadline. I may ask a team to present their answers in class. 
-
-**What if we fail to understand our own mistakes?** The same as in the case of exams.
-
-**Why is $H_3$ a non-graded activity?** The $H_3$ is a special assignment that is designed to help you to practice and study for your final exam by learning from your previous mistakes. It has a deadline but it is a non-graded activity. Given that it is non-graded, this activity is optional. The $H_3$ instructions are the following: You are required to (1) correct all your mistakes in all your previous graded activities, including all the four $E_1$ and $E_2$ questions, and assignments; and (2) complete all your missed extra mark activities, mostly from DataCamp and [UN CC:Learn](https://www.uncclearn.org/). The format and delivery is the same as the rest of the assignments. You can do it in group or individually. You will not receive $H_3$ feedback as by then you will have access to all exam and assignment answers. In any case, you can ask me to review it if necessary. 
 
 **Oral presentation rubric.**
 
@@ -306,6 +399,133 @@ Each of the 5 criteria is worth 20 points, for a total of 100 points. The final 
     </tr>
   </tbody>
 </table>
+
+**How exams will be evaluated.**
+
+The following criteria will be used to assess your answers in both partial and final exams. They reflect the expectations regarding content, clarity, methodology, language, format, and academic integrity. Please review each item carefully and use them to guide how you prepare and structure your responses. Failing to meet these criteria may result in mark deductions or invalidation of your submission.
+
+1. **Relevance to the question requirements.**
+Each exam question includes specific instructions regarding the nature of the response required. For example, the question may specify whether the answer must involve coding, explanation, interpretation, or another form of analysis. It is essential that you follow these instructions carefully. If the question requests an interpretation of results, providing only raw code or calculations without interpretation will be considered an incomplete or incorrect response. Likewise, if a question asks for a written explanation and the answer consists only of equations or numerical results, marks will be deducted. Ignoring the type of response expected may result in low or no credit.
+
+1. **Correctness and methodological accuracy.**
+Your answers must demonstrate the correct application of theoretical concepts, formulas, and analytical methods introduced during the course. This includes implementing statistical or econometric procedures accurately, using proper assumptions, and applying models in appropriate contexts. Answers that include methodological mistakes, incorrect formulas, misapplied techniques, or unsupported reasoning will be penalized. Both accuracy in the process and correctness in the final outcome are important. In addition, formulas and equations should be properly formatted using Markdown, which is easily supported in Jupyter Notebooks. Clear mathematical notation helps ensure that your reasoning is understandable and professionally presented.
+
+1. **Interpretation and analytical insight.**
+In addition to obtaining correct numerical or coded results, you must show that you understand their meaning. This involves interpreting figures, tables, estimation outputs, or theoretical implications correctly. A good answer explains what the results show, what they imply, and how they relate to the broader question. Superficial or incorrect interpretations, or answers that merely report numbers without context or insight, will receive lower marks.
+
+1. **Use of English language.**
+All exams must be written in English. Responses submitted in other languages will not be evaluated. In addition to using English, it is important that your writing is grammatically correct and syntactically clear. Responses with poor grammar, fragmented sentences, or language errors that obscure meaning may receive fewer marks, even if the technical content is sound.
+
+1. **Clarity and organization.**
+Your answer should be well structured and logically organized. It should be easy to read and understand. This includes writing in complete sentences, presenting ideas in a coherent sequence, and clearly labeling key parts of the response, such as steps in a procedure or final conclusions. Avoid excessive jargon, unclear phrasing, or disorganized content. Answers that are confusing or hard to follow may receive lower marks, even if they contain correct elements.
+
+1. **Completeness of the answer.**
+An answer should address all parts of the question. Partial answers that omit key steps, relevant assumptions, or critical arguments will be penalized. For instance, if a question includes multiple subparts and you respond to only one, or if you present a final result without explaining how you obtained it, your answer will be considered incomplete. You are expected to provide full, coherent, and well-developed responses.
+
+1. **Code functionality and readability (when applicable).**
+If a question requires coding, the code must be functional and should run without errors unless stated otherwise. In addition, the code should be readable, efficient, and annotated when necessary. Simply copying code from previous material without adapting it to the specific question is not acceptable. Points may be deducted if the code is incorrect, does not produce the expected output, is difficult to follow, or lacks basic explanations.
+
+1. **Use of course materials and concepts.**
+Strong answers demonstrate your ability to connect your work to concepts, models, and tools discussed in the course. When appropriate, reference material from lectures, textbook figures or tables, or class examples to support your response. Doing so shows that you understand the broader context of the question. Answers that rely only on general intuition or personal opinion without grounding in course content are unlikely to receive high marks.
+
+1. **Exam validity: Group, time, and platform requirements.**
+Exams must be completed according to the official conditions set by the instructor. In particular, all exams are to be taken in groups unless individual participation has been explicitly authorized in advance. You must submit the exam during the designated time period and through the required format. In this course, that means submitting your group response using the DataLab platform on DataCamp. Failure to meet these requirements may result in the submission being considered invalid.
+
+1. **Academic integrity and similarity between groups.**
+Although the exams are completed in groups and students are not physically monitored, academic integrity is strictly enforced. If two or more groups submit answers that are significantly similar, whether due to collaboration between groups, the use of AI tools that generate identical content, or other forms of misconduct, this will be treated as a serious academic offense. In such cases, a substantial mark deduction will apply and/or the matter may be referred to the university for formal investigation of plagiarism.
+
+
+## `r fontawesome::fa("marker")` Rubrics. 
+
+The following list illustrates a typical generic rubric for graded activities.
+
+**What is a very good answer?** Competent and well presented. The work is critical and comprehensive and has a degree of depth in presenting and considering the material. Integrates the concepts introduced and applies them to problems with some evidence of critical analysis. Provides clear and competent answers to the questions, written in good English. Clearly presents solutions to calculative questions and demonstrates very good analytic skills and understanding.
+
+In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) give their tips on ways to improve your English.
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/NPwTgfswnD8")
+```
+
+**What is an average answer?** Competent discussion of relevant material, but are largely descriptive and lack critical/analytic depth. Answers are well structured, well presented and demonstrate an average awareness of relevant material. Shows a basic understanding of concepts introduced but with limited ability to apply these concepts. Tends to miss the point of the question. Is written poorly, written in note form, lacks structure or is too short to properly address the question.
+
+**What is a poor answer?** Work shows some weak understanding of the main elements of the course material. Shows very limited achievement of the relevant intended learning outcomes of the course. Has a weak understanding of fundamental concepts with no critical analysis. Produces answers that contain factual or conceptual inadequacies or inadequate analytic skills. Provides poorly written answers that fail to address the question, or answers that are too brief to answer the question properly. Shows a confusing or wrong math notation as e^-rT instead of $e^{-rT}$, this is wrong because as in chemistry as we do not write H2O, we write $H_2O$.
+
+You have to realize as soon as possible that you are being evaluated all the time, so every answer provided by you either in exams, assignments or even verbally during class should be clearly stated, showing your full thought-process, this will allow me to understand your own logic and grade your work fairly. Please do not forget this point as this will allow us to keep the academic quality standards high throughout the semester.
+
+Following the assignment and exam instructions are important to get full marks. Here, I define a few common verbs used in assignment and exam instructions.  
+
+1. **Define.** State the precise meaning of a term or concept. Your response should be concise, accurate, and free from ambiguity, often including a formal or widely accepted definition.  
+1. **Describe.**  Provide a detailed account of the characteristics or features of a concept, process, or phenomenon. Focus on "what it is" and include relevant details, but avoid analysis or interpretation unless specified.  
+1. **Explain.**  Clarify the "why" or "how" of a concept or phenomenon. Provide reasoning, causes, or mechanisms to ensure the topic is fully understood, often using examples or logical arguments to support your answer.  
+1. **Replicate.** (e.g., replicate a figure or table). Reproduce a figure, table, or result from provided data or information using appropriate tools and methods. Ensure that the replication matches the original in terms of accuracy, formatting, and presentation.  
+1. **Compare.** Identify and discuss the similarities between two or more items, concepts, or processes. Highlight key points of resemblance and ensure the comparison is structured and focused.  
+1. **Contrast.**  Identify and discuss the differences between two or more items, concepts, or processes. Highlight key points of distinction while maintaining a clear structure in your response.  
+1. **Evaluate.**  Assess the strengths, weaknesses, or implications of a concept, argument, or result. Your answer should include a reasoned judgment supported by evidence or criteria, rather than mere opinion.  
+1. **Analyze.**  Break down a topic or problem into its essential components to examine relationships, patterns, or underlying principles. Your response should include interpretation and insight based on evidence or logical reasoning.  
+1. **Extend.** (e.g., extend an analysis or model)  Go beyond the original scope of an analysis or model by adding new elements, perspectives, or considerations. This could involve applying it to new data, proposing modifications, or exploring additional implications.  
+1. **Estimate.**  Provide an approximate calculation, measurement, or judgment based on available data, information, or assumptions. Clearly state the method or reasoning used to arrive at your estimate and acknowledge its potential limitations.  
+1. **Comment.** Provide a brief but insightful observation or opinion on a topic, issue, or result. Your response should be concise and focused, offering interpretation, critique, or additional perspective without requiring extensive elaboration.
+1. **Discuss.** Explore a topic in depth by presenting a balanced argument or analysis. Your response should include multiple viewpoints, evidence, or examples, and may evaluate or interpret different aspects of the topic. A structured and thorough approach is expected.
+
+This is a complementary rubric for some kind of quantitative assignments.
+
+**Criterion 1: Comments and explanations in the code.**
+
+| Level.            | Description.                                                                                                               |
+|------------------|---------------------------------------------------------------------------------------------------------------------------|
+| 3. Complete (86 – 100).  | The code is well-documented with clear comments explaining the key sections. The explanations in English are well-written, logically structured, and demonstrate a solid understanding of what is being done and its purpose. The comments show not only an understanding of what is being done but also why it is done this way, reflecting an advanced understanding of design decisions. |
+| 2. Adequate (70 – 85).   | The code includes some comments, but several key sections are missing them. The explanations in English are understandable, although they may have minor errors or lack consistency in the logical flow. The understanding of the purpose is adequate but not deep. The comments are sufficient but do not delve into the design decisions or the justification for the implementations. |
+| 1. Insufficient (0 – 69).| The code has few or no comments, and the explanations in English are minimal, poorly written, or nonexistent. There is no clear demonstration of understanding of what is being done or its purpose. The absence or scarcity of comments makes the code difficult for others to understand, affecting the quality of the report. |
+
+---
+
+**Criterion 2: Quality of analysis.**
+
+| Level.            | Description.                                                                                                               |
+|------------------|---------------------------------------------------------------------------------------------------------------------------|
+| 3. Ambitious & in-depth (86 – 100).  | The analysis is original, ambitious, and thoroughly developed. It fulfills all the activity instructions, is clear, detailed, and well-grounded. The solution presented is creative, well-structured, and demonstrates a deep understanding of the problem. The analysis is not only in-depth and ambitious but also anticipates and addresses possible problems or limitations in the proposed solution. |
+| 2. Adequate (70 – 85).   | The analysis is relevant and meets most of the activity instructions. It is clear and detailed but may lack depth or creativity. The solution presented is correct but does not stand out for its originality or thorough justification. The analysis is adequate but may not fully explore all possible alternatives or implications of the solution. |
+| 1. Insufficient (0 – 69).| The analysis deviates from the activity instructions, is superficial, or is limited to reproducing the study material without contributing original ideas. The solution presented is incomplete, poorly justified, or incorrect. The lack of in-depth analysis suggests limited understanding of the problem or possible solutions. |
+
+---
+
+**Criterion 3: Report structure.**
+
+| Level.            | Description.                                                                                                               |
+|------------------|---------------------------------------------------------------------------------------------------------------------------|
+| 3. Clear & logical (86 – 100).  | The report is well-organized with clear sections and subsections. The structure is logical and facilitates understanding of the results. The writing is clear, and the content is well-presented, prioritizing quality and clarity. The logical structure of the report highlights key points of the analysis, making it easy for the reader to follow. |
+| 2. Adequate (70 – 85).   | The report is organized but may lack some necessary subsections or have a structure that is not always easy to follow. The writing is generally clear, though some parts may be confusing. A less clear structure may weaken the arguments and make the presentation of results more challenging. |
+| 1 – Confusing & disorganized (0 – 69).| The report lacks a logical structure, with confusing or poorly organized sections. The writing is difficult to follow, compromising the understanding of the results. The report is lengthy but lacks clarity and quality in its content. A confusing structure not only hinders comprehension but also undermines a fair evaluation of the work presented. |
+
+
+<!-- **Criterio 1: Comentarios y explicaciones en el código.** -->
+
+<!-- | Nivel            | Descripción                                                                                                               | -->
+<!-- |------------------|---------------------------------------------------------------------------------------------------------------------------| -->
+<!-- | **3 – Completo (86 – 100)**  | El código está bien documentado con comentarios claros que explican las secciones clave. Las explicaciones en inglés son bien redactadas, con un hilo conductor lógico, y demuestran un sólido entendimiento de lo que se está haciendo y su propósito. Los comentarios demuestran no solo un entendimiento de lo que se está haciendo, sino también de por qué se hacen de esa manera, mostrando una comprensión avanzada de las decisiones de diseño. | -->
+<!-- | **2 – Adecuado (70 – 85)**   | El código incluye algunos comentarios, pero faltan en varias secciones clave. Las explicaciones en inglés son comprensibles, aunque pueden tener errores menores o falta de coherencia en el hilo conductor. El entendimiento del propósito es adecuado pero no profundo. Los comentarios son suficientes pero no profundizan en las decisiones de diseño o en la justificación de las implementaciones. | -->
+<!-- | **1 – Insuficiente (0 – 69)**| El código tiene pocos o ningún comentario, y las explicaciones en inglés son mínimas, mal redactadas, o inexistentes. No se demuestra un entendimiento claro de lo que se está haciendo ni de su propósito. La ausencia o escasez de comentarios hace que el código sea difícil de entender para terceros, afectando la calidad del reporte. | -->
+
+<!-- --- -->
+
+<!-- **Criterio 2: Calidad del análisis.** -->
+
+<!-- | Nivel            | Descripción                                                                                                               | -->
+<!-- |------------------|---------------------------------------------------------------------------------------------------------------------------| -->
+<!-- | **3 – Ambicioso y Profundo (86 – 100)**  | El análisis es original, ambicioso, y profundamente desarrollado. Cumple con todas las instrucciones de la actividad, es claro, detallado y bien fundamentado. La solución presentada es creativa, bien estructurada y demuestra un entendimiento profundo del problema. El análisis no solo es profundo y ambicioso, sino que también anticipa y aborda posibles problemas o limitaciones en la solución propuesta. | -->
+<!-- | **2 – Adecuado (70 – 85)**   | El análisis es pertinente y cumple con la mayoría de las instrucciones de la actividad. Es claro y detallado, pero puede carecer de profundidad o creatividad. La solución presentada es correcta, pero no destaca por su originalidad o fundamentación exhaustiva. El análisis es adecuado pero puede no explorar completamente todas las posibles alternativas o implicaciones de la solución. | -->
+<!-- | **1 – Insuficiente (0 – 69)**| El análisis se aleja de las instrucciones de la actividad, es superficial o se limita a reproducir el material de estudio sin aportar ideas propias. La solución presentada es incompleta, mal fundamentada, o incorrecta. La falta de un análisis profundo sugiere una comprensión limitada del problema o de las posibles soluciones. | -->
+
+<!-- --- -->
+
+<!-- **Criterio 3: Estructura del reporte.** -->
+
+<!-- | Nivel            | Descripción                                                                                                               | -->
+<!-- |------------------|---------------------------------------------------------------------------------------------------------------------------| -->
+<!-- | **3 – Clara y lógica (86 – 100)**  | El reporte está bien organizado con secciones y subsecciones claras. La estructura es lógica y facilita la comprensión de los resultados. La redacción es clara, y el contenido está bien presentado, priorizando calidad y claridad. La estructura lógica del reporte resalta los puntos clave del análisis, facilitando la comprensión del lector. | -->
+<!-- | **2 – Adecuada (70 – 85)**   | El reporte está organizado, pero puede carecer de algunas subsecciones necesarias o presentar una estructura que no siempre es fácil de seguir. La redacción es en general clara, aunque puede tener algunas partes confusas. Una estructura menos clara puede hacer que los argumentos pierdan fuerza y dificultar la presentación de resultados. | -->
+<!-- | **1 – Confusa y desordenada (0 – 69)**| El reporte carece de una estructura lógica, con secciones confusas o mal organizadas. La redacción es difícil de seguir y compromete la comprensión de los resultados. El reporte es extenso pero carece de claridad y calidad en el contenido. Una estructura confusa no solo dificulta la comprensión, sino que también compromete una evaluación justa del trabajo presentado. | -->
 
 ## `r fontawesome::fa("grin-hearts")` Extra marks. 
 
@@ -407,6 +627,8 @@ embed_url("https://youtu.be/_f-qkGJBPts")
 <!-- **Discussion forums.** -->
 
 <!-- Discussion forums are a good opportunity to discuss topics further while keeping track of ideas, procedures, results and conclusions. The use of discussion forums represent an extension of the class session and learning activities. My advice is to read the course material to be prepared for the discussion forum questions. My view is that discussion forums are not a repository of individual answers but an opportunity to conduct a proper discussion. Then, please make sure that every time you post a contribution you read the current state of the discussion so you can add value to it. We also use the discussion forums as an open space to ask me questions about the course contents. Please subscribe to the discussion forum so you can receive email notifications. This is convenient because I normally do not announce new discussions. There is no fixed frequency for this activity, most of the time it depends on the students interests. You should add your picture in the settings so we can easily match face with name. This is an individual non-graded activity, in Spanish. -->
+
+**Why is $H_3$ a non-graded activity?** The $H_3$ is a special assignment that is designed to help you to practice and study for your final exam by learning from your previous mistakes. It has a deadline but it is a non-graded activity. Given that it is non-graded, this activity is optional. The $H_3$ instructions are the following: You are required to (1) correct all your mistakes in all your previous graded activities, including all the four $E_1$ and $E_2$ questions, and assignments; and (2) complete all your missed extra mark activities, mostly from DataCamp and [UN CC:Learn](https://www.uncclearn.org/). The format and delivery is the same as the rest of the assignments. You can do it in group or individually. You will not receive $H_3$ feedback as by then you will have access to all exam and assignment answers. In any case, you can ask me to review it if necessary. 
 
 ## `r fontawesome::fa("users")` Co-evaluation.
 
