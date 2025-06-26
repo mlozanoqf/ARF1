@@ -41,11 +41,11 @@ xfun::file_string('8 contact.html')
 ```
 
 
-```{r resources and activities, child = '4 RA.rmd'}
+```{r resources and activities, child = '4 Res.rmd'}
 ```
 
 
-```{r evaluation, child = '5 Eva.Rmd'}
+```{r evaluation, child = '5 Act.Rmd'}
 ```
 
 

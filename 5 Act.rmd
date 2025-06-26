@@ -1,82 +1,3 @@
-# `r fontawesome::fa("brain", fill = "pink")` Resources. {#sec-resources}
-
-Academic resources encompass a wide range of materials, tools, and sources of information specifically designed to support and enhance learning, research, and scholarly pursuits in an academic setting. These resources play a crucial role in facilitating knowledge acquisition, promoting critical thinking, and advancing scholarly activities within the academic community.
-
-<!-- ## `r fontawesome::fa("toolbox")` Learning resources. -->
-
-Here is a list and description of the available resources to help you learn the subject. My advice is to utilize as many resources as possible, as they will enable you to grasp the subject matter and develop the necessary professional competences.
-
-**Professor.** I have extensive experience as an academic and researcher, along with numerous postgraduate studies. I am willing to assist you in better understanding the course topics. If you need any help, feel free to contact me <tt>`<martin.lozano@udem.edu>`</tt> and follow my advice.
-
-Please watch the video about professors:
-
-```{r echo=FALSE}
-embed_url("https://youtu.be/IzG85NDDo1Q")
-```
-
-**Groups.** Exams and homework assignments (see @sec-activities) are group-based, so your team will be an important part of your academic support throughout the course.
-
-<a id="sec-gp"></a>
-`r fontawesome::fa_i("fa-file-signature", class = "fa-solid")` Groups policies.
-
-1. Groups are formed with no more than four students. Group activities can be completed by one, two, three, or four students. Group formation is done by the students at the beginning of the semester. 
-1. A group member may switch groups as long as the members of both the group they are leaving and the group they wish to join agree and express their consent in writing; an email will suffice. Additionally, I must authorize the change to ensure the number of members per group does not exceed the limit. All requests to change groups must be submitted no later than one week before the next partial or final exam. Requests received after this deadline will not be considered or rejected.
-1. It is not mandatory, but I recommend that your team establish clear rules and put in writing the reasons that could justify a penalty in the coevaluation (peer evaluation). These types of agreements should be managed within the team; I do not intervene in these matters because I consider them internal, and I believe each team can work in its own way. I do not change coevaluation marks.
-1. If a group member performs poorly, the rest of the group may use coevaluation to ensure the individual grade is more accurately assigned. Coevaluation is a crucial component of group work. A coevaluation score of zero assigned to a student will directly result in a zero as their individual grade for that activity. Therefore, students are strongly encouraged to participate actively and contribute meaningfully to their group's work.
-
-
-**Class sessions.** During our class sessions, we will explain and discuss specific topics, address questions, review your study progress, and occasionally conduct brief activities. Please keep in mind that the time available during class sessions is limited, and we may not be able to cover every topic in full detail. To ensure comprehensive coverage, we will utilize other resources and learning activities. It is expected that you attend on time, actively participate, and engage in our discussions. I recommend using your computer during the sessions as you may need to access an IDE, view the PDF textbook, or refer to your own homework.
-
-For Zoom sessions, you have the option to keep your camera either on or off, as we will often be sharing the screen during class, or you will be doing an activity. To provide convenience, unless otherwise specified, class Zoom sessions will be recorded and made accessible to you. Please note that occasional internet service disruptions during class sessions are a risk we all face. The Zoom link to join the class can be found in Blackboard and in @sec-schedule.
-
-<a id="sec-tp"></a>
-`r fontawesome::fa_i("fa-file-signature", class = "fa-solid")` Tardiness policies:
-
-1. In face-to-face classes, three tardies count as one absence. Tardies accumulate over the course of the semester. A tardy is recorded if the student arrives immediately after attendance is taken and remains for the rest of the class. If a student is marked as present or tardy, this can be changed to an absence if they leave the classroom or do not stay until the end of the class.
-1. If the class is online, there is no tardiness policy. Attendance will be based on the Zoom activity log, which shows how many minutes each student remained connected during the session. Because there is no tardiness policy in online classes, each session will result in either an attendance or an absence being recorded. If a student is not connected for the entire class, or at least for the vast majority of it, the session will be marked as an absence. To ensure accurate tracking, it is essential that you join each class using your own Zoom login credentials. This is the only way to verify your identity and correctly attribute your attendance.
-1. In face-to-face classes, we usually hold a few Zoom sessions during the semester (see @sec-schedule for details). During these sessions, the tardy policy is the same as in online classes.
-1. In face-to-face classes, while some sessions may be conducted online as part of the course design, I allow my students to attend the designated face-to-face sessions via Zoom once per semester as an exception. If this applies to you, please notify me by email. If it happens a second time, the student may still attend via Zoom, but I will record an absence in accordance with current university regulations.
-1. With respect to the maximum absences policy, we will adhere to the current university regulations.
-
-Please watch the following video for a valuable recommendation from Prof. Fleisch, which is applicable to both online and face-to-face sessions:
-
-```{r echo=FALSE}
-embed_url("https://youtu.be/KX-sg1HXAws")
-```
-
-<!-- **Audio files (if available).** I explain part of the course material with my *sweet melodic* voice. Some students might have difficulties at understanding the required readings and I believe these mp3 audio files are useful to better understand some topics. It is compulsory to listen to them before the class session. Please note that not all the course material is discussed in audio files, for this reason you are not supposed to listen to audio files and ignore the rest of the course material, all resources complement each other. Audio files are not listed in the course calendar, but it will be easy for you to identify which audio file corresponds to each course topic. -->
-
-**Review sessions.** We have review sessions for assignments and exams, which take place before the homework assignment submission deadline and prior to the exams. These sessions provide a great opportunity to ask questions and enhance your chances of achieving higher marks in both assignments and exams. I usually avoid to discuss new material during these review sessions.
-
-See some recommendations about review sessions:
-
-```{r echo=FALSE}
-embed_url("https://youtu.be/XoHx_UIgtt0")
-```
-
-**Discussion forums.** There are three discussion forums available for us to interact and engage with one another. Each forum corresponds to a different part of the course: the first, second, and third partials. The benefit of the discussion forums is that everyone can track the progression of discussions and actively participate. The logical flow of ideas remains recorded, allowing you to receive my feedback and comments. Since our class sessions have limited time, we may occasionally utilize the discussion forums.
-
-**Email.** You are welcome to contact me via email at any time: <tt>`<martin.lozano@udem.edu>`</tt>. I also send group emails containing important information, so ensure that my email address is not marked as spam. If there is ever a delay in my response to an email or any other request, please feel free to insist and kindly remind me.
-
-**Meetings.** Whether it is face-to-face or virtual learning, we can schedule 30-minute Zoom online meetings if you require additional assistance or have any other issues you would like to discuss with me. These meetings can be arranged either individually or in groups. Simply send an email to <tt>`<martin.lozano@udem.edu>`</tt> to inquire about my availability. I ask that meetings be arranged by email so that I have written evidence of the arrangement and the necessary time to check my schedule before confirming available hours. If my initial availability does not work for you, feel free to let me know, I can offer alternative times until we find a mutually convenient slot. If you need more time, we can arrange for additional meetings or extend the duration as needed. Here is the Zoom link for meetings: [https://us02web.zoom.us/j/9209945512](https://us02web.zoom.us/j/9209945512). The student or the group may request that the Zoom meeting be recorded, and I can share the recording with them for future reference. For the class session Zoom link, refer to the course calendar: @sec-schedule.
-
-**DataCamp** DataCamp is an online learning platform focused on data science and analytics. It offers interactive courses in Python, R, SQL, and other tools commonly used in data analysis, machine learning, and statistics. Users learn by writing and running code directly in the browser, with instant feedback and guided exercises. You have free and full access as my student this semester.
-
-<a id="sec-dcp"></a>
-`r fontawesome::fa_i("fa-file-signature", class = "fa-solid")` DataCamp policies.
-
-1. We rely on DataLab, which is part of DataCamp, for completing homework assignments and exams (see @sec-activities). These platforms are not only essential for completing tasks and exams but also serve as the official means for submitting and turning them in. However, these platforms are not immune to occasional downtime. For this reason you must have RStudio installed on your local computer, which will allow you to have a backup to continue your work in case of an emergency.
-1. All homework assignments and exams submissions, must be sent directly within the DataLab environment in the form of Jupyter notebooks (<tt>`.ipynb`</tt>). Although DataLab technically allows uploads in formats such as PDF or MS Word, these formats are not acceptable for evaluated homework or exams in this course. You are required to complete your work directly in the provided Jupyter notebook environment to ensure consistency and proper evaluation of your submissions.
-1. In my experience, my students create and work with various documents and folders within DataLab. For convenience, I have created a folder called "submissions" in your group workspace, where you, as students, will place the documents I need to evaluate as assignments and exams. My instruction is not to rename this folder, and to use it so that I can easily identify the documents I need to assess and grade.
-1. DataLab and Jupyter Notebooks may be new tools for some students, so it is important to pay close attention when submitting exams and assignments. All activities must be submitted in the correct workspace, which is identified by the group name and the correct folder called "submissions". Submitting an activity in the wrong location, even if the work is completed, will be treated as not delivered. No exceptions will be made for submissions placed in incorrect folders or workspaces.
-1. After completing your final exam $E_F$, you will no longer have editor access to DataLab. Therefore, I suggest that you create a backup of any documents you wish to keep.
-
-**Book.** The book (or books) is one of the main pillars of this course. In my experience, learning primarily occurs through reading and then reinforcing the concepts through practical application, although there are various other activities included in this course. The authors of the book are esteemed experts in their respective fields: John C. Hull from [University of Toronto](https://www.utoronto.ca/); Frank Fabozzi from [Johns Hopkins Carey Business School](https://carey.jhu.edu/); Richard A. Brealey from [London Business School](https://www.london.edu/); Stewart C. Myers from [Sloan School of Management, Massachusetts Institute of Technology](https://mitsloan.mit.edu/); Franklin Allen from [Imperial College London](https://www.imperial.ac.uk/); Rob J. Hyndman and George Athanasopoulos from [Monash University](https://www.monash.edu/); ad Eugene F. Brigham and Joel F. Houston from [University of Florida](https://www.ufl.edu/). These books are not only suitable for intermediate and advanced undergraduate degrees but also for first-year master's degrees. I prefer using the original versions of the books rather than translations because, in my experience, the translations may not always match the quality of the original English version and, in some cases, may not be available.
-
-**Tutorials.** I have created a series of specialized online tutorials that provide step-by-step instructions on implementing various topics and estimating financial and economic models using data. These tutorials aim to help you bridge the gap between the theoretical concepts presented in the textbook and the practical implementation in R code. This approach, often referred to as literate programming, allows for a seamless transition. You can access my tutorials in my GitHub public repository [https://github.com/mlozanoqf](https://github.com/mlozanoqf), or more easily via GitHub Pages: [Quantitative Finance with R](https://mlozanoqf.github.io/).
-
-**Others**. All learning resources described above represent a good resource for your own study of the course material. There are plenty of Internet resources that you will have to use, from databases, [YouTube](https://www.youtube.com/) videos, [GitHub](https://github.com/) public repositories, specialized programming blogs, AI tools, books, electronic books, etc. See the resource list at the end of this document for further details. You are encouraged to read articles, reports and news on your own to enhance and expand your understanding about how theoretical concepts relate with current real-life events. [The Economist](https://www.economist.com/), [The Financial Times](https://www.ft.com/), [The Guardian](https://www.theguardian.com/), [The Wall Street Journal](https://www.wsj.com/), [MarketWatch](https://www.marketwatch.com/), [Reuters](https://www.reuters.com/), [Bloomberg](https://www.bloomberg.com/), [Bureau of Economic Analysis](https://www.bea.gov/), [Banxico](https://www.banxico.org.mx/), [Project Syndicate](https://www.project-syndicate.org/), [The New York Times](https://www.nytimes.com/), [El Financiero](https://www.elfinanciero.com.mx/) (México), [El Confidencial](https://www.elconfidencial.com/) (Spain), [OECD](https://www.oecd.org/), are a good way to grasp contemporary insights related with this course. Other references to support your learning process include economic and financial reports from private banks such as Banamex and BBVA, and think tanks websites such as [The Mexico Institute](https://www.wilsoncenter.org/program/mexico-institute), [México cómo vamos](https://mexicocomovamos.mx/), [CIDAC](http://cidac.org/), [IMCO](https://imco.org.mx/), [COMEXI](https://www.consejomexicano.org/), among many others. My advice in this respect is rather simple: *the more you read the more you learn*.
-
 # `r fontawesome::fa("tasks")` Activities. {#sec-activities}
 
 Learning activities are structured tasks or exercises designed to facilitate the acquisition of knowledge, skills, and understanding in an educational context. They are intended to promote active engagement, deepen understanding, and support the achievement of specific learning objectives.
@@ -87,7 +8,21 @@ The learning activities are classified into graded, non-graded, and extra marks 
 - Extra marks are awarded as a bonus to your next partial exams or final exam, so completing extra marks activities increases the maximum mark possible. These are optional and individual activities.
 - Non-graded activities are relevant for your learning but are not included in the grading process. Therefore, failure to complete them will not result in any mark deduction. These are optional and individual activities.
 
-**How your final grade is calculated.**
+<a id="sec-ap"></a>
+
+`r fontawesome::fa_i("fa-file-signature", class = "fa-solid", style = "color: red;")`
+Activities policies.
+
+1. Exams and homework assignments are submitted in English. 
+1. Exams and homework assignments are group activities. See [Group policies](#sec-gp) for more details.
+1. In this course there is no late submission policy at all.
+1. All homework assignments and exams submissions, must be sent directly within the DataLab environment in the form of Jupyter notebooks (<tt>`.ipynb`</tt>). See [DataCamp policies](#sec-dcp) for more details.
+1. The final exam $E_F$ is the last activity of the semester. No activities are planned after the final exam to increase marks or pass the course.
+1. The final exam $E_F$ date may need to be adjusted for administrative reasons in the case of students who are graduate candidates. 
+1. Students may lose the right to take their final exam due to excessive absences, according to current university regulations. I will notify affected students by email if they exceed the allowed number of absences. See [Tardiness policies](#sec-tp) for more details.
+
+
+## `r fontawesome::fa("flag-checkered")` Final grade.
 
 1. Groups $G$ receive marks for all graded activities $H_1$, $H_2$, $E_1$, $E_2$, and $E_F$ assigned by me (the professor): $G_{H1}, G_{H2}, G_{E1}, G_{E2}, G_{EF}.$
 
@@ -128,6 +63,145 @@ $$
 \text{Else}, &\quad E_2 = \min(GX_{E2}, C_{E2}).
 \end{aligned}
 $$
+Of most frustration to students is receiving the same mark as their fellow non-contributing group members despite producing much of the group's work. In order to avoid this free-rider problem you will have to answer two coevaluations, one for the first part of the course and one for the second part. The first coevaluation is used to calculate the individual marks of $H_1$ and $E_1$; the second coevaluation is used to calculate the individual marks of $H_2$ and $E_2$. coevaluation is so important that one student may fail simply because of his or her low contribution in the group. Sometimes students face mitigating circumstances, if that is the case you will have to discuss with your group because their marks may have a significant negative impact on your mark. 
+
+The coevaluation is as an effective tool to incentive or penalize the group members to work well and on time. As a professor, I am not always aware of who is working well within a group, but the coevaluation can help us to be fair and assign marks based on academic merits. I do not reveal specific details about how you co-evaluate your colleagues. So, your coevaluation details will remain anonymous. I cannot change the coevaluation, this is a mark assigned by your colleagues based on your performance and contribution. Then, there are many incentives aligned so the group should work well, otherwise the chances to get a low mark are high.
+
+
+In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) share their thoughts on how to effectively work in teams.
+
+```{r echo=FALSE}
+embed_url("https://youtu.be/_-mP3YKptwQ")
+```
+
+Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/Rzd6Chv89X5HR4rWA>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in Blackboard.
+
+In particular, you will have two Google Forms web links in Blackboard to complete your coevaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is coevaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
+
+
+
+```{r}
+#| eval: false
+#| include: false
+# Function - vectorized version
+fun <- function(C1, Hm) {
+  ifelse(C1 >= 70 & Hm >= 70,
+         (0.7 * Hm) + (0.3 * C1),
+         pmin(C1, Hm))
+}
+
+# Grid
+C1_seq <- seq(0, 100, length.out = 201)
+Hm_seq <- seq(0, 100, length.out = 201)
+H_matrix <- outer(C1_seq, Hm_seq, fun)
+
+# Contour levels
+levels_low <- seq(0, 60, by = 10)
+levels_high <- seq(70, 100, by = 5)
+
+# Set plotting parameters for square plot
+par(pty = "s")  # Square plotting region
+
+# Create the contour plot
+contour(x = C1_seq, y = Hm_seq, z = H_matrix,
+        levels = levels_low, drawlabels = TRUE, col = "red", lwd = 3,
+        xlab = "Average Group Mark (C1)",
+        ylab = "Individual Work Mark (Hm)",
+        main = "Contour Plot of Final Mark H (Square Plot, Labeled & Colored)")
+
+# Force the plot limits to 0-100
+par(usr = c(0, 100, 0, 100))
+
+# Add the second set of contour lines
+contour(x = C1_seq, y = Hm_seq, z = H_matrix,
+        levels = levels_high, drawlabels = TRUE, col = "blue", add = TRUE, lwd = 3)
+
+# # Threshold lines
+# abline(h = 70, col = "gray", lty = 2)
+# abline(v = 70, col = "gray", lty = 2)
+
+# Reset plotting parameters to default
+par(pty = "m")
+```
+
+```{r}
+#| echo: false
+# Function - vectorized version
+fun <- function(C1, Hm) {
+  ifelse(C1 >= 70 & Hm >= 70,
+         (0.7 * Hm) + (0.3 * C1),
+         pmin(C1, Hm))
+}
+
+# Grid
+C1_seq <- seq(0, 100, length.out = 201)
+Hm_seq <- seq(0, 100, length.out = 201)
+H_matrix <- outer(C1_seq, Hm_seq, fun)
+
+# Contour levels
+levels_low <- seq(0, 60, by = 10)
+levels_high <- seq(70, 100, by = 5)
+
+# Set plotting parameters
+par(pty = "s", xaxs = "i", yaxs = "i", mar = c(5, 5, 4, 2) + 0.1)
+
+# Create base plot
+plot(NA, xlim = c(0, 100), ylim = c(0, 100),
+     xlab = expression(paste("Coevaluation: ",C[H1])),
+     ylab = expression(paste("Group mark: ",G[H1])),
+main = expression(
+    paste("If ", G[H1] >= 70, " and ", C[H1] >= 70, ", ",
+          H[1] == 0.7 * G[H1] + 0.3 * C[H1])
+  )
+)
+
+mtext(
+  expression(paste("                           Else, ", H[1] == "min(" * G[H1] * "," ~ C[H1] * ")")),
+  side = 3, line = 0, cex = 1.2
+)
+
+# Draw RED contours (lines only, no labels)
+contour(x = C1_seq, y = Hm_seq, z = H_matrix,
+        levels = levels_low, drawlabels = FALSE, 
+        col = "red", lwd = 3, add = TRUE)
+
+# Draw BLUE contours (with default centered labels)
+contour(x = C1_seq, y = Hm_seq, z = H_matrix,
+        levels = levels_high, drawlabels = TRUE,
+        col = "blue", lwd = 3, add = TRUE,
+        labcex = 0.9)
+
+# Get contour line coordinates for red levels
+cl <- contourLines(C1_seq, Hm_seq, H_matrix, levels = levels_low)
+
+# Custom label placement (above the lines)
+label_offset <- 3.5  # Vertical offset in plot units
+
+for (i in seq_along(cl)) {
+  # Find a suitable point on each contour line
+  n_points <- length(cl[[i]]$x)
+  
+  # Use a point about 1/4 along the line (avoids edges)
+  label_pos <- max(1, floor(n_points/4))
+  
+  x_pos <- cl[[i]]$x[label_pos]
+  y_pos <- cl[[i]]$y[label_pos] + label_offset
+  
+  # Only draw if within plot bounds
+  if (x_pos >= 0 && x_pos <= 100 && y_pos >= 0 && y_pos <= 100) {
+    text(x_pos, y_pos, labels = cl[[i]]$level, 
+         col = "red", cex = 0.9, font = 1)
+    
+    # # Optional: Add small leader line
+    # segments(x0 = x_pos, y0 = y_pos - label_offset + 0.5,
+    #          x1 = x_pos, y1 = y_pos - 0.5,
+    #          col = "red", lwd = 1)
+  }
+}
+
+# Reset plotting parameters
+par(pty = "m")
+```
 
 4. Final grade $F$ is calculated using a convenient weighted average:
 
@@ -280,17 +354,7 @@ textable <- "
 tex2markdown(textable)
 ```
 
-In any case, my sincere advice is to keep the standard as high as possible in order to minimize the risk of achieving low grades. Note that stickers and extra marks are not explicitly reported in $F$ because they are part of $E_1$, $E_2$ and $E_F$. Homework assignment co-evaluations are not explicitly reported either because they are part of $H_1$ and $H_2$.
-
-<a id="sec-ap"></a>
-`r fontawesome::fa_i("fa-file-signature", class = "fa-solid")` Activities policies.
-
-1. Exams and homework assignments are submitted in English. 
-1. Exams and homework assignments are group activities. See [Group policies](#sec-gp) for more details.
-1. In this course there is no late submission policy at all.
-1. All homework assignments and exams submissions, must be sent directly within the DataLab environment in the form of Jupyter notebooks (.ipynb). See [DataCamp policies](#sec-dcp) for more details.
-1. The final exam $E_F$ is the last activity of the semester. No activities are planned after the final exam to pass the course.
-1. The final exam $E_F$ date may need to be adjusted for administrative reasons in the case of students who are graduate candidates. 
+In any case, my sincere advice is to keep the standard as high as possible in order to minimize the risk of achieving low grades. 
 
 
 ## `r fontawesome::fa("check")` Exams & Homework assignments. 
@@ -338,17 +402,23 @@ embed_url("https://youtu.be/w1w0dkHdakE")
 
 <!-- **Mock exams.** We may have one or more mock exams. These exams are similar to the regular exams as they can be taken without physical presence in the classroom. Mock exams provide an opportunity to become familiar with the examination process, logistics, and the level of difficulty of the graded exams. Mock exams are conducted as group activities, typically consisting of one or two questions. If your group answers the mock exam correctly (100% accuracy), you will receive 2 stickers (+10 marks) to be added to your next partial or final exam. However, if your group does not answer the mock exam correctly, you will lose 5 marks on your next partial or final exam. We will review the correct answers immediately during the same session. -->
 
-**Oral presentation rubric.**
+
+
+## `r fontawesome::fa("marker")` Rubrics. 
+
+This section explains how your work will be evaluated in this course. You'll find the grading rubric for oral presentations, the criteria used to assess your exams, and definitions of common instruction words used in assignments. Review these guidelines carefully to understand what's expected and how to prepare your submissions effectively.
+
+**Homework assignments, oral presentation rubric.**
 
 Each of the 5 criteria is worth 20 points, for a total of 100 points. The final assignment group grade is based entirely on the oral presentation. Written submissions must be delivered on time but are not directly graded. There is no late submission policy: submissions must be uploaded by the deadline through the group workspace in DataLab. Timely submission through the correct platform is a necessary condition for the assignment to be evaluated. In some cases, specific questions or components of an assignment may be evaluated under different or additional criteria. When this applies, it will be clearly stated in the assignment instructions.
 
 <table style="border-collapse: collapse; width: 100%;">
   <thead>
     <tr>
-      <th style="border: 1px solid #000; padding: 8px;">No evidence (0–40%)</th>
-      <th style="border: 1px solid #000; padding: 8px;">Emerging (60%)</th>
-      <th style="border: 1px solid #000; padding: 8px;">Competent (80%)</th>
-      <th style="border: 1px solid #000; padding: 8px;">Strong (100%)</th>
+      <th style="border: 1px solid #000; padding: 8px;">No evidence 0% - 40%.</th>
+      <th style="border: 1px solid #000; padding: 8px;">Emerging 60%.</th>
+      <th style="border: 1px solid #000; padding: 8px;">Competent 80%.</th>
+      <th style="border: 1px solid #000; padding: 8px;">Strong 100%.</th>
     </tr>
   </thead>
   <tbody>
@@ -400,6 +470,7 @@ Each of the 5 criteria is worth 20 points, for a total of 100 points. The final 
   </tbody>
 </table>
 
+
 **How exams will be evaluated.**
 
 The following criteria will be used to assess your answers in both partial and final exams. They reflect the expectations regarding content, clarity, methodology, language, format, and academic integrity. Please review each item carefully and use them to guide how you prepare and structure your responses. Failing to meet these criteria may result in mark deductions or invalidation of your submission.
@@ -434,26 +505,7 @@ Exams must be completed according to the official conditions set by the instruct
 1. **Academic integrity and similarity between groups.**
 Although the exams are completed in groups and students are not physically monitored, academic integrity is strictly enforced. If two or more groups submit answers that are significantly similar, whether due to collaboration between groups, the use of AI tools that generate identical content, or other forms of misconduct, this will be treated as a serious academic offense. In such cases, a substantial mark deduction will apply and/or the matter may be referred to the university for formal investigation of plagiarism.
 
-
-## `r fontawesome::fa("marker")` Rubrics. 
-
-The following list illustrates a typical generic rubric for graded activities.
-
-**What is a very good answer?** Competent and well presented. The work is critical and comprehensive and has a degree of depth in presenting and considering the material. Integrates the concepts introduced and applies them to problems with some evidence of critical analysis. Provides clear and competent answers to the questions, written in good English. Clearly presents solutions to calculative questions and demonstrates very good analytic skills and understanding.
-
-In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) give their tips on ways to improve your English.
-
-```{r echo=FALSE}
-embed_url("https://youtu.be/NPwTgfswnD8")
-```
-
-**What is an average answer?** Competent discussion of relevant material, but are largely descriptive and lack critical/analytic depth. Answers are well structured, well presented and demonstrate an average awareness of relevant material. Shows a basic understanding of concepts introduced but with limited ability to apply these concepts. Tends to miss the point of the question. Is written poorly, written in note form, lacks structure or is too short to properly address the question.
-
-**What is a poor answer?** Work shows some weak understanding of the main elements of the course material. Shows very limited achievement of the relevant intended learning outcomes of the course. Has a weak understanding of fundamental concepts with no critical analysis. Produces answers that contain factual or conceptual inadequacies or inadequate analytic skills. Provides poorly written answers that fail to address the question, or answers that are too brief to answer the question properly. Shows a confusing or wrong math notation as e^-rT instead of $e^{-rT}$, this is wrong because as in chemistry as we do not write H2O, we write $H_2O$.
-
-You have to realize as soon as possible that you are being evaluated all the time, so every answer provided by you either in exams, assignments or even verbally during class should be clearly stated, showing your full thought-process, this will allow me to understand your own logic and grade your work fairly. Please do not forget this point as this will allow us to keep the academic quality standards high throughout the semester.
-
-Following the assignment and exam instructions are important to get full marks. Here, I define a few common verbs used in assignment and exam instructions.  
+Here, I define a few common verbs used in assignment and exam instructions.  
 
 1. **Define.** State the precise meaning of a term or concept. Your response should be concise, accurate, and free from ambiguity, often including a formal or widely accepted definition.  
 1. **Describe.**  Provide a detailed account of the characteristics or features of a concept, process, or phenomenon. Focus on "what it is" and include relevant details, but avoid analysis or interpretation unless specified.  
@@ -468,35 +520,54 @@ Following the assignment and exam instructions are important to get full marks. 
 1. **Comment.** Provide a brief but insightful observation or opinion on a topic, issue, or result. Your response should be concise and focused, offering interpretation, critique, or additional perspective without requiring extensive elaboration.
 1. **Discuss.** Explore a topic in depth by presenting a balanced argument or analysis. Your response should include multiple viewpoints, evidence, or examples, and may evaluate or interpret different aspects of the topic. A structured and thorough approach is expected.
 
-This is a complementary rubric for some kind of quantitative assignments.
 
-**Criterion 1: Comments and explanations in the code.**
+<!-- The following list illustrates a typical generic rubric for graded activities. -->
 
-| Level.            | Description.                                                                                                               |
-|------------------|---------------------------------------------------------------------------------------------------------------------------|
-| 3. Complete (86 – 100).  | The code is well-documented with clear comments explaining the key sections. The explanations in English are well-written, logically structured, and demonstrate a solid understanding of what is being done and its purpose. The comments show not only an understanding of what is being done but also why it is done this way, reflecting an advanced understanding of design decisions. |
-| 2. Adequate (70 – 85).   | The code includes some comments, but several key sections are missing them. The explanations in English are understandable, although they may have minor errors or lack consistency in the logical flow. The understanding of the purpose is adequate but not deep. The comments are sufficient but do not delve into the design decisions or the justification for the implementations. |
-| 1. Insufficient (0 – 69).| The code has few or no comments, and the explanations in English are minimal, poorly written, or nonexistent. There is no clear demonstration of understanding of what is being done or its purpose. The absence or scarcity of comments makes the code difficult for others to understand, affecting the quality of the report. |
+<!-- **What is a very good answer?** Competent and well presented. The work is critical and comprehensive and has a degree of depth in presenting and considering the material. Integrates the concepts introduced and applies them to problems with some evidence of critical analysis. Provides clear and competent answers to the questions, written in good English. Clearly presents solutions to calculative questions and demonstrates very good analytic skills and understanding. -->
 
----
+<!-- In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) give their tips on ways to improve your English. -->
 
-**Criterion 2: Quality of analysis.**
+<!-- ```{r echo=FALSE} -->
+<!-- embed_url("https://youtu.be/NPwTgfswnD8") -->
+<!-- ``` -->
 
-| Level.            | Description.                                                                                                               |
-|------------------|---------------------------------------------------------------------------------------------------------------------------|
-| 3. Ambitious & in-depth (86 – 100).  | The analysis is original, ambitious, and thoroughly developed. It fulfills all the activity instructions, is clear, detailed, and well-grounded. The solution presented is creative, well-structured, and demonstrates a deep understanding of the problem. The analysis is not only in-depth and ambitious but also anticipates and addresses possible problems or limitations in the proposed solution. |
-| 2. Adequate (70 – 85).   | The analysis is relevant and meets most of the activity instructions. It is clear and detailed but may lack depth or creativity. The solution presented is correct but does not stand out for its originality or thorough justification. The analysis is adequate but may not fully explore all possible alternatives or implications of the solution. |
-| 1. Insufficient (0 – 69).| The analysis deviates from the activity instructions, is superficial, or is limited to reproducing the study material without contributing original ideas. The solution presented is incomplete, poorly justified, or incorrect. The lack of in-depth analysis suggests limited understanding of the problem or possible solutions. |
+<!-- **What is an average answer?** Competent discussion of relevant material, but are largely descriptive and lack critical/analytic depth. Answers are well structured, well presented and demonstrate an average awareness of relevant material. Shows a basic understanding of concepts introduced but with limited ability to apply these concepts. Tends to miss the point of the question. Is written poorly, written in note form, lacks structure or is too short to properly address the question. -->
 
----
+<!-- **What is a poor answer?** Work shows some weak understanding of the main elements of the course material. Shows very limited achievement of the relevant intended learning outcomes of the course. Has a weak understanding of fundamental concepts with no critical analysis. Produces answers that contain factual or conceptual inadequacies or inadequate analytic skills. Provides poorly written answers that fail to address the question, or answers that are too brief to answer the question properly. Shows a confusing or wrong math notation as e^-rT instead of $e^{-rT}$, this is wrong because as in chemistry as we do not write H2O, we write $H_2O$. -->
 
-**Criterion 3: Report structure.**
+<!-- You have to realize as soon as possible that you are being evaluated all the time, so every answer provided by you either in exams, assignments or even verbally during class should be clearly stated, showing your full thought-process, this will allow me to understand your own logic and grade your work fairly. Please do not forget this point as this will allow us to keep the academic quality standards high throughout the semester. -->
 
-| Level.            | Description.                                                                                                               |
-|------------------|---------------------------------------------------------------------------------------------------------------------------|
-| 3. Clear & logical (86 – 100).  | The report is well-organized with clear sections and subsections. The structure is logical and facilitates understanding of the results. The writing is clear, and the content is well-presented, prioritizing quality and clarity. The logical structure of the report highlights key points of the analysis, making it easy for the reader to follow. |
-| 2. Adequate (70 – 85).   | The report is organized but may lack some necessary subsections or have a structure that is not always easy to follow. The writing is generally clear, though some parts may be confusing. A less clear structure may weaken the arguments and make the presentation of results more challenging. |
-| 1 – Confusing & disorganized (0 – 69).| The report lacks a logical structure, with confusing or poorly organized sections. The writing is difficult to follow, compromising the understanding of the results. The report is lengthy but lacks clarity and quality in its content. A confusing structure not only hinders comprehension but also undermines a fair evaluation of the work presented. |
+<!-- Following the assignment and exam instructions are important to get full marks.  -->
+
+<!-- This is a complementary rubric for some kind of quantitative assignments. -->
+
+<!-- **Criterion 1: Comments and explanations in the code.** -->
+
+<!-- | Level.            | Description.                                                                                                               | -->
+<!-- |------------------|---------------------------------------------------------------------------------------------------------------------------| -->
+<!-- | 3. Complete (86 – 100).  | The code is well-documented with clear comments explaining the key sections. The explanations in English are well-written, logically structured, and demonstrate a solid understanding of what is being done and its purpose. The comments show not only an understanding of what is being done but also why it is done this way, reflecting an advanced understanding of design decisions. | -->
+<!-- | 2. Adequate (70 – 85).   | The code includes some comments, but several key sections are missing them. The explanations in English are understandable, although they may have minor errors or lack consistency in the logical flow. The understanding of the purpose is adequate but not deep. The comments are sufficient but do not delve into the design decisions or the justification for the implementations. | -->
+<!-- | 1. Insufficient (0 – 69).| The code has few or no comments, and the explanations in English are minimal, poorly written, or nonexistent. There is no clear demonstration of understanding of what is being done or its purpose. The absence or scarcity of comments makes the code difficult for others to understand, affecting the quality of the report. | -->
+
+<!-- --- -->
+
+<!-- **Criterion 2: Quality of analysis.** -->
+
+<!-- | Level.            | Description.                                                                                                               | -->
+<!-- |------------------|---------------------------------------------------------------------------------------------------------------------------| -->
+<!-- | 3. Ambitious & in-depth (86 – 100).  | The analysis is original, ambitious, and thoroughly developed. It fulfills all the activity instructions, is clear, detailed, and well-grounded. The solution presented is creative, well-structured, and demonstrates a deep understanding of the problem. The analysis is not only in-depth and ambitious but also anticipates and addresses possible problems or limitations in the proposed solution. | -->
+<!-- | 2. Adequate (70 – 85).   | The analysis is relevant and meets most of the activity instructions. It is clear and detailed but may lack depth or creativity. The solution presented is correct but does not stand out for its originality or thorough justification. The analysis is adequate but may not fully explore all possible alternatives or implications of the solution. | -->
+<!-- | 1. Insufficient (0 – 69).| The analysis deviates from the activity instructions, is superficial, or is limited to reproducing the study material without contributing original ideas. The solution presented is incomplete, poorly justified, or incorrect. The lack of in-depth analysis suggests limited understanding of the problem or possible solutions. | -->
+
+<!-- --- -->
+
+<!-- **Criterion 3: Report structure.** -->
+
+<!-- | Level.            | Description.                                                                                                               | -->
+<!-- |------------------|---------------------------------------------------------------------------------------------------------------------------| -->
+<!-- | 3. Clear & logical (86 – 100).  | The report is well-organized with clear sections and subsections. The structure is logical and facilitates understanding of the results. The writing is clear, and the content is well-presented, prioritizing quality and clarity. The logical structure of the report highlights key points of the analysis, making it easy for the reader to follow. | -->
+<!-- | 2. Adequate (70 – 85).   | The report is organized but may lack some necessary subsections or have a structure that is not always easy to follow. The writing is generally clear, though some parts may be confusing. A less clear structure may weaken the arguments and make the presentation of results more challenging. | -->
+<!-- | 1 – Confusing & disorganized (0 – 69).| The report lacks a logical structure, with confusing or poorly organized sections. The writing is difficult to follow, compromising the understanding of the results. The report is lengthy but lacks clarity and quality in its content. A confusing structure not only hinders comprehension but also undermines a fair evaluation of the work presented. | -->
 
 
 <!-- **Criterio 1: Comentarios y explicaciones en el código.** -->
@@ -630,144 +701,5 @@ embed_url("https://youtu.be/_f-qkGJBPts")
 
 **Why is $H_3$ a non-graded activity?** The $H_3$ is a special assignment that is designed to help you to practice and study for your final exam by learning from your previous mistakes. It has a deadline but it is a non-graded activity. Given that it is non-graded, this activity is optional. The $H_3$ instructions are the following: You are required to (1) correct all your mistakes in all your previous graded activities, including all the four $E_1$ and $E_2$ questions, and assignments; and (2) complete all your missed extra mark activities, mostly from DataCamp and [UN CC:Learn](https://www.uncclearn.org/). The format and delivery is the same as the rest of the assignments. You can do it in group or individually. You will not receive $H_3$ feedback as by then you will have access to all exam and assignment answers. In any case, you can ask me to review it if necessary. 
 
-## `r fontawesome::fa("users")` Co-evaluation.
+<!-- ## `r fontawesome::fa("users")` Co-evaluation. -->
 
-Of most frustration to students is receiving the same mark as their fellow non-contributing group members despite producing much of the group's work. In order to avoid this free-rider problem you will have to answer two co-evaluations $C_1$ and $C_2$, one for the first part of the course and one for the second part. The first co-evaluation $C_1$ is used to calculate the individual marks of $H_1$ and $E_1$; the second co-evaluation $C_2$ is used to calculate the individual marks of $H_2$ and $E_2$. Co-evaluation is so important that one student may fail simply because of his or her low contribution in the group. Sometimes students face mitigating circumstances, if that is the case you will have to discuss with your group because their marks may have a significant negative impact on your mark. 
-
-The co-evaluation is as an effective tool to incentive or penalize the group members to work well and on time. As a professor, I am not always aware of who is working well within a group, but the co-evaluation can help us to be fair and assign marks based on academic merits. I do not reveal specific details about how you co-evaluate your colleagues. So, your co-evaluation details will remain anonymous. I cannot change the co-evaluation, this is a mark assigned by your colleagues based on your performance and contribution. Then, there are many incentives aligned so the group should work well, otherwise the chances to get a low mark are high.
-
-
-In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) share their thoughts on how to effectively work in teams.
-
-```{r echo=FALSE}
-embed_url("https://youtu.be/_-mP3YKptwQ")
-```
-
-Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/Rzd6Chv89X5HR4rWA>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in Blackboard.
-
-In particular, you will have two Google Forms web links in Blackboard to complete your co-evaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is co-evaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
-
-
-
-```{r}
-#| eval: false
-#| include: false
-# Function - vectorized version
-fun <- function(C1, Hm) {
-  ifelse(C1 >= 70 & Hm >= 70,
-         (0.7 * Hm) + (0.3 * C1),
-         pmin(C1, Hm))
-}
-
-# Grid
-C1_seq <- seq(0, 100, length.out = 201)
-Hm_seq <- seq(0, 100, length.out = 201)
-H_matrix <- outer(C1_seq, Hm_seq, fun)
-
-# Contour levels
-levels_low <- seq(0, 60, by = 10)
-levels_high <- seq(70, 100, by = 5)
-
-# Set plotting parameters for square plot
-par(pty = "s")  # Square plotting region
-
-# Create the contour plot
-contour(x = C1_seq, y = Hm_seq, z = H_matrix,
-        levels = levels_low, drawlabels = TRUE, col = "red", lwd = 3,
-        xlab = "Average Group Mark (C1)",
-        ylab = "Individual Work Mark (Hm)",
-        main = "Contour Plot of Final Mark H (Square Plot, Labeled & Colored)")
-
-# Force the plot limits to 0-100
-par(usr = c(0, 100, 0, 100))
-
-# Add the second set of contour lines
-contour(x = C1_seq, y = Hm_seq, z = H_matrix,
-        levels = levels_high, drawlabels = TRUE, col = "blue", add = TRUE, lwd = 3)
-
-# # Threshold lines
-# abline(h = 70, col = "gray", lty = 2)
-# abline(v = 70, col = "gray", lty = 2)
-
-# Reset plotting parameters to default
-par(pty = "m")
-```
-
-```{r}
-#| echo: false
-# Function - vectorized version
-fun <- function(C1, Hm) {
-  ifelse(C1 >= 70 & Hm >= 70,
-         (0.7 * Hm) + (0.3 * C1),
-         pmin(C1, Hm))
-}
-
-# Grid
-C1_seq <- seq(0, 100, length.out = 201)
-Hm_seq <- seq(0, 100, length.out = 201)
-H_matrix <- outer(C1_seq, Hm_seq, fun)
-
-# Contour levels
-levels_low <- seq(0, 60, by = 10)
-levels_high <- seq(70, 100, by = 5)
-
-# Set plotting parameters
-par(pty = "s", xaxs = "i", yaxs = "i", mar = c(5, 5, 4, 2) + 0.1)
-
-# Create base plot
-plot(NA, xlim = c(0, 100), ylim = c(0, 100),
-     xlab = expression(paste("Coevaluation: ",C[H1])),
-     ylab = expression(paste("Group mark: ",G[H1])),
-main = expression(
-    paste("If ", G[H1] >= 70, " and ", C[H1] >= 70, ", ",
-          H[1] == 0.7 * G[H1] + 0.3 * C[H1])
-  )
-)
-
-mtext(
-  expression(paste("                           Else, ", H[1] == "min(" * G[H1] * "," ~ C[H1] * ")")),
-  side = 3, line = 0, cex = 1.2
-)
-
-# Draw RED contours (lines only, no labels)
-contour(x = C1_seq, y = Hm_seq, z = H_matrix,
-        levels = levels_low, drawlabels = FALSE, 
-        col = "red", lwd = 3, add = TRUE)
-
-# Draw BLUE contours (with default centered labels)
-contour(x = C1_seq, y = Hm_seq, z = H_matrix,
-        levels = levels_high, drawlabels = TRUE,
-        col = "blue", lwd = 3, add = TRUE,
-        labcex = 0.9)
-
-# Get contour line coordinates for red levels
-cl <- contourLines(C1_seq, Hm_seq, H_matrix, levels = levels_low)
-
-# Custom label placement (above the lines)
-label_offset <- 3.5  # Vertical offset in plot units
-
-for (i in seq_along(cl)) {
-  # Find a suitable point on each contour line
-  n_points <- length(cl[[i]]$x)
-  
-  # Use a point about 1/4 along the line (avoids edges)
-  label_pos <- max(1, floor(n_points/4))
-  
-  x_pos <- cl[[i]]$x[label_pos]
-  y_pos <- cl[[i]]$y[label_pos] + label_offset
-  
-  # Only draw if within plot bounds
-  if (x_pos >= 0 && x_pos <= 100 && y_pos >= 0 && y_pos <= 100) {
-    text(x_pos, y_pos, labels = cl[[i]]$level, 
-         col = "red", cex = 0.9, font = 1)
-    
-    # # Optional: Add small leader line
-    # segments(x0 = x_pos, y0 = y_pos - label_offset + 0.5,
-    #          x1 = x_pos, y1 = y_pos - 0.5,
-    #          col = "red", lwd = 1)
-  }
-}
-
-# Reset plotting parameters
-par(pty = "m")
-```
