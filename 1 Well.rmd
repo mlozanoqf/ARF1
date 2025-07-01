@@ -23,7 +23,7 @@ Knowing how to work effectively in online environments is just as important as d
 
 My full and updated curriculum vitae, is [here](https://mlozanoqf.github.io/resume/).
 
-I am currently a professor of finance and economics at UDEM. I regularly collaborate with the [University of Manchester](https://www.manchester.ac.uk/) through the [Alliance Manchester Business School](https://www.alliancembs.manchester.ac.uk/) and with [SOAS University of London](https://www.soas.ac.uk/) via the [Centre for Financial and Management Studies (CeFiMS)](https://www.cefims.ac.uk/).
+I am currently a professor of finance and economics at UDEM. I regularly collaborate as research fellow with the [University of Manchester](https://www.manchester.ac.uk/) through the [Alliance Manchester Business School](https://www.alliancembs.manchester.ac.uk/) and as a teaching fellow with [SOAS University of London](https://www.soas.ac.uk/) via the [Centre for Financial and Management Studies (CeFiMS)](https://www.cefims.ac.uk/).
 
 **Areas of expertise.** Finance, Economics, Statistics, Data Science.
 
