@@ -39,28 +39,28 @@ $$
 
 $$
 \begin{aligned}
-\text{If } G_{H1} \geq 70 \text{ and } C_{H1} \geq 70, &\quad H_1 = (0.7 \times G_{H1}) + (0.3 \times C_{H1}). \\
-\text{Else}, &\quad H_1 = \min(G_{H1}, C_{H1}).
+\text{If } G_{H1} \geq 70 \text{ and } C_{H1} \geq 70, &\quad H_1 = (0.7 \times G_{H1}) + (0.3 \times C_{H1}), \\
+\text{else}, &\quad H_1 = \min(G_{H1}, C_{H1}).
 \end{aligned}
 $$
 $$
 \begin{aligned}
-\text{If } G_{H2} \geq 70 \text{ and } C_{H2} \geq 70, &\quad H_2 = (0.7 \times G_{H2}) + (0.3 \times C_{H2}). \\
-\text{Else}, &\quad H_2 = \min(G_{H2}, C_{H2}).
-\end{aligned}
-$$
-
-$$
-\begin{aligned}
-\text{If } GX_{E1} \geq 70 \text{ and } C_{E1} \geq 70, &\quad E_1 = (0.7 \times GX_{E1}) + (0.3 \times C_{E1}). \\
-\text{Else}, &\quad E_1 = \min(GX_{E1}, C_{E1}).
+\text{If } G_{H2} \geq 70 \text{ and } C_{H2} \geq 70, &\quad H_2 = (0.7 \times G_{H2}) + (0.3 \times C_{H2}), \\
+\text{else}, &\quad H_2 = \min(G_{H2}, C_{H2}).
 \end{aligned}
 $$
 
 $$
 \begin{aligned}
-\text{If } GX_{E2} \geq 70 \text{ and } C_{E2} \geq 70, &\quad E_2 = (0.7 \times GX_{E2}) + (0.3 \times C_{E2}). \\
-\text{Else}, &\quad E_2 = \min(GX_{E2}, C_{E2}).
+\text{If } GX_{E1} \geq 70 \text{ and } C_{E1} \geq 70, &\quad E_1 = (0.7 \times GX_{E1}) + (0.3 \times C_{E1}), \\
+\text{else}, &\quad E_1 = \min(GX_{E1}, C_{E1}).
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+\text{If } GX_{E2} \geq 70 \text{ and } C_{E2} \geq 70, &\quad E_2 = (0.7 \times GX_{E2}) + (0.3 \times C_{E2}), \\
+\text{else}, &\quad E_2 = \min(GX_{E2}, C_{E2}).
 \end{aligned}
 $$
 Of most frustration to students is receiving the same mark as their fellow non-contributing group members despite producing much of the group's work. In order to avoid this free-rider problem you will have to answer two coevaluations, one for the first part of the course and one for the second part. The first coevaluation is used to calculate the individual marks of $H_1$ and $E_1$; the second coevaluation is used to calculate the individual marks of $H_2$ and $E_2$. coevaluation is so important that one student may fail simply because of his or her low contribution in the group. Sometimes students face mitigating circumstances, if that is the case you will have to discuss with your group because their marks may have a significant negative impact on your mark. 
@@ -373,7 +373,7 @@ This one is good as well. In this video, students from [The University of Melbou
 embed_url("https://youtu.be/Lll3MsS5chk")
 ```
 
-**When?** The exams will follow the schedule in the course calendar (@sec-schedule), aligned with the university’s official dates. Exams $E_1$ and $E_2$ will be 1.5-hour in-class activities, and $E_F$ will last 2 hours. In 3-hour class sessions, $E_1$ and $E_2$ will take place during the first part, followed by a review of the answers in the second. Homework assignments are due at 10:00 a.m. on the specified dates in the course calendar, with no late submissions accepted under any circumstances: missing, incorrect, empty, or corrupted files will result in a zero for the group. This policy is strict and non-negotiable, and it’s important to be aware, as every semester some students lose marks due to preventable oversights. Homework $H_1$, $H_2$, and $H_3$ are due shortly before $E_1$, $E_2$, and $E_F$, respectively. Low assignment grades are usually not because the tasks are too difficult, but because groups begin working on them just a few days before the deadline; planning ahead is strongly advised.
+**When?** The exams will follow the schedule in the course calendar (@sec-schedule), aligned with the university’s official dates. Exams $E_1$ and $E_2$ will be 1.5-hour in-class activities, and $E_F$ will last 2 hours. In 3-hour class sessions, $E_1$ and $E_2$ will take place during the first part, followed by a review of the answers in the second. Homework assignments are due at 10:00 on the specified dates in the course calendar, with no late submissions accepted under any circumstances: missing, incorrect, empty, or corrupted files will result in a zero for the group. This policy is strict and non-negotiable, and it’s important to be aware, as every semester some students lose marks due to preventable oversights. Homework $H_1$, $H_2$, and $H_3$ are due shortly before $E_1$, $E_2$, and $E_F$, respectively. Low assignment grades are usually not because the tasks are too difficult, but because groups begin working on them just a few days before the deadline; planning ahead is strongly advised.
 
 Please consider the following recommendations about exams:
 
@@ -604,7 +604,7 @@ Extra marks activities are individual tasks. As with any extra marks activity, y
 
 <!-- [^6]: Please note that DataCamp is not the only alternative to learn R. There are other free alternatives available in the web such as [Swirl.](https://swirlstats.com/) You can find many free electronic resources to learn R in the reference section at the end of this syllabus. There are also some students who find the tutorials (developed by myself) a good enough resource to learn R. However, there are other students who need more specialized courses, or more basic courses to understand the logic of programming in R and some other extensions. In my attempt to offer you as many free and useful resources as possible, you have a DataCamp account. According to Martijn Theuwissen Co-founder and COO at DataCamp, they are no.1 ranked Forbes certifications. -->
 
-**DataCamp.** You can earn extra marks for your next $G_{E1}, G_{E1}$ and $G_{E1}$ exams group marks by completing DataCamp assignments, which involve accumulating a specific amount of XP. XP is a measure of your engagement within DataCamp, automatically calculated based on the courses, exercises, or other content you complete. For more details, refer to the DataCamp Assignments section and the course calendar, where they are marked with the *extra marks* tag. The deadline is 10:00 a.m. on the date indicated in the course calendar. Since XP is calculated automatically, you do not need to submit any certificates, screenshots, or other evidence. Just make sure to complete the assignment on time.
+**DataCamp.** You can earn extra marks for your next $G_{E1}, G_{E1}$ and $G_{E1}$ exams group marks by completing DataCamp assignments, which involve accumulating a specific amount of XP. XP is a measure of your engagement within DataCamp, automatically calculated based on the courses, exercises, or other content you complete. For more details, refer to the DataCamp Assignments section and the course calendar, where they are marked with the *extra marks* tag. The deadline is 10:00 on the date indicated in the course calendar. Since XP is calculated automatically, you do not need to submit any certificates, screenshots, or other evidence. Just make sure to complete the assignment on time.
 
 
 The amount of extra marks is based on the cumulative number of DataCamp assignments completed during the semester. There are 9 DataCamp assignments in total, allocated as 3 in the first partial, 3 in the second, and 3 in the third. Each assignment consists of accumulating 10,000 XP in DataCamp courses. For each assignment completed, you earn $f(n) = p_n$ extra marks on the total number of assignments completed, where $p_n$ represents the $n$-th prime number and $n$ is the count of completed assignments. The function domain is $\{1, 2, 3, 4, 5, 6, 7, 8, 9\}$ and the range is $\{2, 3, 5, 7, 11, 13, 17, 19, 23\}$.
@@ -653,7 +653,7 @@ fechas
 
 The dates on which I will assign these marks according to the DataCamp leaderboard are: Wednesday, September 3; Friday, October 3; and Monday, November 3.
 
-**UN CC:Learn courses.** You can earn extra marks for your next $G_{E1}, G_{E2}$ and $G_{EF}$ exams group marks by completing [UN CC:Learn](https://www.uncclearn.org/) courses, which are listed in the course calendar under the *extra marks* tag. The deadline is 10:00 a.m. on the date indicated in the course calendar. Please note that UN CC:Learn courses may require a minimum score to obtain a valid certificate.
+**UN CC:Learn courses.** You can earn extra marks for your next $G_{E1}, G_{E2}$ and $G_{EF}$ exams group marks by completing [UN CC:Learn](https://www.uncclearn.org/) courses, which are listed in the course calendar under the *extra marks* tag. The deadline is 10:00 on the date indicated in the course calendar. Please note that UN CC:Learn courses may require a minimum score to obtain a valid certificate.
 
 Some students may have completed a UN CC:Learn course in the past. If your certificate is older than the starting date of the current academic term, it is not valid, and you will need to choose a different course to substitute it. There are 3 UN CC:Learn activities in the semester, allocated as 1 in the first term, 1 in the second, and 1 in the third. You will earn +5 extra marks for each completed course.
 

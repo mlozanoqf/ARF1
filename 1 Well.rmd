@@ -29,7 +29,9 @@ I am currently a professor of finance and economics at UDEM. I regularly collabo
 
 **Research interests.** Empirical asset pricing; beta and SDF pricing models and tests; financial econometrics; GMM estimation and inference; portfolio allocation models and performance; computational finance; data science applications in business.
 
-**Education**:
+**Teaching interests.** Introductory and intermediate finance, statistics and economics; risk management; econometrics; quantitative methods; financial markets; financial management; international finance, corporate finance; asset pricing; R and Python applications to finance and economics. 
+
+**Education:**
 
 - Postdoc in Finance – [University of Manchester](https://www.manchester.ac.uk/).  
 - PhD in Quantitative Finance – University of the Basque Country (*Doctor Europaeus* distinction from the [European University Association](https://eua.eu/)).
@@ -49,7 +51,7 @@ I have also completed more than 20 professional training programs in various are
 
 Beyond academics, I have a passion for art, especially music and painting. I enjoy playing my Yamaha digital piano and have performed in concerts across Mexico and Europe. I have served as a keyboardist, pianist, and orchestra director, including more than a decade of musical productions with Tecnológico de Monterrey (Monterrey Campus).
 
-## Teaching philosophy.
+## `r fontawesome::fa("jedi")` Teaching philosophy.
 
 I aim to teach the kind of course I would be eager to take as a student. My perspective has been shaped by more than 25 years of experience as both a student and researcher at several universities in Mexico and Europe. These experiences have given me deep insights not only in my field of expertise but also in diverse educational approaches and learning techniques across different academic cultures. This dual exposure has taught me the importance of combining theory with practice. Relying only on theory can limit the applicability of knowledge, while focusing only on practice can weaken the understanding of core principles. A thoughtful mix of both is essential for meaningful learning.
 

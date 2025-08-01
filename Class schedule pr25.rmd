@@ -1,185 +1,179 @@
 # `r fontawesome::fa("calendar-alt")` Schedule. {#sec-schedule}
 
-`r fontawesome::fa("credit-card")` ARF, Spring 2025. Room  3301, Monday & Thursday 16:00 – 17:30. Zoom [https://us02web.zoom.us/j/81676995266](https://us02web.zoom.us/j/81676995266)
+`r fontawesome::fa("credit-card")` ARF, Spring 2025. Room 3301, Monday & Thursday 16:00 – 17:30. Zoom [https://us02web.zoom.us/j/81676995266](https://us02web.zoom.us/j/81676995266)
 
-## `r fontawesome::fa("battery-quarter")` Part 1.
+## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1.
 
-**Session 1, Zoom. `r fontawesome::fa("handshake")` Monday, January 13.**
+**Session 1. `r fontawesome::fa("handshake")` Monday, August 4.**
 
 - Reading. Course syllabus (this document).
 - Activity. Welcome and introduction to the course.
 - Activity. Set up your free DataCamp account. Invitations have been sent to your UDEM student email.
 - Activity. Define your team of no more than 4 members.
-- Extra marks. Quiz 1. At 5:00 p.m., Quiz 1 will be available on Blackboard in the "Homeworks & exams" section. This is an in-class activity; you will have 25 minutes to complete it, and access to the quiz will close at 5:10 p.m. Quiz 1 consists of 10 true/false questions about the syllabus, with each question worth 0.5 points, allowing you to earn up to +5 extra points on your $E_1$ if answered correctly. With this activity, we will conclude the class.
 
-**Session 2, Zoom. Thursday, January 16.**
+**Session 2. Thursday, August 7.**
 
-- Reading. @drake2010basics, Chapter 9 *Financial risk management*. 
+- Reading. Course syllabus (this document).
+- Activity. How DataCamp and DataLab works.
+
+**Session 3. Monday, August 11.**
+
+- Reading. @HullRM5, Chapter 1, Section 1.1 *Risk vs. Return for Investors*.
+- Reading. @HullRM5, Chapter 1, Section 1.2 *The Efficient Frontier*.
+- Complementary material. PowerPoint slides: [John C. Hull.](https://www-2.rotman.utoronto.ca/~hull/ofodslides/index.html)
+- Reading. @drake2010basics, Chapter 16 *The theory of portfolio selection*.
+- Complementary material. @brealey2020principles, Chapter 8 *Portfolio theory and the capital asset pricing model*.
+- To know more about portfolio selection see @ruppert2011statistics, Chapters 16.
+
+
+**Session 4. Thursday, August 14.**
+
+- Reading. @HullRM5, Chapter 1, Section 1.3 *The Capital Asset Pricing Model*.
+- Reading. @HullRM5, Chapter 1, Section 1.4 *Arbitrage Pricing Theory*.
+
+**Session 5. Monday, August 18.**
+
+- Reading. @HullRM5, Chapter 1, Section 1.5 *Risk vs. Return for Companies*.
+- Reading. @HullRM5, Chapter 1, Section 1.6 *Risk Management by Financial Institutions*.
 - Complementary material. @crouhy2014essentials, video 1 [The building blocks of risk management](https://youtu.be/sKMt1qzmGfU); video 2 [Risk management: A helicopter view](https://youtu.be/PJbRtIVGdaI); video 3 [Corporate risk management: A primer](https://youtu.be/YWpfwi8wD4c).
-- Complementary material. @brealey2020principles, Chapter 26 *Managing risk*. @crouhy2014essentials, Chapter 1 *Risk management a helicopter view*. @crouhy2014essentials, Chapter 2 *Corporate risk management a primer*.
-- Extra marks. Quiz 2. At 5:00 p.m., Quiz 2 will be available on Blackboard in the "Homeworks & exams" section. This is an in-class activity; you will have 25 minutes to complete it, and access to the quiz will close at 5:10 p.m. Quiz 2 consists of 10 true/false questions about the syllabus, with each question worth 0.5 points, allowing you to earn up to +5 extra points on your $E_1$ if answered correctly. With this activity, we will conclude the class. Quiz 1 and Quiz 2 are from the same question pool, so it is possible that you may encounter some repeated questions from Quiz 1.
 
-**Session 3, Zoom. Monday, January 20.**
+**Session 6. Thursday, August 21.**
 
-- Reading. @drake2010basics, Chapter 9 *Financial risk management*. 
-- Complementary material. @crouhy2014essentials, video 1 [The building blocks of risk management](https://youtu.be/sKMt1qzmGfU); video 2 [Risk management: A helicopter view](https://youtu.be/PJbRtIVGdaI); video 3 [Corporate risk management: A primer](https://youtu.be/YWpfwi8wD4c).
-- Complementary material. @brealey2020principles, Chapter 26 *Managing risk*. @crouhy2014essentials, Chapter 1 *Risk management a helicopter view*. @crouhy2014essentials, Chapter 2 *Corporate risk management a primer*.
-- Extra marks. Quiz 3. At 5:00 p.m., Quiz 3 will be available on Blackboard in the "Homeworks & exams" section. This is an in-class activity, and you will have 25 minutes to complete it. Access to the quiz will close at 5:10 p.m. Quiz 3 consists of 10 true/false questions about the syllabus, at a higher level of difficulty compared to Quiz 1 and Quiz 2. Each question is worth 0.5 points, allowing you to earn up to +5 extra points on your $E_1$ if answered correctly. With this activity, we will conclude the class. 
+- Reading. @HullRM5, Chapter 1, Section 1.7 *Credit Ratings*.
+- Reading. @Hull11, Section 24.1 *Credit Ratings*; Section 24.2 *Historical Default Probabilities*; Section 24.3 *Recovery Rates*.
+- Complementary material. Fictional video (warning, it has offensive language): [FrontPoint partners confronts Morgan Stanley risk assessors and S&P.](https://youtu.be/Vvxbc8L4s64)
 
-**Session 4, Zoom. Thursday, January 23.**
+**Session 7. Monday, August 25.**
 
-- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
-
-**Session 5, Zoom. Monday, January 27.**
-
-- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
-- To know more about regression with a binary dependent variable, and references to credit risk please see @hanck2020introduction, Chapter 11. @hull2020machine, Chapter 3.
-- Extra marks. Actividad +5 puntos sobe la calificación del primer parcial. Compartir, reaccionar y/o agregar un comentario en redes sociales. Subir evidencia (screenshot) al foro de discusión del primer parcial. La hora límite es 10:00 a.m. de la sesión 5: (1) *Retos y oportunidades en el aprendizaje de ciencia de datos en las escuelas de negocios.* [Spotify `r fontawesome::fa("spotify")`](https://open.spotify.com/episode/6x8c6XIPIfIPLj1yRhi5D8?si=bcee2af66ed54e09); [YouTube `r fontawesome::fa("youtube")`](https://youtu.be/SKG3Kr-TK-w?si=W5wg2DXluuiEspWC); [LinkedIn `r fontawesome::fa("linkedin")`](https://www.linkedin.com/posts/martin-lozano-21818a22_132-retos-y-oportunidades-en-el-aprendizaje-activity-7142212773349945344-1xHL?utm_source=share&utm_medium=member_desktop). Café de Datos, Datlas. Temporada 9, capítulo 132. Diciembre 2023. (2) *Riesgo financiero.* [Spotify `r fontawesome::fa("spotify")`](https://open.spotify.com/episode/7hrOh0tvDH3lioOfXtRqsT?si=8142007bc6ab4f56). Hablemos de economía y política. Asociación para la Conciencia Económica y Política (ACEyP). Noviembre 2024.
-
-**Session 6, Zoom. Thursday, January 30.**
-
-- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
-- Complementary material. @alonso2021understanding.
-
-**Holiday. `r fontawesome::fa("umbrella-beach")` Monday, February 3.**
-
-**Session 7. Thursday, February 6.**
-
-- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
-
-**Session 8. Monday, February 10.**
-
-- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
-- Complementary material. Video: [Ethics and trust in the investment profession.](https://youtu.be/azBhDSjBRS0)
+- Reading. @Hull11, Chapter 10, Section 10.1 *Types of Options*.
+- Reading. @Hull11, Chapter 10, Section 10.2 *Option Positions*.
+- Complementary material. *Riesgo financiero.* [Spotify `r fontawesome::fa("spotify")`](https://open.spotify.com/episode/7hrOh0tvDH3lioOfXtRqsT?si=8142007bc6ab4f56). Hablemos de economía y política. Asociación para la Conciencia Económica y Política (ACEyP). Noviembre 2024.
 - Activity. $H_1$ review.
-- Extra marks. DataCamp top 5 XP for the first 30 days. Wednesday, February 12.
 
-**Session 9. `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")` Thursday, February 13.**
+**Session 8. Thursday, August 28.**
 
 - Graded. Complete $H_1$ before 10:00 a.m.
-- Activity. $H_1$ presentations.
+- Activity. $H_1$ presentations 1/2.
 
-**Session 10. Monday, February 17.**
+**Session 9. Monday, September 1.**
+
+- Activity. $H_1$ presentations 2/2.
+- Extra marks. DataCamp top 5 XP for the first 30 days. Deadline: Wednesday, September 3.
+
+**Session 10. Thursday, September 4.**
 
 - Activity. $E_1$ review.
 - Extra marks. Complete DataCamp assignments. It is not required to send evidence of having completed the tasks because the system automatically records if they were completed on time.
 - Extra marks. Complete one UN CC:Learn course. Submit your PDF certificate before 10:00 a.m. by the discussion forum.
 
-**Session 11, Zoom. Thursday, February 20.**
+**Session 11, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, September 8.**
 
 - Graded. $E_1$ Instructions in Blackboard.
 
-## `r fontawesome::fa("battery-half")` Part 2.
+## `r fontawesome::fa("battery-half", fill = "red")` Part 2.
 
-**Session 12. Monday, February 24.**
+**Session 12. Thursday, September 11.**
 
 - Activity. Discuss $E_1$ answers.
 - Extra marks. The wheel of fortune 1/3. This is a class activity.
 - Graded. Submit $H_1$ and $E_1$ co-evaluation before 10:00 a.m. Instructions in Blackboard.
 - *No conozco la fecha límite, pero deben completar la encuesta avanza 180 por favor.*
 
-**Session 13. Thursday, February 27.**
+**Session 13. Monday, September 15.**
 
-- Reading. @Hull9, Section 24.1 Credit ratings; Section 24.2 Historical default probabilities; Section 24.3 Recovery rates.
-- Complementary material. Fictional video (warning, it has offensive language): [FrontPoint partners confronts Morgan Stanley risk assessors and S&P.](https://youtu.be/Vvxbc8L4s64)
-- Complementary material. PowerPoint slides: [John C. Hull.](https://www-2.rotman.utoronto.ca/~hull/ofodslides/index.html)
+- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
+- Complementary material. *Retos y oportunidades en el aprendizaje de ciencia de datos en las escuelas de negocios.* [Spotify `r fontawesome::fa("spotify")`](https://open.spotify.com/episode/6x8c6XIPIfIPLj1yRhi5D8?si=bcee2af66ed54e09); [YouTube `r fontawesome::fa("youtube")`](https://youtu.be/SKG3Kr-TK-w?si=W5wg2DXluuiEspWC); [LinkedIn `r fontawesome::fa("linkedin")`](https://www.linkedin.com/posts/martin-lozano-21818a22_132-retos-y-oportunidades-en-el-aprendizaje-activity-7142212773349945344-1xHL?utm_source=share&utm_medium=member_desktop). Café de Datos, Datlas. Temporada 9, capítulo 132. Diciembre 2023. 
 
-**Session 14. Monday, March 3.**
+**Session 14. Thursday, September 18.**
 
-- Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
+- To know more about regression with a binary dependent variable, and references to credit risk please see @hanck2020introduction, Chapter 11. @hull2020machine, Chapter 3.
 
-**Session 15. `r fontawesome::fa("female")` Thursday, March 6.**
+**Session 15. Monday, September 22.**
 
-- Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
-- Reading. @lozanoARF, Chapter 2 *The Merton model*.
-- Complementary material. @brealey2020principles, Chapter 23 *Credit risk and the value of corporate debt*.
+- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
+- Complementary material. @alonso2021understanding.
 
-**Session 16. Monday, March 10.**
+**Session 16. Thursday, September 25.**
 
-- Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
-- Reading. @lozanoARF, Chapter 2 *The Merton model*.
-- Complementary material. Video: [FRM: How $d_2$ in Black-Scholes becomes PD in Merton model.](https://youtu.be/lV0ytJYbVzc)
+- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
 
-**Session 17. $\pi$ Thursday, March 13.**
+**Session 17. Monday, September 29.**
 
-- Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
-- Reading. @lozanoARF, Chapter 2 *The Merton model*.
-- Complementary material. Video: [Measuring credit risk.](https://youtu.be/03nNzt8PyYM)
+- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
+
+**Session 18. Thursday, October 2.**
+
+- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
+- Extra marks. DataCamp top 5 XP for the days 31 to 60. Deadline: Friday, October 3.
+
+**Session 19. Monday, October 6.**
+
 - Activity. $H_2$ review.
-- Extra marks. DataCamp top 5 XP for the days 31 to 60. Friday, March 14.
 
-**Holiday. `r fontawesome::fa("umbrella-beach")` Monday, March 17.**
-
-**Session 18. Thursday, March 20.**
+**Session 20. Thursday, October 9.**
 
 - Graded. Complete $H_2$ before 10:00 a.m.
-- Activity. $H_2$ presentations.
+- Activity. $H_2$ presentations 1/2.
 
-**Session 19, Zoom. Monday, March 24.**
+**Session 21. Monday, October 13.**
+
+- Activity. $H_2$ presentations 2/2.
+
+**Session 22. Thursday, October 16.**
 
 - Activity. $E_2$ review.
 - Extra marks. Complete DataCamp assignments. It is not required to send evidence of having completed the tasks because the system automatically records if they were completed on time.
 - Extra marks. Complete one UN CC:Learn course. Submit your PDF certificate before 10:00 a.m. by the discussion forum.
 
-**Session 20, Zoom. Thursday, March 27.**
+**Session 23, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, October 20.**
 
 - Graded. $E_2$ Instructions in Blackboard.
 
-## `r fontawesome::fa("battery-three-quarters")` Part 3.
+## `r fontawesome::fa("battery-three-quarters", fill = "orange")` Part 3.
 
-**Session 21. Monday, March 31.**
+**Session 24. Thursday, October 23.**
 
 - Activity. Discuss $E_2$ answers.
 - Extra marks. The wheel of fortune 2/3. This is a class activity.
 - Graded. Submit $H_2$ and $E_2$ co-evaluation before 10:00 a.m. Instructions in Blackboard.
 
-**Session 22. Thursday, April 3.**
+**Session 25. Monday, October 27.**
 
-- Reading. @drake2010basics, Chapter 15 *Investment management*.
-- Complementary material. [The Plastic Recycling Myth.](https://youtu.be/zZlRhCDzh2A)
+- Reading. @Hull11, Section 24.6 *Using equity prices to estimate default probabilities*.
+- Complementary material. Video: [Ethics and trust in the investment profession.](https://youtu.be/azBhDSjBRS0)
 
-**Session 23. Monday, April 7.**
+**Session 26. `r fontawesome::fa("ghost")` Thursday, October 30.**
 
-- Reading. @Hull9, Chapter 22 *Value at Risk (sections 22.1 to 22.4)*.
-- Reading. @lozanoIF, Chapter 5 *Value at Risk*.
+- Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, Chapter 2 *The Merton model*.
+- Complementary material. @brealey2020principles, Chapter 23 *Credit risk and the value of corporate debt*.
 
-**Session 24, Zoom. Thursday, April 10.**
+**Session 27. Monday, November 3.**
 
-- Reading. @Hull9, Chapter 22 *Value at Risk (sections 22.1 to 22.4)*.
-- Reading. @lozanoIF, Chapter 5 *Value at Risk*.
-- Extra marks. DataCamp top 5 XP for the days 61 to 90. Monday, April 14.
-
-**Holiday. `r fontawesome::fa("umbrella-beach")` Monday, April 14.**
-
-**Holiday. `r fontawesome::fa("umbrella-beach")` Thursday, April 17.**
-
-**Session 25. Monday, April 21.**
-
-- Reading. @drake2010basics, Chapter 16 *The theory of portfolio selection*.
-- Complementary material. @brealey2020principles, Chapter 8 *Portfolio theory and the capital asset pricing model*.
-- To know more about portfolio selection see @ruppert2011statistics, Chapters 16.
+- Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, Chapter 2 *The Merton model*.
+- Complementary material. Video: [FRM: How $d_2$ in Black-Scholes becomes PD in Merton model.](https://youtu.be/lV0ytJYbVzc)
 - Non graded. Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+- Extra marks. DataCamp top 5 XP for the days 61 to 90. Deadline: Monday, November 3.
 
-**Session 26. Thursday, April 24.**
+**Session 28. Thursday, November 6.**
 
-- Reading. @Hull9, Section 23.8 *Estimating volatilities and correlations*. 
-- Reading. @lozanoIF, Chapter 5 *Value at Risk*.
+- Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, Chapter 2 *The Merton model*.
+- Complementary material. Video: [Measuring credit risk.](https://youtu.be/03nNzt8PyYM)
 
-**Session 27. `r fontawesome::fa("children")` Monday, April 28.**
+**Session 29. Monday, November 10.**
 
-- Reading. @Hull9, Section 23.8 *Estimating volatilities and correlations*. 
-- Reading. @lozanoIF, Chapter 5 *Value at Risk*.
+**Session 30. Thursday, November 13.**
 
-**Holiday. `r fontawesome::fa("umbrella-beach")` Thursday, May 1.**
-
-**Session 28, Zoom. `r fontawesome::fa("jedi-order")` Monday, May 5.**
-
-- Reading. @Hull9, Section 23.8 *Estimating volatilities and correlations*. 
-- Reading. @lozanoIF, Chapter 5 *Value at Risk*.
 - Non-graded. Complete $H_3$ before 10:00 a.m.
+- Complementary material. [The Plastic Recycling Myth.](https://youtu.be/zZlRhCDzh2A)
 - *No conozco la fecha límite, pero deben completar la encuesta avanza 360 por favor.*
 
-**Session 29, Zoom. Thursday, May 8.**
+**Holiday. `r fontawesome::fa("umbrella-beach")` Monday, November 17.**
+
+**Session 31. Thursday, November 20.**
 
 - Activity. $E_F$ review.
 - Extra marks. Complete DataCamp assignments. It is not required to send evidence of having completed the tasks because the system automatically records if they were completed on time.
@@ -187,8 +181,10 @@
 - Extra marks. The wheel of fortune 3/3. This is a class activity.
 - Farewell `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")`.
 
-## `r fontawesome::fa("battery-full")` The end.
+## `r fontawesome::fa("battery-full", fill = "green")` The end.
 
-**Final exam, Zoom. Thursday, May 22, 16:00 – 18:00.**
+**Final exam, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, November 24, 16:00 – 18:00.**
 
 - Graded. $E_F$ Instructions in Blackboard.
+
+
