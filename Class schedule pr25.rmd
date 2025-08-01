@@ -18,36 +18,41 @@
 
 **Session 3. Monday, August 11.**
 
-- Reading. @HullRM5, Chapter 1, Section 1.1 *Risk vs. Return for Investors*.
-- Reading. @HullRM5, Chapter 1, Section 1.2 *The Efficient Frontier*.
+- Topic 1/3: Risk management.
+- Reading. @HullRM5, chapter 1, section 1.1: *Risk vs. return for investors*.
+- Reading. @HullRM5, chapter 1, section 1.2: *The efficient frontier*.
 - Complementary material. PowerPoint slides: [John C. Hull.](https://www-2.rotman.utoronto.ca/~hull/ofodslides/index.html)
-- Reading. @drake2010basics, Chapter 16 *The theory of portfolio selection*.
-- Complementary material. @brealey2020principles, Chapter 8 *Portfolio theory and the capital asset pricing model*.
-- To know more about portfolio selection see @ruppert2011statistics, Chapters 16.
+- Complementary material. @drake2010basics, chapter 16: *The theory of portfolio selection*.
+- Complementary material. @brealey2020principles, chapter 8: *Portfolio theory and the capital asset pricing model*.
+- Complementary material. @ruppert2011statistics, chapter 16: *Portfolio selection*.
 
 
 **Session 4. Thursday, August 14.**
 
-- Reading. @HullRM5, Chapter 1, Section 1.3 *The Capital Asset Pricing Model*.
-- Reading. @HullRM5, Chapter 1, Section 1.4 *Arbitrage Pricing Theory*.
+- Reading. @HullRM5, chapter 1, section 1.3: *The capital asset pricing model*.
+- Reading. @HullRM5, chapter 1, section 1.4: *Arbitrage pricing theory*.
 
 **Session 5. Monday, August 18.**
 
-- Reading. @HullRM5, Chapter 1, Section 1.5 *Risk vs. Return for Companies*.
-- Reading. @HullRM5, Chapter 1, Section 1.6 *Risk Management by Financial Institutions*.
-- Complementary material. @crouhy2014essentials, video 1 [The building blocks of risk management](https://youtu.be/sKMt1qzmGfU); video 2 [Risk management: A helicopter view](https://youtu.be/PJbRtIVGdaI); video 3 [Corporate risk management: A primer](https://youtu.be/YWpfwi8wD4c).
+- Reading. @HullRM5, chapter 1, section 1.5: *Risk vs. return for companies*.
+- Reading. @HullRM5, chapter 1, section 1.6: *Risk management by financial institutions*.
+- Complementary material. @crouhy2014essentials, video 1 [The building blocks of risk management](https://youtu.be/sKMt1qzmGfU).
+- Complementary material. @crouhy2014essentials, video 2 [Risk management: A helicopter view](https://youtu.be/PJbRtIVGdaI). 
+- Complementary material. @crouhy2014essentials, video 3 [Corporate risk management: A primer](https://youtu.be/YWpfwi8wD4c).
 
 **Session 6. Thursday, August 21.**
 
-- Reading. @HullRM5, Chapter 1, Section 1.7 *Credit Ratings*.
-- Reading. @Hull11, Section 24.1 *Credit Ratings*; Section 24.2 *Historical Default Probabilities*; Section 24.3 *Recovery Rates*.
+- Reading. @HullRM5, chapter 1, section 1.7: *Credit ratings*.
+- Reading. @Hull11, chapter 24, section 24.1: *Credit ratings*. 
+- Reading. @Hull11, chapter 24, section 24.2: *Historical default probabilities*.
+- Reading. @Hull11, chapter 24, section 24.3: *Recovery rates*.
 - Complementary material. Fictional video (warning, it has offensive language): [FrontPoint partners confronts Morgan Stanley risk assessors and S&P.](https://youtu.be/Vvxbc8L4s64)
 
 **Session 7. Monday, August 25.**
 
-- Reading. @Hull11, Chapter 10, Section 10.1 *Types of Options*.
-- Reading. @Hull11, Chapter 10, Section 10.2 *Option Positions*.
-- Complementary material. *Riesgo financiero.* [Spotify `r fontawesome::fa("spotify")`](https://open.spotify.com/episode/7hrOh0tvDH3lioOfXtRqsT?si=8142007bc6ab4f56). Hablemos de economía y política. Asociación para la Conciencia Económica y Política (ACEyP). Noviembre 2024.
+<!-- - Reading. @Hull11, chapter 10, section 10.1: *Types of options*. -->
+<!-- - Reading. @Hull11, chapter 10, section 10.2: *Option positions*. -->
+- Complementary material. *Riesgo financiero*. [Spotify `r fontawesome::fa("spotify")`](https://open.spotify.com/episode/7hrOh0tvDH3lioOfXtRqsT?si=8142007bc6ab4f56). Hablemos de economía y política. Asociación para la Conciencia Económica y Política (ACEyP). Noviembre 2024.
 - Activity. $H_1$ review.
 
 **Session 8. Thursday, August 28.**
@@ -63,8 +68,8 @@
 **Session 10. Thursday, September 4.**
 
 - Activity. $E_1$ review.
-- Extra marks. Complete DataCamp assignments. It is not required to send evidence of having completed the tasks because the system automatically records if they were completed on time.
-- Extra marks. Complete one UN CC:Learn course. Submit your PDF certificate before 10:00 a.m. by the discussion forum.
+- Extra marks. Complete 3 DataCamp assignments (first 30,000 XP) before 10:00 a.m. It is not required to send evidence of having completed because the system automatically records if they were completed on time.
+- Extra marks. Complete one UN CC:Learn course. Submit your PDF certificate before 10:00 a.m. by Blackboard.
 
 **Session 11, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, September 8.**
 
@@ -81,30 +86,32 @@
 
 **Session 13. Monday, September 15.**
 
-- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
-- Complementary material. *Retos y oportunidades en el aprendizaje de ciencia de datos en las escuelas de negocios.* [Spotify `r fontawesome::fa("spotify")`](https://open.spotify.com/episode/6x8c6XIPIfIPLj1yRhi5D8?si=bcee2af66ed54e09); [YouTube `r fontawesome::fa("youtube")`](https://youtu.be/SKG3Kr-TK-w?si=W5wg2DXluuiEspWC); [LinkedIn `r fontawesome::fa("linkedin")`](https://www.linkedin.com/posts/martin-lozano-21818a22_132-retos-y-oportunidades-en-el-aprendizaje-activity-7142212773349945344-1xHL?utm_source=share&utm_medium=member_desktop). Café de Datos, Datlas. Temporada 9, capítulo 132. Diciembre 2023. 
+- Topic 2/3: Credit default prediction using statistical and machine learning techniques.
+- Reading. @lozanoARF, chapter 1, section 1.1: *Explore the database*.
+- Complementary material. *Retos y oportunidades en el aprendizaje de ciencia de datos en las escuelas de negocios.* Available at: [Spotify `r fontawesome::fa("spotify")`](https://open.spotify.com/episode/6x8c6XIPIfIPLj1yRhi5D8?si=bcee2af66ed54e09); [YouTube `r fontawesome::fa("youtube")`](https://youtu.be/SKG3Kr-TK-w?si=W5wg2DXluuiEspWC); [LinkedIn `r fontawesome::fa("linkedin")`](https://www.linkedin.com/posts/martin-lozano-21818a22_132-retos-y-oportunidades-en-el-aprendizaje-activity-7142212773349945344-1xHL?utm_source=share&utm_medium=member_desktop). Café de Datos, Datlas. Temporada 9, capítulo 132. Diciembre 2023. 
 
 **Session 14. Thursday, September 18.**
 
-- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
-- To know more about regression with a binary dependent variable, and references to credit risk please see @hanck2020introduction, Chapter 11. @hull2020machine, Chapter 3.
+- Reading. @lozanoARF, chapter 1, section 1.2: *Logistic models*.
+- Complementary material. @hanck2020introduction, chapter 11: *Regression with a binary dependent variable*. 
+- Complementary material. @hull2020machine, chapter 3: *Supervised learning: linear regression*.
 
 **Session 15. Monday, September 22.**
 
-- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
-- Complementary material. @alonso2021understanding.
+- Reading. @lozanoARF, chapter 1, section 1.3: *Prediction and model evaluation*.
 
 **Session 16. Thursday, September 25.**
 
-- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
+- Reading. @lozanoARF, chapter 1, section 1.3: *Prediction and model evaluation*.
+- Complementary material. @alonso2021understanding: *Understanding the performance of machine learning models to predict credit default: a novel approach for supervisory evaluation*.
 
 **Session 17. Monday, September 29.**
 
-- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
+- Reading. @lozanoARF, chapter 1, section 1.4: *The bank strategy*.
 
 **Session 18. Thursday, October 2.**
 
-- Reading. @lozanoARF, Chapter 1 *Loan analysis*.
+- Reading. @lozanoARF, chapter 1, section 1.4: *The bank strategy*.
 - Extra marks. DataCamp top 5 XP for the days 31 to 60. Deadline: Friday, October 3.
 
 **Session 19. Monday, October 6.**
@@ -123,8 +130,8 @@
 **Session 22. Thursday, October 16.**
 
 - Activity. $E_2$ review.
-- Extra marks. Complete DataCamp assignments. It is not required to send evidence of having completed the tasks because the system automatically records if they were completed on time.
-- Extra marks. Complete one UN CC:Learn course. Submit your PDF certificate before 10:00 a.m. by the discussion forum.
+- Extra marks. Complete 3 DataCamp assignments (additional 30,000 XP) before 10:00 a.m. It is not required to send evidence of having completed because the system automatically records if they were completed on time.
+- Extra marks. Complete one UN CC:Learn course. Submit your PDF certificate before 10:00 a.m. by Blackboard.
 
 **Session 23, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, October 20.**
 
@@ -140,30 +147,33 @@
 
 **Session 25. Monday, October 27.**
 
-- Reading. @Hull11, Section 24.6 *Using equity prices to estimate default probabilities*.
+- Topic 3/3: Estimating firm default risk using the Merton structural model.
+- Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
 - Complementary material. Video: [Ethics and trust in the investment profession.](https://youtu.be/azBhDSjBRS0)
 
 **Session 26. `r fontawesome::fa("ghost")` Thursday, October 30.**
 
-- Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
-- Reading. @lozanoARF, Chapter 2 *The Merton model*.
-- Complementary material. @brealey2020principles, Chapter 23 *Credit risk and the value of corporate debt*.
+- Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, chapter 2, section 2.2: *The estimation*.
+- Complementary material. @brealey2020principles, chapter 23 *Credit risk and the value of corporate debt*.
 
 **Session 27. Monday, November 3.**
 
-- Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
-- Reading. @lozanoARF, Chapter 2 *The Merton model*.
+- Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, chapter 2, section 2.3: *Inside view of the Merton’s model*.
 - Complementary material. Video: [FRM: How $d_2$ in Black-Scholes becomes PD in Merton model.](https://youtu.be/lV0ytJYbVzc)
 - Non graded. Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
 - Extra marks. DataCamp top 5 XP for the days 61 to 90. Deadline: Monday, November 3.
 
 **Session 28. Thursday, November 6.**
 
-- Reading. @Hull9, Section 24.6 *Using equity prices to estimate default probabilities*.
-- Reading. @lozanoARF, Chapter 2 *The Merton model*.
+- Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, chapter 2, section2.4: *The probability of default as a function of some parameters*.
 - Complementary material. Video: [Measuring credit risk.](https://youtu.be/03nNzt8PyYM)
 
 **Session 29. Monday, November 10.**
+- Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, chapter 2, section 2.5: *GoT: capital structure*.
 
 **Session 30. Thursday, November 13.**
 
@@ -176,8 +186,8 @@
 **Session 31. Thursday, November 20.**
 
 - Activity. $E_F$ review.
-- Extra marks. Complete DataCamp assignments. It is not required to send evidence of having completed the tasks because the system automatically records if they were completed on time.
-- Extra marks. Complete one UN CC:Learn course. Submit your PDF certificate before 10:00 a.m. by the discussion forum.
+- Extra marks. Complete 3 DataCamp assignments (additional 30,000 XP) before 10:00 a.m. It is not required to send evidence of having completed because the system automatically records if they were completed on time.
+- Extra marks. Complete one UN CC:Learn course. Submit your PDF certificate before 10:00 a.m. by Blackboard.
 - Extra marks. The wheel of fortune 3/3. This is a class activity.
 - Farewell `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")`.
 

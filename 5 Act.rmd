@@ -611,10 +611,11 @@ The amount of extra marks is based on the cumulative number of DataCamp assignme
 
 Then, if you complete all of them on time, you will earn:
 
-* $X_{E1}=f(3) = 5$ extra marks over your $G_{E1}$,
-* $X_{E2}=f(6) = 13$ extra marks over your $G_{E2}$, 
-* $X_{EF}=f(9) = 23$ extra marks over your $G_{EF}$.
+* $X_{E1}=f(3) = 5$ extra marks over your $G_{E1}$, which represents +2 over your final grade $F$.
+* $X_{E2}=f(6) = 13$ extra marks over your $G_{E2}$, which represents +5.2 over your final grade $F$.
+* $X_{EF}=f(9) = 23$ extra marks over your $G_{EF}$, which represents +6.9 over your final grade $F$.
 
+Thus, if you complete all 9 extra marks DataCamp assignments on time (90,000 XP) you will get +14.1 over your final grade $F$.
 
 ```{r eval=FALSE, include=FALSE}
 cumulative <- cumsum(2:8)
@@ -655,7 +656,9 @@ The dates on which I will assign these marks according to the DataCamp leaderboa
 
 **UN CC:Learn courses.** You can earn extra marks for your next $G_{E1}, G_{E2}$ and $G_{EF}$ exams group marks by completing [UN CC:Learn](https://www.uncclearn.org/) courses, which are listed in the course calendar under the *extra marks* tag. The deadline is 10:00 on the date indicated in the course calendar. Please note that UN CC:Learn courses may require a minimum score to obtain a valid certificate.
 
-Some students may have completed a UN CC:Learn course in the past. If your certificate is older than the starting date of the current academic term, it is not valid, and you will need to choose a different course to substitute it. There are 3 UN CC:Learn activities in the semester, allocated as 1 in the first term, 1 in the second, and 1 in the third. You will earn +5 extra marks for each completed course.
+Some students may have completed a UN CC:Learn course in the past. If your certificate is older than the starting date of the current academic term, it is not valid, and you will need to choose a different course to substitute it. 
+
+There are 3 UN CC:Learn activities in the semester, allocated as 1 in the first term, 1 in the second, and 1 in the third. You will earn +5 extra marks for each completed course. In case you complete them on time, these extra marks over your $G_{E1}, G_{E2}$ and $G_{EF}$ represent +5.5 over your final grade $F$. Students who complete the three UN CC:Learn and the 90,000 XP DataCamp assignments will get +19.6 over their final grade $F$.
 
 As with DataCamp, you are expected to choose the UN CC:Learn course based on your own interests and preferences. Visit the course section to browse the full catalog.
 
