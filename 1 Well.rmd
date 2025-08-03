@@ -1,3 +1,7 @@
+*The contents of this syllabus are mandatory for all students enrolled in the course. Not having read or fully reviewed this document does not release the student from the obligation to adhere to the rules, expectations, and procedures established here.*
+
+---
+
 # `r fontawesome::fa_i("handshake", class = "fa-solid")` Welcome. 
 
 Welcome to the course! My name is Martín. I hope this message finds you and your loved ones in good health. `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")`
