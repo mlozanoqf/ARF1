@@ -159,24 +159,26 @@ ARF, Fall 2025. Room 3302, Monday & Thursday 16:00 – 17:30. Zoom [https://us02
 
 **Session 27. Monday, November 3.**
 
-- Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
-- Reading. @lozanoARF, chapter 2, section 2.3: *Inside view of the Merton’s model*.
-- Complementary material. Video: [FRM: How $d_2$ in Black-Scholes becomes PD in Merton model.](https://youtu.be/lV0ytJYbVzc)
-- Non graded. Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+- La sesión se traslada al Congreso de la Escuela de Negocios.
 - Extra marks. DataCamp top 5 XP for the days 61 to 90. Deadline: Monday, November 3.
 
 **Session 28. Thursday, November 6.**
 
 - Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, chapter 2, section 2.3: *Inside view of the Merton’s model*.
+- Complementary material. Video: [FRM: How $d_2$ in Black-Scholes becomes PD in Merton model.](https://youtu.be/lV0ytJYbVzc)
+- Non graded. Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+
+**Session 29. Monday, November 10.**
+
+- Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
 - Reading. @lozanoARF, chapter 2, section2.4: *The probability of default as a function of some parameters*.
 - Complementary material. Video: [Measuring credit risk.](https://youtu.be/03nNzt8PyYM)
 
-**Session 29. Monday, November 10.**
-- Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
-- Reading. @lozanoARF, chapter 2, section 2.5: *GoT: capital structure*.
-
 **Session 30. Thursday, November 13.**
 
+- Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, chapter 2, section 2.5: *GoT: capital structure*.
 - Non-graded. Complete $H_3$ before 10:00 a.m.
 - Complementary material. [The Plastic Recycling Myth.](https://youtu.be/zZlRhCDzh2A)
 - *No conozco la fecha límite, pero deben completar la encuesta avanza 360 por favor.*
