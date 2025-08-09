@@ -195,7 +195,7 @@ ARF, Fall 2025. Room 3302, Monday & Thursday 16:00 – 17:30. Zoom [https://us02
 
 ## `r fontawesome::fa("battery-full", fill = "green")` The end.
 
-**Final exam, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, November 24, 16:00 – 18:00.**
+**Final exam, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, December 1, 16:00 – 18:00.**
 
 - Graded. $E_F$ Instructions in Blackboard.
 
