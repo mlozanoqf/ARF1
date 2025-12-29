@@ -193,10 +193,10 @@ In this course, you will be exposed to an introduction about sustainable finance
 
 Learning materials are taken from The One UN Climate Change Learning Partnership [UN CC:Learn](https://unccelearn.org/), which is a joint initiative of more than 30 multilateral organizations helping countries to achieve climate change action both through general climate literacy and applied skills development. [UN CC:Learn](https://unccelearn.org/) provides strategic advice and quality learning resources to help people, governments and businesses to understand, adapt, and build resilience to climate change.
 
-See the earth’s global average surface temperature in 2021 tied with 2018 as the sixth warmest year on record, according to an analysis by NASA:
+See the earth’s historic global average surface temperature, according to an analysis by NASA:
 
 ```{r echo=FALSE}
-embed_url("https://youtu.be/haBG2IIbwbA")
+embed_url("https://youtu.be/jWoCXLuTIkI?si=1qo-lHzZC3AHaCt5")
 ```
 
 Learning about sustainable finance is important as it enables individuals and organizations to make informed financial decisions that consider environmental and social factors, manage risks, comply with regulations, meet investor demand, and contribute to a more sustainable and responsible financial system.
