@@ -24,7 +24,7 @@ The learning activities are classified into graded, non-graded, and bonus points
 1. All submissions must be made in DataLab as a Jupyter notebook (`.ipynb`) and placed in the correct group workspace and the “submissions” folder. See [DataCamp policies](#sec-dcp).
 1. At the deadline, missing, incorrect, empty, or corrupted files in the required DataLab location (correct group workspace and the “submissions” folder) will receive a zero for the group.
 1. For $E_1$ and $E_2$, groups must answer 3 out of 4 questions; for $E_F$, groups must answer 4 out of 5 questions. Answering more than the required number of questions may result in a significant mark deduction.
-1. In 3-hour class sessions, attendance for the post-exam review session (Zoom) may be recorded; students are required to log in during the review portion to register attendance.
+1. In 3-hour class sessions, attendance for the post-exam review session (Zoom) is compulsory; students are required to log in during the review portion to register attendance.
 1. The final exam $E_F$ is the last graded activity of the semester. No extra activities are planned after $E_F$ to increase marks or pass the course.
 1. The final exam $E_F$ date may be adjusted for administrative reasons in the case of graduating students.
 1. Students may lose the right to take their final exam due to excessive absences, according to current university regulations. See [Tardiness policies](#sec-tp) for details.
