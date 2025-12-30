@@ -17,21 +17,25 @@ embed_url("https://youtu.be/IzG85NDDo1Q")
 **Groups.** Exams and homework assignments (see @sec-activities) are group-based, so your team will be an important part of your academic support throughout the course.
 
 <a id="sec-gp"></a>
-`r fontawesome::fa_i("fa-file-signature", class = "fa-solid", style = "color: red;")` Groups policies.
+
+::: {.callout-important}
+### Groups policies.
 
 1. Group size and formation: Groups may include up to four students. Group activities may be completed by one, two, three, or four students. Students form groups at the beginning of the semester.
 1. Switching groups: A student may switch groups only with written consent from both (a) the group they are leaving and (b) the group they are joining. This requires at least two emails (one from each group), and each email must CC all members of both groups and me. I must authorize the change to confirm that no group exceeds four members. Requests must be submitted no later than one week before the next exam or the final exam. Requests received after this deadline will be rejected.
 1. Expelling a member: Expulsion is an available option for all teams. To proceed, the team must provide a previously signed team agreement that defines expectations (e.g., communication, deadlines, contribution standards) and evidence showing the member did not meet them. Without a signed agreement and clear evidence, I cannot authorize the expulsion.
 1. Unauthorized changes are not allowed: Students may not change groups or expel a member on their own. Any group change or expulsion is official only after it follows the policies above and receives my authorization. Until then, the original group membership remains in effect for all graded activities.
 1. Team agreements: I strongly advise each team to create written rules and expectations at the start of the semester (e.g., communication norms, task division, deadlines, and how contributions will be documented). These agreements are managed within the team; I do not intervene in internal team arrangements. Because coevaluation has a significant impact on individual marks in group work, documenting contributions and expectations from the start is essential.
-
+:::
 
 **Class sessions.** During our class sessions, we will explain and discuss specific topics, address questions, review your study progress, and occasionally conduct brief activities. Please keep in mind that the time available during class sessions is limited, and we may not be able to cover every topic in full detail. To ensure comprehensive coverage, we will utilize other resources and learning activities. It is expected that you attend on time, actively participate, and engage in our discussions. I recommend using your computer during the sessions as you may need to access an IDE, view the PDF textbook, or refer to your own homework.
 
 For Zoom sessions, you have the option to keep your camera either on or off, as we will often be sharing the screen during class, or you will be doing an activity. To provide convenience, unless otherwise specified, class Zoom sessions will be recorded and made accessible to you. Please note that occasional internet service disruptions during class sessions are a risk we all face. The Zoom link to join the class can be found in Blackboard and in @sec-schedule.
 
 <a id="sec-tp"></a>
-`r fontawesome::fa_i("fa-file-signature", class = "fa-solid", style = "color: red;")` Tardiness policies:
+
+::: {.callout-important}
+### Tardiness policies.
 
 1. Face-to-face tardiness: In face-to-face classes, two tardies count as one absence. Tardies accumulate over the course of the semester. A tardy is recorded if the student arrives immediately after attendance is taken and remains for the rest of the class. If a student is marked as present or tardy, this can be changed to an absence if they leave the classroom or do not stay until the end of the class.
 1. Online attendance: In online classes, there is no tardiness policy. Attendance is based on the Zoom activity log (minutes connected). Each session results in either an attendance or an absence. Students must be connected for at least 90% of the class to be marked present. You must join using your own Zoom login credentials to verify identity and correctly attribute attendance.
@@ -39,6 +43,7 @@ For Zoom sessions, you have the option to keep your camera either on or off, as 
 1. Zoom sessions in a face-to-face course: In face-to-face classes, we usually hold a few Zoom sessions during the semester (see @sec-schedule for details). During these sessions, the policy is the same as in online classes.
 1. One-time Zoom exception for face-to-face sessions: In face-to-face classes, students may attend a designated face-to-face session via Zoom once per semester as an exception. If this applies to you, notify me by email. If it happens a second time, the student may still attend via Zoom, but I will record an absence in accordance with current university regulations.
 1. Maximum absences: With respect to the maximum absences policy, we will adhere to the current university regulations.
+:::
 
 Please watch the following video for a valuable recommendation from Prof. Fleisch, which is applicable to both online and face-to-face sessions:
 
@@ -65,7 +70,9 @@ embed_url("https://youtu.be/XoHx_UIgtt0")
 **DataCamp** DataCamp is an online learning platform focused on data science and analytics. It offers interactive courses in Python, R, SQL, and other tools commonly used in data analysis, machine learning, and statistics. Users learn by writing and running code directly in the browser, with instant feedback and guided exercises. You have free and full access as my student this semester.
 
 <a id="sec-dcp"></a>
-`r fontawesome::fa_i("fa-file-signature", class = "fa-solid", style = "color: red;")` DataCamp policies.
+
+::: {.callout-important}
+### DataCamp policies.
 
 *This section is the official submission policy for all graded activities (homework and exams). If any other section summarizes these rules, this section prevails.*
 
@@ -74,6 +81,7 @@ embed_url("https://youtu.be/XoHx_UIgtt0")
 1. “Submissions” folder requirement: In DataLab, students often create multiple documents and folders. For convenience, I have created a folder called “submissions” in your group workspace. You must place the notebooks I need to evaluate (assignments and exams) in this folder. Do not rename the folder.
 1. Correct location is required: Because DataLab and Jupyter notebooks may be new tools for some students, you must be careful when providing work for grading. All activities must be placed in the correct group workspace (identified by the group name) and inside the “submissions” folder. Work placed in the wrong workspace or folder—even if completed—will be treated as not submitted. No exceptions will be made for work located in incorrect folders or workspaces.
 1. After completing your final exam $E_F$, you will no longer have editor access to DataLab. Therefore, I suggest that you create a backup of any documents you wish to keep.
+:::
 
 **Book.** The book (or books) is one of the main pillars of this course. In my experience, learning primarily occurs through reading and then reinforcing the concepts through practical application, although there are various other activities included in this course. The authors of the book are esteemed experts in their respective fields: John C. Hull from [University of Toronto](https://www.utoronto.ca/); Frank Fabozzi from [Johns Hopkins Carey Business School](https://carey.jhu.edu/); Richard A. Brealey from [London Business School](https://www.london.edu/); Stewart C. Myers from [Sloan School of Management, Massachusetts Institute of Technology](https://mitsloan.mit.edu/); Franklin Allen from [Imperial College London](https://www.imperial.ac.uk/); Rob J. Hyndman and George Athanasopoulos from [Monash University](https://www.monash.edu/); ad Eugene F. Brigham and Joel F. Houston from [University of Florida](https://www.ufl.edu/). These books are not only suitable for intermediate and advanced undergraduate degrees but also for first-year master's degrees. I prefer using the original versions of the books rather than translations because, in my experience, the translations may not always match the quality of the original English version and, in some cases, may not be available.
 

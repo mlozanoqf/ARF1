@@ -10,66 +10,55 @@ The learning activities are classified into graded, non-graded, and bonus points
 
 <a id="sec-ap"></a>
 
-`r fontawesome::fa_i("fa-file-signature", class = "fa-solid", style = "color: red;")`
-Activities policies.
+::: {.callout-important}
+### Activities policies.
 
-1. Exams and homework assignments are submitted in English. If a submission is not in English, at least 50\% of the overall mark may be deducted.
+- Schedule. Exams follow the course calendar (@sec-schedule) and the university’s official dates.
+- Duration. $E_1$ and $E_2$ are 1.5-hour in-class activities; $E_F$ lasts 2 hours.
+- Homework deadlines. Homework assignments are due at 10:00am on the dates specified in the course calendar.
+- Policies. Rules on language, group work, late submissions, submission format/location, question requirements, and review-session attendance are defined in [Activities policies](#sec-ap).
+
+1. Exams and homework assignments must be submitted in English. If a submission is not in English, at least 50\% of the overall mark may be deducted.
 1. Exams and homework assignments are completed by your assigned group. See [Group policies](#sec-gp) for details.
 1. Late submissions are not accepted.
 1. All submissions must be made in DataLab as a Jupyter notebook (`.ipynb`) and placed in the correct group workspace and the “submissions” folder. See [DataCamp policies](#sec-dcp).
+1. At the deadline, missing, incorrect, empty, or corrupted files in the required DataLab location (correct group workspace and the “submissions” folder) will receive a zero for the group.
+1. For $E_1$ and $E_2$, groups must answer 3 out of 4 questions; for $E_F$, groups must answer 4 out of 5 questions. Answering more than the required number of questions may result in a significant mark deduction.
+1. In 3-hour class sessions, attendance for the post-exam review session (Zoom) may be recorded; students are required to log in during the review portion to register attendance.
 1. The final exam $E_F$ is the last graded activity of the semester. No extra activities are planned after $E_F$ to increase marks or pass the course.
 1. The final exam $E_F$ date may be adjusted for administrative reasons in the case of graduating students.
 1. Students may lose the right to take their final exam due to excessive absences, according to current university regulations. See [Tardiness policies](#sec-tp) for details.
-
-
-
-
-
-## `r fontawesome::fa("check")` Exams & Homework assignments. 
-
-All topics covered in this course will be evaluated in the exams. To achieve an outstanding final grade, I strongly recommend taking detailed notes throughout the semester. Completing the assignments is also excellent preparation for the exams, so I encourage you to start working on them as early as possible. You're always welcome to share your progress with me, I’ll be happy to provide feedback to help you improve.
-
-Please take a look at this video about taking notes:
-
-```{r echo=FALSE}
-embed_url("https://youtu.be/pAvPE0lPlqE")
-```
-
-This one is good as well. In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) talk about using digital tools to take notes and stay focused.
-
-```{r echo=FALSE}
-embed_url("https://youtu.be/Lll3MsS5chk")
-```
-
-**When?** The exams will follow the schedule in the course calendar (@sec-schedule), aligned with the university’s official dates. Exams $E_1$ and $E_2$ will be 1.5-hour in-class activities, and $E_F$ will last 2 hours. In 3-hour class sessions, $E_1$ and $E_2$ will take place during the first part, followed by a review of the answers in the second. Homework assignments are due at 10:00 on the specified dates in the course calendar. As stated in Activities policies, late submissions are not accepted. At the deadline, missing, incorrect, empty, or corrupted files will result in a zero for the group. This policy is strict and non-negotiable, and it’s important to be aware, as every semester some students lose marks due to preventable oversights. Homework $H_1$, $H_2$, and $H_3$ are due shortly before $E_1$, $E_2$, and $E_F$, respectively. Low assignment grades are usually not because the tasks are too difficult, but because groups begin working on them just a few days before the deadline; planning ahead is strongly advised.
-
-Please consider the following recommendations about exams:
-
-```{r echo=FALSE}
-embed_url("https://youtu.be/w1w0dkHdakE")
-```
-
-**What are typical questions?** While past exams may be available—since I allow students to keep their copies, it's important to keep in mind that the course content evolves and the questions change each semester. Still, reviewing older exams can help you understand the general format and types of questions. Exams often include tasks that require using R and/or Python, typically focused on analyzing and interpreting data or results. To help you prepare, we will have review sessions before each graded exams and homeworks assignments, and if more time is needed, we can continue discussions through the forum. Homework assignments will include applied, research-oriented questions that require writing code in R and/or Python, as well as learning new concepts and conducting independent research. However, you won’t be alone as you have access to many resources outlined in the syllabus, including my support through Zoom sessions, DataLab discussions, meetings and email.
-
-**What are the mechanics?** Exam instructions will be provided as a <tt>`.ipynb`</tt> Jupyter Notebook file, made available on Blackboard five minutes before the start of the class session, as scheduled in the course calendar. Once available, you must download the file and upload it to your group’s DataLab workbook, where you and your teammates will collaborate online to complete the exam within the given time frame. Save the completed notebook in your group workspace inside the “submissions” folder (see [DataCamp policies](#sec-dcp)). Finish before the deadline (see Activities policies: late submissions are not accepted). I have access to your DataLab and will make an electronic copy for grading. A few days later, you'll receive your group’s grade along with comments. I may also silently monitor your progress during the exam via your notebook. The process for homework assignments is similar: once the instructions are posted on Blackboard, upload them to your group’s DataLab workbook, complete the task online, and ensure everything is finalized before the deadline. I will make a copy for review and grading, and afterward, you’ll receive your group’s mark and feedback.
-
-**Are we going to review the exam and homework assignment answers?** Yes, after each exam, we will use the following class session (held via Zoom) to go over the questions and discuss correct approaches. This applies to $E_1$ and $E_2$, but not to $E_F$ since classes end before the final exam results can be reviewed. Exam questions are open-ended, and there are often multiple correct ways to answer them, so we will explore a variety of valid responses and common mistakes. Some students may be used to questions with only one right answer, but that is not usually the case in this course. If more time is needed for review, we can continue the discussion on the forum, in DataLab, or through a meeting upon request. Reviewing your mistakes is an important way to learn and prepare for the final exam. For homework assignments, students receive immediate feedback during their presentations, and additional comments are available upon request.
-
-**What if we fail to understand our own mistakes?** Regardless of the activity, if you have any difficulty understanding your mistakes, it is expected that you reach out to me for clarification. In such cases, I may request you to attempt the questions again before we can discuss your specific mistakes in a meeting. 
-
-**Do all group members receive the same mark?** Not necessarily. Individual marks are adjusted based on coevaluation results. For example, even if a group receives a perfect score on the first homework $G_{H1} = 100$, a student with a coevaluation score of $C_{H1} = 0$ would receive an individual mark of $H_1 = 0$. Conversely, if the group mark is $G_{H1} = 90$ and a student receives a coevaluation of $C_{H1} = 100$, their individual mark adjusts to $H_1 = 93$. In short, your final mark reflects both the group’s performance and your contribution. Additionally, exam marks may increase through participation in bonus points activities.
-
-
-**Where?** Physical presence in the classroom is not required for taking the exams. You can complete the exams from any location of your choice, as they are conducted, answered, and submitted entirely in electronic format. Just ensure that you and the rest of your group have a stable Internet connection. I can create Zoom rooms for your group to answer the exam if you wish. I will be available during the exams through Zoom, and while joining the Zoom session is not mandatory during exams, please be aware that I will be accessible in case you need any assistance. The Zoom link for the exams is the same as the one assigned to the course. It is important to note that for 3-hour class sessions, the first part of the session is dedicated to taking the exam. During the second part of the class, you will need to log in to the Zoom session to review and discuss the answers for the $E_1$ and $E_2$ exams. Logging in is required to register your attendance for this session.
-
-**How many questions?** For both $E_1$ and $E_2$, there will be a total of 4 questions, out of which you are required to answer 3. This allows you the opportunity to choose the 3 questions that you feel most confident about. As for $E_F$, there will be 5 questions, and you are expected to answer 4. All questions carry equal weight. It is important to note that if you answer all questions may result in a significant mark deduction, you only have to answer 3 out of 4 for exams and 4 out of 5 for the final exam. However, if you take the exam on a different date for any reason, your $E_1$ or $E_2$ will consist of 3 questions instead of 4. In this case, you will not have the advantage of leaving one exam question unanswered. The same principle applies to the $E_F$. The $E_F$ covers all the topics and activities covered in the course. To ensure convenience, one question from $E_1$ and one question from $E_2$ will be included in $E_F$ with minor modifications. This means that if you have prepared well for $E_1$ and $E_2$, you should be able to answer at least 50% of the $E_F$ correctly. 
-
-**Can we open the textbook during the exam?** Yes, you are allowed to use the Internet and all course materials during the exams. The purpose of the exams is to assess your reasoning, coding, and analytical skills rather than your ability to memorize concepts or perform Internet searches. The exam questions are designed in a way that the answers cannot be found online, in the textbook, or in a test bank. Even AI tools frequently fail to provide full correct answers because most of the time questions are very specific and data oriented. While the questions are based on the course material, they are typically new and original. However, it is important to note that you must complete the exam only with your assigned group, which should consist of no more than 4 students. 
+:::
 
 
 
 <!-- **Mock exams.** We may have one or more mock exams. These exams are similar to the regular exams as they can be taken without physical presence in the classroom. Mock exams provide an opportunity to become familiar with the examination process, logistics, and the level of difficulty of the graded exams. Mock exams are conducted as group activities, typically consisting of one or two questions. If your group answers the mock exam correctly (100% accuracy), you will receive 2 stickers (+10 marks) to be added to your next partial or final exam. However, if your group does not answer the mock exam correctly, you will lose 5 marks on your next partial or final exam. We will review the correct answers immediately during the same session. -->
 
+## `r fontawesome::fa("check")` Exams & Homework assignments. 
+
+All topics covered in this course will be evaluated in the exams. To achieve a strong final grade, I recommend taking detailed notes throughout the semester. Homework assignments are also excellent preparation for the exams, so start working on them early. You are always welcome to share your progress with me, I’m happy to provide feedback.
+
+**When?** The exams follow the schedule in the course calendar (@sec-schedule), aligned with the university’s official dates. In 3-hour class sessions, $E_1$ and $E_2$ take place during the first part, followed by a review of the answers in the second. Homework $H_1$, $H_2$, and $H_3$ are due shortly before $E_1$, $E_2$, and $E_F$, respectively (see course calendar). Planning ahead is strongly advised: low assignment grades are often caused by starting too late, not by difficulty.
+
+**What are typical questions?** While past exams may be available (since I allow students to keep their copies), the course content evolves and questions change each semester. Still, reviewing older exams can help you understand the general format and types of questions. Exams often include tasks that require using R and/or Python, typically focused on analyzing and interpreting data or results. Homework assignments include applied, research-oriented questions that require writing code in R and/or Python, learning new concepts, and conducting some independent research. You are not alone in this process: you have access to the resources outlined in the syllabus, including support through Zoom sessions, DataLab discussions, meetings, and email.
+
+**What are the mechanics?** Exam instructions will be provided as a <tt>`.ipynb`</tt> Jupyter Notebook file, made available on Blackboard five minutes before the start of the class session (see course calendar). Once available, you must download the file and upload it to your group’s DataLab workbook, where you and your teammates will collaborate online to complete the exam within the given time frame. Save the completed notebook in your group workspace inside the “submissions” folder (see [DataCamp policies](#sec-dcp)). Finish before the deadline (see [Activities policies](#sec-ap)). I have access to your DataLab and will make an electronic copy for grading. A few days later, you’ll receive your group’s grade along with comments.
+
+The process for homework assignments is similar: once the instructions are posted on Blackboard, upload them to your group’s DataLab workbook, complete the task online, and ensure everything is finalized in the required location before the deadline (see [Activities policies](#sec-ap)).
+
+**Are we going to review the exam and homework assignment answers?** Yes. After each exam, we will use the following class session (held via Zoom) to go over the questions and discuss correct approaches. This applies to $E_1$ and $E_2$, but not to $E_F$ since classes end before the final exam results can be reviewed. Exam questions are open-ended, and there are often multiple correct ways to answer them, so we will explore a variety of valid responses and common mistakes. If more time is needed for review, we can continue the discussion on the forum, in DataLab, or through a meeting upon request. Reviewing your mistakes is an important way to learn and prepare for the final exam. For homework assignments, students receive immediate feedback during their presentations, and additional comments are available upon request.
+
+**What if we fail to understand our own mistakes?** Regardless of the activity, if you have any difficulty understanding your mistakes, it is expected that you reach out to me for clarification. In such cases, I may request you to attempt the questions again before we can discuss your specific mistakes in a meeting. 
+
+**Do all group members receive the same mark?** Not necessarily. Individual marks are adjusted based on coevaluation results (see [Group policies](#sec-gp)). For example, even if a group receives a perfect score on the first homework $G_{H1} = 100$, a student with a coevaluation score of $C_{H1} = 0$ would receive an individual mark of $H_1 = 0$. Conversely, if the group mark is $G_{H1} = 90$ and a student receives a coevaluation of $C_{H1} = 100$, their individual mark adjusts to $H_1 = 93$. In short, your final mark reflects both the group’s performance and your contribution. Additionally, exam marks may increase through participation in bonus points activities.
+
+**Where?** Physical presence in the classroom is not required for taking the exams. You can complete the exams from any location of your choice, as they are conducted, answered, and submitted entirely in electronic format. Just ensure that you and the rest of your group have a stable internet connection. I can create Zoom rooms for your group to answer the exam if you wish. I will be available during the exams through Zoom; joining the Zoom session is not mandatory during exams, but I will be accessible in case you need assistance. The Zoom link for the exams is the same as the one assigned to the course.
+
+For 3-hour class sessions, the first part of the session is dedicated to taking the exam. During the second part of the class, you will need to log in to the Zoom session to review and discuss the answers for the $E_1$ and $E_2$ exams. (See [Activities policies](#sec-ap) for attendance rules.)
+
+**How many questions?** The number of questions and the required number of answers are defined in [Activities policies](#sec-ap). Read those rules carefully and answer only the required number of questions.
+
+**Can we open the textbook during the exam?** Yes, you are allowed to use the internet and all course materials during the exams. The purpose of the exams is to assess your reasoning, coding, and analytical skills rather than your ability to memorize concepts or perform internet searches. Exam questions are designed so that answers cannot be found directly online, in the textbook, or in a test bank. Even AI tools frequently fail to provide fully correct answers because most of the time questions are very specific and data-oriented. Remember: exams are completed only with your assigned group (see [Activities policies](#sec-ap)).
 
 
 ## `r fontawesome::fa("marker")` Rubrics. 
@@ -268,39 +257,44 @@ Here, I define a few common verbs used in assignment and exam instructions.
 
 ## `r fontawesome::fa("grin-hearts")` Bonus points. 
 
-Bonus points activities are individual tasks. As with any bonus points activity, you will not lose points if you fail to complete them, but you can earn additional marks if you complete them on time. For each DataCamp and [UN CC:Learn](https://www.uncclearn.org/) course completed on time, you will receive a nice PDF certificate, which looks great on your CV and LinkedIn profile.
+Bonus points activities are individual tasks. As with any bonus points activity, you will not lose points if you fail to complete them, but you can earn additional marks if you complete them on time. For each DataCamp course completed on time, you will receive a nice PDF certificate, which looks great on your CV and LinkedIn profile.
 
 <!-- [^6]: Please note that DataCamp is not the only alternative to learn R. There are other free alternatives available in the web such as [Swirl.](https://swirlstats.com/) You can find many free electronic resources to learn R in the reference section at the end of this syllabus. There are also some students who find the tutorials (developed by myself) a good enough resource to learn R. However, there are other students who need more specialized courses, or more basic courses to understand the logic of programming in R and some other extensions. In my attempt to offer you as many free and useful resources as possible, you have a DataCamp account. According to Martijn Theuwissen Co-founder and COO at DataCamp, they are no.1 ranked Forbes certifications. -->
 
-**DataCamp.** You can earn bonus points for your next $G_{E1}, G_{E1}$ and $G_{E1}$ exams group marks by completing DataCamp assignments, which involve accumulating a specific amount of XP. XP is a measure of your engagement within DataCamp, automatically calculated based on the courses, exercises, or other content you complete. For more details, refer to the DataCamp Assignments section and the course calendar, where they are marked with the *bonus points* tag. The deadline is 10:00 on the date indicated in the course calendar. Since XP is calculated automatically, you do not need to submit any certificates, screenshots, or other evidence. Just make sure to complete the assignment on time.
+**DataCamp.** You can earn bonus points for your next $G_{E1}, G_{E1}$ and $G_{E1}$ exams group marks by completing DataCamp assignments, which involve completing skill tracks, career tracks or professional certifications. For more details, refer to the DataCamp Assignments section and the course calendar, where they are marked with the *bonus points* tag. The deadline is 10:00 on the date indicated in the course calendar.
 
+If you complete all of them on time, you will earn:
 
-The amount of bonus points is based on the cumulative number of DataCamp assignments completed during the semester. There are 9 DataCamp assignments in total, allocated as 3 in the first part of the course, 3 in the second, and 3 in the third. Each assignment consists of accumulating 10,000 XP in DataCamp courses. For each assignment completed, you earn $f(n) = p_n$ bonus points on the total number of assignments completed, where $p_n$ represents the $n$-th prime number and $n$ is the count of completed assignments. The function domain is $\{1, 2, 3, 4, 5, 6, 7, 8, 9\}$ and the range is $\{2, 3, 5, 7, 11, 13, 17, 19, 23\}$.
+* $X_{E1} = 15$ bonus points over your $G_{E1}$.
+* $X_{E2} = 15$ bonus points over your $G_{E2}$.
+* $X_{EF} = 15$ bonus points over your $G_{EF}$.
 
-Then, if you complete all of them on time, you will earn:
+<!-- The amount of bonus points is based on the cumulative number of DataCamp assignments completed during the semester. There are 9 DataCamp assignments in total, allocated as 3 in the first part of the course, 3 in the second, and 3 in the third. Each assignment consists of accumulating 10,000 XP in DataCamp courses. For each assignment completed, you earn $f(n) = p_n$ bonus points on the total number of assignments completed, where $p_n$ represents the $n$-th prime number and $n$ is the count of completed assignments. The function domain is $\{1, 2, 3, 4, 5, 6, 7, 8, 9\}$ and the range is $\{2, 3, 5, 7, 11, 13, 17, 19, 23\}$. -->
 
-* $X_{E1}=f(3) = 5$ bonus points over your $G_{E1}$, which represents +2 over your final grade $F$.
-* $X_{E2}=f(6) = 13$ bonus points over your $G_{E2}$, which represents +5.2 over your final grade $F$.
-* $X_{EF}=f(9) = 23$ bonus points over your $G_{EF}$, which represents +6.9 over your final grade $F$.
+<!-- Then, if you complete all of them on time, you will earn: -->
 
-Thus, if you complete all 9 bonus points DataCamp assignments on time (90,000 XP) you will get +14.1 over your final grade $F$.
+<!-- * $X_{E1}=f(3) = 5$ bonus points over your $G_{E1}$, which represents +2 over your final grade $F$. -->
+<!-- * $X_{E2}=f(6) = 13$ bonus points over your $G_{E2}$, which represents +5.2 over your final grade $F$. -->
+<!-- * $X_{EF}=f(9) = 23$ bonus points over your $G_{EF}$, which represents +6.9 over your final grade $F$. -->
 
-```{r eval=FALSE, include=FALSE}
-cumulative <- cumsum(2:8)
-single <- seq(2, 8)
-x <- seq(1, 7)
+<!-- Thus, if you complete all 9 bonus points DataCamp assignments on time (90,000 XP) you will get +14.1 over your final grade $F$. -->
 
-df <- data.frame("Activity completed" = x, 
-                 "bonus points per activity" = single, 
-                 "Cumulative" = cumulative)
-df
-```
+<!-- ```{r eval=FALSE, include=FALSE} -->
+<!-- cumulative <- cumsum(2:8) -->
+<!-- single <- seq(2, 8) -->
+<!-- x <- seq(1, 7) -->
 
-To complete the XP assignments, you will need to choose courses, skill tracks, career tracks, practice exercises, and other types of DataCamp content on your own. You are free to select based on your personal interests and preferences. However, if you would like some guidance, I recommend starting with basic or fundamental R programming courses, data visualization in R, as well as finance courses with R. Other options include Python, SQL, Tableau, Power BI, Excel, ChatGPT, and more. Visit the "Learn" section on DataCamp to browse, search, and filter all available learning content to accumulate XP. Feel free to contact me if you would like further advice on which courses to take.
+<!-- df <- data.frame("Activity completed" = x,  -->
+<!--                  "bonus points per activity" = single,  -->
+<!--                  "Cumulative" = cumulative) -->
+<!-- df -->
+<!-- ``` -->
+
+<!-- To complete the XP assignments, you will need to choose courses, skill tracks, career tracks, practice exercises, and other types of DataCamp content on your own. You are free to select based on your personal interests and preferences. However, if you would like some guidance, I recommend starting with basic or fundamental R programming courses, data visualization in R, as well as finance courses with R. Other options include Python, SQL, Tableau, Power BI, Excel, ChatGPT, and more. Visit the "Learn" section on DataCamp to browse, search, and filter all available learning content to accumulate XP. Feel free to contact me if you would like further advice on which courses to take. -->
 
 <!-- **DataCamp assessments.** DataCamp assessments are individual activities that allow you to get extra marks over your final grade $F$. Yes, over your final grade. These are time-limit online evaluations of your knowledge of R and Python. DataCamp marks your assessment as N (novice), I (intermediate), and A (advanced) depending on your own performance. The rule to allocate the extra marks over your final grade $F$ is the following: 0 for N; +1 for I; and +2 for A. Assessments will be available in your DataCamp Assignments section and in the course calendar as *super extra marks* tag. Assessments are completed during the class session and although DataCamp allows you to complete the assessment twice, I will take your first try as your grade. -->
 
-**DataCamp top 5 XP for the first 30, 60, and 90 days.** DataCamp has a leaderboard that ranks participants based on the amount of XP they earn. I will assign +5 bonus points to the top 5 students with the highest XP during three specific time ranges: the first 30 days, days 31 to 60, and days 61 to 90 of the semester. The allocation of these bonus points will be recorded according to the course calendar.
+<!-- **DataCamp top 5 XP for the first 30, 60, and 90 days.** DataCamp has a leaderboard that ranks participants based on the amount of XP they earn. I will assign +5 bonus points to the top 5 students with the highest XP during three specific time ranges: the first 30 days, days 31 to 60, and days 61 to 90 of the semester. The allocation of these bonus points will be recorded according to the course calendar. -->
 
 ```{r eval=FALSE, include=FALSE}
 # Fecha inicial
@@ -320,15 +314,15 @@ fechas
 
 ```
 
-The dates on which I will assign these marks according to the DataCamp leaderboard are: Wednesday, September 3; Friday, October 3; and Monday, November 3.
+<!-- The dates on which I will assign these marks according to the DataCamp leaderboard are: Wednesday, September 3; Friday, October 3; and Monday, November 3. -->
 
-**UN CC:Learn courses.** You can earn bonus points for your next $G_{E1}, G_{E2}$ and $G_{EF}$ exams group marks by completing [UN CC:Learn](https://www.uncclearn.org/) courses, which are listed in the course calendar under the *bonus points* tag. The deadline is 10:00 on the date indicated in the course calendar. Please note that UN CC:Learn courses may require a minimum score to obtain a valid certificate.
+<!-- **UN CC:Learn courses.** You can earn bonus points for your next $G_{E1}, G_{E2}$ and $G_{EF}$ exams group marks by completing [UN CC:Learn](https://www.uncclearn.org/) courses, which are listed in the course calendar under the *bonus points* tag. The deadline is 10:00 on the date indicated in the course calendar. Please note that UN CC:Learn courses may require a minimum score to obtain a valid certificate. -->
 
-Some students may have completed a UN CC:Learn course in the past. If your certificate is older than the starting date of the current academic term, it is not valid, and you will need to choose a different course to substitute it. 
+<!-- Some students may have completed a UN CC:Learn course in the past. If your certificate is older than the starting date of the current academic term, it is not valid, and you will need to choose a different course to substitute it.  -->
 
-There are 3 UN CC:Learn activities in the semester, allocated as 1 in the first term, 1 in the second, and 1 in the third. You will earn +5 bonus points for each completed course. In case you complete them on time, these bonus points over your $G_{E1}, G_{E2}$ and $G_{EF}$ represent +5.5 over your final grade $F$. Students who complete the three UN CC:Learn and the 90,000 XP DataCamp assignments will get +19.6 over their final grade $F$.
+<!-- There are 3 UN CC:Learn activities in the semester, allocated as 1 in the first term, 1 in the second, and 1 in the third. You will earn +5 bonus points for each completed course. In case you complete them on time, these bonus points over your $G_{E1}, G_{E2}$ and $G_{EF}$ represent +5.5 over your final grade $F$. Students who complete the three UN CC:Learn and the 90,000 XP DataCamp assignments will get +19.6 over their final grade $F$. -->
 
-As with DataCamp, you are expected to choose the UN CC:Learn course based on your own interests and preferences. Visit the course section to browse the full catalog.
+<!-- As with DataCamp, you are expected to choose the UN CC:Learn course based on your own interests and preferences. Visit the course section to browse the full catalog. -->
 
 **Stickers.** There are some opportunities throughout the semester to get bonus points. In this course, bonus points are allocated in the form of stickers, every sticker stands for 5 bonus points on your $G_{E1}, G_{E2}$ and $G_{EF}$ exams group marks. They are called *stickers* because I give real stickers to my students. Stickers are assigned by merit. It is not very easy to get a sticker, but it is worth a try. The record so far is one student who got 30 bonus points over the $G_{EF}$, and he passed the course partially because of that.
 
