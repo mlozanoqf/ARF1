@@ -1,0 +1,533 @@
+# `r fontawesome::fa("calendar-alt")` Schedule. {#sec-schedule}
+
+ARF, Fall 2025. Room 3302, Monday & Thursday 16:00 – 17:30. Zoom [https://us02web.zoom.us/j/86351166900](https://us02web.zoom.us/j/86351166900)
+
+## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1.
+
+**Session 1. `r fontawesome::fa("handshake")` Monday, August 4.**
+
+**Session 2. Thursday, August 7.**
+
+**Session 3. Monday, August 11.**
+
+- Topic 1/3: Risk management.
+- Obligatorio. Acepta las normativas del curso: [Formulario.](https://forms.gle/YSE1utHAAXQmK6NK9)
+- Reading. @HullRM5, chapter 1, section 1.1: *Risk vs. return for investors*.
+- Reading. @HullRM5, chapter 1, section 1.2: *The efficient frontier*.
+- Complementary material. PowerPoint slides: [John C. Hull.](https://www-2.rotman.utoronto.ca/~hull/ofodslides/index.html)
+- Complementary material. @drake2010basics, chapter 16: *The theory of portfolio selection*.
+- Complementary material. @brealey2020principles, chapter 8: *Portfolio theory and the capital asset pricing model*.
+- Complementary material. @ruppert2011statistics, chapter 16: *Portfolio selection*.
+
+**Session 4. Thursday, August 14.**
+
+- Reading. @HullRM5, chapter 1, section 1.3: *The capital asset pricing model*.
+- Reading. @HullRM5, chapter 1, section 1.4: *Arbitrage pricing theory*.
+
+**Session 5. Monday, August 18.**
+
+- Reading. @HullRM5, chapter 1, section 1.5: *Risk vs. return for companies*.
+- Reading. @HullRM5, chapter 1, section 1.6: *Risk management by financial institutions*.
+- Complementary material. @crouhy2014essentials, video 1 [The building blocks of risk management](https://youtu.be/sKMt1qzmGfU).
+- Complementary material. @crouhy2014essentials, video 2 [Risk management: A helicopter view](https://youtu.be/PJbRtIVGdaI). 
+- Complementary material. @crouhy2014essentials, video 3 [Corporate risk management: A primer](https://youtu.be/YWpfwi8wD4c).
+
+**Session 6. Thursday, August 21.**
+
+- Reading. @HullRM5, chapter 1, section 1.7: *Credit ratings*.
+- Reading. @Hull11, chapter 24, section 24.1: *Credit ratings*. 
+- Reading. @Hull11, chapter 24, section 24.2: *Historical default probabilities*.
+- Reading. @Hull11, chapter 24, section 24.3: *Recovery rates*.
+- Complementary material. Fictional video (warning, it has offensive language): [FrontPoint partners confronts Morgan Stanley risk assessors and S&P.](https://youtu.be/Vvxbc8L4s64)
+
+**Session 7. Monday, August 25.**
+
+<!-- - Reading. @Hull11, chapter 10, section 10.1: *Types of options*. -->
+<!-- - Reading. @Hull11, chapter 10, section 10.2: *Option positions*. -->
+- Complementary material. *Riesgo financiero*. [Spotify `r fontawesome::fa("spotify")`](https://open.spotify.com/episode/7hrOh0tvDH3lioOfXtRqsT?si=8142007bc6ab4f56). Hablemos de economía y política. Asociación para la Conciencia Económica y Política (ACEyP). Noviembre 2024.
+- Activity. $H_1$ review.
+
+**Session 8. Thursday, August 28.**
+
+- Graded. Complete $H_1$ before 10:00 a.m.
+- Activity. $H_1$ presentations 1/2.
+
+**Session 9. Monday, September 1.**
+
+- Activity. $H_1$ presentations 2/2.
+- Extra marks. DataCamp top 5 XP for the first 30 days. Deadline: Wednesday, September 3.
+
+**Session 10. Thursday, September 4.**
+
+- Activity. $E_1$ review.
+
+**Session 11, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, September 8.**
+
+- Graded. $E_1$ Instructions in Blackboard.
+- The link to complete $H_1$ and $E_1$ co-evaluation will be available on Blackboard right after the exam.
+
+## `r fontawesome::fa("battery-half", fill = "red")` Part 2.
+
+**Session 12. Thursday, September 11.**
+
+- Activity. Discuss $E_1$ answers.
+- Extra marks. The wheel of fortune 1/3. This is a class activity.
+- Graded. Submit $H_1$ and $E_1$ co-evaluation before 10:00 a.m. Instructions in Blackboard.
+
+
+**Session 13. Monday, September 15.**
+
+- Topic 2/3: Credit default prediction using statistical and machine learning techniques.
+- Reading. @lozanoARF, chapter 1, section 1.1: *Explore the database*.
+- Complementary material. *Retos y oportunidades en el aprendizaje de ciencia de datos en las escuelas de negocios.* Available at: [Spotify `r fontawesome::fa("spotify")`](https://open.spotify.com/episode/6x8c6XIPIfIPLj1yRhi5D8?si=bcee2af66ed54e09); [YouTube `r fontawesome::fa("youtube")`](https://youtu.be/SKG3Kr-TK-w?si=W5wg2DXluuiEspWC); [LinkedIn `r fontawesome::fa("linkedin")`](https://www.linkedin.com/posts/martin-lozano-21818a22_132-retos-y-oportunidades-en-el-aprendizaje-activity-7142212773349945344-1xHL?utm_source=share&utm_medium=member_desktop). Café de Datos, Datlas. Temporada 9, capítulo 132. Diciembre 2023. 
+
+**Session 14, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Thursday, September 18.**
+
+- Reading. @lozanoARF, chapter 1, section 1.2: *Logistic models*.
+- Complementary material. @hanck2020introduction, chapter 11: *Regression with a binary dependent variable*. 
+- Complementary material. @hull2020machine, chapter 3: *Supervised learning: linear regression*.
+
+**Session 15. Monday, September 22.**
+
+- Reading. @lozanoARF, chapter 1, section 1.3: *Prediction and model evaluation*.
+
+**Session 16. Thursday, September 25.**
+
+- Reading. @lozanoARF, chapter 1, section 1.3: *Prediction and model evaluation*.
+- Complementary material. @alonso2021understanding: *Understanding the performance of machine learning models to predict credit default: a novel approach for supervisory evaluation*.
+
+**Session 17. Monday, September 29.**
+
+- Reading. @lozanoARF, chapter 1, section 1.4: *The bank strategy*.
+
+**Session 18. Thursday, October 2.**
+
+- Reading. @lozanoARF, chapter 1, section 1.4: *The bank strategy*.
+
+**Session 19, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, October 6.**
+
+- Activity. $H_2$ review.
+
+**Session 20. Thursday, October 9.**
+
+- Graded. Complete $H_2$ before 10:00 a.m.
+- Activity. $H_2$ presentations 1/2.
+
+**Session 21. Monday, October 13.**
+
+- Activity. $H_2$ presentations 2/2.
+
+**Session 22. Thursday, October 16.**
+
+- Activity. $E_2$ review.
+
+**Session 23, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, October 20.**
+
+- Graded. $E_2$ Instructions in Blackboard.
+- The link to complete $H_2$ and $E_2$ co-evaluation will be available on Blackboard right after the exam.
+
+## `r fontawesome::fa("battery-three-quarters", fill = "orange")` Part 3.
+
+**Session 24. Thursday, October 23.**
+
+- Activity. Discuss $E_2$ answers.
+- Extra marks. The wheel of fortune 2/3. This is a class activity.
+- Graded. Submit $H_2$ and $E_2$ co-evaluation before 10:00 a.m. Instructions in Blackboard.
+
+**Session 25. Monday, October 27.**
+
+- Topic 3/3: Estimating firm default risk using the Merton structural model.
+- Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
+- Complementary material. Video: [Ethics and trust in the investment profession.](https://youtu.be/azBhDSjBRS0)
+
+**Session 26. `r fontawesome::fa("ghost")` Thursday, October 30.**
+
+- Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, chapter 2, section 2.2: *The estimation*.
+- Complementary material. @brealey2020principles, chapter 23 *Credit risk and the value of corporate debt*.
+
+**Session 27. Monday, November 3.**
+
+**Session 28. Thursday, November 6.**
+
+- Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, chapter 2, section 2.3: *Inside view of the Merton’s model*.
+- Complementary material. Video: [FRM: How $d_2$ in Black-Scholes becomes PD in Merton model.](https://youtu.be/lV0ytJYbVzc)
+
+
+**Session 29. Monday, November 10.**
+
+- Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, chapter 2, section2.4: *The probability of default as a function of some parameters*.
+- Complementary material. Video: [Measuring credit risk.](https://youtu.be/03nNzt8PyYM)
+
+**Session 30. Thursday, November 13.**
+
+- Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
+- Reading. @lozanoARF, chapter 2, section 2.5: *GoT: capital structure*.
+- Complementary material. [The Plastic Recycling Myth.](https://youtu.be/zZlRhCDzh2A)
+
+
+**Holiday. `r fontawesome::fa("umbrella-beach")` Monday, November 17.**
+
+**Session 31, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Thursday, November 20.**
+
+
+## `r fontawesome::fa("battery-full", fill = "green")` The end.
+
+**Final exam, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, December 1, 16:00 – 18:00.**
+
+- Graded. $E_F$ Instructions in Blackboard.
+
+**Session 23, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, October 20.**
+
+
+
+arf
+
+## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1.
+
+**Session 1. `r fontawesome::fa("handshake")` Monday, January 12.**
+
+- Reading. Course syllabus (this document).
+- Activity. Welcome and introduction to the course.
+- Activity. Set up your free DataCamp account. Invitations have been sent to your UDEM student email.
+- Activity. Define your team of no more than 4 members.
+
+**Session 2. Thursday, January 15.**
+
+- Reading. Course syllabus (this document).
+- Activity. How DataCamp and DataLab works.
+
+**Session 3. Monday, January 19.**
+**Session 4. Thursday, January 22.**
+**Session 5. Monday, January 26.**
+**Session 6. Thursday, January 29.**
+**Holiday. `r fontawesome::fa("umbrella-beach")` Monday, February 2.**
+**Session 7. Thursday, February 5.**
+**Session 8. Monday, February 9.**
+
+**Session 9. `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")` Thursday, February 12.**
+
+- *No conozco la fecha límite, pero deben completar la encuesta avanza 180 por favor.*
+
+**Session 10. Monday, February 16.**
+**Session 11. Thursday, February 19.**
+**Session 12. Monday, February 23.**
+
+**Session 13. Thursday, February 26.**
+
+- Bonus points. Complete DataCamp assignment before 10:00 a.m. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
+- Non graded. Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+
+**Session 14. Monday, March 2.**
+**Session 15. Thursday, March 5.**
+**Session 16. Monday, March 9.**
+**Session 17. Thursday, March 12.**
+**Holiday. `r fontawesome::fa("umbrella-beach")` Monday, March 16.**
+
+**Session 18. `r fontawesome::fa_i("sun", class = "fa-solid")` Thursday, March 19.**
+
+**Session 19. Monday, March 23.**
+
+**Session 20. Thursday, March 26.**
+
+- Bonus points. Complete DataCamp assignment before 10:00 a.m. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
+
+**Holiday. `r fontawesome::fa("umbrella-beach")` Monday, March 30.**
+**Holiday. `r fontawesome::fa("umbrella-beach")` Thursday, April 2.**
+**Session 21. Monday, April 6.**
+**Session 22. Thursday, April 9.**
+**Session 23. Monday, April 13.**
+**Session 24. Thursday, April 16.**
+**Session 25. Monday, April 20.**
+
+**Session 26. Thursday, April 23.**
+
+- *No conozco la fecha límite, pero deben completar la encuesta avanza 360 por favor.*
+
+**Session 27. Monday, April 27.**
+
+**Session 28. `r fontawesome::fa_i("children", class = "fa-solid")` Thursday, April 30.**
+
+**Session 29. `r fontawesome::fa("jedi-order")` Monday, May 4.**
+
+- Non-graded. Complete $H_3$ before 10:00 a.m.
+
+**Session 30, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Thursday, May 7.**
+
+- Activity. $E_F$ review.
+- Extra marks. The wheel of fortune 3/3. This is a class activity.
+- Bonus points. Complete DataCamp assignment before 10:00 a.m. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
+- Farewell `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")`.
+
+## `r fontawesome::fa("battery-full", fill = "green")` The end.
+
+**Final exam, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. xxx, xxx 1, 16:00 – 18:00.**
+
+- Graded. $E_F$ Instructions in Blackboard.
+
+
+emf
+
+## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1.
+
+**Session 1. `r fontawesome::fa("handshake")` Monday, January 12.**
+
+- Reading. Course syllabus (this document).
+- Activity. Welcome and introduction to the course.
+- Activity. Set up your free DataCamp account. Invitations have been sent to your UDEM student email.
+- Activity. Define your team of no more than 4 members.
+
+**Session 2. Thursday, January 15.**
+
+- Reading. Course syllabus (this document).
+- Activity. How DataCamp and DataLab works.
+
+**Session 3. Monday, January 19.**
+**Session 4. Thursday, January 22.**
+**Session 5. Monday, January 26.**
+**Session 6. Thursday, January 29.**
+**Holiday. `r fontawesome::fa("umbrella-beach")` Monday, February 2.**
+**Session 7. Thursday, February 5.**
+**Session 8. Monday, February 9.**
+
+**Session 9. `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")` Thursday, February 12.**
+
+- *No conozco la fecha límite, pero deben completar la encuesta avanza 180 por favor.*
+
+**Session 10. Monday, February 16.**
+**Session 11. Thursday, February 19.**
+**Session 12. Monday, February 23.**
+
+**Session 13. Thursday, February 26.**
+
+- Bonus points. Complete DataCamp assignment before 10:00 a.m. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
+
+**Session 14. Monday, March 2.**
+**Session 15. Thursday, March 5.**
+**Session 16. Monday, March 9.**
+**Session 17. Thursday, March 12.**
+**Holiday. `r fontawesome::fa("umbrella-beach")` Monday, March 16.**
+
+**Session 18. `r fontawesome::fa_i("sun", class = "fa-solid")` Thursday, March 19.**
+
+**Session 19. Monday, March 23.**
+
+**Session 20. Thursday, March 26.**
+
+- Bonus points. Complete DataCamp assignment before 10:00 a.m. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
+- Non graded. Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+
+**Holiday. `r fontawesome::fa("umbrella-beach")` Monday, March 30.**
+**Holiday. `r fontawesome::fa("umbrella-beach")` Thursday, April 2.**
+**Session 21. Monday, April 6.**
+**Session 22. Thursday, April 9.**
+**Session 23. Monday, April 13.**
+**Session 24. Thursday, April 16.**
+**Session 25. Monday, April 20.**
+
+**Session 26. Thursday, April 23.**
+
+- *No conozco la fecha límite, pero deben completar la encuesta avanza 360 por favor.*
+
+**Session 27. Monday, April 27.**
+
+**Session 28. `r fontawesome::fa_i("children", class = "fa-solid")` Thursday, April 30.**
+
+**Session 29. `r fontawesome::fa("jedi-order")` Monday, May 4.**
+
+- Non-graded. Complete $H_3$ before 10:00 a.m.
+
+**Session 30, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Thursday, May 7.**
+
+- Activity. $E_F$ review.
+- Extra marks. The wheel of fortune 3/3. This is a class activity.
+- Bonus points. Complete DataCamp assignment before 10:00 a.m. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
+- Farewell `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")`.
+
+## `r fontawesome::fa("battery-full", fill = "green")` The end.
+
+**Final exam, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. xxx, xxx 1, 16:00 – 18:00.**
+
+- Graded. $E_F$ Instructions in Blackboard.
+
+min
+
+## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1.
+
+**Session 1. `r fontawesome::fa("handshake")` Thursday, January 15.**
+
+- Reading. Course syllabus (this document).
+- Activity. Welcome and introduction to the course.
+- Activity. Set up your free DataCamp account. Invitations have been sent to your UDEM student email.
+- Activity. Define your team of no more than 4 members.
+
+**Session 2. Thursday, January 22.**
+**Session 3. Thursday, January 29.**
+**Session 4. Thursday, February 5.**
+**Session 5. `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")` Thursday, February 12.**
+
+- *No conozco la fecha límite, pero deben completar la encuesta avanza 180 por favor.*
+
+**Session 6. Thursday, February 19.**
+**Session 7. Thursday, February 26.**
+**Session 8. Thursday, March 5.**
+**Session 9. Thursday, March 12.**
+
+**Session 10. `r fontawesome::fa_i("sun", class = "fa-solid")` Thursday, March 19.**
+
+**Session 11. Thursday, March 26.**
+**Holiday. `r fontawesome::fa("umbrella-beach")` Thursday, April 2.**
+**Session 12. Thursday, April 9.**
+**Session 13. Thursday, April 16.**
+**Session 14. Thursday, April 23.**
+
+- *No conozco la fecha límite, pero deben completar la encuesta avanza 360 por favor.*
+
+**Session 15. `r fontawesome::fa_i("children", class = "fa-solid")` Thursday, April 30.**
+
+**Session 16. Thursday, May 7.**
+
+
+fcf2
+
+## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1.
+
+**Session 1. `r fontawesome::fa("handshake")` Monday, January 12.**
+
+- Reading. Course syllabus (this document).
+- Activity. Welcome and introduction to the course.
+- Activity. Set up your free DataCamp account. Invitations have been sent to your UDEM student email.
+- ⏸️ Break.
+- Activity. Define your team of no more than 4 members.
+- Activity. How DataCamp and DataLab works.
+
+**Session 2. Monday, January 19.**
+**Session 3. Monday, January 26.**
+**Holiday. `r fontawesome::fa("umbrella-beach")` Monday, February 2.**
+**Session 4. `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")` Monday, February 9.**
+
+**Session 5. Monday, February 16.**
+
+- *No conozco la fecha límite, pero deben completar la encuesta avanza 180 por favor.*
+
+**Session 6. Monday, February 23.**
+
+- Bonus points. `🚩` Complete DataCamp assignment before 10:00 a.m. <span style="color:red"><strong>Thursday, February 26</strong></span> *(outside regular sessions)*. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
+- Non graded. Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+
+**Session 7. Monday, March 2.**
+**Session 8. Monday, March 9.**
+
+**Holiday. `r fontawesome::fa("umbrella-beach")` Monday, March 16.**
+
+**Session 9. Monday, March 23.**
+
+- Bonus points. `🚩` Complete DataCamp assignment before 10:00 a.m. <span style="color:red"><strong>Thursday, March 26</strong></span> *(outside regular sessions)*. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
+
+**Holiday. `r fontawesome::fa("umbrella-beach")` Monday, March 30.**
+**Session 10. Monday, April 6.**
+**Session 11. Monday, April 13.**
+**Session 12. Monday, April 20.**
+
+**Session 13. `r fontawesome::fa_i("children", class = "fa-solid")` Monday, April 27.**
+
+- Non-graded. Complete $H_3$ before 10:00 a.m.
+- *No conozco la fecha límite, pero deben completar la encuesta avanza 360 por favor.*
+
+**Session 14, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. `r fontawesome::fa("jedi-order")` Monday, May 4.**
+
+- Activity. $E_F$ review.
+- Extra marks. The wheel of fortune 3/3. This is a class activity.
+- Bonus points. `🚩` Complete DataCamp assignment before 10:00 a.m. <span style="color:red"><strong>Thursday, May 7</strong></span> *(outside regular sessions)*. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
+- Farewell `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")`.
+
+## `r fontawesome::fa("battery-full", fill = "green")` The end.
+
+**Final exam, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. xxx, xxx 1, 16:00 – 18:00.**
+
+- Graded. $E_F$ Instructions in Blackboard.
+
+fcf1
+
+## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1.
+
+**Session 1. `r fontawesome::fa("handshake")` Tuesday, January 13.**
+
+- Reading. Course syllabus (this document).
+- Activity. Welcome and introduction to the course.
+- Activity. Set up your free DataCamp account. Invitations have been sent to your UDEM student email.
+- Activity. Define your team of no more than 4 members.
+
+**Session 2. Friday, January 16.**
+
+- Reading. Course syllabus (this document).
+- Activity. How DataCamp and DataLab works.
+
+**Session 3. Tuesday, January 20.**
+**Session 4. Friday, January 23.**
+**Session 5. Tuesday, January 27.**
+**Session 6. Friday, January 30.**
+**Session 7. Tuesday, February 3.**
+**Session 8. Friday, February 6.**
+**Session 9. Tuesday, February 10.**
+
+**Session 10. `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")` Friday, February 13.**
+
+**Session 11. Tuesday, February 17.**
+
+- *No conozco la fecha límite, pero deben completar la encuesta avanza 180 por favor.*
+
+**Session 12. Friday, February 20.**
+
+**Session 13. Tuesday, February 24.**
+
+- Bonus points. `🚩` Complete DataCamp assignment before 10:00 a.m. <span style="color:red"><strong>Thursday, February 26</strong></span> *(outside regular sessions)*. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
+
+**Session 14. Friday, February 27.**
+**Session 15. Tuesday, March 3.**
+**Session 16. Friday, March 6.**
+**Session 17. Tuesday, March 10.**
+**Session 18. Friday, March 13.**
+**Session 19. Tuesday, March 17.**
+
+**Session 20. `r fontawesome::fa_i("sun", class = "fa-solid")` Friday, March 20.**
+
+**Session 21. Tuesday, March 24.**
+
+- Bonus points. `🚩` Complete DataCamp assignment before 10:00 a.m. <span style="color:red"><strong>Thursday, March 26</strong></span> *(outside regular sessions)*. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
+- Non graded. Mention DataCamp in social media if possible. [Instructions.](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit)
+
+**Session 22. Friday, March 27.**
+**Holiday. `r fontawesome::fa("umbrella-beach")` Tuesday, March 31.**
+**Holiday. `r fontawesome::fa("umbrella-beach")` Friday, April 3.**
+**Session 23. Tuesday, April 7.**
+**Session 24. Friday, April 10.**
+**Session 25. Tuesday, April 14.**
+**Session 26. Friday, April 17.**
+**Session 27. Tuesday, April 21.**
+
+**Session 28. Friday, April 24.**
+
+- *No conozco la fecha límite, pero deben completar la encuesta avanza 360 por favor.*
+
+**Session 29. Tuesday, April 28.**
+**Holiday. `r fontawesome::fa("umbrella-beach")` Friday, May 1.**
+
+**Session 30. `r fontawesome::fa("jedi-order")` Tuesday, May 5.**
+
+- Bonus points. `🚩` Complete DataCamp assignment before 10:00 a.m. <span style="color:red"><strong>Thursday, May 7</strong></span> *(outside regular sessions)*. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
+- Non-graded. Complete $H_3$ before 10:00 a.m.
+
+**Session 31, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Friday, May 8.**
+
+- Activity. $E_F$ review.
+- Extra marks. The wheel of fortune 3/3. This is a class activity.
+- Farewell `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")`.
+
+## `r fontawesome::fa("battery-full", fill = "green")` The end.
+
+**Final exam, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. xxx, xxx 1, 16:00 – 18:00.**
+
+- Graded. $E_F$ Instructions in Blackboard.
