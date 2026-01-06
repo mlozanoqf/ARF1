@@ -11,7 +11,7 @@ ARF, Fall 2025. Room 3302, Monday & Thursday 16:00 – 17:30. Zoom [https://us02
 **Session 3. Monday, August 11.**
 
 - Topic 1/3: Risk management.
-- Obligatorio. Acepta las normativas del curso: [Formulario.](https://forms.gle/YSE1utHAAXQmK6NK9)
+- Obligatorio. Acepta las normativas del curso: [Formulario.](https://forms.gle/uDkL2QtQget2ByaT6)
 - Reading. @HullRM5, chapter 1, section 1.1: *Risk vs. return for investors*.
 - Reading. @HullRM5, chapter 1, section 1.2: *The efficient frontier*.
 - Complementary material. PowerPoint slides: [John C. Hull.](https://www-2.rotman.utoronto.ca/~hull/ofodslides/index.html)

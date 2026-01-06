@@ -15,7 +15,7 @@ The learning activities are classified into graded, non-graded, and bonus points
 
 - Schedule. Exams follow the course calendar (@sec-schedule) and the university’s official dates.
 - Duration. $E_1$ and $E_2$ are 1.5-hour in-class activities; $E_F$ lasts 2 hours.
-- Homework deadlines. Homework assignments are due at 10:00am on the dates specified in the course calendar.
+- Homework deadlines. Homework assignments are due at 10:00am on the dates specified in the course calendar (@sec-schedule).
 - Policies. Rules on language, group work, late submissions, submission format/location, question requirements, and review-session attendance are defined in [Activities policies](#sec-ap).
 
 1. Exams and homework assignments must be submitted in English. If a submission is not in English, at least 50\% of the overall mark may be deducted.
@@ -40,7 +40,7 @@ All topics covered in this course will be evaluated in the exams. To achieve a s
 
 **When?** The exams follow the schedule in the course calendar (@sec-schedule), aligned with the university’s official dates. In 3-hour class sessions, $E_1$ and $E_2$ take place during the first part, followed by a review of the answers in the second. Homework $H_1$, $H_2$, and $H_3$ are due shortly before $E_1$, $E_2$, and $E_F$, respectively (see course calendar). Planning ahead is strongly advised: low assignment grades are often caused by starting too late, not by difficulty.
 
-**What are typical questions?** While past exams may be available (since I allow students to keep their copies), the course content evolves and questions change each semester. Still, reviewing older exams can help you understand the general format and types of questions. Exams often include tasks that require using R and/or Python, typically focused on analyzing and interpreting data or results. Homework assignments include applied, research-oriented questions that require writing code in R and/or Python, learning new concepts, and conducting some independent research. You are not alone in this process: you have access to the resources outlined in the syllabus, including support through Zoom sessions, DataLab discussions, meetings, and email.
+**What are typical questions?** While past exams may be available (since I allow students to keep their copies), the course content evolves and questions change each semester. Still, reviewing older exams can help you understand the general format and types of questions. Exams often include tasks that require using R and/or Python, typically focused on analyzing and interpreting data or results. I normally take material from the course calendar @sec-schedule (readings and complementary material) as main references to write exams questions. Homework assignments include applied, research-oriented questions that require writing code in R and/or Python, learning new concepts, and conducting some independent research. You are not alone in this process: you have access to the resources outlined in the syllabus, including support through Zoom sessions, DataLab discussions, meetings, and email.
 
 **What are the mechanics?** Exam instructions will be provided as a <tt>`.ipynb`</tt> Jupyter Notebook file, made available on Blackboard five minutes before the start of the class session (see course calendar). Once available, you must download the file and upload it to your group’s DataLab workbook, where you and your teammates will collaborate online to complete the exam within the given time frame. Save the completed notebook in your group workspace inside the “submissions” folder (see [DataCamp policies](#sec-dcp)). Finish before the deadline (see [Activities policies](#sec-ap)). I have access to your DataLab and will make an electronic copy for grading. A few days later, you’ll receive your group’s grade along with comments.
 
@@ -67,7 +67,7 @@ This section explains how your work will be evaluated in this course. You'll fin
 
 **Homework assignments, oral presentation rubric.**
 
-Each of the 5 criteria is worth 20 points, for a total of 100 points. The final assignment group grade is based entirely on the oral presentation. Written submissions must be delivered on time but are not directly graded. Written submissions must follow the course submission rules (see DataCamp policies). On-time upload in the correct group workspace and the ‘submissions’ folder is required for the assignment to be evaluated. In some cases, specific questions or components of an assignment may be evaluated under different or additional criteria. When this applies, it will be clearly stated in the assignment instructions or during class session.
+Each of the 5 criteria is worth 20 points, for a total of 100 points. The final assignment group grade is based entirely on the oral presentation. Written submissions must be delivered on time but are not directly graded. Written submissions must follow the course submission rules (see [DataCamp policies](#sec-dcp)). On-time upload in the correct group workspace and the ‘submissions’ folder is required for the assignment to be evaluated. In some cases, specific questions or components of an assignment may be evaluated under different or additional criteria. When this applies, it will be clearly stated in the assignment instructions or during class session.
 
 <table style="border-collapse: collapse; width: 100%;">
   <thead>
@@ -126,6 +126,8 @@ Each of the 5 criteria is worth 20 points, for a total of 100 points. The final 
     </tr>
   </tbody>
 </table>
+
+**Strict presentation policy (no scripted delivery):** Presentations must be delivered in students’ own words. Reading aloud, reciting from memory, or closely paraphrasing any prepared script/guide (including AI-generated text) to explain part or all of the work is not allowed. If I determine that scripted delivery is occurring, I may stop or cancel the presentation immediately. In such cases, more than 20% may be deducted from the overall grade.
 
 
 **How exams will be evaluated.**
@@ -261,7 +263,7 @@ Bonus points activities are individual tasks. As with any bonus points activity,
 
 <!-- [^6]: Please note that DataCamp is not the only alternative to learn R. There are other free alternatives available in the web such as [Swirl.](https://swirlstats.com/) You can find many free electronic resources to learn R in the reference section at the end of this syllabus. There are also some students who find the tutorials (developed by myself) a good enough resource to learn R. However, there are other students who need more specialized courses, or more basic courses to understand the logic of programming in R and some other extensions. In my attempt to offer you as many free and useful resources as possible, you have a DataCamp account. According to Martijn Theuwissen Co-founder and COO at DataCamp, they are no.1 ranked Forbes certifications. -->
 
-**DataCamp.** You can earn bonus points for your next $G_{E1}, G_{E1}$ and $G_{E1}$ exams group marks by completing DataCamp assignments, which involve completing skill tracks, career tracks or professional certifications. For more details, refer to the DataCamp Assignments section and the course calendar, where they are marked with the *bonus points* tag. The deadline is 10:00 on the date indicated in the course calendar.
+**DataCamp.** You can earn bonus points for your next $G_{E1}, G_{E1}$ and $G_{E1}$ exams group marks by completing DataCamp assignments, which involve completing skill tracks, career tracks or professional certifications. For more details, refer to the DataCamp Assignments section and the course calendar: @sec-schedule, where they are marked with the *bonus points* tag. The deadline is 10:00 on the date indicated in the course calendar.
 
 If you complete all of them on time, you will earn:
 
@@ -329,6 +331,8 @@ fechas
 **The wheel of fortune.** I spin a virtual wheel of fortune three times during the semester to randomly allocate bonus points to a lucky group of students. Attendance in these sessions is mandatory to claim the bonus points if you are selected by the wheel. In total, you could earn +0, +5, or +10 bonus points for your next $G_{E1}, G_{E2}$ and $G_{EF}$ exams group marks.
 
 **Mentimeter.** We may have a few sessions that include a Mentimeter activity. This activity may be evaluated, and if it is, the top 10 best answers will earn bonus points. Points will be awarded based on your rank in the top 10: the first place earns +10, the second place earns +9, and so on, with the tenth place earning +1 bonus points for your next $G_{E1}, G_{E2}$ and $G_{EF}$ exams group marks.
+
+**Others.** There may be others listed in the course calendar @sec-schedule or announced during the course of the semester. 
 
 ## `r fontawesome::fa("shapes")` Non-graded. 
 
@@ -433,7 +437,7 @@ In this video, students from [The University of Melbourne](https://www.unimelb.e
 embed_url("https://youtu.be/_-mP3YKptwQ")
 ```
 
-Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/Rzd6Chv89X5HR4rWA>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in Blackboard.
+Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/j1YL2z7kHC2eBLyc7>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in Blackboard.
 
 In particular, you will have two Google Forms web links in Blackboard to complete your coevaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is coevaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
 
