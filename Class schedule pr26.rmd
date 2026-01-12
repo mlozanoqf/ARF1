@@ -21,6 +21,8 @@ ARF, Fall 2025. Room 3302, Monday & Thursday 16:00 – 17:30. Zoom [https://us02
 
 **Session 4. Thursday, August 14.**
 
+- Video. [Carteras de inversión | Diseño y análisis](https://youtu.be/OO09EqT-aAM?si=PjoTy_cla8Oa7tas)
+- Video. [Cartera óptima con rendimiento objetivo](https://youtu.be/D00PcnSUFbs?si=PaPngNf2v6FFh9q5)
 - Reading. @HullRM5, chapter 1, section 1.3: *The capital asset pricing model*.
 - Reading. @HullRM5, chapter 1, section 1.4: *Arbitrage pricing theory*.
 
@@ -185,6 +187,10 @@ ARF, Fall 2025. Room 3302, Monday & Thursday 16:00 – 17:30. Zoom [https://us02
 
 arf
 
+# `r fontawesome::fa("calendar-alt")` Schedule. {#sec-schedule}
+
+ARF, Spring 2026. Room 2209, Monday & Thursday 16:00 – 17:30. Zoom [https://us02web.zoom.us/j/81501793754](https://us02web.zoom.us/j/81501793754)
+
 ## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1.
 
 **Session 1. `r fontawesome::fa("handshake")` Monday, January 12.**
@@ -193,11 +199,13 @@ arf
 - Activity. Welcome and introduction to the course.
 - Activity. Set up your free DataCamp account. Invitations have been sent to your UDEM student email.
 - Activity. Define your team of no more than 4 members.
+- Bonus points. Reto grupal. Al menos durante este semestre es necesario que te suscribas al canal de YouTube [ahyaentendi](https://www.youtube.com/@ahyaentendi). Si todo el grupo lo hace, entonces asigno +5 a todos mis alumnos de este grupo.
 
 **Session 2. Thursday, January 15.**
 
 - Reading. Course syllabus (this document).
 - Activity. How DataCamp and DataLab works.
+- Bonus points. Reto colectivo. Tengo aproximadamente 90 alumnos este semestre, y todos tienen que ver los siguientes tres videos: [Primavera 2026](https://youtube.com/playlist?list=PLLvF5aOnCZwmKMGr3AciOR4SHtAf73DLv&si=mnWuaBu0q7o1l1rG). Si todos mis alumnos lo hacen, equivale a 180 horas de reproducción. En caso de que al jueves 15 de enero a las 7:00pm se alcance esa meta, entonces asigno +5 a todos mis alumnos.
 
 **Session 3. Monday, January 19.**
 **Session 4. Thursday, January 22.**
@@ -269,6 +277,10 @@ arf
 
 
 emf
+
+# `r fontawesome::fa("calendar-alt")` Schedule. {#sec-schedule}
+
+EMF, Spring 2026. Room 3310, Monday & Thursday 17:30 – 19:00. Zoom [https://us02web.zoom.us/j/81469454043](https://us02web.zoom.us/j/81469454043)
 
 ## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1.
 
@@ -392,6 +404,10 @@ min
 
 fcf2
 
+# `r fontawesome::fa("calendar-alt")` Schedule. {#sec-schedule}
+
+FCF2, Spring 2026. Room 2408, Monday 19:00 – 22:00. Zoom [https://us02web.zoom.us/j/82206532136](https://us02web.zoom.us/j/82206532136)
+
 ## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1.
 
 **Session 1. `r fontawesome::fa("handshake")` Monday, January 12.**
@@ -450,6 +466,10 @@ fcf2
 - Graded. $E_F$ Instructions in Blackboard.
 
 fcf1
+
+# `r fontawesome::fa("calendar-alt")` Schedule. {#sec-schedule}
+
+FCF1, Spring 2026. Online, Tuesday & Friday 10:00 – 11:30. Zoom [https://us02web.zoom.us/j/82646203847](https://us02web.zoom.us/j/82646203847)
 
 ## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1.
 
