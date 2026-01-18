@@ -156,7 +156,7 @@ ARF, Spring 2026. Room 2209, Monday & Thursday 16:00 – 17:30. Zoom [https://us
 
 - Reading. @lozanoARF, chapter 1, section 1.4: *The bank strategy*.
 
-**Session 25. Monday, April 20.**
+**Session 25, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, April 20.**
 
 - Topic 3/3: Estimating firm default risk using the Merton structural model.
 - Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
