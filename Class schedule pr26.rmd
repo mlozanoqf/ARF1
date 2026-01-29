@@ -61,6 +61,7 @@ ARF, Spring 2026. Room 2209, Monday & Thursday 16:00 – 17:30. Zoom [https://us
 
 - Reading. @Hull11, chapter 10, section 10.1: *Types of options*.
 - Reading. @Hull11, chapter 10, section 10.2: *Option positions*.
+- Video. [Estrategias de cobertura y especulación usando opciones financieras](https://youtu.be/O3aSF-748v8?si=qDofVxGMecPamprN).
 - Reading. @lozanoIF, chapter 1: *Payoff functions*.
 
 **Session 8. Monday, February 9.**
