@@ -1,5 +1,5 @@
 
-# `r fontawesome::fa("globe")` Internet resources.
+# Internet resources.
 
 The amount of free online resources and references to learn R, and its applications in  finance and economics is huge. This list is constantly growing.
 

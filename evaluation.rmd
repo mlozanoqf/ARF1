@@ -1,0 +1,342 @@
+# Evaluation. {#sec-evaluation}
+
+For this course, the grade reported to the Registrar’s Office is the midterm exam grade. Some courses report an average of coursework and activities, but that is not the case here, only the midterm exam score is submitted.
+
+## Final grade.
+
+This is how we calculate your final grade $F$.
+
+1. Groups $G$ receive marks for all graded activities $H_1$, $H_2$, $E_1$, $E_2$, and $E_F$ assigned by me (the professor): $G_{H1}, G_{H2}, G_{E1}, G_{E2}, G_{EF}.$
+
+1. Students complete individual activities and earn bonus points $X$ applicable for exams and final exam only: $X_{E1}, X_{E2}, X_{EF}.$ These bonus points are individual (not shared): each student has their own $X$, and only that student receives the corresponding increase. The equations below describe how the group exam mark is adjusted for each student using their own bonus points:
+$$
+\begin{align}
+GX_{E1} &= G_{E1} + X_{E1}, \\
+GX_{E2} &= G_{E2} + X_{E2}, \\
+GX_{EF} &= G_{EF} + X_{EF}.
+\end{align}
+$$
+1. Students receive coevaluations from teammates for homeworks and exams (peer assessment): $C_{H1}, C_{H2}, C_{E1}, C_{E2}$. For example, $C_{H1}$ is the simple average of the rest of your teammates who submit their coevaluation: $C_{H1} = \frac{1}{N} \sum_{i=1}^{N} C_{H1,i}$. Coevaluation is the last step to get the individual marks for the graded activities $H_1$, $H_2$, $E_1$ and $E_2$:
+$$
+\begin{aligned}
+\text{If } G_{H1} \geq 70 \text{ and } C_{H1} \geq 70, &\quad H_1 = (0.7 \times G_{H1}) + (0.3 \times C_{H1}), \\
+\text{else}, &\quad H_1 = \min(G_{H1}, C_{H1}).
+\end{aligned}
+$$
+$$
+\begin{aligned}
+\text{If } G_{H2} \geq 70 \text{ and } C_{H2} \geq 70, &\quad H_2 = (0.7 \times G_{H2}) + (0.3 \times C_{H2}), \\
+\text{else}, &\quad H_2 = \min(G_{H2}, C_{H2}).
+\end{aligned}
+$$
+$$
+\begin{aligned}
+\text{If } GX_{E1} \geq 70 \text{ and } C_{E1} \geq 70, &\quad E_1 = (0.7 \times GX_{E1}) + (0.3 \times C_{E1}), \\
+\text{else}, &\quad E_1 = \min(GX_{E1}, C_{E1}).
+\end{aligned}
+$$
+$$
+\begin{aligned}
+\text{If } GX_{E2} \geq 70 \text{ and } C_{E2} \geq 70, &\quad E_2 = (0.7 \times GX_{E2}) + (0.3 \times C_{E2}), \\
+\text{else}, &\quad E_2 = \min(GX_{E2}, C_{E2}).
+\end{aligned}
+$$
+Important: according to the above, if a student receives a coevaluation score of 0 for an activity, their individual grade for that activity will be 0. The midterm grades reported to the Registrar’s Office are $E_1$ and $E_2$.
+1. Final grade $F$ is calculated using a convenient weighted average:
+
+$$
+\begin{aligned}
+ F &= 0.3\times[0.7\mathrm{max}(E_1, E_2) + 0.3\mathrm{min}(E_1, E_2)] \\
+ &+ 0.4\times[0.7\mathrm{max}(H_1, H_2) + 0.3\mathrm{min}(H_1, H_2)] \\
+ & + 0.3\times E_F.
+\end{aligned}
+$$
+
+Where $E_F = G_{EF} + X_{EF}$ because no coevaluation is applied to $E_F$. 
+
+This criterion is significantly better compared with the traditional average as the higher exam and assignment marks weigh more than twice the lower marks (70% versus 30%).
+
+## Examples.
+
+One of the most frustrating situations for students is receiving the same mark as their fellow non-contributing group members despite producing much of the group's work. In order to avoid this free-rider problem you will have to answer two coevaluations, one for the first part of the course and one for the second part. The first coevaluation is used to calculate the individual marks of $H_1$ and $E_1$; the second coevaluation is used to calculate the individual marks of $H_2$ and $E_2$. coevaluation is so important that one student may fail simply because of his or her low contribution in the group. Sometimes students face mitigating circumstances, if that is the case you will have to discuss with your group because their marks may have a significant negative impact on your mark. 
+
+Coevaluation is an effective tool to incentivize contribution and discourage free-riding. As a professor, I am not always aware of who is working well within a group, but the coevaluation can help us to be fair and assign marks based on academic merits. I do not reveal specific details about how you co-evaluate your colleagues. So, your coevaluation details will remain anonymous. I cannot change the coevaluation, this is a mark assigned by your colleagues based on your performance and contribution. Then, there are many incentives aligned so the group should work well, otherwise the chances of getting a low mark are high.
+
+
+In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) share their thoughts on how to effectively work in teams.
+
+```{=html}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/_-mP3YKptwQ" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+Coevaluations are completed using a Google Form. I set up an example here: <https://forms.gle/j1YL2z7kHC2eBLyc7>. Feel free to access the link and fill out the form to get familiar about the process. The real link will be available in Blackboard.
+
+In particular, you will have two Google Forms web links in Blackboard to complete your coevaluation, one for $H_1$ and $E_1$, and one for $H_2$ and $E_2$. You will receive a copy of your answers by email just as in any other Google form. A typical issue is that students are not able to open it, but that is because you need to log in using the university email address. There is coevaluation for $H_3$ since it is non-graded, and $E_F$ since classes are over by then.  
+
+
+
+```{r}
+#| eval: false
+#| include: false
+# Function - vectorized version
+fun <- function(C1, Hm) {
+  ifelse(C1 >= 70 & Hm >= 70,
+         (0.7 * Hm) + (0.3 * C1),
+         pmin(C1, Hm))
+}
+
+# Grid
+C1_seq <- seq(0, 100, length.out = 201)
+Hm_seq <- seq(0, 100, length.out = 201)
+H_matrix <- outer(C1_seq, Hm_seq, fun)
+
+# Contour levels
+levels_low <- seq(0, 60, by = 10)
+levels_high <- seq(70, 100, by = 5)
+
+# Set plotting parameters for square plot
+par(pty = "s")  # Square plotting region
+
+# Create the contour plot
+contour(x = C1_seq, y = Hm_seq, z = H_matrix,
+        levels = levels_low, drawlabels = TRUE, col = "red", lwd = 3,
+        xlab = "Average Group Mark (C1)",
+        ylab = "Individual Work Mark (Hm)",
+        main = "Contour Plot of Final Mark H (Square Plot, Labeled & Colored)")
+
+# Force the plot limits to 0-100
+par(usr = c(0, 100, 0, 100))
+
+# Add the second set of contour lines
+contour(x = C1_seq, y = Hm_seq, z = H_matrix,
+        levels = levels_high, drawlabels = TRUE, col = "blue", add = TRUE, lwd = 3)
+
+# # Threshold lines
+# abline(h = 70, col = "gray", lty = 2)
+# abline(v = 70, col = "gray", lty = 2)
+
+# Reset plotting parameters to default
+par(pty = "m")
+```
+
+```{r}
+#| echo: false
+# Function - vectorized version
+fun <- function(C1, Hm) {
+  ifelse(C1 >= 70 & Hm >= 70,
+         (0.7 * Hm) + (0.3 * C1),
+         pmin(C1, Hm))
+}
+
+# Grid
+C1_seq <- seq(0, 100, length.out = 201)
+Hm_seq <- seq(0, 100, length.out = 201)
+H_matrix <- outer(C1_seq, Hm_seq, fun)
+
+# Contour levels
+levels_low <- seq(0, 60, by = 10)
+levels_high <- seq(70, 100, by = 5)
+
+# Set plotting parameters
+par(pty = "s", xaxs = "i", yaxs = "i", mar = c(5, 5, 4, 2) + 0.1)
+
+# Create base plot
+plot(NA, xlim = c(0, 100), ylim = c(0, 100),
+     xlab = expression(paste("Coevaluation: ",C[H1])),
+     ylab = expression(paste("Group mark: ",G[H1])),
+main = expression(
+    paste("If ", G[H1] >= 70, " and ", C[H1] >= 70, ", ",
+          H[1] == 0.7 * G[H1] + 0.3 * C[H1])
+  )
+)
+
+mtext(
+  expression(paste("                           Else, ", H[1] == "min(" * G[H1] * "," ~ C[H1] * ")")),
+  side = 3, line = 0, cex = 1.2
+)
+
+# Draw RED contours (lines only, no labels)
+contour(x = C1_seq, y = Hm_seq, z = H_matrix,
+        levels = levels_low, drawlabels = FALSE, 
+        col = "red", lwd = 3, add = TRUE)
+
+# Draw BLUE contours (with default centered labels)
+contour(x = C1_seq, y = Hm_seq, z = H_matrix,
+        levels = levels_high, drawlabels = TRUE,
+        col = "blue", lwd = 3, add = TRUE,
+        labcex = 0.9)
+
+# Get contour line coordinates for red levels
+cl <- contourLines(C1_seq, Hm_seq, H_matrix, levels = levels_low)
+
+# Custom label placement (above the lines)
+label_offset <- 3.5  # Vertical offset in plot units
+
+for (i in seq_along(cl)) {
+  # Find a suitable point on each contour line
+  n_points <- length(cl[[i]]$x)
+  
+  # Use a point about 1/4 along the line (avoids edges)
+  label_pos <- max(1, floor(n_points/4))
+  
+  x_pos <- cl[[i]]$x[label_pos]
+  y_pos <- cl[[i]]$y[label_pos] + label_offset
+  
+  # Only draw if within plot bounds
+  if (x_pos >= 0 && x_pos <= 100 && y_pos >= 0 && y_pos <= 100) {
+    text(x_pos, y_pos, labels = cl[[i]]$level, 
+         col = "red", cex = 0.9, font = 1)
+    
+    # # Optional: Add small leader line
+    # segments(x0 = x_pos, y0 = y_pos - label_offset + 0.5,
+    #          x1 = x_pos, y1 = y_pos - 0.5,
+    #          col = "red", lwd = 1)
+  }
+}
+
+# Reset plotting parameters
+par(pty = "m")
+```
+
+
+Unfortunately, some students who do badly in their first exam and/or their first homework assignment believe that everything is lost and they should drop the class. My view is that this is not an accurate view as the grading above allows you to have a very bad exam and/or homework assignment and still be in a good position to pass the course. For example, imagine that for some reason you have $H_1=35$, but you manage to improve and get $H_2=85$. In any other course you will have an average of $\frac{35+85}{2}=60$ `r fontawesome::fa("meh")`. However, in my course we compute weighted averages for both homework assignments and exams, so your weighted average is $(35\times 0.3) + (85\times 0.7)=70$ `r fontawesome::fa("grin-stars")`.
+
+The difference between the weighted versus regular average is illustrated below:
+
+<!-- ```{r echo=FALSE} -->
+<!-- H1 <- seq(from = 0, to = 100) -->
+<!-- H2 <- H1 -->
+<!-- HF <- function(H1, H2) { 0.7 * pmax(H1, H2) +  -->
+<!--     0.3 * pmin(H1, H2) } -->
+
+<!-- HF2 <- function(H1, H2) { 0.5 * pmax(H1, H2) +  -->
+<!--     0.5 * pmin(H1, H2) } -->
+<!-- ``` -->
+
+<!-- ```{r echo=FALSE} -->
+<!-- # outer evaluates the function for each combination of the vectors. -->
+<!-- z <- outer(H1, H2, HF) # z is now 50x50 matrix. -->
+<!-- par(mfrow=c(1, 2), oma = c(0, 0, 2, 0)) -->
+<!-- par(pty = "s") -->
+<!-- contour(H1, H2, z, xlab = expression('H'[1]),  -->
+<!--         ylab = expression('H'[2]), lwd = 3,  -->
+<!--         nlevels = 10, -->
+<!--         main = "Weighted average. -->
+<!-- This course.", -->
+<!--         sub = expression((35 %*% 0.3) + (85 %*% 0.7) == 70), -->
+<!--         axes = FALSE) -->
+<!-- axis(1) -->
+<!-- axis(2) -->
+<!-- abline(v = 35, lty = 2, col = "red") -->
+<!-- abline(h = 85, lty = 2, col = "blue") -->
+<!-- points(35, 85, pch = 19, col = "blue", cex = 2) -->
+
+<!-- z2 <- outer(H1, H2, HF2) # z is now 50x50 matrix. -->
+<!-- par(pty = "s") -->
+<!-- contour(H1, H2, z2, xlab = expression('H'[1]),  -->
+<!--         ylab = expression('H'[2]), lwd = 3,  -->
+<!--         nlevels = 10, -->
+<!--         main = "Simple average. -->
+<!-- Other courses.", -->
+<!--         sub = expression((35 %*% 0.5) + (85 %*% 0.5) == 60), -->
+<!--         axes = FALSE) -->
+<!-- axis(1) -->
+<!-- axis(2) -->
+<!-- abline(v = 35, lty = 2, col = "red") -->
+<!-- abline(h = 85, lty = 2, col = "blue") -->
+<!-- points(35, 85, pch = 19, col = "red", cex = 2) -->
+<!-- ``` -->
+
+
+```{r echo=FALSE}
+H1 <- seq(from = 0, to = 100)
+H2 <- H1
+
+HF <- function(H1, H2) { 
+  0.7 * pmax(H1, H2) + 0.3 * pmin(H1, H2) 
+}
+
+HF2 <- function(H1, H2) { 
+  0.5 * pmax(H1, H2) + 0.5 * pmin(H1, H2) 
+}
+
+z <- outer(H1, H2, HF)
+z2 <- outer(H1, H2, HF2)
+
+levels <- seq(10, 100, by = 10)
+colors <- ifelse(levels < 70, "red", "blue")
+
+par(mfrow = c(1, 2), oma = c(0, 0, 2, 0))
+par(pty = "s")
+
+# First plot: Weighted average
+contour(H1, H2, z, 
+        levels = levels, 
+        col = colors, 
+        lwd = 3,
+        xlab = expression(H[1] == 35),
+        ylab = expression(H[2] == 85),  
+        main = "Weighted average\n in this course: 70.",
+        sub = expression((35 %*% 0.3) + (85 %*% 0.7) == 70),
+        axes = FALSE)
+axis(1)
+axis(2)
+abline(v = 35, lty = 2, col = "red")
+abline(h = 85, lty = 2, col = "blue")
+points(35, 85, pch = 19, col = "blue", cex = 2)
+
+# Second plot: Simple average
+par(pty = "s")
+contour(H1, H2, z2, 
+        levels = levels, 
+        col = colors, 
+        lwd = 3,
+        xlab = expression(H[1] == 35),
+        ylab = expression(H[2] == 85), 
+        main = "Simple average\n in other courses: 60.",
+        sub = expression((35 %*% 0.5) + (85 %*% 0.5) == 60),
+        axes = FALSE)
+axis(1)
+axis(2)
+abline(v = 35, lty = 2, col = "red")
+abline(h = 85, lty = 2, col = "blue")
+points(35, 85, pch = 19, col = "red", cex = 2)
+```
+
+
+The effect of weighted averages over the final grade $F$ is quite significant. Here is a very extreme example to illustrate the effect of the weighted average. See the difference between a final grade of 56 versus 70.
+
+
+```{r, results = "asis", echo = FALSE, message = FALSE}
+library(knitr)
+
+tex2markdown <- function(texstring) {
+  writeLines(text = texstring,
+             con = myfile <- tempfile(fileext = ".tex"))
+  texfile <- pandoc(input = myfile, format = "html")
+  cat(readLines(texfile), sep = "\n")
+  unlink(c(myfile, texfile))
+}
+
+textable <- "
+\\begin{table}[H]
+\\centering
+\\begin{tabular}{@{}|c|cc|c|c|@{}}
+\\toprule
+\\textbf{Weight} & \\multicolumn{1}{c|}{\\textbf{Activity}} & \\textbf{Mark} & \\textbf{Points in this course} & \\textbf{Points in other courses} \\\\ \\midrule
+\\multirow{2}{*}{40\\%} & \\multicolumn{1}{c|}{$H_1$} & 0 & $0 \\times 0.3 \\times 0.4 = 0$ & $0 \\times 0.5 \\times 0.4 = 0$ \\\\ \\cmidrule(l){2-5} 
+ & \\multicolumn{1}{c|}{$H_2$} & 100 & $100 \\times \\ 0.7 \\times 0.4 = 28$ & $100 \\times \\ 0.5 \\times 0.4 = 20$ \\\\ \\midrule
+\\multirow{2}{*}{30\\%} & \\multicolumn{1}{c|}{$E_1$} & 0 & $0 \\times 0.3 \\times 0.3 = 0$ & $0 \\times 0.5 \\times 0.3 = 0$ \\\\ \\cmidrule(l){2-5} 
+ & \\multicolumn{1}{c|}{$E_2$} & 100 & $100 \\times \\ 0.7 \\times 0.3 = 21$ & $100 \\times \\ 0.5 \\times 0.3 = 15$ \\\\ \\midrule
+30\\% & \\multicolumn{1}{c|}{$E_F$} & 70 & $70 \\times 0.3 = 21$ & $70 \\times 0.3 = 21$ \\\\ \\midrule
+100\\% & \\multicolumn{2}{c|}{$F$} & 70 & 56 \\\\ \\bottomrule
+\\end{tabular}
+\\end{table}"
+
+tex2markdown(textable)
+```
+
+In any case, my sincere advice is to keep the standard as high as possible in order to minimize the risk of achieving low grades. 
+

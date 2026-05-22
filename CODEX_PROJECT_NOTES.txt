@@ -1,0 +1,146 @@
+Codex project notes for ARF1 syllabus
+Last updated: 2026-05-21
+
+Context
+- This repo is the ARF1 course syllabus.
+- The user edits the source files in RStudio and renders to HTML for GitHub Pages.
+- We are migrating/improving the syllabus as a Quarto book.
+- Current working branch used in this session: codex-quarto-book.
+
+User goals
+- Modernize the syllabus using Quarto book.
+- Improve structure, navigation, readability, design, and internal links.
+- Keep the document detailed. The user wants the syllabus to protect him as professor by documenting policies, rules, procedures, rubrics, and expectations clearly.
+- Make the rendered HTML easy to inspect in a browser and eventually on GitHub Pages/mobile.
+- Improve content gradually, with review after each substantial pass.
+
+Important user criteria
+- Do not delete content at this stage.
+- Do not remove old calendars. The user wants historical calendars because they help plan the next semester.
+- Old calendars should remain available in the folder, but they do not need to appear in the student-facing book navigation unless requested.
+- Prefer conservative restructuring before rewriting or cutting content.
+- It is acceptable for the syllabus to be long, but it must be easier to navigate and search.
+- Policies should be centralized and easy to find.
+- Student-facing sections should link to official policy sections instead of repeating policy text everywhere.
+- Any major content rewrite should be reviewed incrementally with the user.
+
+Current active book structure
+- index.qmd
+- welcome.rmd
+- course-overview.rmd
+- tools-data-science.rmd
+- course-policies.rmd
+- learning-activities.rmd
+- evaluation.rmd
+- rubrics.rmd
+- checklist.rmd
+- schedule.rmd
+- learning-resources.rmd
+- internet-resources.rmd
+- references.qmd
+
+Navigation groups in _quarto.yml
+- Course Foundations:
+  - welcome.rmd
+  - course-overview.rmd
+  - tools-data-science.rmd
+- Policies, Activities, and Evaluation:
+  - course-policies.rmd
+  - learning-activities.rmd
+  - evaluation.rmd
+  - rubrics.rmd
+  - checklist.rmd
+- Schedule and References:
+  - schedule.rmd
+  - learning-resources.rmd
+  - internet-resources.rmd
+  - references.qmd
+
+Important structural changes already made
+- Converted project to Quarto book with output-dir _book.
+- Created index.qmd as the book landing page.
+- Kept index-single.qmd as a single-document compatibility/reference version.
+- Renamed active chapter files from numbered names to semantic names.
+- Split Rubrics out of learning-activities.rmd into rubrics.rmd.
+- Moved official policy blocks into course-policies.rmd.
+- learning-resources.rmd and learning-activities.rmd now link to course-policies.rmd for official rules.
+- Fixed internal links so they point across book chapters correctly.
+
+Files intentionally kept
+- Class schedule ot23.rmd
+- Class schedule ot24.rmd
+- Class schedule ot25.rmd
+- Class schedule sp24.rmd
+- syllabus.rmd
+- Old files may appear as deleted in git status because active files were renamed, not because content should be discarded.
+
+Known technical notes
+- Quarto render works with:
+  C:\Users\DELL\AppData\Local\Programs\Quarto\bin\quarto.exe render
+- Rendering creates _book/index.html.
+- Opening _book directly through file:// has limitations:
+  - Search needs a web server or GitHub Pages.
+  - YouTube embeds may behave differently under file://.
+- After render, Quarto may delete old generated single-page outputs such as index.html and index_files. In this session those were restored with git restore to avoid mixing source restructuring with publication cleanup.
+- _book is ignored in .gitignore.
+
+Design/content preferences
+- Keep the document professional and detailed.
+- Improve readability with structure, navigation, links, callouts, and clearer labels.
+- Avoid removing details unless the user explicitly approves after reviewing.
+- Course policies are part of the professor's protection; keep them explicit.
+- RStudio workflow and GitHub Pages publication should remain comfortable for the user.
+
+Next likely steps
+- Review the rendered book in a browser.
+- Inspect whether sidebar grouping feels natural.
+- Fix encoding issues visible as text like AdministraciÃ³n or MartÃ­n if they appear in source/render.
+- Decide whether to move historical materials into an archive folder later. Do not do this without user approval.
+- Later passes can improve English, clarity, tone, repetition, and student-facing summaries section by section.
+
+Recent UI/navigation state as of 2026-05-21
+- The book uses three main left-sidebar groups:
+  - Course Foundations
+  - Policies, Activities, and Evaluation
+  - Schedule and References
+- The top-level "Course Syllabus" item in the left sidebar is intentionally hidden because the course title already links back to the home page.
+- The left-sidebar groups should behave like an accordion: when one group is opened, the other open groups should close.
+- The left-sidebar group label should become bold when the user clicks that group. On page load, the group containing the current page should be bold.
+- The bold state should be simple only. Do not use a background color, border, or heavy visual highlight for the active group.
+- The in-page section navigation is handled by 15_page-sections.html.
+- Non-home pages should show a sticky local navigation bar near the top with breadcrumbs plus a "Sections" dropdown.
+- The sticky local nav should remain visible when scrolling or when jumping to a lower section.
+- The "Sections" dropdown is generated from h2/h3 headings and selected policy/callout anchors.
+- The home page should not show the sticky "Sections" bar.
+- The sidebar accordion and sidebar active/bold behavior are handled by 16_sidebar-accordion.html.
+- Be careful not to break either 15_page-sections.html or 16_sidebar-accordion.html when changing navigation.
+
+Recent home page state as of 2026-05-21
+- The landing page should not repeat "Course Syllabus" as a separate body heading.
+- The landing page should not repeat "Administracion de riesgos financieros ARF. Course syllabus. Fall 2026." inside the content panel, because Quarto already shows the course title and subtitle.
+- The old useful syllabus text has been restored on the home page:
+  "A course syllabus is an academic document containing relevant information for students..."
+- The earlier "How to Use This Syllabus" block and the three explanatory cards were removed because the user felt they did not add value.
+
+Recent visual tweaks as of 2026-05-21
+- 12_progressbar.html controls the blue reading progress bar at the top.
+- The progress bar was made visually thinner with height 1px plus scaleY(0.5).
+- 8 contact.html contains the homepage contact/social links.
+- 13_styles.css enlarges the contact icons; SSRN and Zoom get special larger sizing because they were hard to read.
+- Link colors were chosen to be legible in both light and dark mode.
+
+Important recent implementation files
+- 14_local-navigation.html: rewrites local links like ./ to ./index.html for file:// viewing.
+- 15_page-sections.html: sticky breadcrumb plus Sections dropdown on chapter pages.
+- 16_sidebar-accordion.html: sidebar accordion behavior and bold state for the three main sidebar groups.
+- 12_progressbar.html: reading progress bar.
+- 13_styles.css: global design, navigation, contact icons, links, home panel, sticky nav styling.
+
+Recent verification notes
+- Quarto render has been run successfully after the latest navigation and design changes.
+- Local HTTP browser tests confirmed:
+  - Sections bar appears and is sticky on tools-data-science.html.
+  - Opening one sidebar group closes the others.
+  - Clicking a sidebar group moves the bold state immediately.
+  - On page load, the group for the current page is bold.
+- The user may need Ctrl+F5 or a fresh tab when checking _book HTML because browser cache can show older CSS/JS.

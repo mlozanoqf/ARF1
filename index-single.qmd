@@ -1,0 +1,85 @@
+
+
+```{r include=FALSE}
+rm(list = ls())
+library(fontawesome)
+library(vembedr)
+library(tictoc)
+tic()
+```
+
+```{r global_options, include = FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+knitr::opts_chunk$set(fig.pos = "H", out.extra = "")
+```
+
+
+````{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('8 contact.html')
+```
+````
+
+<!-- {{< fa thumbs-up >}}  -->
+<!-- {{< fa folder >}} -->
+<!-- {{< fa chess-pawn >}} -->
+<!-- {{< fa brands bluetooth >}} -->
+<!-- {{< fa brands twitter size=2xl >}} -->
+<!-- {{< fa brands github size=5x >}} -->
+<!-- {{< fa battery-half size=Huge >}} -->
+<!-- {{< fa envelope title="An envelope" >}} -->
+
+```{r introduction, child = 'welcome.rmd'}
+```
+
+
+```{r overview, child = 'course-overview.rmd'}
+```
+
+
+```{r data science, child = 'tools-data-science.rmd'}
+```
+
+
+```{r resources, child = 'learning-resources.rmd'}
+```
+
+
+```{r policies, child = 'course-policies.rmd'}
+```
+
+
+```{r activities, child = 'learning-activities.rmd'}
+```
+
+
+```{r evaluation, child = 'evaluation.rmd'}
+```
+
+
+```{r rubrics, child = 'rubrics.rmd'}
+```
+
+
+```{r check, child = 'checklist.rmd'}
+```
+
+
+```{r schedule, child = 'schedule.rmd'}
+```
+
+
+```{r internet-resources, child = 'internet-resources.rmd'}
+```
+
+```{r include=FALSE}
+a <- toc()
+```
+
+
+This document took `r round(as.numeric((a$toc-a$tic)), 2)` seconds to compile in Quarto version `r quarto::quarto_version()`, and `r R.version.string`.
+
+
+# `r fontawesome::fa("book-open")` References. {.unnumbered}
+::: {#refs}
+:::

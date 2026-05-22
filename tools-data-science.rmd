@@ -1,11 +1,13 @@
-# `r fontawesome::fa("code", fill = "blue")` Data science.
+# Tools and data science.
 
 Data science is the study of extracting generalizable knowledge from data. Being a data scientist requires an integrated skill set that encompasses operations research, statistics, and computer science, along with a solid understanding of formulating problems in specific fields to achieve effective solutions. This course aims to introduce you to this rapidly growing field and equip you with its basic principles, tools, and general mindset within the context of business. Ideally, you will learn to apply financial and economic concepts, models, techniques, and tools to analyze various aspects of data science practice. This includes data collection and integration, exploratory data analysis, descriptive and predictive modeling, visualization, evaluation, and effective communication. For a comprehensive introduction to the application of data science in finance, I recommend referring to @hull2020machine.
 
 Listen to this podcast broadcasted on December 2023 to learn more about my view on this topic.
 
-```{r echo=FALSE}
-embed_url("https://youtu.be/SKG3Kr-TK-w?si=W5wg2DXluuiEspWC")
+```{=html}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/SKG3Kr-TK-w" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 ```
 
 
@@ -17,24 +19,30 @@ Data science has a strong connection with finance and economics. In this course,
 
 To learn more about the 17 [United Nations Sustainable Development Goals](https://sdgs.un.org/goals):
 
-```{r echo=FALSE}
-embed_url("https://youtu.be/5G0ndS3uRdo")
+```{=html}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/5G0ndS3uRdo" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 ```
 
-## `r fontawesome::fa("r-project")` `r fontawesome::fa("plus")` `r fontawesome::fa("python")`.
+## R and Python. `r fontawesome::fa("r-project")` `r fontawesome::fa("plus")` `r fontawesome::fa("python")`
 
 R is a programming language and free software environment designed for statistical computing and graphics. It is supported by the [R Foundation for Statistical Computing](https://www.r-project.org/foundation/) and widely utilized by statisticians and data miners for developing statistical software and performing data analysis. Python, on the other hand, is an interpreted, interactive, and object-oriented programming language. It incorporates features such as modules, exceptions, dynamic typing, high-level dynamic data types, and supports multiple programming paradigms including procedural and functional programming.
 
-```{r echo=FALSE}
-embed_url("https://youtu.be/9kYUGMg_14s")
+```{=html}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/9kYUGMg_14s" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 ```
 
 Getting started with R and Python has become increasingly accessible due to the abundance of free resources available on the Internet. This includes Artificial Intelligence (AI) tools and specialized AI programming assistants. All it takes is dedicating the right amount of time and effort to learn these languages. The perceived difficulty of computer programming is often a significant barrier for some individuals, but once they realize that it is not as challenging as they initially thought, their progress improves significantly.
 
 This course integrates data science, data analysis, and computational finance using R, @Rcitation and Python as the primary tools. As a result, you will have the opportunity to learn or further enhance your coding skills, which will enable you to apply economic and finance models in practical scenarios. It is important to note that this course is not primarily focused on computer science, and therefore we have limited time to cover mandatory finance-related material. To overcome this limitation, you will engage in hands-on assignments, collaborate with your peers, use AI specialized tools, and utilize online resources such as [Swirl](https://swirlstats.com/) lessons and/or [DataCamp](https://www.datacamp.com/) courses to learn R and Python.
 
-```{r echo=FALSE}
-embed_url("https://youtu.be/4lcwTGA7MZw")
+```{=html}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/4lcwTGA7MZw" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 ```
 
 
@@ -42,8 +50,10 @@ There are various approaches to learning basic data science and developing the a
 
 Listen to Steve Jobs:
 
-```{r echo=FALSE}
-embed_url("https://youtu.be/BRTOlPdyPYU")
+```{=html}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/BRTOlPdyPYU" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 ```
 
 I understand that learning programming may seem challenging and frustrating at first for some people. If this is your case, I want to assure you that it is not as difficult as it may initially appear. In fact, it can be an incredibly rewarding experience that opens up a whole new world of possibilities. By learning programming languages like R and Python, you will gain access to free and open-source software that is supported by a generous online community. This community is always ready to assist and provide guidance, making your learning journey much easier. Additionally, you will discover the incredible advancements in scientific document production that come with these tools, offering limitless possibilities compared to commercial software.
@@ -74,8 +84,10 @@ In contrast, embracing languages like R and Python provides a versatile alternat
 
 In light of this, I encourage you to embrace the shift from clicking to scripting. Look at this video to find out:
 
-```{r echo=FALSE}
-embed_url("https://youtu.be/hb7Q33ysCwI")
+```{=html}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/hb7Q33ysCwI" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 ```
 
 While chefs may need to invest in ovens, kitchen items, and ingredients, in the fields of economics and finance, many of our inputs, such as data and technology, are freely available. R and Python, being open-source software, come at no cost. By acquiring coding skills, you gain the ability to share, expand, reproduce, and innovate, ultimately generating original empirical results that serve as crucial inputs for research outputs, including your dissertation or other professional projects.

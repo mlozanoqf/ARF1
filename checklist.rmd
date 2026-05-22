@@ -1,4 +1,4 @@
-# `r fontawesome::fa("check-square")` Checklist.
+# Checklist.
 
 As a student in this course and more broadly, as a member of the academic community, you are expected to respect the rules outlined in this syllabus and in the university’s academic regulations. These rules are not arbitrary; they exist to ensure fairness, transparency, and equity for everyone enrolled in the course.
 
@@ -25,6 +25,8 @@ Please consider the following checklist to improve the chances to achieve a good
 
 Prof. Dan Fleisch describes an effective way to ask for help in college classes.
 
-```{r echo=FALSE}
-embed_url("https://youtu.be/dXG9UgW65fU")
+```{=html}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/dXG9UgW65fU" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 ```
