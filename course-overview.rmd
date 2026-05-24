@@ -1,6 +1,6 @@
-# Course overview.
+# Course overview
 
-This section includes the course objectives, mechanics, and important information about academic integrity.
+This section explains what the course is about, what students are expected to learn, how the course works, and the standards of academic integrity and professional responsibility that apply throughout the semester.
 
 
 <!-- ## `r fontawesome::fa("piggy-bank")` FCF description. -->
@@ -31,17 +31,19 @@ This section includes the course objectives, mechanics, and important informatio
 
 <!-- Please refer to the course calendar provided at the end of this syllabus for further details about the topics, activities, and required readings: @sec-schedule. -->
 
-## `r fontawesome::fa("credit-card")` ARF description.
+## `r fontawesome::fa("credit-card")` Course description
 
-Financial risk management involves the identification, quantification, and mitigation of financial risks. In this course, our focus is on credit and market risk models and their practical implementation using R and Python.
+Financial risk management involves identifying, quantifying, monitoring, and mitigating financial risks. In this course, we focus on credit risk and market risk models, with practical implementation using R and Python.
 
-Credit risk refers to the potential loss arising from a borrower's failure to make payments on their debt obligations. Managing credit risk involves measuring the probability of default and the associated potential losses to minimize financial losses. While traditional courses often concentrate on studying firms, this course also incorporates the analysis of credit risk at the individual and country levels, providing a broader perspective and enabling the application of financial and economic analysis. On the other hand, market risk refers to the potential for financial losses arising from adverse movements in market prices, such as the prices of stocks, bonds, currencies, commodities, and other financial instruments. This risk is inherent in the dynamic nature of financial markets, where prices are influenced by various factors such as economic indicators, geopolitical events, interest rates, and overall market sentiment.
+**Credit risk** refers to the potential loss that arises when a borrower fails to meet debt obligations. Managing credit risk requires measuring the probability of default and the potential losses associated with default. While many traditional courses focus mainly on firms, this course also considers credit risk at the individual and country levels. This broader perspective allows students to apply financial and economic analysis across different types of borrowers and institutional contexts.
 
-The main textbooks recommended for this course are: @Hull11 and @HullRM5, which covers influential credit risk models widely used in the financial industry; @drake2010basics, @crouhy2014essentials and @brealey2020principles, which provide comprehensive analyses of various sources of risk in financial markets; @lozanoARF, which bridges the gap between theoretical model analysis and practical computational modeling using R. Complementing these resources, @hull2020machine and @james2013introduction are recommended as additional reference books.
+**Market risk** refers to the potential for financial losses caused by adverse movements in market prices, including the prices of stocks, bonds, currencies, commodities, and other financial instruments. This risk is inherent in financial markets, where prices respond to economic indicators, geopolitical events, interest rates, market sentiment, and other sources of uncertainty.
 
-Listen to this [Spotify `r fontawesome::fa("spotify")` podcast](https://open.spotify.com/episode/7hrOh0tvDH3lioOfXtRqsT?si=8142007bc6ab4f56) to learn more about financial risk.
+The main textbooks recommended for this course are @Hull11 and @HullRM5, which cover influential credit risk models used in the financial industry. Additional references include @drake2010basics, @crouhy2014essentials, and @brealey2020principles, which provide broader discussions of risk in financial markets. The course also uses @lozanoARF, which bridges theoretical model analysis and practical computational modeling using R. Complementary references include @hull2020machine and @james2013introduction.
 
-Please refer to the course calendar provided at the end of this syllabus for further details about the topics, activities, and required readings: @sec-schedule.
+This [Spotify `r fontawesome::fa("spotify")` podcast](https://open.spotify.com/episode/7hrOh0tvDH3lioOfXtRqsT?si=8142007bc6ab4f56) provides additional context on financial risk.
+
+For the specific sequence of topics, activities, deadlines, and required readings, refer to the course calendar: @sec-schedule.
 
 
 <!-- IF. `r fontawesome::fa("cogs")` Engineering is a field of science and technology that focuses on the design, construction, and utilization of engines, machines, and structures. Similarly, financial engineering involves the design, modeling, and utilization of various financial techniques and instruments to develop strategies that modify or mitigate specific risk exposures. In this course, you will learn how to create quantitative financial strategies, understand financial instruments like options, and become familiar with tools and techniques used to measure risk in finance, such as value at risk and GARCH models.
@@ -67,68 +69,47 @@ Microeconomics helps us understand how individual agents, including firms, consu
 Understanding microeconomics empowers economic agents to make better-informed decisions based on a scientific approach rather than relying solely on intuition. Since this process of resource allocation is perpetual in real-life situations, individuals who grasp the foundations of microeconomic analysis gain a significant comparative advantage in business and management. Therefore, it is essential to comprehend microeconomics early on in undergraduate studies. -->
 
 
-## `r fontawesome::fa("binoculars")` Objectives.
+## `r fontawesome::fa("binoculars")` Objectives
 
-The main objectives of this course are threefold:
+The course has three main objectives:
 
-1. **Understanding course topics.** The course aims to ensure that you have a solid understanding of the topics covered. This includes gaining knowledge of various models and techniques in the areas of financial economics and quantitative finance. You will delve into the concepts, theories, and principles underlying these subjects.
+1. **Understand the course topics.** Students are expected to develop a solid understanding of the models, techniques, and principles covered in the course, especially in financial economics, financial risk management, and quantitative finance.
 
-2. **Applying quantitative techniques.** The course emphasizes the application of quantitative techniques and models. You will learn how to implement these models by translating the original paper-based formulations into functional computer code. Through practical exercises and assignments, you will gain hands-on experience in using computational tools to analyze financial data, generate insights, and interpret results.
+2. **Apply quantitative techniques.** Students will learn how to implement financial models by translating paper-based formulations into functional computer code. Through practical exercises and assignments, students will use computational tools to analyze financial data, generate results, and interpret findings.
 
-3. **Developing financial competences.** The course is designed to help you develop the necessary competences to excel as a financial professional, practitioner, or junior researcher. By engaging in the learning activities and utilizing the available resources, you will enhance your professional skills in financial analysis, modeling, and reporting. The course aims to equip you with the practical abilities and knowledge required to thrive in the field of finance.
+3. **Develop professional financial competencies.** The course is designed to strengthen the practical abilities required of financial professionals, practitioners, and junior researchers. These include financial analysis, financial modeling, computational implementation, interpretation of results, and written reporting.
 
-Overall, the course provides a comprehensive learning experience that combines theoretical understanding with practical application. It aims to prepare you for a successful career in finance by fostering your proficiency as a financial professional and enabling you to contribute as a practitioner or junior researcher.
+The course combines theoretical understanding with practical application. Its purpose is not only to present financial risk concepts, but also to help students use them in a rigorous, reproducible, and professionally relevant way.
 
-To achieve the objectives of the course, you are required to undertake various tasks throughout the semester. These tasks can be summarized as follows:
+To achieve these objectives, students are expected to complete several tasks throughout the semester:
 
-1. **Reading.** You are expected to engage in extensive reading to grasp the concepts and theories covered in the course. This involves studying the recommended textbooks, academic papers, and other relevant resources provided. Reading is fundamental for understanding the subject matter.
+1. **Read carefully.** Students must study the recommended textbooks, academic papers, course notes, and other resources provided. Reading is a fundamental requirement for understanding the course material.
 
-2. **Hard work.** Success in the course will require dedicated effort and hard work. You need to actively participate in lectures, complete assignments and projects, and actively engage with the course material. It is important to invest sufficient time and energy into mastering the concepts and techniques taught.
+2. **Work consistently.** Success in the course requires sustained effort. Students are expected to attend class, participate actively, complete assignments and projects, and engage seriously with the course material.
 
-3. **Seeking assistance.** Should you encounter difficulties or have questions, it is encouraged to reach me out for assistance <tt>`<martin.lozano@udem.edu>`</tt>. I can help you to clarify concepts, resolve doubts, and ensure a deeper understanding of the material. I am available to support your learning journey.
+3. **Ask for assistance when needed.** Students who encounter difficulties or have questions are encouraged to contact me at <tt>`<martin.lozano@udem.edu>`</tt>. I can help clarify concepts, resolve doubts, and support a deeper understanding of the material. However, students are responsible for asking for help in a timely manner.
 
-It is worth noting that the provided pseudocode below is a simplified representation used for illustration purposes. While it may not directly run in R, it serves as an example to demonstrate the learning process. The actual learning process will be more intricate and involve a comprehensive exploration of the course topics, hands-on exercises, and practical applications.
+Learning usually requires repeated attempts, additional inputs, and persistence. Persistence and determination are central to the learning process. Persistence means continuing to work toward a goal despite difficulties, obstacles, or setbacks. It requires motivation, resilience, focus, and sustained effort. By reading carefully, working consistently, and seeking assistance when needed, students increase their chances of understanding the material and succeeding in the course.
 
-```{r eval = FALSE}
-# Initial condition.
-learn <- FALSE
-# Initial inputs assigned to study the topic.
-inputs <- c(read, time, effort, assistance, others)
-# Learning process.
-while (learn == FALSE) {
-  understand <- study(inputs) # Evaluate study function.
-  if (understand == FALSE) {
-    print("Add more inputs and try again.")
-    inputs <- inputs + 1
-    }
-  else { # Understanding is the way to learn.
-    learn == TRUE
-    print ("Well done!")
-  }
-  }
-```
+## `r fontawesome::fa("whmcs")` Mechanics
 
-Remember, persistence and determination are key to the learning process. Persistence refers to the quality or ability to continue striving towards a goal or completing a task despite facing difficulties, obstacles, or setbacks. It involves determination, perseverance, and the willingness to keep working towards a desired outcome, even when faced with challenges or discouragement. Persistence often requires a strong sense of motivation, resilience, and the ability to maintain focus and effort over an extended period of time. It is a valuable trait that can contribute to personal and professional success in various areas of life. By dedicating yourself to reading, working hard, and seeking assistance when needed, you will enhance your understanding and excel in the course.
+The course operates on the assumption that students will approach it with enthusiasm, a positive attitude, and a willingness to engage actively with the material. The following expectations apply throughout the semester:
 
-## `r fontawesome::fa("whmcs")` Mechanics.
+1. **Active participation.** Students are expected to be proactive and engaged throughout the semester. This includes completing learning activities, assignments, and readings on time. Active participation contributes to a deeper understanding of the subject matter.
 
-The course operates on the assumption that you will approach it with enthusiasm and a positive attitude, demonstrating a willingness to actively engage with the material and meet my expectations as professor. The following expectations are outlined:
+2. **Understanding and application.** Students are expected to study the material thoroughly, understand the underlying concepts, and apply them in relevant financial contexts.
 
-1. **Active participation.** You are expected to be proactive and engaged throughout the semester. This includes completing the learning activities, assignments, and readings in a timely manner. Your active participation will contribute to a deeper understanding of the subject matter.
+3. **Course calendar.** The course calendar, provided in @sec-schedule, is the roadmap for the semester. It lists lecture topics, required readings, activities, assignments, and exams. Students are responsible for consulting it regularly and following its timeline.
 
-2. **Understanding and application.** The goal is for you to comprehend the course material and its practical applications to the best of your ability. This entails studying the subject matter thoroughly, grasping the underlying concepts, and being able to apply them in relevant contexts.
+4. **Time management.** Some tasks may require more than a week to complete. Students must plan ahead and allocate enough time to fulfill their course responsibilities effectively.
 
-3. **Course calendar.** The course calendar, provided at the end of the syllabus @sec-schedule, serves as a roadmap for the entire semester. It outlines the lecture topics, required readings, and upcoming activities, assignments, and exams. It is important to familiarize yourself with the course calendar and adhere to its timeline to ensure a smooth progression throughout the semester.
+Students are expected to approach the required material proactively and conscientiously. This means studying in advance and engaging in independent practice. Doing so creates the conditions for meaningful class participation, useful comments, and thoughtful questions.
 
-4. **Time management.** Given that some tasks may require more than a week to complete, it is crucial to manage your time efficiently. By planning ahead and allocating sufficient time to each task, you will be able to fulfill your course responsibilities effectively.
+Conscious and proactive study habits are important because they help students stay on track and avoid falling behind. They also ensure that students are familiar with the topics discussed in class and have a foundation on which to build. Studying and practicing in advance allows students to take better advantage of the learning opportunities provided in the course, deepen their understanding, reinforce key concepts, and gain additional insights.
 
-In this course, it is expected that you approach the required material proactively and conscientiously. This means dedicating time to studying the material in advance and engaging in independent practice. By doing so, you will create the necessary conditions to actively contribute to class discussions by providing valuable comments and asking thought-provoking questions.
+If a student does not engage in conscious study and practice, or cannot do so because of their current circumstances, they may struggle to keep up with the course requirements and experience frustration. Falling behind can lead to loss of interest, lower grades, and potentially failure. To reduce this risk and improve learning outcomes, students are strongly advised to study the required material in advance and practice independently as much as necessary. This preparation improves class participation and increases the probability of success.
 
-Conscious and proactive study habits are important for several reasons. First, it allows you to stay on track with the course material and prevents you from falling behind. It ensures that you are familiar with the topics being covered and have a solid foundation to build upon during class. Moreover, engaging in advance study and practice enables you to take full advantage of the learning opportunities provided in the course. By actively exploring the material on your own, you can deepen your understanding, reinforce key concepts, and gain additional insights. This will enhance your learning experience and maximize the potential knowledge you can gain from the course.
-
-On the other hand, if you choose not to engage in conscious study and practice, or you simply cannot given your current situation, you may find yourself struggling to keep up with the course requirements and may experience frustration. Falling behind can lead to a loss of interest, lower grades, and potentially even failure. Then, in order to mitigate the risk of failing the course and to optimize your learning outcomes, it is strongly recommended that you commit to consciously studying the required material in advance and engaging in independent practice as much as necessary. By doing so, you will be better prepared, actively participate in class, and increase your chances of success in the course.
-
-In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) share great tips and strategies about how they get the most out of university lectures.
+In this video, students from [The University of Melbourne](https://www.unimelb.edu.au/) share useful strategies for getting the most out of university lectures.
 
 ```{=html}
 <div class="video-embed">
@@ -137,15 +118,19 @@ In this video, students from [The University of Melbourne](https://www.unimelb.e
 ```
 
 
-In accordance with some of [The Sustainable Development Goals](https://sdgs.un.org/goals) by the United Nations, see @UN17, all the compulsory readings and activity submissions are available in electronic format. Other complementary materials and activities may be incorporated or altered during the semester, depending on relevant news or events that do not currently exist or are hard to anticipate at the beginning of the semester. If that is the case, I will inform you in advance. As a student, you should be confident that all the course materials and activities are perfectly suitable for an undergraduate student enrolled in a prestigious world-class university. In other words, there will not be an intellectual challenge that you cannot overcome with the appropriate amount of enthusiasm, time, work, determination, and, if necessary, assistance. This course is designed in such a way that you can pass and learn as long as you invest the right amount of time and work.
+In accordance with some of the [United Nations Sustainable Development Goals](https://sdgs.un.org/goals), see @UN17, all compulsory readings and activity submissions are available in electronic format. Complementary materials and activities may be incorporated or adjusted during the semester depending on relevant news or events that do not yet exist or are difficult to anticipate at the beginning of the term. If this happens, I will inform students in advance.
 
-## `r fontawesome::fa("thumbs-up")` Academic integrity.
+Students should be confident that all course materials and activities are suitable for undergraduate students enrolled in a prestigious university. No intellectual challenge in this course is intended to be impossible to overcome with the appropriate amount of enthusiasm, time, work, determination, and, if necessary, assistance. The course is designed so that students can pass and learn if they invest the required time and work.
 
-Individuals with integrity demonstrate a high level of moral character and ethics, choosing to do what is right even when faced with difficult decisions or temptations. They are trustworthy, reliable, and have a strong sense of accountability. Integrity is an essential quality in personal relationships, professional settings, and society as a whole, as it fosters trust, respect, and fairness.
+## `r fontawesome::fa("thumbs-up")` Academic integrity
 
-We pledge to uphold the highest standards of honesty and integrity, both for ourselves and our peers. Violations of academic integrity, including plagiarism and cheating, are strictly prohibited and may result in consequences such as failure of assignments, failure of the course, and additional disciplinary actions as per current regulations. Plagiarism is defined as presenting another person's thoughts or words as one's own, without proper acknowledgment or attribution. This includes copying from textbooks, other sources, including the Internet, generative AI tools, or any material without giving due credit to the original source.
+Individuals with integrity demonstrate moral character and ethical judgment. They choose to do what is right even when facing difficult decisions or temptations. They are trustworthy, reliable, and accountable. Integrity is essential in personal relationships, professional settings, and society because it fosters trust, respect, and fairness.
 
-Please watch the following video about plagiarism taken from [York St. John University](https://www.yorksj.ac.uk/) about understanding plagiarism.
+We pledge to uphold the highest standards of honesty and integrity, both for ourselves and for our peers. Violations of academic integrity, including plagiarism and cheating, are strictly prohibited and may result in serious consequences, including failure of an assignment, failure of the course, and additional disciplinary action under current regulations.
+
+Plagiarism means presenting another person's ideas, words, analysis, code, or work as one's own without proper acknowledgment or attribution. This includes copying from textbooks, websites, online sources, generative AI tools, other students, or any other material without giving appropriate credit to the original source.
+
+Please watch the following video from [York St. John University](https://www.yorksj.ac.uk/) on understanding plagiarism.
 
 ```{=html}
 <div class="video-embed">
@@ -153,7 +138,7 @@ Please watch the following video about plagiarism taken from [York St. John Univ
 </div>
 ```
 
-I strongly advise against constructing a piece of work by simply cutting and pasting or copying material written by others into something you submit as your own. Regardless of any pressure you may feel to complete an assignment, it is important to never succumb to the temptation of taking a shortcut and using someone else's material inappropriately. This includes ChatGPT and other generative AI tools as this is a form of plagiarism with potentially serious consequences. 
+I strongly advise against constructing a piece of work by cutting, pasting, or copying material written by others into something submitted as original work. Regardless of any pressure students may feel to complete an assignment, taking this type of shortcut is unacceptable. This also applies to ChatGPT and other generative AI tools when their output is used inappropriately or presented as original work. Such behavior is a form of plagiarism and may have serious consequences.
 
 See the following video to illustrate this point:
 
@@ -163,7 +148,9 @@ See the following video to illustrate this point:
 </div>
 ```
 
-Ethical behavior is implicit in the course mechanics and rules, and it will be explicit in several topics throughout the course material. Following the indications of this syllabus is a simple way and a clear example regarding how we can effectively pursue ethical behavior. Ethics concerns are inherent in business, economics and finance activities because the professionals in these fields frequently manage resources to achieve a range of objectives, not exclusively maximize profits. Pursuing ethical behavior also helps us to build solid institutions, which is consistent with the [United Nations 17 sustainable development goals](https://sdgs.un.org/goals), @UN17. Managing own or third-party resources entails a high degree of responsibility because people often face the alternative to apply unethical strategies to achieve their own interests. A proper discussion of the ethical aspect in the decision-taking process including conflict of interests is necessary to increase the awareness of young professionals like you. In the end, following an ethical code as a business practice can contribute to strengthening or building your own reputation -- one of the most significant assets you have, or are currently building.
+Ethical behavior is implicit in the mechanics and rules of the course, and it will also be discussed explicitly in several course topics. Following the instructions in this syllabus is a basic and concrete way to practice ethical behavior. Ethical concerns are inherent in business, economics, and finance because professionals in these fields frequently manage resources to achieve a range of objectives, not exclusively to maximize profits. Ethical behavior also helps build solid institutions, which is consistent with the [United Nations Sustainable Development Goals](https://sdgs.un.org/goals), @UN17.
+
+Managing one's own resources or third-party resources entails a high degree of responsibility. People may face incentives to use unethical strategies to advance their own interests. For this reason, it is necessary to discuss ethics, decision-making, and conflicts of interest in order to raise awareness among young professionals. In the end, following an ethical code as a business practice can strengthen a professional reputation, one of the most important assets students are currently building.
 
 Take a look at this video about integrity.
 
@@ -173,7 +160,7 @@ Take a look at this video about integrity.
 </div>
 ```
 
-Integrity is particularly crucial in the realm of finance professionals due to the following reasons:
+Integrity is particularly important for finance professionals for the following reasons:
 
 1. **Trust and credibility.** Finance professionals handle sensitive financial information, make critical financial decisions, and often act as stewards of other people's money. Integrity is essential to establish and maintain trust and credibility with clients, investors, and stakeholders. Clients need to trust that their financial advisor or accountant will act in their best interests, provide accurate information, and handle their funds responsibly.
 
@@ -189,19 +176,19 @@ Integrity is particularly crucial in the realm of finance professionals due to t
 
 7. **Industry ethics and public trust.** The finance industry plays a significant role in the economy and society at large. Maintaining integrity within the industry is crucial for public trust and confidence in the financial system. Finance professionals with integrity contribute to the overall reputation and trustworthiness of the industry, helping to foster a healthy and reliable financial environment.
 
-In summary, integrity is vital for finance professionals to establish trust, uphold ethical standards, protect confidentiality, manage risks, comply with regulations, maintain a strong professional reputation, and contribute to the overall integrity of the finance industry.
+In summary, integrity is vital for finance professionals because it helps them establish trust, uphold ethical standards, protect confidentiality, manage risks, comply with regulations, maintain a strong professional reputation, and contribute to the overall integrity of the finance industry.
 
-## `r fontawesome::fa("envira", fill = "green")` Sustainable finance. 
+## `r fontawesome::fa("envira", fill = "green")` Sustainable finance
 
-I am certified as 'carbon literate' by the [UN Climate Change Conference](https://unfccc.int/) and [Coventry University](https://www.coventry.ac.uk/). The certification represents a robust understanding of the climate context and a commitment to recognizing ways to adjust our behavior to reduce our carbon footprint, as well as influencing our social and professional circles. My view is that one way of achieving a positive impact on the environment and society is to learn more about sustainable finance.
+I am certified as "carbon literate" by the [UN Climate Change Conference](https://unfccc.int/) and [Coventry University](https://www.coventry.ac.uk/). This certification reflects an understanding of the climate context and a commitment to identifying ways to adjust our behavior, reduce our carbon footprint, and influence our social and professional circles. In my view, learning about sustainable finance is one way to contribute positively to the environment and society.
 
-According to the [European Commission](https://commission.europa.eu/index_en), sustainable finance refers to the process of taking environmental, social and governance (ESG) considerations into account when making investment decisions in the financial sector, leading to more long-term investments in sustainable economic activities and projects. Environmental considerations might include climate change mitigation and adaptation, as well as the environment more broadly, for instance the preservation of biodiversity, pollution prevention and the circular economy. Social considerations could refer to issues of inequality, inclusiveness, labour relations, investment in human capital and communities, as well as human rights issues. The governance of public and private institutions – including management structures, employee relations and executive remuneration – plays a fundamental role in ensuring the inclusion of social and environmental considerations in the decision-making process.
+According to the [European Commission](https://commission.europa.eu/index_en), sustainable finance refers to taking environmental, social, and governance (ESG) considerations into account when making investment decisions in the financial sector. This approach supports long-term investment in sustainable economic activities and projects. Environmental considerations may include climate change mitigation and adaptation, biodiversity preservation, pollution prevention, and the circular economy. Social considerations may include inequality, inclusiveness, labor relations, investment in human capital and communities, and human rights. Governance considerations include the management of public and private institutions, including management structures, employee relations, and executive remuneration, all of which play an important role in decision-making.
 
-In this course, you will be exposed to an introduction about sustainable finance, climate change and green economy. In particular, you will acquaint yourself with the basic skills and tools for applying the sustainable finance mechanisms to a real-world policy or business context.
+In this course, students will be introduced to sustainable finance, climate change, and the green economy. In particular, students will become familiar with basic skills and tools for applying sustainable finance mechanisms to real-world policy and business contexts.
 
-Learning materials are taken from The One UN Climate Change Learning Partnership [UN CC:Learn](https://unccelearn.org/), which is a joint initiative of more than 30 multilateral organizations helping countries to achieve climate change action both through general climate literacy and applied skills development. [UN CC:Learn](https://unccelearn.org/) provides strategic advice and quality learning resources to help people, governments and businesses to understand, adapt, and build resilience to climate change.
+Learning materials are taken from The One UN Climate Change Learning Partnership [UN CC:Learn](https://unccelearn.org/), a joint initiative of more than 30 multilateral organizations that helps countries pursue climate change action through general climate literacy and applied skills development. [UN CC:Learn](https://unccelearn.org/) provides strategic advice and learning resources to help people, governments, and businesses understand, adapt to, and build resilience to climate change.
 
-See the earth’s historic global average surface temperature, according to an analysis by NASA:
+See the earth's historic global average surface temperature, according to an analysis by NASA:
 
 ```{=html}
 <div class="video-embed">
@@ -209,4 +196,4 @@ See the earth’s historic global average surface temperature, according to an a
 </div>
 ```
 
-Learning about sustainable finance is important as it enables individuals and organizations to make informed financial decisions that consider environmental and social factors, manage risks, comply with regulations, meet investor demand, and contribute to a more sustainable and responsible financial system.
+Learning about sustainable finance is important because it enables individuals and organizations to make informed financial decisions that consider environmental and social factors, manage risks, comply with regulations, meet investor demand, and contribute to a more sustainable and responsible financial system.

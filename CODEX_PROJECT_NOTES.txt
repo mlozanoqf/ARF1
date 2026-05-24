@@ -1,11 +1,47 @@
 Codex project notes for ARF1 syllabus
-Last updated: 2026-05-21
+Last updated: 2026-05-24
 
 Context
 - This repo is the ARF1 course syllabus.
 - The user edits the source files in RStudio and renders to HTML for GitHub Pages.
 - We are migrating/improving the syllabus as a Quarto book.
 - Current working branch used in this session: codex-quarto-book.
+
+Most recent state as of 2026-05-24
+- We completed a major cleanup pass for the second navigation group: learning-activities.rmd, evaluation.rmd, and course-policies.rmd.
+- Current second navigation group is "Activities, Evaluation, and Policies" with this intended student-facing order:
+  - learning-activities.rmd
+  - evaluation.rmd
+  - rubrics.rmd
+  - course-policies.rmd
+  - checklist.rmd
+- The active conceptual architecture is:
+  - Learning activities explains the activity types and course mechanics.
+  - Evaluation explains how grades are calculated.
+  - Course policies contains enforceable rules and consequences.
+- Current evaluation rules:
+  - Two homework assignments = 40% of final grade.
+  - Two partial exams = 30% of final grade.
+  - One final exam = 30% of final grade.
+  - H1, H2, E1, and E2 each combine Written component 20% and Oral component 80%.
+  - E_F has no Oral component and no coevaluation.
+  - DataCamp certifications add +10 points to the next scheduled exam when completed on time.
+  - Wheel-of-fortune bonus points apply to the next scheduled exam unless stated otherwise.
+  - Bonus points are individual, not shared.
+  - Coevaluation is based on the average score assigned by teammates.
+  - There are two coevaluations: first for H1/E1, second for H2/E2.
+  - If a student does not submit a coevaluation, they lose the opportunity to evaluate teammates.
+  - If nobody in a team submits a coevaluation, that coevaluation step is skipped; marks are not adjusted by coevaluation, and this does not mean students lose points.
+  - A low coevaluation can make a student fail an activity even if the group mark was good.
+- learning-activities.rmd now treats Campus Contribution Mission as a non-graded activity, not as a graded component.
+- Course policies keeps the enforceable Campus Contribution evidence, conduct, timing, consent, and absence consequences.
+- Final exam has no required physical classroom presence and can be completed remotely according to Schedule/policies.
+- The next natural content pass is rubrics.rmd. Check consistency with:
+  - Written component / Oral component terminology.
+  - 20% Written and 80% Oral for H1, H2, E1, E2.
+  - E_F as Written-only.
+  - No notes, AI, electronic assistance, scripts, or prepared guides during Oral components; only the submitted homework/partial-exam answer displayed on screen.
+  - The simplified Evaluation wording and table.
 
 User goals
 - Modernize the syllabus using Quarto book.
@@ -92,9 +128,10 @@ Design/content preferences
 - RStudio workflow and GitHub Pages publication should remain comfortable for the user.
 
 Next likely steps
-- Review the rendered book in a browser.
-- Inspect whether sidebar grouping feels natural.
-- Fix encoding issues visible as text like AdministraciÃ³n or MartÃ­n if they appear in source/render.
+- Continue the content pass in the second navigation group: Policies, Activities, and Evaluation.
+- Next file to review/edit: learning-activities.rmd.
+- Align learning-activities.rmd with the updated course-policies.rmd and with the AI/oral-presentation assessment design.
+- Later, review evaluation.rmd, rubrics.rmd, and checklist.rmd in that order.
 - Decide whether to move historical materials into an archive folder later. Do not do this without user approval.
 - Later passes can improve English, clarity, tone, repetition, and student-facing summaries section by section.
 
@@ -144,3 +181,186 @@ Recent verification notes
   - Clicking a sidebar group moves the bold state immediately.
   - On page load, the group for the current page is bold.
 - The user may need Ctrl+F5 or a fresh tab when checking _book HTML because browser cache can show older CSS/JS.
+
+Content revision state as of 2026-05-22
+- Course Foundations has been read and revised as a coherent first block.
+- The three Course Foundations chapters are:
+  - welcome.rmd
+  - course-overview.rmd
+  - tools-data-science.rmd
+- Global evaluation of Course Foundations:
+  - The block now works as a narrative: professor/teaching philosophy, course overview, and modern tool/AI framework.
+  - The current structure is acceptable and should not be heavily edited again before moving to the next block.
+  - Some repetition about AI and computational work remains intentionally because welcome.rmd states the philosophy and tools-data-science.rmd states the operational framework.
+- User criteria for Course Foundations:
+  - Keep detail.
+  - Do not delete substantive content without authorization.
+  - General sections should be reusable across other courses, not only ARF.
+  - Only course description, course name, calendar, and topic-specific parts should need substantial replacement for other courses.
+
+Specific Course Foundations changes already made
+- welcome.rmd:
+  - Updated wording around teaching philosophy, AI-assisted computational work, programming, professionalism, empathy, academic standards, and student responsibility.
+  - Added/clarified that AI tools are explicitly allowed subject to activity instructions and academic integrity.
+  - Emphasized that AI does not replace understanding and students must explain methodology, code, results, and limitations.
+- course-overview.rmd:
+  - Improved course description, objectives, mechanics, academic integrity, and sustainable finance wording.
+  - Removed pseudocode after user approval.
+  - Preserved the course-specific ARF description and references.
+- tools-data-science.rmd:
+  - Updated the section so it sounds appropriate for 2026 rather than 2018.
+  - Removed the old R-console tutorial reference from the main tools discussion.
+  - Added current framing for learning to program with AI/coding assistants.
+  - Added tool-agnostic AI policy language: ChatGPT is only one example, not the assumed or exclusive tool.
+  - Added privacy and no-upload/no-disclosure guidance for sensitive, private, unauthorized, institutional, or non-public information.
+  - Clarified that routine AI use does not need to be declared unless a specific activity requires it.
+  - Added publishing platforms: Quarto, Posit Connect Cloud, Prism from OpenAI, and Overleaf.
+
+Second navigation group assessment as of 2026-05-22
+- The second menu is "Policies, Activities, and Evaluation".
+- Files in this block:
+  - course-policies.rmd
+  - learning-activities.rmd
+  - evaluation.rmd
+  - rubrics.rmd
+  - checklist.rmd
+- Global issue identified:
+  - This block is the operational contract of the course, so consistency matters more than style.
+  - It must align with the Course Foundations claim that AI is allowed in electronic homework/exam deliverables and that understanding is verified through oral presentations with greater weight.
+  - Important inconsistencies remain in later files, especially bonus points references, exam/homework descriptions, coevaluation, and the exact relationship between electronic notebooks and oral presentations.
+
+course-policies.rmd state as of 2026-05-22
+- User authorized changing format from callout boxes to normal subsections, as long as the sense of the rules did not change.
+- course-policies.rmd was rewritten into clear policy subsections:
+  - Activities policies
+  - Groups policies
+  - Tardiness policies
+- The previous large callout format was removed from this file.
+- Internal same-page links use clean anchors such as #sec-gp and #sec-tp.
+- The rule "Late submissions are not accepted" was preserved explicitly as its own item.
+- A concise official AI rule was added:
+  - AI tools are allowed for Written components of homework and exam activities.
+  - Use is subject to instructions, academic integrity, privacy, and group-work rules.
+  - During Oral components, the only material available is the submitted homework or partial-exam answer displayed on screen; no AI tools, electronic assistance, written notes, scripts, prepared guides, or other support materials are allowed.
+  - Students remain responsible for verifying work and explaining methodology, code, results, and limitations.
+  - Routine AI use does not need declaration unless a specific activity requires it.
+- The former dedicated DataLab subsection was later folded into Activities policies to avoid repetition and preserve the relevant DataLab rules in one place.
+- Quarto render succeeded after editing course-policies.rmd.
+- After render, generated old root outputs index.html and index_files were restored with git restore to avoid mixing generated-file cleanup with source edits.
+
+learning-activities.rmd state as of 2026-05-23
+- The intro now classifies activities as graded, bonus points, and non-graded.
+- The first visible section is now "Graded activities" instead of the old "Exams & Homework assignments".
+- Graded activities now align with course-policies.rmd:
+  - homework and exams are group activities;
+  - electronic written components use DataLab notebooks;
+  - exams can be completed remotely;
+  - AI and other resources are allowed for the electronic written component subject to Activities policies;
+  - oral presentations/defenses are mentioned as the understanding check.
+- The third homework-style non-graded activity was removed from the active syllabus by user decision.
+- The related calendar line in schedule.rmd was removed.
+- The coevaluation reference in evaluation.rmd was corrected so it only says there is no coevaluation for the final exam.
+- The repeated G_E1 typo in the DataCamp bonus points paragraph was corrected to G_E1, G_E2, and G_EF.
+- The visible Bonus points and Non-graded subsections were first lightly polished, then narrowed after user confirmation.
+- The old R-console tutorial reference was removed from active files where it still appeared.
+- User confirmed for learning-activities.rmd:
+  - DataCamp stays as certification-based assignments that vary by course.
+  - Stickers are no longer active.
+  - The wheel of fortune stays.
+  - Mentimeter bonus activities are no longer active.
+  - DataCamp webinars and videos are no longer active.
+  - All bonus points go directly to the next scheduled exam, either partial or final.
+- Removed legacy commented blocks from learning-activities.rmd and created archive/learning-activities-legacy-notes.md.
+- Quarto render succeeded after these edits, and generated old root outputs index.html and index_files were restored with git restore.
+
+Immediate next step when resuming
+- Review the updated learning-activities.rmd with the user, especially the mechanics of Written and Oral components.
+- Remaining likely cleanups in learning-activities.rmd:
+  - Check whether the broad "Others" bonus-points sentence is useful or too open-ended.
+  - Confirm whether the exact DataCamp bonus amounts remain 15 points per exam period.
+  - Preserve details unless the user authorizes removal.
+- Evaluation rule confirmed by user:
+  - Final exam represents 30% of final grade.
+  - Homework assignments represent 40% of final grade.
+  - Partial exams represent 30% of final grade.
+  - H1, H2, E1, and E2 group marks combine a Written component worth 20% and an Oral component worth 80%.
+  - E_F has no Oral component and consists only of the Written component/notebook.
+  - Keep the max/min weighted formula for homework assignments and partial exams.
+- evaluation.rmd was updated to include the 20%/80% group-mark decomposition for H1, H2, E1, and E2 while preserving the max/min final-grade formula and treating E_F as Written-only.
+- rubrics.rmd was adjusted so the oral rubric applies to homework assignments and partial exams, not to E_F.
+- learning-activities.rmd was updated to explain the interaction between the Written component and the Oral component:
+  - they are two connected components of the same homework assignment or exam;
+  - the Written component is the notebook, file, link, or activity evidence completed in the required DataLab location;
+  - the Oral component is the presentation or oral defense explaining the same work;
+  - homework instructions are known in advance, students may ask questions before the deadline, and homework presentations begin the same class day after the 10:00 a.m. deadline and normally take two class sessions;
+  - homework teams present the same version completed by the 10:00 a.m. deadline, not an improved version;
+  - partial exam instructions are known on exam day, and teams complete the Written component during the 1.5-hour exam period;
+  - the final exam E_F has no Oral component and consists only of the Written component/notebook;
+  - oral exam defenses normally happen in the following two class sessions;
+  - a random draw determines which student presents or defends a specific exam question for the team;
+  - oral defenses are based on the same version submitted during the exam, not an improved version;
+  - if the submitted work contains mistakes, students should identify those mistakes and explain how they would correct or address them;
+  - partial grades reported to the Registrar's Office may be administrative indicators when oral defenses or coevaluations are still pending.
+- learning-activities.rmd was then reorganized because the user correctly noted that the previous sequence was confusing:
+  - first defines Written and Oral components;
+  - then explains common deadline mechanics;
+  - then explains homework assignments;
+  - then explains exams and remote exam completion;
+  - then explains oral component sequence, allowed materials/AI, administrative partial-grade reporting, feedback, mistakes, individual marks, and required questions.
+- The second navigation group is now "Activities, Evaluation, and Policies":
+  - Learning activities
+  - Evaluation
+  - Rubrics
+  - Course policies
+  - Checklist
+  - rationale: students first understand the activity structure, then the grade calculation, then the evaluation criteria, then the official rules, and finally the practical checklist.
+  - intermediate links from learning-activities.rmd to Activities policies were removed and replaced by one Official rules paragraph at the end of the Graded activities block.
+- User clarified the support-material rule:
+  - Written components of homework and exams may use all available resources, including AI.
+  - Oral components must be completed without any support materials or assistance, including written notes, scripts, prepared guides, AI tools, or electronic assistance; the only material available is the submitted homework or partial-exam answer displayed on screen.
+  - The enforceable version belongs in course-policies.rmd; learning-activities.rmd should keep only a concise operational explanation with a link to policies.
+- A separate Activities policy was added for the same-version oral component:
+  - the Oral component must defend the same Written component version available at the deadline or submitted during the partial-exam period;
+  - teams may not defend an improved version prepared later;
+  - if mistakes exist, students should identify them and explain how they would correct or address them.
+  - learning-activities.rmd now links to this rule instead of carrying the full enforceable wording.
+- Campus Contribution Missions were added:
+  - during oral presentation/defense sessions, students not scheduled to present may either stay in the classroom as audience members or complete an optional campus good deed/positive contribution during class time;
+  - students can choose this individually: a student may stay as audience or go complete the mission;
+  - students may complete the mission individually or in freely formed groups, not necessarily their course teams;
+  - in 3-hour class sessions, the class can be divided into two presentation blocks so one group presents while the other completes the mission or stays as audience, then roles switch;
+  - students who leave the classroom for the mission may return afterward or remain outside the classroom for the rest of the corresponding presentation block unless instructed otherwise;
+  - the mission must happen on campus during class time, be safe/respectful/positive, and include photo or video evidence;
+  - the evidence must show that the mission was completed during that class session and that each student claiming attendance through the mission actually participated;
+  - students must not record identifiable people without consent, disturb others, create risk, spend money, leave campus, or violate university policies;
+  - if required evidence is missing, unclear, completed outside the class session, or does not show real participation, the student or students involved receive an absence for that class session.
+- Current evaluation rule after user correction:
+  - H1, H2, E1, and E2 each combine Written component 20% and Oral component 80%.
+  - E_F has no Oral component and consists only of the Written component/notebook.
+  - No physical classroom presence is required for any exam, including E_F.
+- learning-activities.rmd was reorganized again for clarity:
+  - it now starts Graded activities with a table showing H1/H2, E1/E2, and E_F by Written component and Oral component;
+  - the table gives the Activity column a narrow visual width through 13_styles.css;
+  - the table does not show 20%/80% in the headers because that does not apply to E_F and may confuse students;
+  - after the table, the explanatory content is currently tested as an enumerated guide:
+    1. Activity format
+    2. Written work
+    3. Oral work
+    4. Audience or campus contribution
+    5. Feedback, reporting, and individual marks
+    6. Official rules
+  - intermediate policy links were reduced so the section reads less repetitively.
+- To reduce repetition, learning-activities.rmd should state the concept and operational flow, while course-policies.rmd keeps formal requirements, attendance consequences, restrictions, and detailed rules.
+- Audience/Campus Contribution split:
+  - Learning activities should explain the pedagogical choice: students not presenting can stay as audience to learn from others, questions, and feedback, or complete a positive campus contribution.
+  - Course policies keeps the formal evidence, timing, safety, consent, return-to-class, and absence consequences.
+- Oral defense random selection:
+  - Course policies now contains the formal rule that in E1/E2 oral defenses teams do not choose who presents or which question is defended unless stated otherwise;
+  - a random draw in class may determine the student and question;
+  - Learning activities only summarizes that the question/presenter may be selected according to Activities policies.
+- User clarified Campus Contribution timing:
+  - in 1.5-hour presentation sessions, students who leave for the mission may return or remain outside for the rest of that session;
+  - in 3-hour sessions, students must return for the presentation block in which they are scheduled to present.
+- evaluation.rmd was adjusted so partial Registrar reports are described as administrative indicators when Oral components/coevaluations are pending, rather than as the final E1/E2 marks.
+- rubrics.rmd was aligned with the same terminology: Written component and Oral component.
+- Next likely step: review the rest of evaluation.rmd examples and charts for clarity, then review rubrics.rmd more deeply.

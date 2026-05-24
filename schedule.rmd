@@ -1,8 +1,8 @@
-# Schedule. {#sec-schedule}
+# Schedule {#sec-schedule}
 
 ARF, Spring 2026. Room 2209, Monday & Thursday 16:00 – 17:30. Zoom [https://us02web.zoom.us/j/81501793754](https://us02web.zoom.us/j/81501793754)
 
-## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1.
+## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1
 
 **Session 1. `r fontawesome::fa("handshake")` Monday, January 12.**
 
@@ -89,7 +89,7 @@ ARF, Spring 2026. Room 2209, Monday & Thursday 16:00 – 17:30. Zoom [https://us
 - Graded. $E_1$ Instructions in Blackboard.
 - The link to complete $H_1$ and $E_1$ co-evaluation will be available on Blackboard right after the exam.
 
-## `r fontawesome::fa("battery-half", fill = "red")` Part 2.
+## `r fontawesome::fa("battery-half", fill = "red")` Part 2
 
 **Session 13. Thursday, February 26.**
 
@@ -123,7 +123,7 @@ ARF, Spring 2026. Room 2209, Monday & Thursday 16:00 – 17:30. Zoom [https://us
 - Graded. $E_2$ Instructions in Blackboard.
 - The link to complete $H_2$ and $E_2$ co-evaluation will be available on Blackboard right after the exam.
 
-## `r fontawesome::fa("battery-three-quarters", fill = "orange")` Part 3.
+## `r fontawesome::fa("battery-three-quarters", fill = "orange")` Part 3
 
 **Session 19, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Monday, March 23.**
 
@@ -191,7 +191,6 @@ ARF, Spring 2026. Room 2209, Monday & Thursday 16:00 – 17:30. Zoom [https://us
 - Reading. @Hull11, chapter 24, section 24.6: *Using equity prices to estimate default probabilities*.
 - Reading. @lozanoARF, chapter 2, section 2.5: *GoT: capital structure*.
 - Complementary material. [The Plastic Recycling Myth.](https://youtu.be/zZlRhCDzh2A)
-- Non-graded. Complete $H_3$ before 10:00 a.m.
 
 **Session 30, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Thursday, May 7.**
 
@@ -200,7 +199,7 @@ ARF, Spring 2026. Room 2209, Monday & Thursday 16:00 – 17:30. Zoom [https://us
 - Bonus points. **Data Analyst Certification**. Complete DataCamp assignment before 10:00 a.m. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
 - Farewell `r fontawesome::fa_i("heart", class = "fa-solid", style = "color: red;")`.
 
-## `r fontawesome::fa("battery-full", fill = "green")` The end.
+## `r fontawesome::fa("battery-full", fill = "green")` The end
 
 **Final exam, <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/zoom.svg" alt="zoom" height="45" width="45" style="vertical-align: middle; filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);" />. Thursday, May 14, 16:00 – 18:00.**
 

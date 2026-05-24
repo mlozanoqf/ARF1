@@ -21,12 +21,12 @@ book:
         - welcome.rmd
         - course-overview.rmd
         - tools-data-science.rmd
-    - part: "Policies, Activities, and Evaluation"
+    - part: "Activities, Evaluation, and Policies"
       chapters:
-        - course-policies.rmd
         - learning-activities.rmd
         - evaluation.rmd
         - rubrics.rmd
+        - course-policies.rmd
         - checklist.rmd
     - part: "Schedule and References"
       chapters:

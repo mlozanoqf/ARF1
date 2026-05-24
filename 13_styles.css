@@ -13,6 +13,47 @@ body.quarto-light {
   --syllabus-accent-soft: #fff3ea;
 }
 
+.activity-components-table table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.activity-components-table th:first-child,
+.activity-components-table td:first-child {
+  width: 6.5rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.activity-components-table th:nth-child(2),
+.activity-components-table td:nth-child(2),
+.activity-components-table th:nth-child(3),
+.activity-components-table td:nth-child(3) {
+  width: calc((100% - 6.5rem) / 2);
+}
+
+.evaluation-summary-table table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.evaluation-summary-table th:first-child,
+.evaluation-summary-table td:first-child {
+  width: 38%;
+}
+
+.evaluation-summary-table th:nth-child(2),
+.evaluation-summary-table td:nth-child(2) {
+  width: 44%;
+}
+
+.evaluation-summary-table th:nth-child(3),
+.evaluation-summary-table td:nth-child(3) {
+  text-align: right;
+  white-space: nowrap;
+  width: 18%;
+}
+
 body.quarto-dark {
   --syllabus-link: #8ecaff;
   --syllabus-link-hover: #c6e6ff;

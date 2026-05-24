@@ -1,9 +1,9 @@
-# Rubrics. {#sec-rubrics}
+# Rubrics {#sec-rubrics}
 This section explains how your work will be evaluated in this course. You'll find the grading rubric for oral presentations, the criteria used to assess your exams, and definitions of common instruction words used in assignments. Review these guidelines carefully to understand what's expected and how to prepare your submissions effectively.
 
-**Homework assignments, oral presentation rubric.**
+**Oral presentation and oral defense rubric.**
 
-Each of the 5 criteria is worth 20 points, for a total of 100 points. The final assignment group grade is based entirely on the oral presentation. Written submissions must be delivered on time but are not directly graded. Written submissions must follow the course submission rules (see [DataCamp policies](<course-policies.rmd#sec-dcp>)). On-time upload in the correct group workspace and the ‘submissions’ folder is required for the assignment to be evaluated. In some cases, specific questions or components of an assignment may be evaluated under different or additional criteria. When this applies, it will be clearly stated in the assignment instructions or during class session.
+Each of the 5 criteria is worth 20 points, for a total of 100 points. This rubric evaluates the Oral component of homework assignments and partial exams. The final exam has no Oral component. The group mark for homework assignments and partial exams combines the Written component and the Oral component as stated in [Evaluation](evaluation.rmd#sec-evaluation). Written work must follow the course activity rules (see [Activities policies](<course-policies.rmd#sec-ap>)). On-time availability in the correct group workspace and the "submissions" folder is required for the activity to be evaluated. In some cases, specific questions or components of an activity may be evaluated under different or additional criteria. When this applies, it will be clearly stated in the activity instructions or during class session.
 
 <table style="border-collapse: collapse; width: 100%;">
   <thead>
@@ -63,12 +63,12 @@ Each of the 5 criteria is worth 20 points, for a total of 100 points. The final 
   </tbody>
 </table>
 
-**Strict presentation policy (no scripted delivery):** Presentations must be delivered in students’ own words. Reading aloud, reciting from memory, or closely paraphrasing any prepared script/guide (including AI-generated text) to explain part or all of the work is not allowed. If I determine that scripted delivery is occurring, I may stop or cancel the presentation immediately. In such cases, more than 20% may be deducted from the overall grade.
+**Strict presentation policy (no support materials):** Presentations must be delivered in students' own words. The only material available to students is the submitted homework or partial-exam answer displayed on screen. Students may not use written notes, scripts, prepared guides, AI-generated text, AI tools, electronic assistance, or any other support material. Reading aloud, reciting from memory, or closely paraphrasing any prepared script or guide to explain part or all of the work is not allowed. If I determine that scripted delivery is occurring, I may stop or cancel the presentation immediately. In such cases, more than 20% may be deducted from the overall grade.
 
 
-**How exams will be evaluated.**
+**How written exams will be evaluated.**
 
-The following criteria will be used to assess your answers in both exams and final exam. They reflect the expectations regarding content, clarity, methodology, language, format, and academic integrity. Please review each item carefully and use them to guide how you prepare and structure your responses. Failing to meet these criteria may result in mark deductions or invalidation of your submission.
+The following criteria will be used to assess the Written component of partial exams and the final exam. They reflect the expectations regarding content, clarity, methodology, language, format, and academic integrity. Please review each item carefully and use them to guide how you prepare and structure your responses. Failing to meet these criteria may result in mark deductions or invalidation of your submission.
 
 1. **Relevance to the question requirements.**
 Each exam question includes specific instructions regarding the nature of the response required. For example, the question may specify whether the answer must involve coding, explanation, interpretation, or another form of analysis. It is essential that you follow these instructions carefully. If the question requests an interpretation of results, providing only raw code or calculations without interpretation will be considered an incomplete or incorrect response. Likewise, if a question asks for a written explanation and the answer consists only of equations or numerical results, marks will be deducted. Ignoring the type of response expected may result in low or no credit.
@@ -95,7 +95,7 @@ If a question requires coding, the code must be functional and should run withou
 Strong answers demonstrate your ability to connect your work to concepts, models, and tools discussed in the course. When appropriate, reference material from lectures, textbook figures or tables, or class examples to support your response. Doing so shows that you understand the broader context of the question. Answers that rely only on general intuition or personal opinion without grounding in course content are unlikely to receive high marks.
 
 1. **Exam validity: Group, time, and platform requirements.**
-Exams must comply with: (1) your assigned group rules (see [Group policies](<course-policies.rmd#sec-gp>)), (2) the official timing/deadlines (see [Activities policies](<course-policies.rmd#sec-ap>)), and (3) the submission rules in DataLab (see [DataCamp policies](<course-policies.rmd#sec-dcp>)). Failure to meet any of these requirements may result in the exam being treated as invalid or not submitted.
+Exams must comply with: (1) your assigned group rules (see [Group policies](<course-policies.rmd#sec-gp>)), (2) the official timing and deadline rules (see [Activities policies](<course-policies.rmd#sec-ap>)), and (3) the DataLab format and location rules stated in [Activities policies](<course-policies.rmd#sec-ap>). Failure to meet any of these requirements may result in the exam being treated as invalid or not submitted.
 
 1. **Academic integrity and similarity between groups.**
 Although the exams are completed in groups and students are not physically monitored, academic integrity is strictly enforced. If two or more groups submit answers that are significantly similar, whether due to collaboration between groups, the use of AI tools that generate identical content, or other forms of misconduct, this will be treated as a serious academic offense. In such cases, a substantial mark deduction will apply and/or the matter may be referred to the university for formal investigation of plagiarism.
