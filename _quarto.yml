@@ -20,21 +20,21 @@ book:
     - index.qmd
     - part: "Course Foundations"
       chapters:
-        - welcome.rmd
-        - course-overview.rmd
-        - tools-data-science.rmd
+        - welcome.qmd
+        - course-overview.qmd
+        - tools-data-science.qmd
     - part: "Activities, Evaluation, and Policies"
       chapters:
-        - course-activities.rmd
-        - evaluation.rmd
-        - rubrics.rmd
-        - course-policies.rmd
-        - checklist.rmd
+        - course-activities.qmd
+        - evaluation.qmd
+        - rubrics.qmd
+        - course-policies.qmd
+        - checklist.qmd
     - part: "Schedule and References"
       chapters:
-        - schedule.rmd
-        - learning-resources.rmd
-        - internet-resources.rmd
+        - schedule.qmd
+        - learning-resources.qmd
+        - internet-resources.qmd
         - references.qmd
 
 bibliography: 9mybibfile.bib

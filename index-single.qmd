@@ -29,47 +29,47 @@ xfun::file_string('8 contact.html')
 <!-- {{< fa battery-half size=Huge >}} -->
 <!-- {{< fa envelope title="An envelope" >}} -->
 
-```{r introduction, child = 'welcome.rmd'}
+```{r introduction, child = 'welcome.qmd'}
 ```
 
 
-```{r overview, child = 'course-overview.rmd'}
+```{r overview, child = 'course-overview.qmd'}
 ```
 
 
-```{r data science, child = 'tools-data-science.rmd'}
+```{r data science, child = 'tools-data-science.qmd'}
 ```
 
 
-```{r activities, child = 'course-activities.rmd'}
+```{r activities, child = 'course-activities.qmd'}
 ```
 
 
-```{r evaluation, child = 'evaluation.rmd'}
+```{r evaluation, child = 'evaluation.qmd'}
 ```
 
 
-```{r rubrics, child = 'rubrics.rmd'}
+```{r rubrics, child = 'rubrics.qmd'}
 ```
 
 
-```{r policies, child = 'course-policies.rmd'}
+```{r policies, child = 'course-policies.qmd'}
 ```
 
 
-```{r check, child = 'checklist.rmd'}
+```{r check, child = 'checklist.qmd'}
 ```
 
 
-```{r schedule, child = 'schedule.rmd'}
+```{r schedule, child = 'schedule.qmd'}
 ```
 
 
-```{r resources, child = 'learning-resources.rmd'}
+```{r resources, child = 'learning-resources.qmd'}
 ```
 
 
-```{r internet-resources, child = 'internet-resources.rmd'}
+```{r internet-resources, child = 'internet-resources.qmd'}
 ```
 
 ```{r include=FALSE}

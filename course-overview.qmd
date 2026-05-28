@@ -1,5 +1,10 @@
 # Course overview
 
+```{r}
+#| include: false
+invisible(NULL)
+```
+
 This section explains what the course is about, what students are expected to learn, how the course works, and the standards of academic integrity and professional responsibility that apply throughout the semester.
 
 
@@ -128,7 +133,7 @@ Individuals with integrity demonstrate moral character and ethical judgment. The
 
 We pledge to uphold the highest standards of honesty and integrity, both for ourselves and for our peers. Violations of academic integrity, including plagiarism and cheating, are strictly prohibited and may result in serious consequences, including failure of a course activity, failure of the course, and additional disciplinary action under current regulations.
 
-Plagiarism means presenting another person's ideas, words, analysis, code, or work as one's own in a way that violates attribution requirements, activity instructions, or academic-integrity standards. This includes copying from textbooks, websites, online sources, generative AI tools, other students, or any other material without proper acknowledgment when attribution is required. Routine use of AI tools is allowed as explained in [Tools and data science](tools-data-science.rmd), and it does not need to be declared unless a specific activity explicitly requires it. The academic-integrity problem is not the mere use of AI; it is submitting work that students did not verify, cannot explain, or present as compliant with the instructions when it is not.
+Plagiarism means presenting another person's ideas, words, analysis, code, or work as one's own in a way that violates attribution requirements, activity instructions, or academic-integrity standards. This includes copying from textbooks, websites, online sources, generative AI tools, other students, or any other material without proper acknowledgment when attribution is required. Routine use of AI tools is allowed as explained in [Tools and data science](tools-data-science.qmd), and it does not need to be declared unless a specific activity explicitly requires it. The academic-integrity problem is not the mere use of AI; it is submitting work that students did not verify, cannot explain, or present as compliant with the instructions when it is not.
 
 Please watch the following video from [York St. John University](https://www.yorksj.ac.uk/) on understanding plagiarism.
 

@@ -1,5 +1,10 @@
 # Tools and data science
 
+```{r}
+#| include: false
+invisible(NULL)
+```
+
 This section explains why the course uses data science tools, how R and Python fit into business, economics, and finance education, what role AI assistants may play, and which coding and publishing environments students are expected to understand.
 
 ## Data science and quantitative analysis. `r fontawesome::fa("database")`

@@ -395,7 +395,7 @@ Current publication/navigation state as of 2026-05-28
 - GitHub Pages is configured to publish directly from `main` using the `/docs` folder.
 - The root redirect approach is obsolete. There should be no root `index.html` redirect and no visible redirect message.
 - Current workflow:
-  1. edit the source `.rmd` / `.qmd` / support files;
+  1. edit the active source `.qmd` / support files;
   2. run full `quarto render`;
   3. commit both source changes and rendered `docs/` output;
   4. push to `main`;
@@ -408,6 +408,7 @@ Current publication/navigation state as of 2026-05-28
   - `index.html` is not present as a visible sidebar/navigation label.
 - The stylesheet source was renamed from `13_styles.css` to `syllabus-styles.css` to force browsers to stop using a cached CSS file that accidentally hid the first sidebar section.
 - `_quarto.yml` now references `syllabus-styles.css` under `format.html.css`.
+- Active book content chapters were migrated from `.rmd` to `.qmd`; old `.rmd` files that remain in the root are historical/non-active files, such as old class schedules or legacy single-file drafts.
 - `scripts/write-pages-marker.R` now does more than write `docs/.nojekyll`:
   - it removes the generated home-page `index.html` sidebar entry from every rendered HTML file;
   - it removes the home-page breadcrumb label when Quarto generates it;

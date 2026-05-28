@@ -1,8 +1,8 @@
 # Rubrics {#sec-rubrics}
 
-This section provides the rubric for the Oral component of homework assignments and partial exams. The Written component is evaluated according to the specific instructions, questions, and required outputs of each activity. Written work must also follow [Activity rules and consequences](<course-policies.rmd#sec-ap>).
+This section provides the rubric for the Oral component of homework assignments and partial exams. The Written component is evaluated according to the specific instructions, questions, and required outputs of each activity. Written work must also follow [Activity rules and consequences](<course-policies.qmd#sec-ap>).
 
-Team marks for homework assignments and partial exams combine the Written and Oral components as stated in [Evaluation](evaluation.rmd#sec-evaluation). The final exam has only a Written component.
+Team marks for homework assignments and partial exams combine the Written and Oral components as stated in [Evaluation](evaluation.qmd#sec-evaluation). The final exam has only a Written component.
 
 ## Oral component rubric
 

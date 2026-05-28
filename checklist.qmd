@@ -1,5 +1,10 @@
 # Checklist {#sec-checklist}
 
+```{r}
+#| include: false
+invisible(NULL)
+```
+
 As a student in this course, and more broadly as a member of the academic community, you are expected to respect the rules stated in this syllabus and in the university's academic regulations. These rules are not arbitrary; they exist to ensure fairness, transparency, and equal treatment for everyone enrolled in the course.
 
 Students may sometimes believe that their personal situation justifies an exception. I will always listen respectfully to concerns and questions. However, being heard does not mean that an exception can be granted. My responsibility is to apply the course rules consistently. Individual exceptions, even when requested in good faith, can create unfairness for other students.

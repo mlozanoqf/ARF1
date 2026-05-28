@@ -1,5 +1,10 @@
 # Schedule {#sec-schedule}
 
+```{r}
+#| include: false
+invisible(NULL)
+```
+
 ARF, Spring 2026. Room 2209, Monday & Thursday 16:00 – 17:30. Zoom [https://us02web.zoom.us/j/81501793754](https://us02web.zoom.us/j/81501793754)
 
 ## `r fontawesome::fa("battery-quarter", fill = "grey")` Part 1

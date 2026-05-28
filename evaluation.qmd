@@ -6,7 +6,7 @@ For transparency, I may periodically upload an Excel file to Blackboard with tea
 
 ## Homework and partial exams (70%)
 
-Homework assignments and partial exams together represent 70% of the final grade: 40% from homework assignments and 30% from partial exams. This section explains how the individual marks for $H_1$, $H_2$, $E_1$, and $E_2$ are obtained. The activity rules and mechanics are stated in [Course activities](course-activities.rmd#sec-activities), [Activity mechanics](course-activities.rmd#sec-am), [Activity rules and consequences](course-policies.rmd#sec-ap), and [Rubrics](rubrics.rmd#sec-rubrics).
+Homework assignments and partial exams together represent 70% of the final grade: 40% from homework assignments and 30% from partial exams. This section explains how the individual marks for $H_1$, $H_2$, $E_1$, and $E_2$ are obtained. The activity rules and mechanics are stated in [Course activities](course-activities.qmd#sec-activities), [Activity mechanics](course-activities.qmd#sec-am), [Activity rules and consequences](course-policies.qmd#sec-ap), and [Rubrics](rubrics.qmd#sec-rubrics).
 
 The calculation follows a sequence:
 
@@ -22,7 +22,7 @@ The calculation follows a sequence:
 
 The 20/80 rule gives substantial weight to the Oral component of homework assignments and partial exams, because students must be able to explain the work they submitted. The 70/30 rule gives more weight to the stronger homework mark and the stronger partial-exam mark. Together, these rules reward understanding, oral defense, and improvement during the semester.
 
-Coevaluations are completed using Google Forms, as explained in [Activity mechanics](course-activities.rmd#sec-am). Students usually receive a copy of their answers by email. If the form does not open, make sure you are logged in with your university email address. A student may fail an activity because of coevaluation even if the team mark for that activity was good.
+Coevaluations are completed using Google Forms, as explained in [Activity mechanics](course-activities.qmd#sec-am). Students usually receive a copy of their answers by email. If the form does not open, make sure you are logged in with your university email address. A student may fail an activity because of coevaluation even if the team mark for that activity was good.
 
 ## Final exam and final grade
 
