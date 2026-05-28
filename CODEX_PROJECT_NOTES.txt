@@ -390,3 +390,44 @@ Immediate next step when resuming
 - evaluation.rmd was adjusted so partial Registrar reports are described as administrative indicators when Oral components/coevaluations are pending, rather than as the final E1/E2 marks.
 - rubrics.rmd was aligned with the same terminology: Written component and Oral component.
 - Next likely step: review the rest of evaluation.rmd examples and charts for clarity, then review rubrics.rmd more deeply.
+
+Current publication/navigation state as of 2026-05-28
+- GitHub Pages is configured to publish directly from `main` using the `/docs` folder.
+- The root redirect approach is obsolete. There should be no root `index.html` redirect and no visible redirect message.
+- Current workflow:
+  1. edit the source `.rmd` / `.qmd` / support files;
+  2. run full `quarto render`;
+  3. commit both source changes and rendered `docs/` output;
+  4. push to `main`;
+  5. verify `https://mlozanoqf.github.io/ARF1/`.
+- Remote branches were cleaned up. The repo should only need `main` / `origin/main`.
+- Latest known good publication commit before closing this session: `e5f1555 Bust cached sidebar stylesheet`.
+- The rendered public page was verified after that commit:
+  - it uses `syllabus-styles.css`;
+  - `Course Foundations` is present with `Welcome`, `Course overview`, and `Tools and data science`;
+  - `index.html` is not present as a visible sidebar/navigation label.
+- The stylesheet source was renamed from `13_styles.css` to `syllabus-styles.css` to force browsers to stop using a cached CSS file that accidentally hid the first sidebar section.
+- `_quarto.yml` now references `syllabus-styles.css` under `format.html.css`.
+- `scripts/write-pages-marker.R` now does more than write `docs/.nojekyll`:
+  - it removes the generated home-page `index.html` sidebar entry from every rendered HTML file;
+  - it removes the home-page breadcrumb label when Quarto generates it;
+  - it removes the previous-page navigation label pointing back to `index.html`.
+- Important caution: do not reintroduce a broad CSS rule such as `.sidebar-menu-container > ul > li.sidebar-item:first-child { display: none; }`; that hid the real first section (`Course Foundations`) after the post-render script removed the generated `index.html` item.
+- If the user reports seeing old navigation after a correct render/push, suspect browser or GitHub Pages asset cache first. The stylesheet rename fixed the last such cache issue.
+- There are older notes above that mention `_book`, root redirects, restoring root `index.html`, or the `codex-quarto-book` branch. Those notes are historical and should not guide the current publication workflow.
+
+Next content work when resuming
+- The navigation/publication setup currently feels stable.
+- Continue content review from the third navigation group, especially `schedule.rmd`, once the user has the needed semester dates.
+- `learning-resources.rmd` was mostly kept because the user values the longer guidance; review only for targeted edits.
+- `internet-resources.rmd` was modernized for 2026 with verified resources and should be treated as substantially improved but still open to the user's judgment.
+- `evaluation.rmd`, `rubrics.rmd`, `course-activities.rmd`, `course-policies.rmd`, and `checklist.rmd` have been heavily edited and should preserve the user's core rules:
+  - details matter because they protect the professor administratively;
+  - do not remove details unless the user authorizes it;
+  - Written components allow AI and other resources;
+  - Oral components are the main understanding check and allow no support materials beyond the submitted work displayed on screen;
+  - H1/H2/E1/E2 use 20% Written and 80% Oral for group marks;
+  - E_F has only Written component and no Oral component;
+  - DataCamp certifications and wheel-of-fortune bonus points remain, three of each during the semester;
+  - bonus points may also be assigned discretionally for extraordinary class performance;
+  - coevaluation can substantially adjust individual marks and can make a student fail an activity even when the group mark is good.
