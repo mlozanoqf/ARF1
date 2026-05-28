@@ -64,5 +64,5 @@ format:
       - 14_local-navigation.html
       - 15_page-sections.html
       - 16_sidebar-accordion.html
-    css: 13_styles.css
+    css: syllabus-styles.css
     link-citations: true
