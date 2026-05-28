@@ -129,10 +129,6 @@ main [id] {
   white-space: nowrap;
 }
 
-#quarto-sidebar .sidebar-menu-container > ul > li.sidebar-item:first-child {
-  display: none !important;
-}
-
 #quarto-sidebar li.sidebar-item:has(a.sidebar-link[href="./index.html"]) {
   display: none;
 }
