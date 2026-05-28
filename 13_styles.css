@@ -129,6 +129,18 @@ main [id] {
   white-space: nowrap;
 }
 
+#quarto-sidebar li.sidebar-item:has(a.sidebar-link[href="./index.html"]) {
+  display: none;
+}
+
+body:has(.homepage-contact) #quarto-header .quarto-page-breadcrumbs {
+  display: none;
+}
+
+.page-navigation .nav-page-previous:has(a[href="./index.html"]) {
+  display: none;
+}
+
 #quarto-sidebar li.sidebar-item-section.sidebar-section-current > .sidebar-item-container > .sidebar-link,
 #quarto-sidebar li.sidebar-item-section.sidebar-section-current > .sidebar-item-container > .sidebar-item-toggle {
   font-weight: 700;

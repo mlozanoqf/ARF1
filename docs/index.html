@@ -254,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 </div>
 <div class="home-last-modified">
-<span class="home-last-modified-label">Modified</span><span class="date-modified">May 28, 2026, 02:05:26 am.</span>
+<span class="home-last-modified-label">Modified</span><span class="date-modified">May 28, 2026, 02:13:31 am.</span>
 </div>
 <div class="home-panel">
 <p>This syllabus is the official course guide. It contains the course goals, rules, grading method, schedule, activities, resources, references, and expectations for the semester.</p>
@@ -419,26 +419,17 @@ function initPageSectionMenu() {
 
   var isHomePage = pageName === "" || pageName === "index.html";
 
-
-
   if (isHomePage) {
-
-    if (titleHeader) {
-
-      var homeBreadcrumbs = titleHeader.querySelector(".quarto-title-breadcrumbs");
-
+    [
+      titleHeader ? titleHeader.querySelector(".quarto-title-breadcrumbs") : null,
+      document.querySelector("#quarto-header .quarto-page-breadcrumbs")
+    ].forEach(function (homeBreadcrumbs) {
       if (homeBreadcrumbs) {
-
         homeBreadcrumbs.style.display = "none";
-
       }
-
-    }
-
+    });
     return;
-
   }
-
 
 
   function cleanText(element) {

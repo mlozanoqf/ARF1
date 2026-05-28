@@ -694,26 +694,17 @@ function initPageSectionMenu() {
 
   var isHomePage = pageName === "" || pageName === "index.html";
 
-
-
   if (isHomePage) {
-
-    if (titleHeader) {
-
-      var homeBreadcrumbs = titleHeader.querySelector(".quarto-title-breadcrumbs");
-
+    [
+      titleHeader ? titleHeader.querySelector(".quarto-title-breadcrumbs") : null,
+      document.querySelector("#quarto-header .quarto-page-breadcrumbs")
+    ].forEach(function (homeBreadcrumbs) {
       if (homeBreadcrumbs) {
-
         homeBreadcrumbs.style.display = "none";
-
       }
-
-    }
-
+    });
     return;
-
   }
-
 
 
   function cleanText(element) {
