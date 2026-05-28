@@ -1,4 +1,4 @@
-<!doctype html>
+redirect <- '<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -11,4 +11,7 @@
   <p>Redirecting to <a href="docs/index.html">Course syllabus. Fall 2026. Under review.</a></p>
 </body>
 </html>
+'
 
+writeLines(redirect, "index.html", useBytes = TRUE)
+writeLines("", ".nojekyll", useBytes = TRUE)

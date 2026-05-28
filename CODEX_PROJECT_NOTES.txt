@@ -62,7 +62,12 @@ Most recent checkpoint as of 2026-05-28
 - `index-single.qmd` was updated as a fallback single-document version and now points to `course-activities.rmd`.
 - `TUTORIAL_ARF_TRANSFER_BRIEF.md` was created and copied to `C:\Users\DELL\Desktop\MartinGit\tutorial_arf\` so that a future tutorial refactor can reuse the ARF1 design/navigation decisions.
 - Quarto render succeeds with the current source.
-- `_book/` is still ignored by Git. A commit+push of this branch pushes source changes, but GitHub Pages will only publish them automatically if the Pages configuration or a GitHub Action builds from this branch/source.
+- Publication was simplified to avoid GitHub-side R/Quarto rendering:
+  - `_quarto.yml` now renders the book to `docs/`.
+  - `docs/` should be committed because it contains the static GitHub Pages output.
+  - A root `index.html` redirect points to `docs/index.html`, so Pages configured as `main / root` can still reach the rendered book.
+  - A `post-render` script at `scripts/write-root-redirect.R` recreates the root redirect and `.nojekyll` after every local Quarto render.
+  - This workflow keeps rendering local, using the user's installed R/Quarto, and avoids Chocolatey/GitHub Actions R-version drift.
 
 User goals
 - Modernize the syllabus using Quarto book.

@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.54">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Tools and data science – Administración de riesgos financieros ARF.</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./course-activities.html" rel="next">
+<link href="./course-overview.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="13_styles.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./welcome.html">Course Foundations</a></li><li class="breadcrumb-item"><a href="./tools-data-science.html"><span class="chapter-title">Tools and data science</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Administración de riesgos financieros ARF.</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">index.html</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Course Foundations</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./welcome.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Welcome</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./course-overview.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Course overview</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tools-data-science.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Tools and data science</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Activities, Evaluation, and Policies</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./course-activities.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Course activities</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./evaluation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Evaluation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rubrics.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Rubrics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./course-policies.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Course policies</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./checklist.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Checklist</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Schedule and References</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./schedule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Schedule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./learning-resources.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Learning resources and support</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./internet-resources.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Internet resources</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References.</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page-right" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./welcome.html">Course Foundations</a></li><li class="breadcrumb-item"><a href="./tools-data-science.html"><span class="chapter-title">Tools and data science</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Tools and data science</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-right">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This section explains why the course uses data science tools, how R and Python fit into business, economics, and finance education, what role AI assistants may play, and which coding and publishing environments students are expected to understand.</p>
+<section id="data-science-and-quantitative-analysis." class="level2">
+<h2 class="anchored" data-anchor-id="data-science-and-quantitative-analysis.">Data science and quantitative analysis. <svg aria-hidden="true" role="img" viewbox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z"></path></svg></h2>
+<p>Data science is the study of extracting generalizable knowledge from data. It requires an integrated skill set that combines operations research, statistics, computer science, and domain-specific expertise. In this course, students are introduced to the basic principles, tools, and mindset of data science within a business, economics, and finance context. This includes data collection and integration, exploratory data analysis, descriptive and predictive modeling, visualization, evaluation, and effective communication. For a comprehensive introduction to the application of data science in finance, see <span class="citation" data-cites="hull2020machine">Hull (<a href="references.html#ref-hull2020machine" role="doc-biblioref">2020</a>)</span>.</p>
+<p>This podcast, broadcast in December 2023, provides additional context on my view of this topic.</p>
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/SKG3Kr-TK-w" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+</div>
+<p>The goal of this course is not to turn students into data scientists. Rather, the goal is to build a foundation for future specialization, including postgraduate study or professional training. Many undergraduate students now recognize the need for basic knowledge in data science and machine learning because these areas increasingly shape job opportunities. In the past, computer literacy was essential for executives. Today, business professionals are also expected to be comfortable working with large data sets and collaborating with data science specialists to drive innovation and productivity.</p>
+<p>Learning these computational skills is aligned with the development of STEAM skills: Science, Technology, Engineering, Arts, and Mathematics. For more information on STEAM skills, see <span class="citation" data-cites="boon2019exploring">Boon Ng et al. (<a href="references.html#ref-boon2019exploring" role="doc-biblioref">2019</a>)</span>. In my opinion, undergraduate business education should include authentic tasks grounded in real-world business contexts. These tasks often involve ill-defined problems, complex or multi-step questions, multiple approaches to problem-solving, and sub-tasks that integrate knowledge across disciplines. This course incorporates some of these STEAM principles into several learning activities.</p>
+<p>Data science has a strong connection with finance and economics. In this course, students will also encounter data science concepts and tools in relation to <em>digital humanities</em>. Digital humanities is an interdisciplinary field that includes research, teaching, and innovation at the intersection of computing and disciplines such as economics and finance. It studies the investigation, analysis, synthesis, and presentation of information in electronic form, as well as the impact of digital media on the disciplines that use them. This matters for business, economics, and finance because modern analysis increasingly involves reports, regulation, news, textual data, institutional documents, and other forms of digital information. For a deeper discussion of digital humanities, see <span class="citation" data-cites="klein2019debates">Klein and Gold (<a href="references.html#ref-klein2019debates" role="doc-biblioref">2019</a>)</span>. For data science and data ethics informed by the principles of intersectional feminism, which aligns with the fifth <a href="https://sdgs.un.org/goals">United Nations Sustainable Development Goal</a> on gender equality, see <span class="citation" data-cites="d2020data">D’Ignazio and Klein (<a href="references.html#ref-d2020data" role="doc-biblioref">2020</a>)</span>.</p>
+<p>The following video introduces the 17 <a href="https://sdgs.un.org/goals">United Nations Sustainable Development Goals</a>:</p>
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/5G0ndS3uRdo" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+</div>
+</section>
+<section id="r-and-python." class="level2">
+<h2 class="anchored" data-anchor-id="r-and-python.">R and Python. <svg aria-hidden="true" role="img" viewbox="0 0 581 512" style="height:1em;width:1.13em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M581 226.6C581 119.1 450.9 32 290.5 32S0 119.1 0 226.6C0 322.4 103.3 402 239.4 418.1V480h99.1v-61.5c24.3-2.7 47.6-7.4 69.4-13.9L448 480h112l-67.4-113.7c54.5-35.4 88.4-84.9 88.4-139.7zm-466.8 14.5c0-73.5 98.9-133 220.8-133s211.9 40.7 211.9 133c0 50.1-26.5 85-70.3 106.4-2.4-1.6-4.7-2.9-6.4-3.7-10.2-5.2-27.8-10.5-27.8-10.5s86.6-6.4 86.6-92.7-90.6-87.9-90.6-87.9h-199V361c-74.1-21.5-125.2-67.1-125.2-119.9zm225.1 38.3v-55.6c57.8 0 87.8-6.8 87.8 27.3 0 36.5-38.2 28.3-87.8 28.3zm-.9 72.5H365c10.8 0 18.9 11.7 24 19.2-16.1 1.9-33 2.8-50.6 2.9v-22.1z"></path></svg> <svg aria-hidden="true" role="img" viewbox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"></path></svg> <svg aria-hidden="true" role="img" viewbox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"></path></svg></h2>
+<p>R is a programming language and free software environment designed for statistical computing and graphics. It is supported by the <a href="https://www.r-project.org/foundation/">R Foundation for Statistical Computing</a> and widely used for statistical software, data analysis, visualization, and reproducible research. Python is an interpreted, interactive, and object-oriented programming language. It supports modules, exceptions, dynamic typing, high-level data structures, and multiple programming paradigms, including procedural and functional programming.</p>
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/9kYUGMg_14s" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+</div>
+<p>Getting started with R and Python has become increasingly accessible because of the abundance of free resources available online. This now includes artificial intelligence (AI) tools and specialized AI programming assistants. Learning these languages still requires time, practice, and effort. However, the perceived difficulty of programming is often a major barrier only at the beginning; once students start practicing consistently, progress usually becomes more natural.</p>
+<p>Learning to program in 2026 is not the same as learning to program several years ago. The objective is no longer to memorize syntax, remember the structure of every function, or write every line of code without assistance. Even experienced programmers now use documentation, examples, search engines, coding assistants, and AI-supported workflows to generate, revise, test, and improve code. Students still need enough conceptual fluency to read code, understand basic structures, recognize errors, and make informed decisions. In this course, learning to code means learning how to formulate a problem, guide the assistant, inspect the proposed code, test it, adapt it to the data and methods of the course, interpret the output, and explain the full process clearly.</p>
+<p>This course integrates data science, data analysis, and computational modeling using R, <span class="citation" data-cites="Rcitation">R Core Team (<a href="references.html#ref-Rcitation" role="doc-biblioref">2024</a>)</span>, and Python as the primary tools. Students will have the opportunity to learn or further develop coding skills that make it possible to apply economic, financial, and quantitative models in practical settings. The course is not primarily a computer science course, and there is limited time to cover the mandatory course material. For this reason, students are expected to engage in hands-on course activities, collaborate with peers, use specialized AI tools appropriately, and use online resources such as <a href="https://www.datacamp.com/">DataCamp</a> courses to learn R and Python.</p>
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/4lcwTGA7MZw" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+</div>
+<p>There are several approaches to learning basic data science and developing the ability to transform information into valuable business intelligence. Learning to code is one approach that I strongly recommend. Coding helps students think more systematically, break complex problems into smaller steps, and generate reproducible solutions. In business, economics, and finance job markets, there is growing demand for candidates with knowledge of data science and computational modeling because these skills support creative problem-solving and rigorous data analysis.</p>
+<p>The following Steve Jobs video illustrates why learning to code can matter beyond programming itself:</p>
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/BRTOlPdyPYU" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+</div>
+<p>Learning programming may seem challenging and frustrating at first. Students should know that it is usually less difficult than it initially appears, especially when practice is consistent. Learning R and Python gives students access to free and open-source software supported by generous online communities. These communities provide examples, documentation, tutorials, and guidance that can make the learning process easier. Students will also discover the advances in scientific document production that come with these tools, which offer possibilities that are difficult to reproduce with traditional commercial software.</p>
+<p>For university students who are new to programming, AI-based assistants for R and Python coding can significantly improve productivity and support learning. AI assistants can provide real-time code suggestions, autocomplete features, and immediate feedback, helping beginners write code more efficiently and with fewer errors. These tools can also guide students toward good practices, help identify mistakes, and support debugging. When used carefully, they can help students understand coding principles and move more smoothly from basic learning to applied work. In practice, students should expect to use assistants when writing code, but they should also expect to be evaluated on whether they understand the code, the methodology, the results, and the limitations of what they submit.</p>
+<p>However, there are also drawbacks. The problem is not using AI assistance; the problem is submitting code that students cannot inspect, explain, modify, or defend. AI suggestions are not always accurate or appropriate for the specific context of a course activity. Inexperienced programmers may also struggle to decide which recommendations to follow. AI tools tend to be more useful when users already have enough programming knowledge to evaluate the suggestions. For this reason, students should combine AI assistance with traditional learning methods, practice, reading, testing, and independent reasoning.</p>
+</section>
+<section id="generative-ai-tools-and-virtual-assistants" class="level2">
+<h2 class="anchored" data-anchor-id="generative-ai-tools-and-virtual-assistants"><svg aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M37.6 4.2C28-2.3 15.2-1.1 7 7s-9.4 21-2.8 30.5l112 163.3L16.6 233.2C6.7 236.4 0 245.6 0 256s6.7 19.6 16.6 22.8l103.1 33.4L66.8 412.8c-4.9 9.3-3.2 20.7 4.3 28.1s18.8 9.2 28.1 4.3l100.6-52.9 33.4 103.1c3.2 9.9 12.4 16.6 22.8 16.6s19.6-6.7 22.8-16.6l33.4-103.1 100.6 52.9c9.3 4.9 20.7 3.2 28.1-4.3s9.2-18.8 4.3-28.1L392.3 312.2l103.1-33.4c9.9-3.2 16.6-12.4 16.6-22.8s-6.7-19.6-16.6-22.8L388.9 198.7l25.7-70.4c3.2-8.8 1-18.6-5.6-25.2s-16.4-8.8-25.2-5.6l-70.4 25.7L278.8 16.6C275.6 6.7 266.4 0 256 0s-19.6 6.7-22.8 16.6l-32.3 99.6L37.6 4.2z"></path></svg> Generative AI tools and virtual assistants</h2>
+<p>The use of generative AI tools and virtual assistants in course activities is explicitly allowed, subject to the specific instructions, academic integrity standards, and team-work rules of each activity. This policy applies broadly to current and future AI systems, including but not limited to conversational assistants, coding assistants, AI-powered search tools, writing assistants, data-analysis assistants, and tools integrated into browsers, office software, IDEs, learning platforms, or other applications.</p>
+<p>This wording is intentionally tool-agnostic. ChatGPT is only one example among many available tools, and the course does not assume that any single platform is the best, the only relevant option, or the one students must use. The AI landscape changes rapidly, and students are expected to develop judgment that transfers across tools rather than dependence on one specific brand or interface.</p>
+<p>The mechanics of this course intentionally allow students to use these tools when preparing the Written components of homework assignments and exams. This includes using AI to explore alternatives, improve code, debug errors, strengthen written explanations, and communicate results more effectively. The purpose is not to reduce intellectual effort, but to raise the quality and scope of what students can attempt while learning the course topics, data analysis, and computational modeling.</p>
+<p>This policy is directly connected to the assessment design of the course. Homework assignments and partial exams include Written components in which AI use is allowed, and Oral components in which students present, explain, and discuss the work they completed. These Oral components carry more weight than the Written components. This creates a deliberate balance: students can use modern tools to build stronger and more ambitious work, while their understanding is verified through clear communication, technical explanation, professional reasoning, and the ability to explain the methodology, code, results, and limitations of the work they submitted.</p>
+<p>However, permission to use these tools does not mean they should be used indiscriminately or without judgment. These tools can make mistakes, especially when a task depends on a specific data set, conditions stated in the course materials, or methodologies and procedures taught in class. They may create the false impression that they can solve course questions and activities infallibly, but that is not the case.</p>
+<p>Students must also use external platforms responsibly. They should not upload, disclose, or share confidential, private, sensitive, proprietary, or unauthorized information with AI tools or third-party platforms. This includes personal data, private communications, credentials, classmates’ work, non-public data sets, institutional information, or any material that the course has not authorized for external sharing. When needed, students should anonymize data, remove identifying information, or ask for guidance before using an external tool. Routine use of AI tools does not need to be declared unless a specific activity explicitly requires it.</p>
+<p>These tools can be useful for studying, learning, reviewing code, improving drafts, exploring alternatives, debugging errors, and strengthening projects or assignments. Students are also encouraged to use AI tools, course materials, available sources, and meetings or advising sessions with me to understand their work more deeply and prepare clearer presentations. The key standard is not whether AI was used extensively, but whether students understand the work well enough to verify it, adapt it to the course requirements, explain it correctly, and defend the reasoning behind it. When students rely on AI-generated answers without understanding, verification, or adaptation, that weakness will most likely be reflected in the quality of their work, their oral explanations, and their grades.</p>
+</section>
+<section id="commercial-alternatives-and-reproducibility" class="level2">
+<h2 class="anchored" data-anchor-id="commercial-alternatives-and-reproducibility"><svg aria-hidden="true" role="img" viewbox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"></path></svg> Commercial alternatives and reproducibility</h2>
+<p>Throughout their undergraduate studies, students will be expected to acquire proficiency in various commercial software programs, such as Microsoft Excel, SPSS, Stata, EViews, and many others. I strongly encourage students to develop skills in these programs, particularly when their use is required by another professor or by a professional context. However, students should also recognize that these programs are owned by private firms and are primarily designed within commercial ecosystems. There is no guarantee that their file formats, interfaces, or licensing conditions will remain stable or accessible in the future, which can affect reproducibility.</p>
+<p>I will never discourage students from learning commercial software. At the same time, this course emphasizes the alternative of learning user-oriented programming languages, such as R and Python, for rigorous data analysis in business, economics, and finance. These languages are supported and continuously improved by large scientific communities, which also provide extensive online resources for beginners.</p>
+<p>Commercial software products are important in the job market. However, many of them rely heavily on point-and-click interaction through predefined menus. This interaction is often temporary and unrecorded, which means that many choices made during a quantitative analysis may remain undocumented. This creates problems because it becomes difficult to trace, replicate, audit, or extend the analysis in a different context. In contrast, coding helps produce reproducible research. Learning to code is similar to writing a recipe: once the steps are recorded, the process can be executed again, checked, modified, and shared.</p>
+<p>Commercial software products may also involve high licensing fees and opaque “black boxes”, that is, systems or processes whose internal workings are hidden or difficult to inspect. These black boxes can provide little insight into the assumptions and procedures used to produce the final results. Users may be left with the false impression that they can perform data analysis without fully understanding the process. While this convenience may be useful in specific situations, it can limit the exploration, customization, and transparency required for innovative applications.</p>
+<p>In contrast, languages such as R and Python provide a versatile alternative to point-and-click programs. With these languages, students can write scripts for business, economic, and financial analysis, visualization, simulation, and reporting. By working directly with the details of the computation, students gain a deeper understanding of the process and unlock possibilities for customization and innovation.</p>
+<p>For this reason, students are encouraged to embrace the shift from clicking to scripting. The following video illustrates this idea:</p>
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/hb7Q33ysCwI" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+</div>
+<p>While chefs may need to invest in ovens, kitchen equipment, and ingredients, many inputs in economics and finance, such as data and technology, are freely available. R and Python are open-source tools and can be used at no cost. By acquiring coding skills, students gain the ability to share, expand, reproduce, and innovate. These skills can help generate original empirical results for research outputs, dissertations, and professional projects.</p>
+</section>
+<section id="cloud-coding-environments" class="level2">
+<h2 class="anchored" data-anchor-id="cloud-coding-environments"><svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M0 336c0 79.5 64.5 144 144 144H512c70.7 0 128-57.3 128-128c0-61.9-44-113.6-102.4-125.4c4.1-10.7 6.4-22.4 6.4-34.6c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336z"></path></svg> Cloud coding environments</h2>
+<p>A cloud coding environment is an online platform that provides tools for writing, editing, debugging, and running code directly within a web browser. Unlike traditional desktop IDEs, cloud environments require little or no local installation and can be accessed from different devices with internet connectivity. These platforms often support multiple programming languages and include features such as syntax highlighting, code completion, collaboration, version control integration, and AI assistance.</p>
+<p>Examples of cloud coding environments include:</p>
+<p><a href="https://deepnote.com/">Deepnote</a> is a cloud-based data notebook compatible with <a href="https://jupyter.org/">Jupyter</a>. It allows users to work on data science projects in real time and in one centralized location with colleagues.</p>
+<p><a href="https://colab.google/">Google Colab</a>, short for Google Colaboratory, is a free cloud-based platform that allows users to write, run, and share Python code within a Jupyter notebook environment. It is particularly popular for data science, machine learning, and deep learning tasks because it provides access to computing resources, including GPUs and TPUs, without requiring local setup. Users can work with data from several sources, integrate with Google Drive, and use many Python libraries. Colab is widely used in educational and research settings for prototyping, experimentation, and collaborative projects.</p>
+<p>DataLab from <a href="https://www.datacamp.com/">DataCamp</a> is an interactive coding environment designed for learning and practicing data science and analytics skills. It is part of DataCamp’s educational platform and gives users tools for working with data. In DataLab, users can write and execute code in Python, R, and SQL, with access to common data science libraries and frameworks. The environment is integrated with DataCamp courses, allowing learners to apply knowledge through hands-on exercises and projects. DataLab also includes real-time collaboration and integrated AI assistance for feedback, code suggestions, and debugging support.</p>
+<p>In this course, students will be asked to complete graded activities in DataLab. If DataLab fails or is temporarily unavailable, students may use other web-based or desktop IDE alternatives.</p>
+<p>I consider <a href="https://www.datacamp.com/">DataCamp</a> a useful alternative for learning data science. Normally, individuals and firms must pay for this kind of training. A premium individual DataCamp account may cost approximately a few dozen U.S. dollars per month, which can add up to roughly a couple hundred U.S. dollars over a semester. However, students in this course currently receive individual access to DataCamp courses and resources, including DataCamp’s DataLab, for the whole semester, as long as DataCamp continues to provide this access free of charge for my students. In exchange, DataCamp asks for a mention on social media. The resources and instructions are available in these <a href="https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit">communication guidelines</a>. If students cannot access the link, they should email me.</p>
+</section>
+<section id="desktop-ide." class="level2">
+<h2 class="anchored" data-anchor-id="desktop-ide."><svg aria-hidden="true" role="img" viewbox="0 0 576 512" style="height:1em;width:1.12em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64H240l-10.7 32H160c-17.7 0-32 14.3-32 32s14.3 32 32 32H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H346.7L336 416H512c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM512 64V288H64V64H512z"></path></svg> Desktop IDE.</h2>
+<p>A desktop Integrated Development Environment (IDE) is a software application installed locally on a computer. It provides tools for software development, including code editing, debugging, testing, syntax highlighting, code completion, refactoring, and version control. Desktop IDEs are often optimized for performance and customization. Working with a cloud-based IDE instead of a desktop IDE is similar to working with Google Docs instead of Microsoft Word: both approaches are useful, but they differ in location, control, collaboration, privacy, and backup responsibilities.</p>
+<p>Examples of desktop IDEs include:</p>
+<p><a href="https://posit.co/products/open-source/rstudio/">RStudio</a> is an integrated development environment specifically designed for R, which is widely used for statistical computing, data analysis, and visualization. RStudio provides a source editor, syntax highlighting, code completion, smart indentation, an interactive console, debugging tools, plotting tools, and package management. It also includes support for version control systems such as Git, making it easier to manage and collaborate on projects. RStudio supports R Markdown, Shiny applications, interactive dashboards, and Quarto documents. It can also work with Python, which makes it a versatile platform for data science and analytical work.</p>
+<p>The main difference between R and RStudio is that R is the programming language, while RStudio is the user-friendly environment used to work with R. Students need to download and install both R and RStudio. In practice, students will mainly use RStudio as the interface for writing and running R code, while R performs the calculations behind the scenes. RStudio is free and can integrate multiple programming languages, such as R and Python, within a single data science project. This feature is useful when collaborating with teams that use different programming languages.</p>
+<p>In this course, students will be asked to complete graded activities, including homework assignments and exams, using cloud-based alternatives, specifically DataCamp’s DataLab. However, students are also required to install RStudio on their own computer.</p>
+<p>Students who have not yet installed the necessary programs should download R, Python, and RStudio from the following websites: <a href="https://www.r-project.org/" class="uri">https://www.r-project.org/</a>, <a href="https://www.python.org/downloads/" class="uri">https://www.python.org/downloads/</a>, and <a href="https://posit.co/downloads/" class="uri">https://posit.co/downloads/</a>, respectively. Because software versions and installation procedures change frequently, students should rely on the official websites and current installation instructions. If additional help is needed, students should contact me before local software is required for a course activity.</p>
+<!-- `<svg aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M192 496C86 496 0 394 0 288C0 176 64 16 192 16s192 160 192 272c0 106-86 208-192 208zM154.8 134c6.5-6 7-16.1 1-22.6s-16.1-7-22.6-1c-23.9 21.8-41.1 52.7-52.3 84.2C69.7 226.1 64 259.7 64 288c0 8.8 7.2 16 16 16s16-7.2 16-16c0-24.5 5-54.4 15.1-82.8c10.1-28.5 25-54.1 43.7-71.2z"/></svg>`{=html} Easter egg. I may need some volunteers to help other fellow students install RStudio and ensure that it can run both R and Python code on their own computers. These volunteers may need to familiarize themselves by reviewing YouTube tutorials on how to correctly install it on PC and Mac. Volunteers need to demonstrate that they have successfully assisted other students enrolled in this class in completing their installations. I will assign one sticker to each volunteer for every group of three students they provide help to. The evidence must be uploaded in the discussion forum (first partial) before our first partial exam. Here is a sample of valid evidence: -->
+<!-- ```{r echo=FALSE, out.width="70%", fig.align="center"} -->
+<!-- knitr::include_graphics('./proof.jpg') -->
+<!-- ``` -->
+<p>There are other alternatives to RStudio, such as <a href="https://www.anaconda.com/">Anaconda</a>, Positron, and <a href="https://code.visualstudio.com/">Visual Studio Code</a>. My personal preference for this course is RStudio.</p>
+</section>
+<section id="publishing-platforms" class="level2">
+<h2 class="anchored" data-anchor-id="publishing-platforms"><svg aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376V479.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"></path></svg> Publishing platforms</h2>
+<p>Coding environments are used to create analyses; publishing platforms are used to communicate them. A modern data workflow often ends with a document, website, book, dashboard, app, slide deck, notebook, or manuscript that other people can read, inspect, reproduce, or discuss. Students should understand that writing code is only part of the professional workflow. Communicating results clearly is equally important.</p>
+<p><a href="https://quarto.org/">Quarto</a> is a scientific and technical publishing system that can create reproducible documents, websites, books, presentations, dashboards, and reports from tools such as R, Python, Julia, and Observable. This syllabus is an example of a Quarto book rendered as a website and hosted through <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+<p><a href="https://connect.posit.cloud/">Posit Connect Cloud</a> is a cloud platform for publishing and sharing data applications and documents. It turns work into live, linkable outputs without requiring users to manage infrastructure. It supports content built with R and Python tools such as Shiny, Streamlit, Dash, and Bokeh, as well as documents created with Quarto, R Markdown, and Jupyter Notebooks. It can also connect to GitHub so updates can be redeployed as code changes.</p>
+<p><a href="https://openai.com/prism/">Prism</a> is an AI-native LaTeX workspace from OpenAI for scientific writing and collaboration. It integrates drafting, collaboration, AI-assisted editing, proofreading, citation support, literature search, and LaTeX workflows in a single cloud-based environment. It is a useful example of how scientific writing platforms are evolving toward integrated AI-assisted research workflows.</p>
+<p><a href="https://www.overleaf.com/">Overleaf</a> is a cloud-based platform for collaborative scientific writing with LaTeX. It is useful for academic manuscripts, technical documents, equations, bibliographies, and collaborative editing. Students may also encounter newer AI-assisted scientific writing and publishing tools during the semester. These tools can help with drafting, formatting, references, LaTeX, revision, and publication workflows, but they do not replace responsibility for accuracy, citation, interpretation, reproducibility, or oral explanation.</p>
+</section>
+<section id="relevance." class="level2">
+<h2 class="anchored" data-anchor-id="relevance."><svg aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm176.4-80a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm128 32a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM256 288a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"></path></svg> Relevance.</h2>
+<p>Just a few years ago, economic agents with privileged access to information had a clear comparative advantage in business and decision-making. Today, information and data are widely accessible. As a result, competitive advantage depends less on having access to information and more on knowing how to transform information into knowledge, analysis, decisions, and value. Manipulating, analyzing, and communicating data has become an essential skill for business professionals.</p>
+<p>Learning programming languages can create uncertainty and stress for some students. For this reason, I have gathered a large set of varied and free resources for learning R and Python in the reference section of this syllabus. Students have more resources than they can reasonably use during one semester, so the challenge is not scarcity but organization, persistence, and practice. Students will need to learn some things independently and investigate others on their own. This is intentional: in the job market, professionals must constantly learn, apply new knowledge, and solve problems that do not yet exist. A competitive graduate is not only someone who learns what was taught in class, but also someone who learns how to learn.</p>
+<p>University is a time for learning and exploring new things. Learning languages such as R and Python is one part of that educational journey. Although it may require time and effort at the beginning, the benefits can far outweigh the initial investment. These skills can enhance students’ academic experience and provide valuable tools for future professional work. Temporary frustration is common during the learning process, but students should not let it reduce their enthusiasm or limit their broader learning experience. Challenges are part of the process; seeking help when needed is also part of the process.</p>
+<p>In my opinion, English is the predominant language for research and business. Mathematics and statistics are languages that help us understand uncertainty, structure, and relationships in the world. AI-assisted computational work allows us to communicate with computers, test ideas, conduct statistical experiments, analyze data, and produce reproducible outputs in business contexts. Because computers and AI systems are now central to professional life, students should learn to interact with them not only as users, but also as informed analysts who can guide, verify, and explain computational work. In business, economics, and finance, students can distinguish themselves by developing proficiency in three forms of interaction with the professional environment: English, mathematics and statistics, and AI-assisted computational work.</p>
+<!-- ## R markdown. -->
+<!-- You may be quite familiar with using MS-Word to produce reports. The process is simple as you start with a MS-Word document and your final result is a MS-Word or perhaps a PDF document. However, taking a pdf file and converting it into a webpage or MS-Word document is not that easy as it requires a lot of editing. In fact, this is usually a painful and timely process. RStudio allow you to produce professional documents in a wide variety of types including finished web page, PDF, MS Word document, slide show, presentations, handout, book (see for example <https://otexts.com/fpp3/>), dashboard, package vignette, shiny applications (see for example <https://shiny.rstudio.com/gallery/>), scientific articles, academic thesis, among others. R markdown files have an rmd extension and this source file can be easily converted into a wide and growing different and convenient alternatives as listed above. -->
+<!-- ![](syllabus.png){width="100%"} -->
+<!-- You will use RStudio not only to write your R code in this course, but also to produce (typesetting) the whole PDF assignment reports that you will submit. There is an online course in Datacamp called Reporting with R Markdown (Amy Peterson). If you have not taken it yet, I strongly recommend you to complete it as soon as possible. -->
+<!-- A typical assignment report in my courses is a PDF document with a simple cover page, introduction (text), content (text, tables, figures, R code), conclusion (text), and references if applicable. In this course you will write the whole assignment report in RStudio, using the R Markdown package to produce the PDF final document. This is, knit a rmd file into a PDF. This task is not minor. For starters, this means that you will need to get familiar with \LaTeX, a high-quality typesetting system, to create your assignment reports. As an example, in \LaTeX you type: `$\displaystyle \sum_{n=1}^{\infty} \frac{1}{n}$` and the PDF output looks like this: -->
+<!-- $\displaystyle \sum_{n=1}^{\infty} \frac{1}{n}$, or this $\sum_{n=1}^{\infty} \frac{1}{n}$. -->
+<!-- \LaTeX is a computer programming language used for typesetting technical documents, and fortunately RStudio and R Markdown makes it easier to deal with \LaTeX. Learning how to use R Markdown to write formal reports is not an insignificant format issue; it is rather an opportunity to get to know and develop a new branch of skills that are very well aligned with the fourth industrial revolution and with the free data science technology. Eventually, you will learn that creating scientific documents that integrate code, output and analysis with R Markdown is easy if you use RStudio. See @xie2020r for a complete reference about R Markdown. -->
+<!-- R Markdown requires you to download and install the full version of MiK\TeX  which is available here <https://miktex.org/download>. Please see <https://rmarkdown.rstudio.com/> and <https://rmarkdown.rstudio.com/authoring_quick_tour.html> for further details on this topic. -->
+<!-- Installing the full version of MiK\TeX can be troublesome if you are not quite familiar with software installation. For this reason, Yihui Xie created a package in R that essentially does everything automatically: Tiny\TeX. I use MiK\TeX and I am not familiar with Tiny\TeX. However, it seems like a good alternative according to my students. I added a YouTube video that explains how to install Tiny\TeX in the reference list by the end of this syllabus. Most of my students use Tiny\TeX and they have had no issues at all. -->
+<!-- It is common to get error messages when trying to produce an R Markdown PDF in RStudio, and people might find it hard to get the PDF done especially if this is their first time dealing with \LaTeX. In this respect, my best advice is to Google your question or the error message to find out the answer to your specific case. Fortunately, there is a very kind and growing community online that helps each other in a wide variety of data science topics at all levels of expertise. In my case, every time I have a question about programming, I find my answer online. I am not suggesting to Google the questions of your learning activities, but to Google how to deal with specific programming issues or specific error messages.  -->
+<!-- ## \faGithub \hspace{1 mm} GitHub. -->
+<!-- Git is a free and open source distributed version control system designed to handle everything from small to very large software projects with speed and efficiency. GitHub is the user-friendly interface of Git. Just as RStudio is a user-friendly interface of R. Therefore, you need to download and install Git (<https://git-scm.com/>) in order to sign up for a GitHub account. I use the web based client of GitHub, although others prefer the GitHub desktop version. I consider you will be OK with the web based client as well. -->
+<!-- GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code and projects. GitHub is one of the world's largest communities of open source code developers. It fosters collaboration and communication between developers similar to a social network of coders. GitHub has a number of useful features that enable development teams to work together on the same project and easily track changes made by collaborators, and create new versions of software without disrupting the current versions. In this sense, GitHub is similar to Google Docs, but far, far more powerful and flexible. -->
+<!-- I recommend you to use GitHub in your team in order to collaborate on your own homework assignments that require coding. My PEF students are required to use GitHub to collaborate on their project. -->
+<!-- ## R, RStudio, R markdown, \LaTeX, Git, GitHub. -->
+<!-- At this point you should be wondering how you are going to work with all these new software, languages and interfaces. First, you have to download and install the main base programs which are R and Git. There are some YouTube installation guides available at the end of this document, if you find better/newer videos please let me know to update this section. Second, you have to download and install RStudio and sign up for a free GitHub account. Third, you have to install the Tiny\TeX and the R markdown packages in RStudio so you can create your PDF assignment reports. You will work in your local computer using RStudio, and you will produce rmd files which will allow you to produce PDF documents. You will also have to collaborate so here comes the fourth step. Fourth, you have to learn how to integrate RStudio with GitHub. You have some nice YouTube videos to explain how to deal with this integration at the end of this document. This RStudio and GitHub integration will allow you to collaborate with others. Fifth, during all these steps you will need to take some DataCamp courses that can help you to learn how to code in R. In the course calendar you can see a list of courses that you will need to take in this course. -->
+<!-- It is common that some students get familiar very quickly with these previous steps, especially with the installation steps. If you are one of those, I may need your help to assist other students that struggle with the download and installation process. If you are interested in helping me with this, please contact me and I can compensate for your extra work with stickers (see what they are later in this syllabus). Your job will be to help me with the questions I may receive throughout the semester. -->
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-boon2019exploring" class="csl-entry" role="listitem">
+Boon Ng, Soo et al. 2019. <span>“Exploring STEM Competences for the 21st Century.”</span> <a href="https://unesdoc.unesco.org/ark:/48223/pf0000368485">https://unesdoc.unesco.org/ark:/48223/pf0000368485</a>.
+</div>
+<div id="ref-d2020data" class="csl-entry" role="listitem">
+D’Ignazio, Catherine, and Lauren F Klein. 2020. <em>Data Feminism</em>. MIT Press. <a href="https://datafeminism.io/">https://datafeminism.io/</a>.
+</div>
+<div id="ref-hull2020machine" class="csl-entry" role="listitem">
+Hull, John C. 2020. <em>Machine Learning in Business: An Introduction to the World of Data Science</em>. Amazon Distribution.
+</div>
+<div id="ref-klein2019debates" class="csl-entry" role="listitem">
+Klein, Lauren F, and Matthew K Gold. 2019. <em>Debates in the Digital Humanities 2019</em>. Project Muse. <a href="https://dhdebates.gc.cuny.edu/">https://dhdebates.gc.cuny.edu/</a>.
+</div>
+<div id="ref-Rcitation" class="csl-entry" role="listitem">
+R Core Team. 2024. <em>R: A Language and Environment for Statistical Computing</em>. Vienna, Austria: R Foundation for Statistical Computing. <a href="https://www.R-project.org/">https://www.R-project.org/</a>.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<!-- Google tag (gtag.js) -->
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9QZBSVHDZ9"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'G-9QZBSVHDZ9');
+
+</script>
+
+<button type="button" id="btn-back-to-top" aria-label="Back to top" title="Back to top">
+  <svg viewbox="0 0 24 24" aria-hidden="true" focusable="false">
+    <path d="M12 19V5"></path>
+    <path d="m5 12 7-7 7 7"></path>
+  </svg>
+</button>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var backToTopButton = document.getElementById("btn-back-to-top");
+
+  if (!backToTopButton) {
+    return;
+  }
+
+  function toggleBackToTopButton() {
+    backToTopButton.classList.toggle("is-visible", window.scrollY > 480);
+  }
+
+  backToTopButton.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+
+  toggleBackToTopButton();
+  window.addEventListener("scroll", toggleBackToTopButton, { passive: true });
+});
+</script>
+<div id="progress-bar" style="width: 0%; height:1px; background-color: rgb(89 127 235); position: fixed; top: 0px; transform: scaleY(0.5); transform-origin: top left; z-index: 2000;"></div>
+
+
+<script id="progressbar" type="text/javascript">
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+
+
+
+    const bar = document.querySelector('#progress-bar');
+
+    const post = document.querySelector('#quarto-content');
+
+    const html = document.documentElement;
+
+    
+
+    const height = post.scrollHeight + post.offsetTop;
+
+    
+
+    window.addEventListener('scroll', () => {
+
+        bar.style.width = (html.scrollTop / (height- html.clientHeight)) * 100 + '%';
+
+    });
+
+});
+
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll('a[href="./"]').forEach(function (link) {
+    link.setAttribute("href", "./index.html");
+  });
+});
+</script>
+<script>
+function initPageSectionMenu() {
+  var topHeader = document.querySelector("#quarto-header .container-fluid");
+  var titleHeader = document.querySelector("#title-block-header");
+  var breadcrumbs = document.querySelector("#title-block-header .quarto-title-breadcrumbs") ||
+    document.querySelector("#quarto-header .quarto-page-breadcrumbs");
+  var main = document.querySelector("main.content, main#quarto-document-content, main");
+
+  if ((!titleHeader && !topHeader) || !main) {
+    return;
+  }
+
+  var pageName = window.location.pathname.split("/").pop();
+  var isHomePage = pageName === "" || pageName === "index.html";
+
+  if (isHomePage) {
+    if (titleHeader) {
+      var homeBreadcrumbs = titleHeader.querySelector(".quarto-title-breadcrumbs");
+      if (homeBreadcrumbs) {
+        homeBreadcrumbs.style.display = "none";
+      }
+    }
+    return;
+  }
+
+  function cleanText(element) {
+    return element.textContent.replace(/\s+/g, " ").trim();
+  }
+
+  function hashToId(hash) {
+    var id = hash.replace(/^#/, "");
+
+    try {
+      return decodeURIComponent(id);
+    } catch (error) {
+      return id;
+    }
+  }
+
+  function localNavOffset() {
+    var localNav = document.querySelector(".page-local-nav");
+
+    if (!localNav) {
+      return 0;
+    }
+
+    return Math.ceil(localNav.getBoundingClientRect().height + 16);
+  }
+
+  function scrollToSection(id, smooth) {
+    var target = document.getElementById(id);
+
+    if (!target) {
+      return false;
+    }
+
+    var top = target.getBoundingClientRect().top + window.pageYOffset - localNavOffset();
+    window.scrollTo({
+      top: Math.max(0, top),
+      behavior: smooth ? "smooth" : "auto"
+    });
+
+    return true;
+  }
+
+  var seen = {};
+  var generatedIndex = 0;
+  var headings = [];
+
+  Array.prototype.slice.call(main.querySelectorAll("h2, h3, a[id]")).forEach(function (element) {
+    var isHeading = element.matches("h2, h3");
+    var isAnchor = element.matches("a[id]");
+    var id = "";
+    var level = "h2";
+    var text = "";
+
+    if (isHeading) {
+      if (element.closest("#title-block-header, .cell, .sourceCode, pre, .callout")) {
+        return;
+      }
+
+      text = cleanText(element);
+      var section = element.closest("section[id]");
+      id = section ? section.id : element.id;
+      level = element.tagName.toLowerCase();
+
+      if (!id) {
+        id = "page-section-" + generatedIndex;
+        generatedIndex += 1;
+        element.id = id;
+      }
+    }
+
+    if (isAnchor && !isHeading) {
+      var block = element.parentElement ? element.parentElement.nextElementSibling : null;
+      var title = block ? block.querySelector(".callout-title-container") : null;
+
+      id = element.id;
+      text = title ? cleanText(title) : "";
+      level = "h2";
+    }
+
+    if (!id || !text || seen[id]) {
+      return;
+    }
+
+    seen[id] = true;
+    headings.push({
+      id: id,
+      level: level,
+      text: text
+    });
+  });
+
+  if (headings.length === 0 || document.querySelector(".page-section-menu")) {
+    return;
+  }
+
+  var menu = document.createElement("div");
+  menu.className = "page-section-menu dropdown";
+
+  var button = document.createElement("button");
+  button.className = "btn page-section-toggle dropdown-toggle";
+  button.type = "button";
+  button.setAttribute("data-bs-toggle", "dropdown");
+  button.setAttribute("aria-expanded", "false");
+  button.textContent = "On this page";
+
+  var list = document.createElement("ul");
+  list.className = "dropdown-menu dropdown-menu-end page-section-list";
+
+  headings.forEach(function (heading) {
+    var item = document.createElement("li");
+    var link = document.createElement("a");
+    link.className = "dropdown-item page-section-link page-section-link-" + heading.level;
+    link.href = "#" + heading.id;
+    link.textContent = heading.text;
+    link.addEventListener("click", function (event) {
+      var hash = link.getAttribute("href");
+      var id = hash ? hashToId(hash) : "";
+
+      if (!hash || !document.getElementById(id)) {
+        return;
+      }
+
+      event.preventDefault();
+      history.pushState(null, "", hash);
+
+      if (window.bootstrap && window.bootstrap.Dropdown) {
+        window.bootstrap.Dropdown.getOrCreateInstance(button).hide();
+      }
+
+      window.setTimeout(function () {
+        scrollToSection(id, true);
+      }, 0);
+
+      window.setTimeout(function () {
+        scrollToSection(id, false);
+      }, 650);
+    });
+    item.appendChild(link);
+    list.appendChild(item);
+  });
+
+  menu.appendChild(button);
+  menu.appendChild(list);
+
+  var localNav = document.createElement("div");
+  localNav.className = "page-local-nav";
+
+  if (breadcrumbs) {
+    var localBreadcrumbs = breadcrumbs.cloneNode(true);
+    localBreadcrumbs.classList.remove("d-none", "d-lg-block");
+    localBreadcrumbs.classList.add("page-local-breadcrumbs");
+    localNav.appendChild(localBreadcrumbs);
+  }
+
+  localNav.appendChild(menu);
+
+  if (titleHeader && titleHeader.parentElement) {
+    titleHeader.classList.add("has-page-local-nav");
+    titleHeader.parentElement.insertBefore(localNav, titleHeader);
+  } else if (main.firstChild) {
+    main.insertBefore(localNav, main.firstChild);
+  } else if (topHeader) {
+    topHeader.appendChild(localNav);
+  }
+
+  if (window.location.hash) {
+    [150, 450, 800].forEach(function (delay) {
+      window.setTimeout(function () {
+        scrollToSection(hashToId(window.location.hash), false);
+      }, delay);
+    });
+  }
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initPageSectionMenu);
+} else {
+  initPageSectionMenu();
+}
+</script>
+<script>
+function initSidebarAccordion() {
+  var sidebar = document.querySelector("#quarto-sidebar");
+
+  if (!sidebar) {
+    return;
+  }
+
+  var sections = Array.prototype.slice.call(
+    sidebar.querySelectorAll("ul.sidebar-section.depth1.collapse[id]")
+  );
+
+  sidebar.querySelectorAll('a.sidebar-link[href="./index.html"]').forEach(function (link) {
+    var item = link.closest("li.sidebar-item");
+    if (item) {
+      item.style.display = "none";
+    }
+  });
+
+  if (sections.length === 0) {
+    return;
+  }
+
+  function syncTriggers(section, isOpen) {
+    sidebar.querySelectorAll('[data-bs-target="#' + section.id + '"]').forEach(function (trigger) {
+      trigger.classList.toggle("collapsed", !isOpen);
+      trigger.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    });
+  }
+
+  function closeSection(section) {
+    if (window.bootstrap && window.bootstrap.Collapse) {
+      window.bootstrap.Collapse.getOrCreateInstance(section, {
+        toggle: false
+      }).hide();
+    } else {
+      section.classList.remove("show");
+      syncTriggers(section, false);
+    }
+  }
+
+  function closeOtherSections(openSection) {
+    sections.forEach(function (section) {
+      if (section !== openSection && section.classList.contains("show")) {
+        closeSection(section);
+      }
+    });
+  }
+
+  function setCurrentSection(currentSection) {
+    sections.forEach(function (section) {
+      var sectionItem = section.closest("li.sidebar-item-section");
+
+      if (sectionItem) {
+        sectionItem.classList.toggle("sidebar-section-current", section === currentSection);
+      }
+    });
+  }
+
+  function pageNameFromUrl(value) {
+    var url = new URL(value, window.location.href);
+    var pageName = url.pathname.split("/").pop();
+
+    return pageName || "index.html";
+  }
+
+  function markCurrentSection() {
+    var currentPage = pageNameFromUrl(window.location.href);
+
+    sections.forEach(function (section) {
+      var sectionItem = section.closest("li.sidebar-item-section");
+      var isCurrent = Array.prototype.slice.call(section.querySelectorAll("a.sidebar-link[href]")).some(function (link) {
+        return pageNameFromUrl(link.getAttribute("href")) === currentPage;
+      });
+
+      if (sectionItem) {
+        sectionItem.classList.toggle("sidebar-section-current", isCurrent);
+      }
+    });
+  }
+
+  markCurrentSection();
+  window.addEventListener("pageshow", markCurrentSection);
+  window.addEventListener("load", markCurrentSection);
+  window.setTimeout(markCurrentSection, 250);
+  window.setTimeout(markCurrentSection, 1000);
+
+  sidebar.querySelectorAll("[data-bs-target]").forEach(function (trigger) {
+    var target = trigger.getAttribute("data-bs-target");
+
+    if (!target || target.indexOf("#quarto-sidebar-section-") !== 0) {
+      return;
+    }
+
+    var section = sidebar.querySelector(target);
+
+    if (!section) {
+      return;
+    }
+
+    trigger.addEventListener("click", function () {
+      setCurrentSection(section);
+
+      if (!section.classList.contains("show")) {
+        closeOtherSections(section);
+      }
+    });
+  });
+
+  sections.forEach(function (section) {
+    section.addEventListener("show.bs.collapse", function () {
+      setCurrentSection(section);
+      closeOtherSections(section);
+    });
+  });
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initSidebarAccordion);
+} else {
+  initSidebarAccordion();
+}
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation column-page-right">
+  <div class="nav-page nav-page-previous">
+      <a href="./course-overview.html" class="pagination-link" aria-label="Course overview">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Course overview</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./course-activities.html" class="pagination-link" aria-label="Course activities">
+        <span class="nav-page-text"><span class="chapter-title">Course activities</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Administración de riesgos financieros ARF.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Dr.&nbsp;Martín Lozano · <a href="mailto:martin.lozano@udem.edu">martin.lozano@udem.edu</a> · <a href="https://mlozanoqf.github.io/">mlozanoqf.github.io</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

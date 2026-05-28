@@ -1,6 +1,8 @@
 project:
   type: book
-  output-dir: _book
+  output-dir: docs
+  post-render:
+    - scripts/write-root-redirect.R
 
 book:
   title: Administración de riesgos financieros ARF.
