@@ -254,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 </div>
 <div class="home-last-modified">
-<span class="home-last-modified-label">Modified</span><span class="date-modified">May 28, 2026, 01:38:43 am.</span>
+<span class="home-last-modified-label">Modified</span><span class="date-modified">May 28, 2026, 01:52:50 am.</span>
 </div>
 <div class="home-panel">
 <p>This syllabus is the official course guide. It contains the course goals, rules, grading method, schedule, activities, resources, references, and expectations for the semester.</p>
@@ -284,36 +284,67 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 <button type="button" id="btn-back-to-top" aria-label="Back to top" title="Back to top">
+
   <svg viewbox="0 0 24 24" aria-hidden="true" focusable="false">
+
     <path d="M12 19V5"></path>
+
     <path d="m5 12 7-7 7 7"></path>
+
   </svg>
+
 </button>
 
+
+
 <script>
+
 document.addEventListener("DOMContentLoaded", function () {
+
   var backToTopButton = document.getElementById("btn-back-to-top");
 
+
+
   if (!backToTopButton) {
+
     return;
+
   }
+
+
 
   function toggleBackToTopButton() {
+
     backToTopButton.classList.toggle("is-visible", window.scrollY > 480);
+
   }
 
+
+
   backToTopButton.addEventListener("click", function () {
+
     window.scrollTo({
+
       top: 0,
+
       behavior: "smooth"
+
     });
+
   });
 
+
+
   toggleBackToTopButton();
+
   window.addEventListener("scroll", toggleBackToTopButton, { passive: true });
+
 });
+
 </script>
+
 <div id="progress-bar" style="width: 0%; height:1px; background-color: rgb(89 127 235); position: fixed; top: 0px; transform: scaleY(0.5); transform-origin: top left; z-index: 2000;"></div>
+
 
 
 <script id="progressbar" type="text/javascript">
@@ -345,339 +376,673 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
+
 <script>
+
 document.addEventListener("DOMContentLoaded", function () {
+
   document.querySelectorAll('a[href="./"]').forEach(function (link) {
+
     link.setAttribute("href", "./index.html");
+
   });
+
 });
+
 </script>
+
 <script>
+
 function initPageSectionMenu() {
+
   var topHeader = document.querySelector("#quarto-header .container-fluid");
+
   var titleHeader = document.querySelector("#title-block-header");
+
   var breadcrumbs = document.querySelector("#title-block-header .quarto-title-breadcrumbs") ||
+
     document.querySelector("#quarto-header .quarto-page-breadcrumbs");
+
   var main = document.querySelector("main.content, main#quarto-document-content, main");
 
+
+
   if ((!titleHeader && !topHeader) || !main) {
+
     return;
+
   }
+
+
 
   var pageName = window.location.pathname.split("/").pop();
+
   var isHomePage = pageName === "" || pageName === "index.html";
 
+
+
   if (isHomePage) {
+
     if (titleHeader) {
+
       var homeBreadcrumbs = titleHeader.querySelector(".quarto-title-breadcrumbs");
+
       if (homeBreadcrumbs) {
+
         homeBreadcrumbs.style.display = "none";
+
       }
+
     }
+
     return;
+
   }
+
+
 
   function cleanText(element) {
+
     return element.textContent.replace(/\s+/g, " ").trim();
+
   }
+
+
 
   function hashToId(hash) {
+
     var id = hash.replace(/^#/, "");
 
+
+
     try {
+
       return decodeURIComponent(id);
+
     } catch (error) {
+
       return id;
+
     }
+
   }
+
+
 
   function localNavOffset() {
+
     var localNav = document.querySelector(".page-local-nav");
 
+
+
     if (!localNav) {
+
       return 0;
+
     }
+
+
 
     return Math.ceil(localNav.getBoundingClientRect().height + 16);
+
   }
+
+
 
   function scrollToSection(id, smooth) {
+
     var target = document.getElementById(id);
 
+
+
     if (!target) {
+
       return false;
+
     }
+
+
 
     var top = target.getBoundingClientRect().top + window.pageYOffset - localNavOffset();
+
     window.scrollTo({
+
       top: Math.max(0, top),
+
       behavior: smooth ? "smooth" : "auto"
+
     });
+
+
 
     return true;
+
   }
+
+
 
   var seen = {};
+
   var generatedIndex = 0;
+
   var headings = [];
 
+
+
   Array.prototype.slice.call(main.querySelectorAll("h2, h3, a[id]")).forEach(function (element) {
+
     var isHeading = element.matches("h2, h3");
+
     var isAnchor = element.matches("a[id]");
+
     var id = "";
+
     var level = "h2";
+
     var text = "";
 
+
+
     if (isHeading) {
+
       if (element.closest("#title-block-header, .cell, .sourceCode, pre, .callout")) {
+
         return;
+
       }
+
+
 
       text = cleanText(element);
+
       var section = element.closest("section[id]");
+
       id = section ? section.id : element.id;
+
       level = element.tagName.toLowerCase();
 
+
+
       if (!id) {
+
         id = "page-section-" + generatedIndex;
+
         generatedIndex += 1;
+
         element.id = id;
+
       }
+
     }
+
+
 
     if (isAnchor && !isHeading) {
+
       var block = element.parentElement ? element.parentElement.nextElementSibling : null;
+
       var title = block ? block.querySelector(".callout-title-container") : null;
 
+
+
       id = element.id;
+
       text = title ? cleanText(title) : "";
+
       level = "h2";
+
     }
+
+
 
     if (!id || !text || seen[id]) {
+
       return;
+
     }
 
+
+
     seen[id] = true;
+
     headings.push({
+
       id: id,
+
       level: level,
+
       text: text
+
     });
+
   });
+
+
 
   if (headings.length === 0 || document.querySelector(".page-section-menu")) {
+
     return;
+
   }
+
+
 
   var menu = document.createElement("div");
+
   menu.className = "page-section-menu dropdown";
 
+
+
   var button = document.createElement("button");
+
   button.className = "btn page-section-toggle dropdown-toggle";
+
   button.type = "button";
+
   button.setAttribute("data-bs-toggle", "dropdown");
+
   button.setAttribute("aria-expanded", "false");
+
   button.textContent = "On this page";
 
+
+
   var list = document.createElement("ul");
+
   list.className = "dropdown-menu dropdown-menu-end page-section-list";
 
+
+
   headings.forEach(function (heading) {
+
     var item = document.createElement("li");
+
     var link = document.createElement("a");
+
     link.className = "dropdown-item page-section-link page-section-link-" + heading.level;
+
     link.href = "#" + heading.id;
+
     link.textContent = heading.text;
+
     link.addEventListener("click", function (event) {
+
       var hash = link.getAttribute("href");
+
       var id = hash ? hashToId(hash) : "";
 
+
+
       if (!hash || !document.getElementById(id)) {
+
         return;
+
       }
+
+
 
       event.preventDefault();
+
       history.pushState(null, "", hash);
 
+
+
       if (window.bootstrap && window.bootstrap.Dropdown) {
+
         window.bootstrap.Dropdown.getOrCreateInstance(button).hide();
+
       }
 
+
+
       window.setTimeout(function () {
+
         scrollToSection(id, true);
+
       }, 0);
 
+
+
       window.setTimeout(function () {
+
         scrollToSection(id, false);
+
       }, 650);
+
     });
+
     item.appendChild(link);
+
     list.appendChild(item);
+
   });
 
+
+
   menu.appendChild(button);
+
   menu.appendChild(list);
 
+
+
   var localNav = document.createElement("div");
+
   localNav.className = "page-local-nav";
 
+
+
   if (breadcrumbs) {
+
     var localBreadcrumbs = breadcrumbs.cloneNode(true);
+
     localBreadcrumbs.classList.remove("d-none", "d-lg-block");
+
     localBreadcrumbs.classList.add("page-local-breadcrumbs");
+
     localNav.appendChild(localBreadcrumbs);
+
   }
+
+
 
   localNav.appendChild(menu);
 
+
+
   if (titleHeader && titleHeader.parentElement) {
+
     titleHeader.classList.add("has-page-local-nav");
+
     titleHeader.parentElement.insertBefore(localNav, titleHeader);
+
   } else if (main.firstChild) {
+
     main.insertBefore(localNav, main.firstChild);
+
   } else if (topHeader) {
+
     topHeader.appendChild(localNav);
+
   }
+
+
 
   if (window.location.hash) {
+
     [150, 450, 800].forEach(function (delay) {
+
       window.setTimeout(function () {
+
         scrollToSection(hashToId(window.location.hash), false);
+
       }, delay);
+
     });
+
   }
+
 }
+
+
 
 if (document.readyState === "loading") {
+
   document.addEventListener("DOMContentLoaded", initPageSectionMenu);
+
 } else {
+
   initPageSectionMenu();
+
 }
+
 </script>
+
 <script>
+
 function initSidebarAccordion() {
+
   var sidebar = document.querySelector("#quarto-sidebar");
 
+
+
   if (!sidebar) {
+
     return;
+
   }
+
+
 
   var sections = Array.prototype.slice.call(
+
     sidebar.querySelectorAll("ul.sidebar-section.depth1.collapse[id]")
+
   );
 
+
+
   sidebar.querySelectorAll('a.sidebar-link[href="./index.html"]').forEach(function (link) {
+
     var item = link.closest("li.sidebar-item");
+
     if (item) {
+
       item.style.display = "none";
+
     }
+
   });
 
+
+
   if (sections.length === 0) {
+
     return;
+
   }
+
+
 
   function syncTriggers(section, isOpen) {
+
     sidebar.querySelectorAll('[data-bs-target="#' + section.id + '"]').forEach(function (trigger) {
+
       trigger.classList.toggle("collapsed", !isOpen);
+
       trigger.setAttribute("aria-expanded", isOpen ? "true" : "false");
+
     });
+
   }
+
+
 
   function closeSection(section) {
+
     if (window.bootstrap && window.bootstrap.Collapse) {
+
       window.bootstrap.Collapse.getOrCreateInstance(section, {
+
         toggle: false
+
       }).hide();
+
     } else {
+
       section.classList.remove("show");
+
       syncTriggers(section, false);
+
     }
+
   }
+
+
 
   function closeOtherSections(openSection) {
+
     sections.forEach(function (section) {
+
       if (section !== openSection && section.classList.contains("show")) {
+
         closeSection(section);
+
       }
+
     });
+
   }
+
+
 
   function setCurrentSection(currentSection) {
+
     sections.forEach(function (section) {
+
       var sectionItem = section.closest("li.sidebar-item-section");
 
+
+
       if (sectionItem) {
+
         sectionItem.classList.toggle("sidebar-section-current", section === currentSection);
+
       }
+
     });
+
   }
+
+
 
   function pageNameFromUrl(value) {
+
     var url = new URL(value, window.location.href);
+
     var pageName = url.pathname.split("/").pop();
 
+
+
     return pageName || "index.html";
+
   }
+
+
 
   function markCurrentSection() {
+
     var currentPage = pageNameFromUrl(window.location.href);
 
+
+
     sections.forEach(function (section) {
+
       var sectionItem = section.closest("li.sidebar-item-section");
+
       var isCurrent = Array.prototype.slice.call(section.querySelectorAll("a.sidebar-link[href]")).some(function (link) {
+
         return pageNameFromUrl(link.getAttribute("href")) === currentPage;
+
       });
 
+
+
       if (sectionItem) {
+
         sectionItem.classList.toggle("sidebar-section-current", isCurrent);
+
       }
+
     });
+
   }
 
+
+
   markCurrentSection();
+
   window.addEventListener("pageshow", markCurrentSection);
+
   window.addEventListener("load", markCurrentSection);
+
   window.setTimeout(markCurrentSection, 250);
+
   window.setTimeout(markCurrentSection, 1000);
 
+
+
   sidebar.querySelectorAll("[data-bs-target]").forEach(function (trigger) {
+
     var target = trigger.getAttribute("data-bs-target");
 
+
+
     if (!target || target.indexOf("#quarto-sidebar-section-") !== 0) {
+
       return;
+
     }
+
+
 
     var section = sidebar.querySelector(target);
 
+
+
     if (!section) {
+
       return;
+
     }
 
+
+
     trigger.addEventListener("click", function () {
+
       setCurrentSection(section);
+
+
 
       if (!section.classList.contains("show")) {
+
         closeOtherSections(section);
+
       }
+
     });
+
   });
+
+
 
   sections.forEach(function (section) {
+
     section.addEventListener("show.bs.collapse", function () {
+
       setCurrentSection(section);
+
       closeOtherSections(section);
+
     });
+
   });
+
 }
 
+
+
 if (document.readyState === "loading") {
+
   document.addEventListener("DOMContentLoaded", initSidebarAccordion);
+
 } else {
+
   initSidebarAccordion();
+
 }
+
 </script>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
