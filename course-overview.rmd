@@ -75,7 +75,7 @@ The course has three main objectives:
 
 1. **Understand the course topics.** Students are expected to develop a solid understanding of the models, techniques, and principles covered in the course, especially in financial economics, financial risk management, and quantitative finance.
 
-2. **Apply quantitative techniques.** Students will learn how to implement financial models by translating paper-based formulations into functional computer code. Through practical exercises and assignments, students will use computational tools to analyze financial data, generate results, and interpret findings.
+2. **Apply quantitative techniques.** Students will learn how to implement financial models by translating paper-based formulations into functional computer code. Through course activities, students will use computational tools to analyze financial data, generate results, and interpret findings.
 
 3. **Develop professional financial competencies.** The course is designed to strengthen the practical abilities required of financial professionals, practitioners, and junior researchers. These include financial analysis, financial modeling, computational implementation, interpretation of results, and written reporting.
 
@@ -85,7 +85,7 @@ To achieve these objectives, students are expected to complete several tasks thr
 
 1. **Read carefully.** Students must study the recommended textbooks, academic papers, course notes, and other resources provided. Reading is a fundamental requirement for understanding the course material.
 
-2. **Work consistently.** Success in the course requires sustained effort. Students are expected to attend class, participate actively, complete assignments and projects, and engage seriously with the course material.
+2. **Work consistently.** Success in the course requires sustained effort. Students are expected to attend class, participate actively, complete course activities, and engage seriously with the course material.
 
 3. **Ask for assistance when needed.** Students who encounter difficulties or have questions are encouraged to contact me at <tt>`<martin.lozano@udem.edu>`</tt>. I can help clarify concepts, resolve doubts, and support a deeper understanding of the material. However, students are responsible for asking for help in a timely manner.
 
@@ -95,11 +95,11 @@ Learning usually requires repeated attempts, additional inputs, and persistence.
 
 The course operates on the assumption that students will approach it with enthusiasm, a positive attitude, and a willingness to engage actively with the material. The following expectations apply throughout the semester:
 
-1. **Active participation.** Students are expected to be proactive and engaged throughout the semester. This includes completing learning activities, assignments, and readings on time. Active participation contributes to a deeper understanding of the subject matter.
+1. **Active participation.** Students are expected to be proactive and engaged throughout the semester. This includes completing course activities and readings on time. Active participation contributes to a deeper understanding of the subject matter.
 
 2. **Understanding and application.** Students are expected to study the material thoroughly, understand the underlying concepts, and apply them in relevant financial contexts.
 
-3. **Course calendar.** The course calendar, provided in @sec-schedule, is the roadmap for the semester. It lists lecture topics, required readings, activities, assignments, and exams. Students are responsible for consulting it regularly and following its timeline.
+3. **Course calendar.** The course calendar, provided in @sec-schedule, is the roadmap for the semester. It lists lecture topics, required readings, course activities, deadlines, and exams. Students are responsible for consulting it regularly and following its timeline.
 
 4. **Time management.** Some tasks may require more than a week to complete. Students must plan ahead and allocate enough time to fulfill their course responsibilities effectively.
 
@@ -126,9 +126,9 @@ Students should be confident that all course materials and activities are suitab
 
 Individuals with integrity demonstrate moral character and ethical judgment. They choose to do what is right even when facing difficult decisions or temptations. They are trustworthy, reliable, and accountable. Integrity is essential in personal relationships, professional settings, and society because it fosters trust, respect, and fairness.
 
-We pledge to uphold the highest standards of honesty and integrity, both for ourselves and for our peers. Violations of academic integrity, including plagiarism and cheating, are strictly prohibited and may result in serious consequences, including failure of an assignment, failure of the course, and additional disciplinary action under current regulations.
+We pledge to uphold the highest standards of honesty and integrity, both for ourselves and for our peers. Violations of academic integrity, including plagiarism and cheating, are strictly prohibited and may result in serious consequences, including failure of a course activity, failure of the course, and additional disciplinary action under current regulations.
 
-Plagiarism means presenting another person's ideas, words, analysis, code, or work as one's own without proper acknowledgment or attribution. This includes copying from textbooks, websites, online sources, generative AI tools, other students, or any other material without giving appropriate credit to the original source.
+Plagiarism means presenting another person's ideas, words, analysis, code, or work as one's own in a way that violates attribution requirements, activity instructions, or academic-integrity standards. This includes copying from textbooks, websites, online sources, generative AI tools, other students, or any other material without proper acknowledgment when attribution is required. Routine use of AI tools is allowed as explained in [Tools and data science](tools-data-science.rmd), and it does not need to be declared unless a specific activity explicitly requires it. The academic-integrity problem is not the mere use of AI; it is submitting work that students did not verify, cannot explain, or present as compliant with the instructions when it is not.
 
 Please watch the following video from [York St. John University](https://www.yorksj.ac.uk/) on understanding plagiarism.
 
@@ -138,7 +138,7 @@ Please watch the following video from [York St. John University](https://www.yor
 </div>
 ```
 
-I strongly advise against constructing a piece of work by cutting, pasting, or copying material written by others into something submitted as original work. Regardless of any pressure students may feel to complete an assignment, taking this type of shortcut is unacceptable. This also applies to ChatGPT and other generative AI tools when their output is used inappropriately or presented as original work. Such behavior is a form of plagiarism and may have serious consequences.
+I strongly advise against constructing a piece of work by cutting, pasting, or copying material written by others into something submitted as original work. Regardless of any pressure students may feel to complete a course activity, taking this type of shortcut is unacceptable. This also applies to generative AI tools when their output is used as a substitute for understanding, verification, adaptation, or compliance with the activity instructions. Such behavior may have serious consequences.
 
 See the following video to illustrate this point:
 

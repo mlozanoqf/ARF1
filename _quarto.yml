@@ -4,7 +4,7 @@ project:
 
 book:
   title: Administración de riesgos financieros ARF.
-  subtitle: Course syllabus. Fall 2026.
+  subtitle: Course syllabus. Fall 2026. Under review.
   author: Dr. Martín Lozano
   page-navigation: true
   search: true
@@ -23,7 +23,7 @@ book:
         - tools-data-science.rmd
     - part: "Activities, Evaluation, and Policies"
       chapters:
-        - learning-activities.rmd
+        - course-activities.rmd
         - evaluation.rmd
         - rubrics.rmd
         - course-policies.rmd

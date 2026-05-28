@@ -1,5 +1,5 @@
 Codex project notes for ARF1 syllabus
-Last updated: 2026-05-24
+Last updated: 2026-05-28
 
 Context
 - This repo is the ARF1 course syllabus.
@@ -42,6 +42,27 @@ Most recent state as of 2026-05-24
   - E_F as Written-only.
   - No notes, AI, electronic assistance, scripts, or prepared guides during Oral components; only the submitted homework/partial-exam answer displayed on screen.
   - The simplified Evaluation wording and table.
+
+Most recent checkpoint as of 2026-05-28
+- The active book now uses `course-activities.rmd`; `learning-activities.rmd` has been removed from the active book structure.
+- The second navigation group is now "Activities, Evaluation, and Policies" with this active order:
+  - course-activities.rmd
+  - evaluation.rmd
+  - rubrics.rmd
+  - course-policies.rmd
+  - checklist.rmd
+- The subtitle in `_quarto.yml` is now: "Course syllabus. Fall 2026. Under review."
+- `course-activities.rmd` now explains three options for teams that do not present during an oral session/block:
+  - remain in the classroom as audience;
+  - complete a Campus Contribution Mission with evidence;
+  - leave to organize, practice, or work on the team's own Oral component, with no evidence required.
+- `course-policies.rmd` now contains the enforceable version of this three-option rule and clarifies that evidence is required only for Campus Contribution Missions.
+- Feedback for oral presentations/defenses is normally given in front of the class so other students can learn from it.
+- `internet-resources.rmd` was rewritten as a curated 2026-oriented resource list using official documentation, stable open books, AI tools, institutional data sources, research sources, and technical communities.
+- `index-single.qmd` was updated as a fallback single-document version and now points to `course-activities.rmd`.
+- `TUTORIAL_ARF_TRANSFER_BRIEF.md` was created and copied to `C:\Users\DELL\Desktop\MartinGit\tutorial_arf\` so that a future tutorial refactor can reuse the ARF1 design/navigation decisions.
+- Quarto render succeeds with the current source.
+- `_book/` is still ignored by Git. A commit+push of this branch pushes source changes, but GitHub Pages will only publish them automatically if the Pages configuration or a GitHub Action builds from this branch/source.
 
 User goals
 - Modernize the syllabus using Quarto book.

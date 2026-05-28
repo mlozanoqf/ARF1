@@ -41,15 +41,7 @@ xfun::file_string('8 contact.html')
 ```
 
 
-```{r resources, child = 'learning-resources.rmd'}
-```
-
-
-```{r policies, child = 'course-policies.rmd'}
-```
-
-
-```{r activities, child = 'learning-activities.rmd'}
+```{r activities, child = 'course-activities.rmd'}
 ```
 
 
@@ -61,11 +53,19 @@ xfun::file_string('8 contact.html')
 ```
 
 
+```{r policies, child = 'course-policies.rmd'}
+```
+
+
 ```{r check, child = 'checklist.rmd'}
 ```
 
 
 ```{r schedule, child = 'schedule.rmd'}
+```
+
+
+```{r resources, child = 'learning-resources.rmd'}
 ```
 
 
