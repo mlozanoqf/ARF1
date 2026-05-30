@@ -10,7 +10,7 @@ Homework assignments and partial exams together represent 70% of the final grade
 
 The calculation follows a sequence:
 
-1. **Team mark for each activity.** For $H_1$, $H_2$, $E_1$, and $E_2$, I first assign a team mark based on two components: the Written component is worth 20%, and the Oral component is worth 80%. The final exam $E_F$ has no Oral component; its mark is based only on the Written component.
+1. **Team mark for each activity.** For $H_1$, $H_2$, $E_1$, and $E_2$, I first assign a team mark based on two components: the Written component is worth 20%, and the Oral component is worth 80%. The Oral component is initially a team mark even if the team decides that only one or some members speak during the presentation or defense. The final exam $E_F$ has no Oral component; its mark is based only on the Written component.
 
 1. **Individual bonus points.** DataCamp certifications, wheel-of-fortune points, and other individual bonus points are added to the next scheduled exam for the student who earned them. Bonus points are individual, not shared. This is the first point in the calculation where students from the same team may have different marks. If bonus points make an internal exam mark exceed 100, that mark is kept for the final-grade calculation. However, grades reported to the Registrar's Office cannot exceed 100.
 

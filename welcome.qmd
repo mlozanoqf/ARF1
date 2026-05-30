@@ -18,7 +18,7 @@ Welcome to the course! My name is Martín Lozano. I hope this message finds you 
 
 <!-- El egresado y la egresada de la licenciatura en finanzas internacionales comprende el funcionamiento de los mercados económico-financieros e implementa modelos cuantitativos para analizar y ejecutar estrategias de financiamiento e inversión en un ambiente de incertidumbre. El graduado toma decisiones financieras innovadoras basadas en el análisis de datos, la creación de valor económico, y su conducta profesional es coherente con altos estándares éticos. Además, es consciente de su responsabilidad en la solución de los retos sociales y ambientales en el contexto de las finanzas sostenibles. Las habilidades y competencias del egresado son congruentes con las demandas de la industria 4.0 al incorporar lenguajes computacionales y aplicaciones tecnológicas para el análisis de Big Data, automatización de análisis financiero, y el desarrollo de algoritmos usados en *machine learning* e inteligencia artificial para abordar los retos de la industria financiera. Su perfil le permite reaccionar y adaptarse ágilmente a los cambios vertiginosos de la industria y los mercados financieros, hacer investigación aplicada, y proponer nuevas soluciones de valor a negocios tradicionales y FinTech. -->
 
-## `r fontawesome::fa("chalkboard-teacher")` Learning formats.
+## `r fontawesome::fa("chalkboard-teacher")` Learning formats
 
 This syllabus applies to all delivery modes: face-to-face, blended, or fully online. The academic standards, course rules, and learning expectations apply consistently across formats.
 
@@ -28,7 +28,7 @@ My first experience with distance education was in 1999, and I have been engaged
 
 Knowing how to work effectively in online environments is just as important as doing so face-to-face. I hope my experience with various teaching formats will support students' success in this course. Welcome again!
 
-## `r fontawesome::fa("laugh")` About me.
+## `r fontawesome::fa("laugh")` About me
 
 My full and updated curriculum vitae is available [here](https://mlozanoqf.github.io/resume/).
 
@@ -61,7 +61,7 @@ I have also completed more than 20 professional training programs in various are
 
 Beyond academics, I have a passion for art, especially music and painting. I enjoy playing my Yamaha digital piano and have performed in concerts across Mexico and Europe. I have served as a keyboardist, pianist, and orchestra director, including more than a decade of musical productions with Tecnológico de Monterrey (Monterrey Campus).
 
-## `r fontawesome::fa("jedi")` Teaching philosophy.
+## `r fontawesome::fa("jedi")` Teaching philosophy
 
 I aim to teach the kind of course I would be eager to take as a student. My perspective has been shaped by more than 25 years of experience as both a student and researcher at several universities in Mexico and Europe. These experiences have given me deep insights not only in my field of expertise but also in diverse educational approaches and learning techniques across different academic cultures. This dual exposure has taught me the importance of combining theory with practice. Relying only on theory can limit the applicability of knowledge, while focusing only on practice can weaken the understanding of core principles. A thoughtful mix of both is essential for meaningful learning.
 
