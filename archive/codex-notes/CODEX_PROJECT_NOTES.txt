@@ -404,7 +404,7 @@ Current publication/navigation state as of 2026-05-28
 - Latest known good publication commit before closing this session: `e5f1555 Bust cached sidebar stylesheet`.
 - The rendered public page was verified after that commit:
   - it uses `syllabus-styles.css`;
-  - `Course Foundations` is present with `Welcome`, `Course overview`, and `Tools and data science`;
+  - `Course Foundations` is present with `Welcome`, `Overview`, and `Computational tools and AI`;
   - `index.html` is not present as a visible sidebar/navigation label.
 - The stylesheet source was renamed from `13_styles.css` to `syllabus-styles.css` to force browsers to stop using a cached CSS file that accidentally hid the first sidebar section.
 - `_quarto.yml` now references `syllabus-styles.css` under `format.html.css`.

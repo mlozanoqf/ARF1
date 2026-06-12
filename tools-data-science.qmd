@@ -1,4 +1,4 @@
-# Tools and data science
+# Computational tools and AI
 
 ```{r}
 #| include: false
@@ -77,7 +77,7 @@ However, there are also drawbacks. The problem is not using AI assistance; the p
 
 The use of generative AI tools and virtual assistants in course activities is explicitly allowed, subject to the specific instructions, academic integrity standards, and team-work rules of each activity. This policy applies broadly to current and future AI systems, including but not limited to conversational assistants, coding assistants, AI-powered search tools, writing assistants, data-analysis assistants, and tools integrated into browsers, office software, IDEs, learning platforms, or other applications.
 
-This wording is intentionally tool-agnostic. ChatGPT is only one example among many available tools, and the course does not assume that any single platform is the best, the only relevant option, or the one students must use. The AI landscape changes rapidly, and students are expected to develop judgment that transfers across tools rather than dependence on one specific brand or interface.
+The course is intentionally not tied to any single AI platform. ChatGPT is only one example among many available tools; students may use other general or specialized systems when they are appropriate for the task and consistent with the activity rules. The AI landscape changes rapidly, and students are expected to develop judgment that transfers across tools rather than dependence on one specific brand or interface.
 
 The mechanics of this course intentionally allow students to use these tools when preparing the Written components of homework assignments and exams. This includes using AI to explore alternatives, improve code, debug errors, strengthen written explanations, and communicate results more effectively. The purpose is not to reduce intellectual effort, but to raise the quality and scope of what students can attempt while learning the course topics, data analysis, and computational modeling.
 
@@ -140,12 +140,6 @@ The main difference between R and RStudio is that R is the programming language,
 In this course, students will be asked to complete graded activities, including homework assignments and exams, using cloud-based alternatives, specifically DataCamp's DataLab. However, students are also required to install RStudio on their own computer.
 
 Students who have not yet installed the necessary programs should download R, Python, and RStudio from the following websites: <https://www.r-project.org/>, <https://www.python.org/downloads/>, and <https://posit.co/downloads/>, respectively. Because software versions and installation procedures change frequently, students should rely on the official websites and current installation instructions. If additional help is needed, students should contact me before local software is required for a course activity.
-
-<!-- `r fontawesome::fa("egg")` Easter egg. I may need some volunteers to help other fellow students install RStudio and ensure that it can run both R and Python code on their own computers. These volunteers may need to familiarize themselves by reviewing YouTube tutorials on how to correctly install it on PC and Mac. Volunteers need to demonstrate that they have successfully assisted other students enrolled in this class in completing their installations. I will assign one sticker to each volunteer for every group of three students they provide help to. The evidence must be uploaded in the discussion forum (first partial) before our first partial exam. Here is a sample of valid evidence: -->
-
-<!-- ```{r echo=FALSE, out.width="70%", fig.align="center"} -->
-<!-- knitr::include_graphics('./proof.jpg') -->
-<!-- ``` -->
 
 There are other alternatives to RStudio, such as [Anaconda](https://www.anaconda.com/), Positron, and [Visual Studio Code](https://code.visualstudio.com/). My personal preference for this course is RStudio.
 
