@@ -5,6 +5,7 @@
 
 /.quarto/
 /_book/
+/docs/
 /includes/generated/
 
 # Accidental local/render leftovers that are not part of the Quarto book.
