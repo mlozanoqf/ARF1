@@ -64,13 +64,33 @@ if ($editionHash -notmatch "^[0-9a-f]{40,64}$") {
 
 $editionShort = $editionHash.Substring(0, 7)
 $culture = [System.Globalization.CultureInfo]::GetCultureInfo("en-US")
-$publishedLabel = (Get-Date).ToString("MMMM d, yyyy, h:mm:ss tt", $culture)
+$timeZone = $null
+
+foreach ($timeZoneId in @("America/Mexico_City", "Central Standard Time (Mexico)")) {
+  try {
+    $timeZone = [System.TimeZoneInfo]::FindSystemTimeZoneById($timeZoneId)
+    break
+  } catch {
+    $timeZone = $null
+  }
+}
+
+if ($timeZone) {
+  $publishedTime = [System.TimeZoneInfo]::ConvertTime(
+    [System.DateTimeOffset]::UtcNow,
+    $timeZone
+  )
+} else {
+  $publishedTime = Get-Date
+}
+
+$publishedLabel = $publishedTime.ToString("MMMM d, yyyy, h:mm:ss tt", $culture)
 $publishedLabel = $publishedLabel.Replace(" AM", " am").Replace(" PM", " pm") + "."
 
 $metadataHtml = @"
 <script>
 (function () {
-  var editionPrefix = "Book edition: ";
+  var editionPrefix = "Edition: ";
   var editionShort = "$editionShort";
   var editionHash = "$editionHash";
   var publishedLabel = "$publishedLabel";
