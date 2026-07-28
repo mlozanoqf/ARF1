@@ -66,8 +66,8 @@ jobs:
             [System.Text.Encoding]::UTF8
           )
 
-          if ($indexHtml -notmatch "Book edition:") {
-            throw "The rendered home page does not contain the book edition."
+          if ($indexHtml -notmatch "Edition:") {
+            throw "The rendered home page does not contain the edition metadata."
           }
 
           if ($indexHtml -notmatch "Published") {
