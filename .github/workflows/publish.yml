@@ -34,6 +34,10 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
+      - name: Prepare book metadata
+        shell: powershell
+        run: ./scripts/prepare-book-metadata.ps1
+
       - name: Render syllabus
         run: quarto render
 
