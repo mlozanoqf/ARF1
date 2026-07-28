@@ -21,7 +21,7 @@
 
 **Session 3. Monday, August 10.**
 
-- Topic 1/3: Risk management.
+- Topic 1/3: [Chapter 1. Logistic credit scoring](https://mlozanoqf.github.io/tutorial_arf/01-logistic.html) and [Chapter 2. Tree-based credit scoring](https://mlozanoqf.github.io/tutorial_arf/02-tree-based.html).
 - Required. Accept the course policies by completing this [form](https://forms.gle/mHGKXoXmbb1m9HYB9) using your UDEM email account.
 
 **Session 4. Thursday, August 13.**
@@ -80,7 +80,7 @@
 
 - Graded. The Written component of $H_2$ is due before class begins.
 - Graded. Team Oral presentations for $H_2$: first of two presentation sessions.
-- Topic 2/3: Credit default prediction using statistical and machine learning techniques.
+- Topic 2/3: [Chapter 3. The Merton model](https://mlozanoqf.github.io/tutorial_arf/02-merton.html) and [Chapter 4. Credit Spreads and CDS Valuation](https://mlozanoqf.github.io/tutorial_arf/04-credit-spreads-cds.html).
 - Bonus points. **Associate Data Analyst in SQL**. Complete DataCamp assignment before 10:00 a.m. It is not required to send evidence of having completed because the system automatically records if it was completed on time.
 
 **Session 21. <span class="bi bi-globe-americas content-icon" aria-hidden="true"></span> Monday, October 12.**
@@ -103,7 +103,7 @@
 
 **Session 25. Monday, October 26.**
 
-- Topic 3/3: Estimating firm default risk using the Merton structural model.
+- Topic 3/3: [Chapter 5. The Gaussian copula model for portfolio credit risk](https://mlozanoqf.github.io/tutorial_arf/03-gaussian-copula.html).
 
 **Session 26. Thursday, October 29.**
 
