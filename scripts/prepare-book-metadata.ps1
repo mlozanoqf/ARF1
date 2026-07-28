@@ -15,12 +15,12 @@ $supportingFiles = @(
   "_quarto.yml",
   "9mybibfile.bib",
   "syllabus-styles.css",
-  "analytics_arf1.html",
-  "11_back-to-top.html",
-  "12_progressbar.html",
-  "14_local-navigation.html",
-  "15_page-sections.html",
-  "16_sidebar-accordion.html",
+  "includes/analytics.html",
+  "includes/back-to-top.html",
+  "includes/progress-bar.html",
+  "includes/local-navigation.html",
+  "includes/page-sections.html",
+  "includes/sidebar-accordion.html",
   "includes/contact-links.html",
   "scripts/finalize-render.ps1"
 )

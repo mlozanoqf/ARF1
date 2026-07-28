@@ -30,11 +30,11 @@ Update `tutorial_arf` with the same general modernization logic used in the ARF1
 The following ARF1 files contain reusable design and navigation work that may be adapted for `tutorial_arf` after inspecting its current structure:
 
 - `13_styles.css`: global design, link colors, home panel, contact icons, responsive behavior, local navigation styling, tables, back-to-top button, and dark/light-mode refinements.
-- `11_back-to-top.html`: improved bottom-right back-to-top button.
-- `12_progressbar.html`: thin top reading-progress bar.
-- `14_local-navigation.html`: local link fixes useful when viewing rendered HTML through `file://`.
-- `15_page-sections.html`: sticky top local navigation with breadcrumb text and an in-page "In this page" / sections dropdown.
-- `16_sidebar-accordion.html`: sidebar accordion behavior and bold active top-level navigation group.
+- `includes/back-to-top.html`: improved bottom-right back-to-top button.
+- `includes/progress-bar.html`: thin top reading-progress bar.
+- `includes/local-navigation.html`: local link fixes useful when viewing rendered HTML through `file://`.
+- `includes/page-sections.html`: sticky top local navigation with breadcrumb text and an in-page "In this page" / sections dropdown.
+- `includes/sidebar-accordion.html`: sidebar accordion behavior and bold active top-level navigation group.
 - `8 contact.html`: contact/social icon area for the home page.
 
 Do not copy these files blindly. First compare existing files in `tutorial_arf`, especially `styles.css`, `back-to-top.html`, `progressbar.html`, `contact.html`, and `_quarto.yml`.

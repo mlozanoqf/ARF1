@@ -62,11 +62,11 @@ format:
     toc-depth: 2
     page-layout: full
     include-after-body:
-      - analytics_arf1.html
-      - 11_back-to-top.html
-      - 12_progressbar.html
-      - 14_local-navigation.html
-      - 15_page-sections.html
-      - 16_sidebar-accordion.html
+      - includes/analytics.html
+      - includes/back-to-top.html
+      - includes/progress-bar.html
+      - includes/local-navigation.html
+      - includes/page-sections.html
+      - includes/sidebar-accordion.html
     css: syllabus-styles.css
     link-citations: true
