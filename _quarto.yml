@@ -1,12 +1,16 @@
 project:
   type: book
   output-dir: docs
+  pre-render:
+    - powershell -NoProfile -ExecutionPolicy Bypass -File scripts/prepare-book-metadata.ps1
   post-render:
-    - scripts/write-pages-marker.R
+    - powershell -NoProfile -ExecutionPolicy Bypass -File scripts/finalize-render.ps1
 
 book:
   title: Administración de riesgos financieros ARF.
   subtitle: Course syllabus. Fall 2026. Under review.
+  date: today
+  date-format: "MMMM D, YYYY"
   author: Dr. Martín Lozano
   page-navigation: true
   search: true
@@ -30,9 +34,9 @@ book:
         - rubrics.qmd
         - course-policies.qmd
         - checklist.qmd
-    - part: "Schedule and References"
+    - schedule.qmd
+    - part: "References"
       chapters:
-        - schedule.qmd
         - learning-resources.qmd
         - internet-resources.qmd
         - references.qmd

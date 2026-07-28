@@ -1,40 +1,6 @@
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-  warning = FALSE,
-  message = FALSE,
-  fig.pos = "H",
-  out.extra = ""
-)
-```
+{{< include includes/generated/book-metadata.html >}}
 
-```{r contact-links, echo=FALSE, results='asis'}
-xfun::file_string("8 contact.html")
-```
-
-```{r last-modified, echo=FALSE, results='asis'}
-render_time <- Sys.time()
-month_names <- c(
-  "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"
-)
-am_pm <- if (as.integer(format(render_time, "%H")) < 12) "am" else "pm"
-formatted_modified <- paste0(
-  month_names[as.integer(format(render_time, "%m"))],
-  " ",
-  as.integer(format(render_time, "%d")),
-  format(render_time, ", %Y, %H:%M:%S "),
-  am_pm,
-  "."
-)
-
-cat(
-  '<div class="home-last-modified">',
-  '<span class="home-last-modified-label">Modified</span>',
-  '<span class="date-modified">', formatted_modified, '</span>',
-  '</div>\n',
-  sep = ""
-)
-```
+{{< include includes/contact-links.html >}}
 
 ::: {.home-panel}
 This syllabus is the official course guide. It contains the course goals, rules, grading method, schedule, activities, resources, references, and expectations for the semester.

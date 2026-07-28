@@ -1,10 +1,5 @@
 # Checklist {#sec-checklist}
 
-```{r}
-#| include: false
-invisible(NULL)
-```
-
 As a student in this course, and more broadly as a member of the academic community, you are expected to respect the rules stated in this syllabus and in the university's academic regulations. These rules are not arbitrary; they exist to ensure fairness, transparency, and equal treatment for everyone enrolled in the course.
 
 Students may sometimes believe that their personal situation justifies an exception. I will always listen respectfully to concerns and questions. However, being heard does not mean that an exception can be granted. My responsibility is to apply the course rules consistently. Individual exceptions, even when requested in good faith, can create unfairness for other students.
@@ -13,7 +8,7 @@ My commitment is to be clear, respectful, and fair. In return, I expect every st
 
 Please consider the following checklist to improve your chances of achieving a strong performance in this course.
 
-1. **Read the syllabus carefully.** You are responsible for knowing the contents of this syllabus and all linked materials. Not reading the syllabus is not an acceptable excuse for missing deadlines, requirements, or policies. Quoting Yoda `r fontawesome::fa("jedi-order")`: *read the syllabus you must.*
+1. **Read the syllabus carefully.** You are responsible for knowing the contents of this syllabus and all linked materials. Not reading the syllabus is not an acceptable excuse for missing deadlines, requirements, or policies. Quoting Yoda <span class="bi bi-stars content-icon" aria-hidden="true"></span>: *read the syllabus you must.*
 1. **Use the available resources to learn and practice.** Coding is a required component of this course, but learning to code in 2026 does not mean memorizing syntax or working without assistance. Use DataCamp, course materials, examples, documentation, AI tools, and office-hour support as needed. The important point is that you understand the work well enough to explain it clearly.
 1. **Ask for help early.** If you are confused, stuck, or unsure how to improve, contact me before the problem grows. If I ever take longer than expected to answer an email or request, please insist and kindly remind me.
 1. **Maintain academic quality standards.** Course sessions and activities are planned in advance. Read, prepare, and make steady progress every week. Strong performance usually comes from starting early, keeping good notes, and revising your work carefully.

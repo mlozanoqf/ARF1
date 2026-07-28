@@ -63,6 +63,7 @@ The following sources are useful starting points for financial, economic, macroe
 - [Google Scholar](https://scholar.google.com/). Search engine for academic literature.
 - [SSRN](https://www.ssrn.com/). Working papers and research in finance, economics, law, accounting, and related areas.
 - [NBER Working Papers](https://www.nber.org/papers). Working papers from the National Bureau of Economic Research.
+- [Campbell Harvey YouTube channel](https://www.youtube.com/@campbellharvey). Lectures and talks by Campbell R. Harvey, Professor of Finance at Duke University's Fuqua School of Business and Research Associate of the NBER. Useful as complementary material for financial economics, investment management, risk, decentralized finance, and current topics in finance.
 - [IDEAS/RePEc](https://ideas.repec.org/). Bibliographic database for economics research.
 - [BIS publications](https://www.bis.org/publ/). Research and policy publications from the Bank for International Settlements.
 - [Federal Reserve Economic Research](https://www.federalreserve.gov/econres.htm). Research and publications from the Federal Reserve Board.

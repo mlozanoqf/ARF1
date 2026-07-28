@@ -1,14 +1,9 @@
 # Overview
 
-```{r}
-#| include: false
-invisible(NULL)
-```
-
 This section explains what the course is about, what students are expected to learn, how the course works, and the standards of academic integrity and professional responsibility that apply throughout the semester.
 
 
-<!-- ## `r fontawesome::fa("piggy-bank")` FCF description. -->
+<!-- ## <span class="bi bi-piggy-bank content-icon" aria-hidden="true"></span> FCF description. -->
 
 <!-- Quantitative fundamentals play a central role in modern finance. This course introduces the financial, statistical, and computational foundations that students need to analyze financial problems using data, models, and clear quantitative reasoning. -->
 
@@ -23,7 +18,7 @@ This section explains what the course is about, what students are expected to le
 <!-- For the specific sequence of topics, activities, deadlines, and required readings, refer to the course calendar: @sec-schedule. -->
 
 
-<!-- ## `r fontawesome::fa("chart-line")` EMF description. -->
+<!-- ## <span class="bi bi-graph-up-arrow content-icon" aria-hidden="true"></span> EMF description. -->
 
 <!-- Financial econometrics applies statistical, computational, and data-based methods to problems in finance and economics. In this course, students learn how to use data to estimate relationships, evaluate uncertainty, build forecasting models, and interpret empirical evidence in a financial context. -->
 
@@ -35,7 +30,7 @@ This section explains what the course is about, what students are expected to le
 
 <!-- For the specific sequence of topics, activities, deadlines, and required readings, refer to the course calendar: @sec-schedule. -->
 
-## `r fontawesome::fa("credit-card")` Course description
+## <span class="bi bi-credit-card content-icon" aria-hidden="true"></span> Course description
 
 Financial risk management involves identifying, quantifying, monitoring, and mitigating financial risks. In this course, we focus on credit risk and market risk models, with practical implementation using R and Python.
 
@@ -45,12 +40,12 @@ Financial risk management involves identifying, quantifying, monitoring, and mit
 
 The main textbooks recommended for this course are @Hull11 and @HullRM5, which cover influential credit risk models used in the financial industry. Additional references include @drake2010basics, @crouhy2014essentials, and @brealey2020principles, which provide broader discussions of risk in financial markets. The course also uses @lozanoARF, which bridges theoretical model analysis and practical computational modeling using R. Complementary references include @hull2020machine and @james2013introduction.
 
-This [Spotify `r fontawesome::fa("spotify")` podcast](https://open.spotify.com/episode/7hrOh0tvDH3lioOfXtRqsT?si=8142007bc6ab4f56) provides additional context on financial risk.
+This <span class="bi bi-spotify content-icon" aria-hidden="true"></span> [Spotify podcast](https://open.spotify.com/episode/7hrOh0tvDH3lioOfXtRqsT?si=8142007bc6ab4f56) provides additional context on financial risk.
 
 For the specific sequence of topics, activities, deadlines, and required readings, refer to the course calendar: @sec-schedule.
 
 
-<!-- IF. `r fontawesome::fa("cogs")` Engineering is a field of science and technology that focuses on the design, construction, and utilization of engines, machines, and structures. Similarly, financial engineering involves the design, modeling, and utilization of various financial techniques and instruments to develop strategies that modify or mitigate specific risk exposures. In this course, you will learn how to create quantitative financial strategies, understand financial instruments like options, and become familiar with tools and techniques used to measure risk in finance, such as value at risk and GARCH models.
+<!-- IF. <span class="bi bi-gear-wide-connected content-icon" aria-hidden="true"></span> Engineering is a field of science and technology that focuses on the design, construction, and utilization of engines, machines, and structures. Similarly, financial engineering involves the design, modeling, and utilization of various financial techniques and instruments to develop strategies that modify or mitigate specific risk exposures. In this course, you will learn how to create quantitative financial strategies, understand financial instruments like options, and become familiar with tools and techniques used to measure risk in finance, such as value at risk and GARCH models.
 
 The course primarily relies on the renowned textbook by John C. Hull, @Hull11, which is widely recognized as an essential reference in both academia and the financial industry. This course serves as a solid foundation for students aspiring to pursue a master's degree in Finance or seeking professional certification in the field of quantitative finance. Another valuable resource for this course is @lozanoIF, which effectively combines model analysis with practical computational modeling using R. Additionally, @goetzmann2014modern is a recommended complementary reference book as it offers a comprehensive and up-to-date presentation of modern portfolio analysis. Other useful references include @brealey2020principles, @ruppert2011statistics, and @james2013introduction, which strike a balance between theoretical aspects and practical applications.
 
@@ -73,7 +68,7 @@ Microeconomics helps us understand how individual agents, including firms, consu
 Understanding microeconomics empowers economic agents to make better-informed decisions based on a scientific approach rather than relying solely on intuition. Since this process of resource allocation is perpetual in real-life situations, individuals who grasp the foundations of microeconomic analysis gain a significant comparative advantage in business and management. Therefore, it is essential to comprehend microeconomics early on in undergraduate studies. -->
 
 
-## `r fontawesome::fa("binoculars")` Objectives
+## <span class="bi bi-binoculars content-icon" aria-hidden="true"></span> Objectives
 
 The course has three main objectives:
 
@@ -95,7 +90,7 @@ To achieve these objectives, students are expected to complete several tasks thr
 
 Learning usually requires repeated attempts, additional inputs, and persistence. Persistence and determination are central to the learning process. Persistence means continuing to work toward a goal despite difficulties, obstacles, or setbacks. It requires motivation, resilience, focus, and sustained effort. By reading carefully, working consistently, and seeking assistance when needed, students increase their chances of understanding the material and succeeding in the course.
 
-## `r fontawesome::fa("whmcs")` Mechanics
+## <span class="bi bi-gear-wide-connected content-icon" aria-hidden="true"></span> Mechanics
 
 The course operates on the assumption that students will approach it with enthusiasm, a positive attitude, and a willingness to engage actively with the material. The following expectations apply throughout the semester:
 
@@ -126,7 +121,7 @@ In accordance with some of the [United Nations Sustainable Development Goals](ht
 
 Students should be confident that all course materials and activities are suitable for undergraduate students enrolled in a prestigious university. No intellectual challenge in this course is intended to be impossible to overcome with the appropriate amount of enthusiasm, time, work, determination, and, if necessary, assistance. The course is designed so that students can pass and learn if they invest the required time and work.
 
-## `r fontawesome::fa("thumbs-up")` Academic integrity
+## <span class="bi bi-hand-thumbs-up content-icon" aria-hidden="true"></span> Academic integrity
 
 Individuals with integrity demonstrate moral character and ethical judgment. They choose to do what is right even when facing difficult decisions or temptations. They are trustworthy, reliable, and accountable. Integrity is essential in personal relationships, professional settings, and society because it fosters trust, respect, and fairness.
 
@@ -182,7 +177,7 @@ Integrity is particularly important for finance professionals for the following 
 
 In summary, integrity is vital for finance professionals because it helps them establish trust, uphold ethical standards, protect confidentiality, manage risks, comply with regulations, maintain a strong professional reputation, and contribute to the overall integrity of the finance industry.
 
-## `r fontawesome::fa("envira", fill = "green")` Sustainable finance
+## <span class="bi bi-flower1 content-icon icon-green" aria-hidden="true"></span> Sustainable finance
 
 I am certified as "carbon literate" by the [UN Climate Change Conference](https://unfccc.int/) and [Coventry University](https://www.coventry.ac.uk/). This certification reflects an understanding of the climate context and a commitment to identifying ways to adjust our behavior, reduce our carbon footprint, and influence our social and professional circles. In my view, learning about sustainable finance is one way to contribute positively to the environment and society.
 

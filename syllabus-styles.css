@@ -144,7 +144,17 @@ body:has(.homepage-contact) #quarto-header .quarto-page-breadcrumbs {
 
 #quarto-sidebar li.sidebar-item-section.sidebar-section-current > .sidebar-item-container > .sidebar-link,
 #quarto-sidebar li.sidebar-item-section.sidebar-section-current > .sidebar-item-container > .sidebar-item-toggle {
+  color: var(--syllabus-active-link) !important;
   font-weight: 700;
+}
+
+#quarto-sidebar li.sidebar-item-section.sidebar-section-current > ul.sidebar-section > li.sidebar-item > .sidebar-item-container > .sidebar-link.active {
+  background: var(--syllabus-accent-soft);
+  border-radius: 4px;
+  box-shadow: inset 3px 0 0 var(--syllabus-active-link);
+  color: var(--syllabus-active-link) !important;
+  font-weight: 700;
+  padding-left: 0.5rem;
 }
 
 #title-block-header .quarto-title-breadcrumbs {
@@ -183,6 +193,7 @@ body:has(.homepage-contact) #quarto-header .quarto-page-breadcrumbs {
 
 .page-local-nav .quarto-page-breadcrumbs {
   display: block !important;
+  flex: 1 1 auto;
   min-width: 0;
 }
 
@@ -199,7 +210,7 @@ body:has(.homepage-contact) #quarto-header .quarto-page-breadcrumbs {
 
 .page-section-menu {
   flex: 0 0 auto;
-  margin-left: 0;
+  margin-left: auto;
   position: relative;
   z-index: 1041;
 }
@@ -224,6 +235,7 @@ body:has(.homepage-contact) #quarto-header .quarto-page-breadcrumbs {
 .page-section-list {
   max-height: min(70vh, 32rem);
   max-width: min(26rem, calc(100vw - 2rem));
+  min-width: min(22rem, calc(100vw - 2rem));
   overflow-y: auto;
 }
 
@@ -265,115 +277,128 @@ body:has(.homepage-contact) #quarto-header .quarto-page-breadcrumbs {
 }
 
 .social-links {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.65rem;
+  display: grid;
+  gap: 0.45rem;
+  grid-template-columns: repeat(9, 2.35rem);
   justify-content: flex-end;
 }
 
 .social-links a {
   align-items: center;
+  background: var(--syllabus-soft-surface);
   border: 1px solid var(--syllabus-card-border);
-  border-radius: 6px;
+  border-radius: 50%;
+  color: var(--syllabus-link);
   display: inline-flex;
-  height: 2.5rem;
+  font-size: 1.05rem;
+  height: 2.35rem;
   justify-content: center;
-  width: 2.5rem;
+  text-decoration: none;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease,
+    transform 160ms ease;
+  width: 2.35rem;
 }
 
 .social-links a:hover,
 .social-links a:focus {
   background: var(--syllabus-accent-soft);
+  border-color: color-mix(
+    in srgb,
+    var(--syllabus-accent) 55%,
+    var(--syllabus-card-border)
+  );
   text-decoration: none;
-}
-
-.social-links img {
-  display: block;
-  height: 1.3rem;
-  max-width: 1.45rem;
-  transition: filter 0.2s ease, opacity 0.2s ease;
-  width: auto;
+  transform: translateY(-2px);
 }
 
 .social-links .social-icon {
-  color: var(--syllabus-link);
   display: block;
-  font-size: 1.35rem;
   line-height: 1;
 }
 
-.social-links .social-icon-github {
+.social-links a[aria-label*="GitHub"] {
   color: #181717;
 }
 
-.social-links .social-icon-ssrn {
+.social-links a[aria-label*="SSRN"] {
   color: #1f5f99;
-  font-size: 1.45rem;
 }
 
-.social-links .social-icon-email {
+.social-links a[aria-label="Email"] {
   color: #b84300;
 }
 
-.social-links .social-icon-linkedin {
+.social-links a[aria-label*="LinkedIn"] {
   color: #0a66c2;
 }
 
-.social-links .social-icon-youtube {
-  color: #ff0000;
+.social-links a[aria-label*="YouTube"] {
+  color: #e62117;
 }
 
-.social-links .social-icon-google-scholar {
+.social-links a[aria-label*="Scholar"] {
   color: #4285f4;
-  font-size: 1.45rem;
 }
 
-.social-links .social-icon-substack {
+.social-links a[aria-label*="Substack"] {
   color: #ff6719;
-  font-size: 1.45rem;
 }
 
-.social-links .social-icon-zoom {
+.social-links a[aria-label*="Zoom"] {
   color: #2d8cff;
-  font-size: 1.45rem;
 }
 
-.social-links img[alt="SSRN profile"],
-.social-links img[alt="Zoom meeting"] {
-  height: 1.45rem;
-  max-width: 1.7rem;
-}
-
-body.quarto-dark .social-links .social-icon-github {
+body.quarto-dark .social-links a[aria-label*="GitHub"] {
   color: #f0f6fc;
 }
 
-body.quarto-dark .social-links .social-icon-ssrn {
+body.quarto-dark .social-links a[aria-label*="SSRN"] {
   color: #8ecaff;
 }
 
-body.quarto-dark .social-links img {
-  filter: invert(1) brightness(1.35);
-  opacity: 0.92;
+.content-icon {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: -0.08em;
 }
 
-.home-last-modified {
+.icon-muted {
+  color: var(--syllabus-muted);
+}
+
+.icon-red {
+  color: #c92a2a;
+}
+
+.icon-orange {
+  color: #d97706;
+}
+
+.icon-green {
+  color: #198754;
+}
+
+.book-edition-line {
   align-items: baseline;
   color: var(--syllabus-muted);
   display: flex;
   flex-wrap: wrap;
-  font-size: 0.92rem;
-  gap: 0.45rem;
-  margin: -0.35rem 0 1rem;
+  font-size: 0.95rem;
+  gap: 0.35rem;
+  margin: 0.25rem 0 0;
 }
 
-.home-last-modified-label {
+.book-edition-code {
+  background: var(--syllabus-soft-surface);
+  border: 1px solid var(--syllabus-card-border);
+  border-radius: 4px;
+  color: var(--syllabus-active-link);
+  font-size: 0.9em;
   font-weight: 700;
-}
-
-.home-last-modified .date-modified {
-  margin: 0;
+  padding: 0.08rem 0.34rem;
 }
 
 .footer .nav-footer {
@@ -497,11 +522,12 @@ body.quarto-dark .social-links img {
   }
 
   .social-links {
+    grid-template-columns: repeat(4, 2.35rem);
     justify-content: flex-start;
   }
 
   .page-section-menu {
-    margin-left: 0;
+    margin-left: auto;
   }
 
   .page-section-toggle {

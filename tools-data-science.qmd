@@ -1,13 +1,8 @@
 # Computational tools and AI
 
-```{r}
-#| include: false
-invisible(NULL)
-```
-
 This section explains why the course uses data science tools, how R and Python fit into business, economics, and finance education, what role AI assistants may play, and which coding and publishing environments students are expected to understand.
 
-## Data science and quantitative analysis. `r fontawesome::fa("database")`
+## Data science and quantitative analysis <span class="bi bi-database content-icon" aria-hidden="true"></span>
 
 Data science is the study of extracting generalizable knowledge from data. It requires an integrated skill set that combines operations research, statistics, computer science, and domain-specific expertise. In this course, students are introduced to the basic principles, tools, and mindset of data science within a business, economics, and finance context. This includes data collection and integration, exploratory data analysis, descriptive and predictive modeling, visualization, evaluation, and effective communication. For a comprehensive introduction to the application of data science in finance, see @hull2020machine.
 
@@ -34,7 +29,7 @@ The following video introduces the 17 [United Nations Sustainable Development Go
 </div>
 ```
 
-## R and Python. `r fontawesome::fa("r-project")` `r fontawesome::fa("plus")` `r fontawesome::fa("python")`
+## R and Python <span class="bi bi-braces content-icon" aria-hidden="true"></span> <span class="bi bi-plus content-icon" aria-hidden="true"></span> <span class="bi bi-code-slash content-icon" aria-hidden="true"></span>
 
 R is a programming language and free software environment designed for statistical computing and graphics. It is supported by the [R Foundation for Statistical Computing](https://www.r-project.org/foundation/) and widely used for statistical software, data analysis, visualization, and reproducible research. Python is an interpreted, interactive, and object-oriented programming language. It supports modules, exceptions, dynamic typing, high-level data structures, and multiple programming paradigms, including procedural and functional programming.
 
@@ -73,11 +68,13 @@ For university students who are new to programming, AI-based assistants for R an
 
 However, there are also drawbacks. The problem is not using AI assistance; the problem is submitting code that students cannot inspect, explain, modify, or defend. AI suggestions are not always accurate or appropriate for the specific context of a course activity. Inexperienced programmers may also struggle to decide which recommendations to follow. AI tools tend to be more useful when users already have enough programming knowledge to evaluate the suggestions. For this reason, students should combine AI assistance with traditional learning methods, practice, reading, testing, and independent reasoning.
 
-## `r fontawesome::fa("burst")` Generative AI tools and virtual assistants
+## <span class="bi bi-stars content-icon" aria-hidden="true"></span> Generative AI tools and virtual assistants
 
 The use of generative AI tools and virtual assistants in course activities is explicitly allowed, subject to the specific instructions, academic integrity standards, and team-work rules of each activity. This policy applies broadly to current and future AI systems, including but not limited to conversational assistants, coding assistants, AI-powered search tools, writing assistants, data-analysis assistants, and tools integrated into browsers, office software, IDEs, learning platforms, or other applications.
 
 The course is intentionally not tied to any single AI platform. ChatGPT is only one example among many available tools; students may use other general or specialized systems when they are appropriate for the task and consistent with the activity rules. The AI landscape changes rapidly, and students are expected to develop judgment that transfers across tools rather than dependence on one specific brand or interface.
+
+The course does not require students to purchase a paid AI subscription. Although some students may already have access to paid AI services, the activities in this course are designed so that AI-assisted work can be completed using free versions, free tiers, or tools integrated into platforms such as DataLab. Students may choose the tools that are available to them, as long as their use is consistent with the activity instructions and course rules.
 
 The mechanics of this course intentionally allow students to use these tools when preparing the Written components of homework assignments and exams. This includes using AI to explore alternatives, improve code, debug errors, strengthen written explanations, and communicate results more effectively. The purpose is not to reduce intellectual effort, but to raise the quality and scope of what students can attempt while learning the course topics, data analysis, and computational modeling.
 
@@ -89,7 +86,7 @@ Students must also use external platforms responsibly. They should not upload, d
 
 These tools can be useful for studying, learning, reviewing code, improving drafts, exploring alternatives, debugging errors, and strengthening projects or assignments. Students are also encouraged to use AI tools, course materials, available sources, and meetings or advising sessions with me to understand their work more deeply and prepare clearer presentations. The key standard is not whether AI was used extensively, but whether students understand the work well enough to verify it, adapt it to the course requirements, explain it correctly, and defend the reasoning behind it. When students rely on AI-generated answers without understanding, verification, or adaptation, that weakness will most likely be reflected in the quality of their work, their oral explanations, and their grades.
 
-## `r fontawesome::fa("lock")` Commercial alternatives and reproducibility
+## <span class="bi bi-lock-fill content-icon" aria-hidden="true"></span> Commercial alternatives and reproducibility
 
 Throughout their undergraduate studies, students will be expected to acquire proficiency in various commercial software programs, such as Microsoft Excel, SPSS, Stata, EViews, and many others. I strongly encourage students to develop skills in these programs, particularly when their use is required by another professor or by a professional context. However, students should also recognize that these programs are owned by private firms and are primarily designed within commercial ecosystems. There is no guarantee that their file formats, interfaces, or licensing conditions will remain stable or accessible in the future, which can affect reproducibility.
 
@@ -111,7 +108,7 @@ For this reason, students are encouraged to embrace the shift from clicking to s
 
 While chefs may need to invest in ovens, kitchen equipment, and ingredients, many inputs in economics and finance, such as data and technology, are freely available. R and Python are open-source tools and can be used at no cost. By acquiring coding skills, students gain the ability to share, expand, reproduce, and innovate. These skills can help generate original empirical results for research outputs, dissertations, and professional projects.
 
-## `r fontawesome::fa("cloud")` Cloud coding environments
+## <span class="bi bi-cloud content-icon" aria-hidden="true"></span> Cloud coding environments
 
 A cloud coding environment is an online platform that provides tools for writing, editing, debugging, and running code directly within a web browser. Unlike traditional desktop IDEs, cloud environments require little or no local installation and can be accessed from different devices with internet connectivity. These platforms often support multiple programming languages and include features such as syntax highlighting, code completion, collaboration, version control integration, and AI assistance.
 
@@ -127,7 +124,7 @@ In this course, students will be asked to complete graded activities in DataLab.
 
 I consider [DataCamp](https://www.datacamp.com/) a useful alternative for learning data science. Normally, individuals and firms must pay for this kind of training. A premium individual DataCamp account may cost approximately a few dozen U.S. dollars per month, which can add up to roughly a couple hundred U.S. dollars over a semester. However, students in this course currently receive individual access to DataCamp courses and resources, including DataCamp's DataLab, for the whole semester, as long as DataCamp continues to provide this access free of charge for my students. In exchange, DataCamp asks for a mention on social media. The resources and instructions are available in these [communication guidelines](https://docs.google.com/document/d/1Dv-L036CZWsZCmn9W5p0ikgetlc4GcT-NQ9Rp_HebE0/edit). If students cannot access the link, they should email me.
 
-## `r fontawesome::fa("desktop")` Desktop IDE
+## <span class="bi bi-display content-icon" aria-hidden="true"></span> Desktop IDE
 
 A desktop Integrated Development Environment (IDE) is a software application installed locally on a computer. It provides tools for software development, including code editing, debugging, testing, syntax highlighting, code completion, refactoring, and version control. Desktop IDEs are often optimized for performance and customization. Working with a cloud-based IDE instead of a desktop IDE is similar to working with Google Docs instead of Microsoft Word: both approaches are useful, but they differ in location, control, collaboration, privacy, and backup responsibilities.
 
@@ -143,7 +140,7 @@ Students who have not yet installed the necessary programs should download R, Py
 
 There are other alternatives to RStudio, such as [Anaconda](https://www.anaconda.com/), Positron, and [Visual Studio Code](https://code.visualstudio.com/). My personal preference for this course is RStudio.
 
-## `r fontawesome::fa("paper-plane")` Publishing platforms
+## <span class="bi bi-send content-icon" aria-hidden="true"></span> Publishing platforms
 
 Coding environments are used to create analyses; publishing platforms are used to communicate them. A modern data workflow often ends with a document, website, book, dashboard, app, slide deck, notebook, or manuscript that other people can read, inspect, reproduce, or discuss. Students should understand that writing code is only part of the professional workflow. Communicating results clearly is equally important.
 
@@ -156,7 +153,7 @@ Coding environments are used to create analyses; publishing platforms are used t
 [Overleaf](https://www.overleaf.com/) is a cloud-based platform for collaborative scientific writing with LaTeX. It is useful for academic manuscripts, technical documents, equations, bibliographies, and collaborative editing. Students may also encounter newer AI-assisted scientific writing and publishing tools during the semester. These tools can help with drafting, formatting, references, LaTeX, revision, and publication workflows, but they do not replace responsibility for accuracy, citation, interpretation, reproducibility, or oral explanation.
 
 
-## `r fontawesome::fa("surprise")` Relevance
+## <span class="bi bi-lightbulb content-icon" aria-hidden="true"></span> Relevance
 
 Just a few years ago, economic agents with privileged access to information had a clear comparative advantage in business and decision-making. Today, information and data are widely accessible. As a result, competitive advantage depends less on having access to information and more on knowing how to transform information into knowledge, analysis, decisions, and value. Manipulating, analyzing, and communicating data has become an essential skill for business professionals.
 

@@ -1,13 +1,8 @@
 # Learning resources and support {#sec-resources}
 
-```{r}
-#| include: false
-invisible(NULL)
-```
-
 Academic resources encompass a wide range of materials, tools, and sources of information specifically designed to support and enhance learning, research, and scholarly pursuits in an academic setting. These resources play a crucial role in facilitating knowledge acquisition, promoting critical thinking, and advancing scholarly activities within the academic community.
 
-<!-- ## `r fontawesome::fa("toolbox")` Learning resources. -->
+<!-- ## <span class="bi bi-tools content-icon" aria-hidden="true"></span> Learning resources. -->
 
 Here is a list and description of the available resources to help you learn the subject. My advice is to utilize as many resources as possible, as they will enable you to grasp the subject matter and develop the necessary professional competences.
 
@@ -57,7 +52,7 @@ For the official rules on DataLab format, location, backups, and exceptional pla
 
 **Others**. All learning resources described above represent a good resource for your own study of the course material. There are plenty of Internet resources that you will have to use, from databases, [YouTube](https://www.youtube.com/) videos, [GitHub](https://github.com/) public repositories, specialized programming blogs, AI tools, books, electronic books, etc. See the resource list at the end of this document for further details. You are encouraged to read articles, reports and news on your own to enhance and expand your understanding about how theoretical concepts relate with current real-life events. [The Economist](https://www.economist.com/), [The Financial Times](https://www.ft.com/), [The Guardian](https://www.theguardian.com/), [The Wall Street Journal](https://www.wsj.com/), [MarketWatch](https://www.marketwatch.com/), [Reuters](https://www.reuters.com/), [Bloomberg](https://www.bloomberg.com/), [Bureau of Economic Analysis](https://www.bea.gov/), [Banxico](https://www.banxico.org.mx/), [Project Syndicate](https://www.project-syndicate.org/), [The New York Times](https://www.nytimes.com/), [El Financiero](https://www.elfinanciero.com.mx/) (México), [El Confidencial](https://www.elconfidencial.com/) (Spain), [OECD](https://www.oecd.org/), are a good way to grasp contemporary insights related with this course. Other references to support your learning process include economic and financial reports from private banks such as Banamex and BBVA, and think tanks websites such as [The Mexico Institute](https://www.wilsoncenter.org/program/mexico-institute), [México cómo vamos](https://mexicocomovamos.mx/), [CIDAC](http://cidac.org/), [IMCO](https://imco.org.mx/), [COMEXI](https://www.consejomexicano.org/), among many others. My advice in this respect is rather simple: *the more you read the more you learn*.
 
-**Further support.** `r fontawesome::fa("hands-helping")`
+**Further support.** <span class="bi bi-people content-icon" aria-hidden="true"></span>
 
 If you have any concern, any question about the course contents, or any difficulty understanding the course material, contact me as soon as possible. This is your responsibility starting from day 1. We can arrange an online meeting, or we can address your questions by email, depending on what is more convenient. If your academic performance is poor and you genuinely want to improve, my best advice is to contact me during the lecture period, not after the last session of the semester. During the semester, we can discuss specific strategies that may help you improve your marks and reduce the risk of failing the course. After the final exam, there is very little I can do to change the outcome.
 
@@ -89,6 +84,6 @@ I strongly believe you can learn anything just as this video from Khan Academy i
 </div>
 ```
 
-Most of my previous recommendations in this subsection are for those who are having difficulties with the course. If you are doing fine, then good for you `r fontawesome::fa("thumbs-up")`, try to enjoy the learning process as much as you can. My commitment is that you will have all the support and resources you need to pass the course during the semester; you only have to take them or ask for them during the lecture period, not after the last course session, and follow all my recommendations in this syllabus.
+Most of my previous recommendations in this subsection are for those who are having difficulties with the course. If you are doing fine, then good for you <span class="bi bi-hand-thumbs-up content-icon" aria-hidden="true"></span>, try to enjoy the learning process as much as you can. My commitment is that you will have all the support and resources you need to pass the course during the semester; you only have to take them or ask for them during the lecture period, not after the last course session, and follow all my recommendations in this syllabus.
 
 
