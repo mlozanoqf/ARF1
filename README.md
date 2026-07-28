@@ -19,6 +19,8 @@ quarto render
 - The automated render does not require R, R packages, or Chocolatey.
 - The local `docs/` directory is generated output and is not tracked by Git.
   Rendering locally recreates or updates it without changing the repository.
+- The homepage `Edition` value is the first seven characters of the Git commit
+  SHA used for the render.
 
 ## Active structure
 
