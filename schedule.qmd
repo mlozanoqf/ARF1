@@ -1,6 +1,6 @@
 # Schedule {#sec-schedule}
 
-ARF, Fall 2026. Room XXX, Monday & Thursday 16:00 – 17:30. Zoom XXX.
+{{< meta course.code >}}, {{< meta course.term >}}. Room {{< meta course.room >}}, {{< meta course.meeting-days >}} {{< meta course.meeting-time >}}. Zoom {{< meta course.zoom >}}.
 
 ## <span class="bi bi-battery content-icon icon-muted" aria-hidden="true"></span> Part 1
 

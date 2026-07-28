@@ -41,3 +41,18 @@ Main source chapters:
 - `references.qmd`
 
 Historical files and legacy notes are kept in `archive/`.
+
+## Reusing the syllabus
+
+The course and semester values that appear in more than one place are defined
+in the `course` block near the top of `_quarto.yml`:
+
+- course code and title
+- academic term and review status
+- room, meeting days, meeting time, and class Zoom information
+
+Quarto reuses those values in the book title, subtitle, footer, and schedule.
+When adapting this repository for another course, update that block first.
+Then revise the course-specific material in `course-overview.qmd`,
+`schedule.qmd`, and the bibliography entries used by that course. Do not edit
+the generated files in `docs/`.

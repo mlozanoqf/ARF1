@@ -6,9 +6,19 @@ project:
   post-render:
     - powershell -NoProfile -ExecutionPolicy Bypass -File scripts/finalize-render.ps1
 
-book:
+course:
+  code: ARF
   title: Administración de riesgos financieros ARF.
-  subtitle: Course syllabus. Fall 2026. Under review.
+  term: Fall 2026
+  status: Under review
+  room: XXX
+  meeting-days: Monday & Thursday
+  meeting-time: "16:00 – 17:30"
+  zoom: XXX
+
+book:
+  title: "{{< meta course.title >}}"
+  subtitle: "Course syllabus. {{< meta course.term >}}. {{< meta course.status >}}."
   date: today
   date-format: "MMMM D, YYYY"
   author: Dr. Martín Lozano
@@ -18,7 +28,7 @@ book:
     style: docked
     collapse-level: 1
   page-footer:
-    left: "Administraci&oacute;n de riesgos financieros ARF."
+    left: "{{< meta course.title >}}"
     right: 'Dr. Mart&iacute;n Lozano &middot; <a href="mailto:martin.lozano@udem.edu">martin.lozano@udem.edu</a> &middot; <a href="https://mlozanoqf.github.io/">mlozanoqf.github.io</a>'
   chapters:
     - index.qmd
