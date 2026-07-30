@@ -7,8 +7,8 @@ project:
     - powershell -NoProfile -ExecutionPolicy Bypass -File scripts/finalize-render.ps1
 
 course:
-  code: ARF
-  title: Administración de riesgos financieros ARF.
+  code: ARF1
+  title: Administración de riesgos financieros ARF1.
   term: Fall 2026
   status: Under review
   room: XXX

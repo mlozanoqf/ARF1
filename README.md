@@ -1,7 +1,7 @@
 # ARF1 syllabus
 
 This repository contains the Quarto book version of the course syllabus for
-Administracion de riesgos financieros ARF.
+Administracion de riesgos financieros ARF1.
 
 ## Publishing workflow
 

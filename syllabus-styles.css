@@ -1,4 +1,4 @@
-/* Main stylesheet for the ARF syllabus book. */
+/* Main stylesheet for the ARF1 syllabus book. */
 body.quarto-light {
   --syllabus-link: #0b5cad;
   --syllabus-link-hover: #073b6d;
@@ -363,6 +363,12 @@ body.quarto-dark .social-links a[aria-label*="SSRN"] {
   display: inline-block;
   line-height: 1;
   vertical-align: -0.08em;
+}
+
+.schedule-zoom-icon {
+  margin: 0 0.75rem;
+  transform: scale(1.875);
+  transform-origin: center;
 }
 
 .icon-muted {
