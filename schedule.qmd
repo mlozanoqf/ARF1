@@ -170,7 +170,7 @@
 **Session 30. Thursday, November 12.**
 
 - Required reading. @lozanoARF, chapter 6: *Climate Credit Risk* (3/3).
-- Bonus points. **Data Analyst Certification.** Complete this DataCamp certification before 10:00 a.m. to earn +20 points on your individual $E_F$ mark. It is not necessary to send evidence because DataCamp automatically records whether it was completed on time.
+- Bonus points. **Data Analyst Certification.** Complete this DataCamp certification before 10:00 a.m. to earn +20 points on your individual $E_F$ mark. DataCamp also offers a **Data Analyst Associate** certification, but that version does not satisfy this activity. It is not necessary to send evidence because DataCamp automatically records whether the required certification was completed on time.
 
 **Holiday. <span class="bi bi-umbrella content-icon" aria-hidden="true"></span> Monday, November 16.**
 
