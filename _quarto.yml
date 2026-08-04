@@ -11,10 +11,10 @@ course:
   title: Administración de riesgos financieros ARF1.
   term: Fall 2026
   status: Under review
-  room: XXX
+  room: 1309
   meeting-days: Monday & Thursday
   meeting-time: "16:00 – 17:30"
-  zoom: XXX
+  zoom: https://us02web.zoom.us/j/89528073415
 
 book:
   title: "{{< meta course.title >}}"
